@@ -1,0 +1,69 @@
+# ========================================
+# KTZR contract-checker — .gitignore
+# ========================================
+# Plik konfiguruje wykluczenia dla publikacji na GitHub.
+# Wszystko poniżej pozostaje wyłącznie w lokalnej / prywatnej kopii kancelarii.
+
+# === Materiały objęte tajemnicą zawodową ===
+# Case studies zawierają dosłowne klauzule z umów klientów + nazwy klientów.
+# Tajemnica zawodowa radcy prawnego (art. 6 ustawy o radcach prawnych)
+# oraz adwokacka (art. 6 Prawa o adwokaturze).
+references/baza-wiedzy/case-studies/
+case-studies/
+
+# === Profile klientów (cold-start) ===
+# Profile zawierają informacje biznesowe i preferencje konkretnych klientów.
+# Zob. workflows/cold-start-klienta.md
+profile/
+profiles/
+clients/
+
+# === Materiały suplementarne (wewnętrzne) ===
+# Wewnętrzne notatki, suplementy techniczne, dokumenty robocze.
+# Folder suplement-it/ zawiera szczegółowe klauzule IT z konkretnymi
+# integracjami i danymi operacyjnymi klienta — wykluczony z publikacji.
+suplement/
+suplement-*
+references/suplement-*
+*.private.md
+*.private.json
+DRAFT-*
+
+# === Konkretne dokumenty klientów ===
+# Pliki z konkretnymi danymi klientów, NIP-ami, kwotami, IBAN-ami.
+contracts/
+umowy/
+pisma/
+korespondencja/
+
+# === System ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Edytory ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Dane wrażliwe (potencjalne) ===
+*.key
+*.pem
+.env
+.env.*
+secrets.*
+
+# === Notatki ad-hoc ===
+NOTES.md
+TODO.private.md
+SCRATCH.md
+
+# === Prywatne notatki strategiczne (drafty wiadomości, outreach) ===
+# Drafty wiadomości do partnerów, plany komunikacyjne, materiały
+# strategiczne — pozostają wyłącznie lokalnie.
+scripts/outreach-*.md
+scripts/draft-*.md
+scripts/private-*
+scripts/*.draft.md

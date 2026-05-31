@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl\" && echo \"---\" && ls \"/mnt/c/Users/Adam/Downloads/\")",
+      "Read(//mnt/c/Users/Adam/Downloads/**)",
+      "Bash(unzip -l \"/mnt/c/Users/Adam/Downloads/files final.zip\")",
+      "Bash(mkdir -p /tmp/review-final)",
+      "Bash(unzip -o \"/mnt/c/Users/Adam/Downloads/files final.zip\" -d /tmp/review-final/)",
+      "Bash(unzip -l /tmp/review-final/commercial-legal-pl-FIX-v4-FINAL.zip)",
+      "Bash(unzip -o /tmp/review-final/commercial-legal-pl-FIX-v4-FINAL.zip -d /tmp/review-final/inner/)",
+      "Bash(REPO=\"/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl\" *)",
+      "Read(//tmp/review-final/inner/**)",
+      "Bash(cp /tmp/review-final/inner/README.md '/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl/README.md')",
+      "Bash(cp /tmp/review-final/inner/SKILL.md '/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl/SKILL.md')",
+      "Bash(cp /tmp/review-final/inner/README.en.md '/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl/README.en.md')",
+      "Bash(cp /tmp/review-final/inner/workflows/ocena-2-strony.md '/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl/workflows/ocena-2-strony.md')",
+      "Bash(cp /tmp/review-final/inner/workflows/weryfikacja-spojnosci-odeslan.md '/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl/workflows/weryfikacja-spojnosci-odeslan.md')"
+    ]
+  }
+}
