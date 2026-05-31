@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Polish Commercial Legal — Pre-commit hook sanitazujący
+Polish Commercial Legal — Pre-commit hook sanityzujący
 
 Sprawdza wszystkie pliki staged przed commit pod kątem:
 1. Konkretnych danych wrażliwych (NIP, PESEL, KRS, IBAN — regex)
@@ -244,7 +244,7 @@ def main():
         print("\n❌ Commit zablokowany.")
         print("   Aby kontynuować mimo wszystko (na własną odpowiedzialność):")
         print("       git commit --no-verify")
-        print("   Lub: sanitazuj wymienione miejsca i ponów commit.\n")
+        print("   Lub: sanityzuj wymienione miejsca i ponów commit.\n")
         sys.exit(1)
 
     print("\n✅ Brak naruszeń blokujących — commit może iść dalej.")

@@ -43,12 +43,12 @@ Zaplanuj **strukturę umowy paragraf po paragrafie**. Format:
 ```
 ## STRUKTURA UMOWY
 
-§ 1. Definicje
+§ 1. Przedmiot Umowy
+   → klauzule z: `04-przedmiot-umowy.md` (Body Leasing IT)
+
+§ 2. Definicje
    → klauzule z: `03-definicje.md` (Body Leasing IT)
    → definicje do dodania: Specjalista, Timesheet, Utwór, Informacje Poufne
-
-§ 2. Przedmiot Umowy
-   → klauzule z: `04-przedmiot-umowy.md` (Body Leasing IT)
 
 § 3. Obowiązki Stron
    → klauzule z: `05-obowiazki-stron.md`
@@ -122,14 +122,16 @@ a
 
 Strony postanawiają, co następuje:
 
-§ 1. Definicje
+§ 1. Przedmiot Umowy
+
+[Treść klauzuli z bazy, dopasowana]
+
+§ 2. Definicje
 
 W rozumieniu niniejszej Umowy:
 1. „Termin1" — opis (...);
 2. „Termin2" — opis (...);
 [...]
-
-§ 2. Przedmiot Umowy
 
 [Treść klauzuli z bazy, dopasowana]
 
@@ -159,7 +161,7 @@ Załączniki:
 
 **Otwórz:** `references/checklist-15.md`
 
-Sprawdź draft przez **checklistę 15 punktów**. Dla każdego: ✅ / ⚠️ / ❌. Następnie:
+Sprawdź draft przez **checklistę 15 punktów**. Dla każdego: ✅ / ⚠️ / ❌ / ➖ (N/D — nie dotyczy). Następnie:
 
 1. **Brakujące elementy** — co powinno być a nie ma
 2. **Komentarz do typu umowy** — czy są elementy specyficzne dla tego typu (z `essentialia-mapowanie.md`), których brakuje

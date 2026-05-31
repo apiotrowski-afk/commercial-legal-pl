@@ -2,7 +2,7 @@
 
 **Cel:** szybka kategoryzacja umowy / NDA / aneksu w ciągu 5-10 minut, pomagająca w decyzji *„podpisać", „przekazać do analizy", „odrzucić bez negocjacji"*. Komplementarny do `pelna-analiza.md` (która jest głębsza i czasochłonna).
 
-**Inspiracja:** Anthropic Contract Review skill (`anthropics/claude-for-legal`), zaadaptowana do polskiego B2B IT i preferencji autora skilla.
+**Inspiracja:** Anthropic Contract Review skill (`anthropics/claude-for-legal`), zaadaptowany do polskiego B2B IT.
 
 **Triggery:** *„czy mogę to podpisać"*, *„szybki rzut oka"*, *„triage"*, *„jak złe to jest"*, *„daj się to zobaczyć w 5 minut"*, *„NDA do podpisania"*, *„prosta umowa, ocenisz?"*.
 
@@ -123,7 +123,7 @@ YELLOW i RED zostawiają sprawę otwartą. Następny krok = workflow `pelna-anal
 
 - Umowy o wartości > 250 tys. zł rocznie
 - Umowy z elementem fuzji / przejęcia / inwestycji
-- Umowy o pracę i jej analogi B2B z elementami kontroli (ryzyko reclasyfikacji)
+- Umowy o pracę i jej analogi B2B z elementami kontroli (ryzyko reklasyfikacji)
 - Umowy zawierające elementy wpływające na strukturę kapitałową klienta
 - Wszystkie przypadki, w których klient sygnalizuje *„to jest dla nas ważne, sprawdź dokładnie"*
 

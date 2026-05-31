@@ -166,4 +166,4 @@ W umowie warto:
 **Przepisy podstawowe:**
 - Art. 1, 2, 17, 41, 50, 64, 74, 75, 77 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych
 - Art. 387 § 1 KC (świadczenie niemożliwe)
-- Art. 175(f) Prawo o ustroju sądów powszechnych (analogiczna regulacja przekazania)
+- Art. 65 KC (wykładnia oświadczeń woli — interpretacja zakresu przeniesienia)

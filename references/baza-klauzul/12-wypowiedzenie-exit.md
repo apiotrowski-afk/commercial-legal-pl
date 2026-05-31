@@ -30,7 +30,7 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 ### Porozumienie o rozwiązaniu umowy zlecenia
 
-> Strony zgodnie oświadczają, że łącząca je umowa zlecenia zostaje rozwiązana za porozumieniem stron ze skutkiem na dzień [___]. Zleceniobiorca oświadcza, że wyraża zgodę działając dobrowolnie i świadomie, będąc w pełni poinformowaną o swoim stanie ciąży oraz konsekwencjach rozwiązania umowy.
+> Strony zgodnie oświadczają, że łącząca je umowa zlecenia zostaje rozwiązana za porozumieniem stron ze skutkiem na dzień [___]. Zleceniobiorca oświadcza, że wyraża zgodę działając dobrowolnie i świadomie, z pełną świadomością konsekwencji rozwiązania umowy.
 
 ### Przydział kwaterunkowy
 

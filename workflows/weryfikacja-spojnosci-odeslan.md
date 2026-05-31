@@ -8,7 +8,7 @@ Dedykowany dwuetapowy workflow do wykrywania **błędów odesłań i niespójno�
 - Umowa ma > 15 stron lub > 5 000 słów
 - Umowa ma > 15 paragrafów
 - Umowa zawiera > 10 odesłań międzyparagrafowych ("§ X ust. Y")
-- Wstępna analiza (etap 3 pełnej analizy) wykazała > 2 niespójności
+- Wstępna analiza (etap 3 pełnej analizy) wykazała > 3 niespójności
 
 **Na żądanie użytkownika**:
 - "Sprawdź odesłania w tej umowie"

@@ -55,12 +55,14 @@ The skill has five main layers:
 | Layer | What's in it | File |
 |---|---|---|
 | **Golden Rules** | 12 rules for drafting Polish contracts: control of definitions, structure, language | `references/zlote-reguly.md` |
-| **Editorial style** | Concrete style patterns from practice (when to use *"W przypadku"* instead of *"Jezeli"*, party pairs for each type of relationship, typography) | `references/style-redakcyjny.md` |
+| **Editorial style** | Concrete style patterns from practice (when to use *"W przypadku"* instead of *"Jeżeli"*, party pairs for each type of relationship, typography) | `references/style-redakcyjny.md` |
+| **Clause taxonomy** | 7 categories of contract language — Polish adaptation of Adams' MSCD framework | `references/kategorie-klauzul.md` |
 | **Clause base** | Sample clauses by category (parties, subject matter, IP, liability, termination, GDPR, settlement, etc.); generic IT patterns + our reference clauses | `references/baza-klauzul/` |
 | **Knowledge base** | Doctrinal analyses with case law (Supreme Court, Supreme Administrative Court): maintenance, copyright, GDPR, liability cap, image rights | `references/baza-wiedzy/` |
-| **Workflows** | Operational procedures (quick triage, full analysis, risk audit, contract generation, settlement assessment) | `workflows/` |
 
 Add to this `references/essentialia-mapowanie.md` (essentialia negotii for each contract type), `references/checklist-15.md` (a 15-point completeness check) and `references/legal-design.md` (visual layer for outgoing documents).
+
+The skill ships with **8 operational workflows** in `workflows/`: quick triage (GREEN/YELLOW/RED), full contract analysis, risk audit, contract generation, clause editing, consistency check, devil's advocate review, and client onboarding. Each workflow specifies exactly which reference files to load and when.
 
 ## How to use this
 

@@ -6,7 +6,7 @@
 
 # === Materiały objęte tajemnicą zawodową ===
 # Case studies zawierają dosłowne klauzule z umów klientów + nazwy klientów.
-# Tajemnica zawodowa radcy prawnego (art. 6 ustawy o radcach prawnych)
+# Tajemnica zawodowa radcy prawnego (art. 3 ustawy o radcach prawnych)
 # oraz adwokacka (art. 6 Prawa o adwokaturze).
 references/baza-wiedzy/case-studies/
 case-studies/
@@ -40,6 +40,9 @@ korespondencja/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# === Claude Code (lokalne ustawienia sesji) ===
+.claude/
 
 # === Edytory ===
 .vscode/

@@ -132,7 +132,7 @@ Modele językowe mają **systematyczną** (nie losową) tendencję do gubienia p
 
 Workflow można też wywołać ręcznie: *„sprawdź odesłania w tej umowie"*, *„czy paragrafy się zgadzają"*.
 
-**Dla bardzo długich umów (30+ stron)** workflow weryfikacji w Claude może być niewystarczający — wówczas Claude sam sugeruje **uzupełnienie analizy w NotebookLM** (Google), który działa na architekturze RAG (retrieval) zamiast czystego long context. Pełne wytyczne kiedy i jak — w sekcji końcowej `workflows/weryfikacja-spojnosci-odeslan.md` (*„Kiedy Claude sam nie wystarczy — NotebookLM jako kompletujący"*).
+**Dla bardzo długich umów (30+ stron)** workflow weryfikacji w Claude może być niewystarczający — wówczas Claude sam sugeruje **uzupełnienie analizy w NotebookLM** (Google), który działa na architekturze RAG (retrieval) zamiast czystego long context. Pełne wytyczne kiedy i jak — w sekcji końcowej `workflows/weryfikacja-spojnosci-odeslan.md` (*„Kiedy sam Claude nie wystarczy — NotebookLM jako uzupełnienie"*).
 
 ## Zasada progressive disclosure
 
