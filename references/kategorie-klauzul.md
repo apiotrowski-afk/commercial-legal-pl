@@ -84,7 +84,7 @@
 **Cechy:**
 - Stwierdzenie stanu faktycznego lub prawnego
 - Konsekwencja nieprawdziwości oświadczenia = odpowiedzialność za zapewnienie (art. 471 KC + ewentualnie art. 84-86 KC — uchylenie od skutków oświadczenia woli pod wpływem błędu)
-- Często powiązane z indemnifikacją (zob. `baza-klauzul/07-indemnifikacja-kary-umowne.md` — jeśli istnieje)
+- Często powiązane z indemnifikacją (zob. `baza-klauzul/10-kary-umowne.md` i `baza-wiedzy/07-indemnifikacja-kary-umowne.md`)
 
 **Anti-pattern:** mieszanie oświadczenia z zobowiązaniem. *„Wykonawca oświadcza, że będzie wystawiał faktury"* — przyszłe działanie nie jest „faktem" do oświadczenia; powinno być zobowiązanie *„Wykonawca zobowiązuje się do wystawiania faktur"*.
 

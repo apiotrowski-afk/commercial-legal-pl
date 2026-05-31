@@ -45,7 +45,7 @@ Przejdź przez wszystkie 15 punktów. Dla każdego oznacz status (✅ / ⚠️ /
 ```
 ## ETAP 2/5: CHECKLIST KOMPLETNOŚCI (15 punktów)
 
-1. **Preambuła i data** — ✅ Data 12-05-2026, Gdańsk, prawidłowa struktura.
+1. **Preambuła i data** — ✅ Data dd-mm-rrrr, Gdańsk, prawidłowa struktura.
 2. **Strony i reprezentacja** — ⚠️ Brak numeru KRS po stronie Zamawiającego; reprezentacja przez prokurenta bez wskazania prokury.
 3. **Definicje** — ❌ Brak definicji "Specjalista" mimo używania w treści.
 [...]

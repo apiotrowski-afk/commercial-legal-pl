@@ -620,7 +620,7 @@ Wzorzec klauzul definicyjnych "afirmacja + negacja katalogiem" — bardzo użyte
    - Każde "odpowiednio / stosownie / w miarę możliwości" — usunąć lub doprecyzować?
    - Konstrukcja warunkowa — "W przypadku/W razie" (nie "Jeżeli")?
    - Para nazw stron — spójna z dominującym typem prawnym?
-   - Wyliczenia — (a)(b)(c), nie 1)2)3)?
+   - Wyliczenia — domyślnie `1) 2) 3)` (wzorzec KTZR); `(a)(b)(c)` tylko gdy klient wymaga lub umowa mieszana z dokumentem zewnętrznym?
    - Cudzysłowy — typograficzne `„..."`?
 
 4. **Anti-pattern do natychmiastowego skorygowania**, jeśli znajdziesz w jakimkolwiek wygenerowanym tekście:

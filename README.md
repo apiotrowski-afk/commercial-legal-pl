@@ -83,19 +83,19 @@ Studenci prawa też skorzystają, ale to nie zastąpi podręcznika; narzędzie j
 ### Wymagania
 
 Jedno z:
-- Konto [Claude.ai](https://claude.ai/) (Pro lub Team) do użycia jako skill w Claude Cowork
+- Konto [Claude.ai](https://claude.ai/) (Pro lub Team) do użycia jako skill w Claude.ai
 - API key Anthropic do użycia programistycznego
 - [Claude Code](https://www.anthropic.com/claude-code) do użycia lokalnie
 
 ### Instalacja
 
-**Opcja 1 — Claude Cowork (web)**
+**Opcja 1 — Claude.ai (web)**
 
 ```bash
 git clone https://github.com/apiotrowski-afk/commercial-legal-pl.git
 ```
 
-Następnie: Claude Cowork → Settings → Skills → Import skill → wskaż katalog → aktywuj w sesji.
+Następnie: Claude.ai → Settings → Skills → Import skill → wskaż katalog → aktywuj w sesji.
 
 **Opcja 2 — Claude Code (CLI)**
 
@@ -147,11 +147,11 @@ commercial-legal-pl/
 │   ├── essentialia-mapowanie.md          ← Essentialia negotii dla typów umów
 │   │
 │   ├── baza-klauzul/                     ← 19 plików tematycznych + INDEX
-│   │   ├── 01-strony.md
+│   │   ├── 01-oznaczenie-stron.md
 │   │   ├── 02-preambuly.md
 │   │   ├── 03-definicje.md
 │   │   ├── ...
-│   │   └── 19-cesja.md
+│   │   └── 19-cesja-wierzytelnosci.md
 │   │
 │   └── baza-wiedzy/                      ← 11 plików doktrynalnych + INDEX
 │       ├── 01-maintenance-art750-kc.md
@@ -185,7 +185,7 @@ Mamy wersję 0.x, czyli pierwszą publiczną iterację, w której wiele rzeczy z
 | Wersja | Status | Zakres |
 |---|---|---|
 | **0.x** | ✅ Wydana | Polski skill, umowy B2B, IP i IT (Złote Reguły, baza klauzul, baza wiedzy, 8 workflow'ów) |
-| **1.0** | 🟡 Plan 2026 Q3 | Wersja angielska README + kluczowych sekcji, plugin manifest format Anthropic, submisja do `claude-plugins-community` |
+| **1.0** | 🟡 Plan 2026 Q3 | Plugin manifest format Anthropic (weryfikacja zgodności), submisja do `claude-plugins-community` |
 | **1.1** | 🟢 Plan 2026 Q4 | Rozszerzenie bazy klauzul (sektor finansowy, employment B2B, e-commerce); baza orzeczeń z linkami do SIP publicznych |
 | **2.0** | 🟢 Long-term | Multi-language framework, szablon adaptowalny do innych jurysdykcji civil law (Niemcy, Francja, Włochy, Hiszpania) |
 

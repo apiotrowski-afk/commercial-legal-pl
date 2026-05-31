@@ -227,7 +227,7 @@ Przykład pokazuje strukturę procesu, nie konkretną sprawę — każdy konteks
 
 1. **Wejście:** projekt umowy / ugody, świeżo zredagowany przez pełnomocnika jednej ze stron, gotowy do wysłania.
 2. **Persona drugiej strony:** pełnomocnik o jasnej motywacji (minimalizacja zobowiązań, maksymalizacja zatrzymanych praw, ekstrakcja informacji z preambuły).
-3. **Mapowanie słabości:** dla każdej klauzuli zadaj pytania kategorii 1-7 (informacyjne, interpretacyjne, sprzeczności, asymetrie, hooki sankcyjne, dowodowe, formalne).
+3. **Mapowanie słabości:** dla każdej klauzuli zadaj pytania z kategorii 1-6 (concessions, niejednoznaczności, luki dowodowe, sprzeczności wewnętrzne, błędy obliczeniowe/terminowe, mechanizmy wyjścia).
 4. **Klasyfikacja:** każdą słabość oznacz priorytetem **P1** (musi być poprawione przed wysłaniem) / **P2** (zalecane) / **P3** (świadomie akceptujemy).
 5. **Tabela wyników:** lokalizacja → słabość → potencjalny atak → rekomendacja → priorytet.
 

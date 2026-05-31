@@ -35,7 +35,7 @@ Przeczytaj umowę z uwagą na typowe obszary ryzyka. Otwórz `references/zlote-r
 - Niekompletne dane stron (brak KRS/NIP)
 
 **Wypowiedzenie i exit:**
-- Brak okresu wypowiedzenia (umowa na czas nieokreślony zawsze rozwiązywalna z 1-mies. okresem — art. 746 KC dla zlecenia)
+- Brak klauzuli wypowiedzenia (art. 746 KC daje prawo wypowiedzenia w każdym czasie, ale bez uregulowania okresu i skutków strona narażona na roszczenie odszkodowawcze)
 - Brak procedury exit (zwrot materiałów, danych, rozliczenie WIP)
 - Asymetria wypowiedzenia (tylko jedna strona może wypowiedzieć)
 
@@ -106,7 +106,7 @@ Dla każdego zidentyfikowanego ryzyka przypisz poziom:
 
 [2-3 zdania uzasadnienia — co wpłynęło na ocenę]
 
-**Werdykt:** [DO PODPISANIA / DO NEGOCJACJI / DO GRUNTOWNEJ PRZERÓBKI / NIE PODPISYWAĆ]
+**Werdykt:** [DO PODPISANIA z drobnymi poprawkami / DO NEGOCJACJI / DO GRUNTOWNEJ PRZERÓBKI / NIE PODPISYWAĆ]
 
 ---
 
