@@ -26,6 +26,12 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 | `06-sila-wyzsza-i-podwykonawcy.md` | Siła wyższa, odpowiedzialność za podwykonawców (art. 474 KC), zmiana prawa | W umowie pojawia się "force majeure", "podwykonawca", "operator chmury", "change of law". Pytania o odpowiedzialność za AWS/Azure/GCP |
 | `07-indemnifikacja-kary-umowne.md` | Klauzule indemnifikacyjne (hold harmless), kary umowne (art. 484 § 1 KC), odszkodowanie uzupełniające | "Indemnity", "hold harmless", "kara umowna", "odszkodowanie uzupełniające", "exclusive remedy" |
 
+### Regulaminy i usługi elektroniczne
+
+| Plik | Zagadnienie | Kiedy sięgnąć |
+|---|---|---|
+| `13-regulamin-usdde-hosting-ai.md` | Regulamin u.ś.u.d.e. — obowiązkowe elementy (art. 8), wyłączenie odpowiedzialności hostingu (art. 14), DSA (notice & action, uzasadnianie decyzji), usługi AI jako wariant usługi elektronicznej | Tworzenie lub analiza regulaminu hostingu/SaaS/domen/AI. Pytania o zakres obowiązku ustawowego, wyłączenie odpowiedzialności, AUP, DSA |
+
 ### Wykładnia i interpretacja
 
 | Plik | Zagadnienie | Kiedy sięgnąć |

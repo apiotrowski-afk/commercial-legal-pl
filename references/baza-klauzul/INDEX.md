@@ -32,6 +32,7 @@ Zbiór klauzul z umów kancelarii KTZR.pl, uporządkowany po kategoriach. Otwier
 | 17 | `17-postanowienia-koncowe.md` | Postanowienia końcowe | KAŻDA umowa — § końcowy |
 | 18 | `18-zwrot-materialow.md` | Zwrot materiałów i dokumentacji | Umowy z dostarczaniem materiałów / poufne |
 | 19 | `19-cesja-wierzytelnosci.md` | Cesja wierzytelności | Specyficzne dla cesji |
+| 20 | `20-regulamin-usdde-aup.md` | Regulamin usług elektronicznych / AUP (hosting, serwery, domeny, AI) | Regulamin u.ś.u.d.e., SaaS, hosting, domeny, moduły AI — zakaz treści bezprawnych, notice & action, SLA, prawo konsumenta |
 
 ## Zasady wyboru klauzul
 
