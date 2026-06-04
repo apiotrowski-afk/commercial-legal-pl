@@ -34,6 +34,24 @@ Brak wskazania pól eksploatacji (przeniesienie nieskuteczne — art. 41 ust. 2 
 
 > Niniejsza Umowa nie przenosi na Stronę Otrzymującą żadnych praw własności intelektualnej, licencji, patentów, znaków towarowych ani innych uprawnień. Udostępnienie Informacji Poufnych nie stanowi udzielenia licencji.
 
-### Zgoda na wizerunek
+### Zgoda na wizerunek (umowa o pracę)
 
 > Dobrowolnie wyrażam zgodę na nieodpłatne wykorzystanie i rozpowszechnianie mojego wizerunku dla celów marketingowych Spółki [...] bez ograniczeń terytorialnych oraz czasowych, z zastrzeżeniem, iż po zakończeniu stosunku zatrudnienia obejmuje ona wyłącznie materiały opublikowane przed dniem ustania stosunku pracy.
+
+### Gwarancja czystości IP i zakaz odtwarzania kodu (umowa wdrożeniowa / maintenance IT)
+
+> Wykonawca oświadcza i gwarantuje, że: (a) przysługuje mu pełnia autorskich praw majątkowych do Utworów i jest uprawniony do ich przeniesienia bez ograniczeń; (b) Utwory są oryginalne i wolne od wad prawnych oraz roszczeń osób trzecich; (c) jeżeli Wykonawca korzystał z pomocy osób trzecich, zawarł z nimi skuteczne umowy przenoszące na niego prawa do wyników ich pracy; (d) w przypadku gdy Utwory zostały wytworzone z zastosowaniem systemów sztucznej inteligencji, udział twórczy człowieka w wykonaniu Utworu jest wystarczający do uznania efektów za utwór w rozumieniu ustawy o prawie autorskim i prawach pokrewnych.
+
+> Wykonawca zobowiązuje się do bezwzględnego powstrzymania się od jakiegokolwiek wykorzystywania, kopiowania, odtwarzania (w tym inżynierii wstecznej), dekompilacji, modyfikowania lub tworzenia utworów zależnych na bazie Oprogramowania, jego kodów źródłowych, logiki działania lub architektury — na rzecz własną lub osób trzecich. Zakaz ma charakter bezterminowy i dotyczy całości, jak i jakiejkolwiek części Oprogramowania.
+
+### Zakaz komponentów copyleft (umowy IT — ochrona kodu produkcyjnego)
+
+> Komponenty Open Source mogą być wykorzystywane wyłącznie na licencjach permisywnych niewymagających ujawnienia kodu pochodnego (w szczególności MIT, BSD, Apache 2.0). Zakazane jest stosowanie komponentów na licencjach copyleft nakładających obowiązek udostępnienia kodu źródłowego dzieł pochodnych (w szczególności GPL, LGPL, AGPL). Naruszenie zobowiązuje Wykonawcę do naprawienia szkody Zamawiającego w pełnej wysokości, w tym kosztów zastąpienia wadliwych komponentów i obsługi prawnej.
+
+### Pełne przeniesienie praw z zachowaniem pól eksploatacji i praw zależnych (maintenance IT)
+
+> Z chwilą odbioru Utworu oraz zapłaty wynagrodzenia na Zamawiającego przechodzą wszelkie autorskie prawa majątkowe do Utworu. Przeniesienie obejmuje wszystkie znane w chwili przeniesienia pola eksploatacji, w tym: (a) utrwalanie i zwielokrotnianie techniką cyfrową; (b) wprowadzanie do pamięci komputera i sieci; (c) modyfikowanie, adaptowanie, tłumaczenie; (d) rozpowszechnianie, w tym w modelu SaaS i chmurowym; (e) publiczne udostępnianie w sieciach; (f) wdrażanie w systemach AI i uczeniu maszynowym. Przeniesienie następuje bez ograniczeń terytorialnych i czasowych.
+
+> Wraz z przeniesieniem autorskich praw majątkowych Wykonawca przenosi prawo do wykonywania i zezwalania na wykonywanie zależnych praw autorskich, w tym modyfikacji, lokalizacji, kompilacji i opracowań udostępnianych pod marką Zamawiającego bez wskazywania Wykonawcy jako twórcy (model white-label). Dla Utworów stanowiących program komputerowy zastosowanie znajduje art. 77 PrAut, wyłączający sprzeciw wobec modyfikacji i nadzór autorski.
+
+> Na pisemne wezwanie Zamawiającego Wykonawca zobowiązuje się zawrzeć umowę przenoszącą autorskie prawa majątkowe do Utworów na każde nowe pole eksploatacji, które stanie się znane po dacie zawarcia Umowy — bez prawa do dodatkowego wynagrodzenia, w terminie 14 dni od wezwania.

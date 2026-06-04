@@ -26,6 +26,12 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 | `06-sila-wyzsza-i-podwykonawcy.md` | Siła wyższa, odpowiedzialność za podwykonawców (art. 474 KC), zmiana prawa | W umowie pojawia się "force majeure", "podwykonawca", "operator chmury", "change of law". Pytania o odpowiedzialność za AWS/Azure/GCP |
 | `07-indemnifikacja-kary-umowne.md` | Klauzule indemnifikacyjne (hold harmless), kary umowne (art. 484 § 1 KC), odszkodowanie uzupełniające | "Indemnity", "hold harmless", "kara umowna", "odszkodowanie uzupełniające", "exclusive remedy" |
 
+### Wykładnia i interpretacja
+
+| Plik | Zagadnienie | Kiedy sięgnąć |
+|---|---|---|
+| `12-wykladnia-oswiadczen-woli.md` | Wykładnia kombinowana (art. 65 k.c.), prymat wykładni językowej, metoda derywacyjna, zakaz prawotwórczej — z tezami SN 2024–2025 | Sporna klauzula umowna — jakie znaczenie nada jej sąd? Analiza ryzyka wieloznaczności. Spór o rozumienie pojęcia. Akty zakładowego prawa pracy (regulamin, ZUZP). |
+
 ### RODO w umowach IT
 
 | Plik | Zagadnienie | Kiedy sięgnąć |
@@ -55,6 +61,10 @@ Baza wiedzy łączy się z trzema innymi miejscami w skillu:
 3. `baza-wiedzy/03-prawa-zalezne-osobiste-program.md` → konstrukcja praw zależnych/osobistych
 4. `baza-wiedzy/04-open-source-copyleft.md` → trzy warstwy ochrony
 5. `baza-klauzul/08-prawa-autorskie-ip.md` → klauzule
+
+**Analiza ryzyka spornej klauzuli — co powie sąd:**
+1. `baza-wiedzy/12-wykladnia-oswiadczen-woli.md` → metoda kombinowana, obiektywna, prymat językowej
+2. `workflows/ocena-2-strony.md` → Kategoria 2 (Niejednoznaczności interpretacyjne) — operacyjne zastosowanie
 
 **Negocjowanie ograniczeń odpowiedzialności w umowie SaaS:**
 1. `baza-wiedzy/05-cap-lucrum-wina-umyslna.md` → ramy cap'u, granica art. 473 § 2 KC

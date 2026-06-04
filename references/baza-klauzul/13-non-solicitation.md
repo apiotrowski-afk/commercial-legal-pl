@@ -27,3 +27,17 @@ Brak klauzuli non-solicitation w umowie body leasing (=brak ochrony biznesu). Za
 ### Umowa rezerwacyjna (nieruchomości)
 
 > Właściciel udziela Spółce wyłączności na okres 24 miesięcy do prowadzenia audytów nieruchomości i negocjacji warunków umowy przedwstępnej.
+
+### Zakaz konkurencji dostawcy IT — zakres rozszerzony (umowa wdrożeniowa / maintenance)
+
+> W okresie obowiązywania Umowy oraz przez [___] lat od daty jej zakończenia, niezależnie od przyczyny, Wykonawca zobowiązuje się do nieprowadzenia Działalności Konkurencyjnej oraz do powstrzymania się od działań mogących narazić interesy Zamawiającego. Działalność Konkurencyjna oznacza: (a) tworzenie, rozwijanie, wdrażanie, licencjonowanie lub sprzedaż oprogramowania funkcjonalnie tożsamego lub zbliżonego do Systemu; (b) świadczenie usług informatycznych lub doradczych na rzecz podmiotów prowadzących działalność konkurencyjną wobec Zamawiającego; (c) zakładanie, przystępowanie lub uczestniczenie w podmiotach prowadzących działalność z lit. a–b; (d) wykorzystywanie — bezpośrednio, pośrednio lub na cudzą rzecz — Systemu, jego modułów, baz danych, logiki działania, architektury lub know-how Zamawiającego.
+
+> Zakaz konkurencji obowiązuje Wykonawcę oraz wszystkie Podmioty Powiązane. Podmiot Powiązany oznacza każdą osobę lub podmiot, w którym Wykonawca posiada udział kapitałowy lub osobowy, pełni funkcję zarządczą lub doradczą, lub na rzecz której świadczy usługi. Naruszenie zakazu przez Podmiot Powiązany traktowane jest na równi z naruszeniem przez Wykonawcę. Wynagrodzenie za zachowanie zakazu po zakończeniu Umowy uwzględnione jest w wynagrodzeniu głównym i nie stanowi podstawy do odrębnych roszczeń Wykonawcy.
+
+### Zakaz solicytacji klientów i kontrahentów (umowa wdrożeniowa / maintenance)
+
+> Wykonawca zobowiązuje się, przez okres [___] lat od daty zakończenia Umowy, do powstrzymania się od jakichkolwiek działań polegających na nakłanianiu pracowników, współpracowników (B2B), klientów oraz kontrahentów Zamawiającego do rozwiązania umów z Zamawiającym lub nawiązania współpracy z Wykonawcą lub podmiotami z nim powiązanymi.
+
+### Miesięczne oświadczenie o przestrzeganiu zakazu (compliance IT)
+
+> Wykonawca składa Zamawiającemu pisemne Miesięczne Oświadczenie o przestrzeganiu zakazu konkurencji do [___] dnia każdego miesiąca za miesiąc poprzedni. Niezłożenie oświadczenia w terminie lub złożenie oświadczenia niezgodnego z prawdą uprawnia Zamawiającego do: wstrzymania wynagrodzenia do czasu złożenia prawidłowego oświadczenia oraz — w przypadku nieprawdy — do rozwiązania Umowy ze skutkiem natychmiastowym z winy Wykonawcy i naliczenia kary umownej.

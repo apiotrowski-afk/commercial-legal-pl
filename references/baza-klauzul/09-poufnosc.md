@@ -35,3 +35,15 @@ Brak definicji informacji poufnych. Brak okresu obowiązywania po zakończeniu u
 ### Umowa licencyjno-doradcza
 
 > Licencjobiorca zobowiązuje się do zachowania w ścisłej tajemnicy wszelkich Informacji Poufnych zarówno w trakcie trwania Umowy, jak i bezterminowo po jej zakończeniu.
+
+### Poufność techniczna (IT — kod źródłowy, dane dostępowe, infrastruktura)
+
+> Informacje Poufne obejmują w szczególności: (a) dane techniczne — kod źródłowy, architekturę systemów, loginy, hasła, certyfikaty SSL, klucze API, parametry środowiskowe; (b) dane operacyjne — bazy danych, warunki handlowe, know-how procesowe; (c) dane finansowe — obroty, marże, koszty operacyjne; (d) plany biznesowe — projekty nowych modułów, strategie rozwoju. W razie wątpliwości co do charakteru danej informacji domniemywa się, że stanowi Informację Poufną.
+
+> Strona Otrzymująca nie jest uprawniona do kopiowania, eksportowania, pobierania ani przechowywania poza infrastrukturą Strony Ujawniającej żadnych danych, kodu źródłowego ani innych Informacji Poufnych — z wyjątkiem zatwierdzonych kopii zapasowych. Zakaz obejmuje wszelkie formy i nośniki, w tym pliki lokalne, nośniki zewnętrzne, usługi chmurowe i prywatne repozytoria.
+
+> W przypadku powzięcia podejrzenia o nieuprawnionym dostępie do Informacji Poufnych, ich utraty lub ujawnienia, Strona Otrzymująca zobowiązuje się powiadomić Stronę Ujawniającą w formie dokumentowej nie później niż w ciągu 24 godzin od powzięcia informacji. Brak terminowego poinformowania traktowany jest jako odrębne naruszenie poufności.
+
+> Strona Ujawniająca ma prawo do bieżącego monitorowania aktywności Strony Otrzymującej w zakresie korzystania z udostępnionych zasobów, w tym przeglądania logów i przeprowadzania audytów bezpieczeństwa.
+
+> Obowiązki z niniejszego paragrafu wiążą przez cały okres obowiązywania Umowy oraz przez 10 lat od daty jej zakończenia, niezależnie od przyczyny. Dla informacji stanowiących tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 4 u.z.n.k. obowiązek poufności jest bezterminowy.
