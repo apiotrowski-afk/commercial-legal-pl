@@ -1,0 +1,59 @@
+name: "🐛 Błąd w klauzuli lub bazie wiedzy"
+description: "Zgłoś błąd merytoryczny, prawny lub techniczny w klauzuli, pliku bazy wiedzy lub workflowie"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za zgłoszenie. Podaj jak najwięcej szczegółów — to pomaga szybko zlokalizować i naprawić błąd.
+
+  - type: input
+    id: plik
+    attributes:
+      label: "Plik"
+      description: "Ścieżka do pliku z błędem (np. references/baza-klauzul/08-prawa-autorskie-ip.md)"
+      placeholder: "references/baza-klauzul/..."
+    validations:
+      required: true
+
+  - type: input
+    id: linia
+    attributes:
+      label: "Linia (przybliżona)"
+      description: "Numer linii lub fragment tekstu z błędem"
+      placeholder: "np. linia 47 lub cytat: 'art. 41 ust. 3 PrAut'"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: typ-bledu
+    attributes:
+      label: "Typ błędu"
+      options:
+        - "Błąd prawny / merytoryczny (zły przepis, błędna teza)"
+        - "Zepsute odesłanie do pliku lub sekcji"
+        - "Niespójność między plikami"
+        - "Błąd językowy / literówka"
+        - "Inne"
+    validations:
+      required: true
+
+  - type: textarea
+    id: opis
+    attributes:
+      label: "Opis błędu"
+      description: "Co jest nie tak? Podaj aktualne brzmienie i co powinno być."
+      placeholder: |
+        Aktualne brzmienie: ...
+        Powinno być: ...
+        Uzasadnienie: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: kontekst
+    attributes:
+      label: "Kontekst (opcjonalnie)"
+      description: "Przy jakiej pracy to znalazłeś? Jaki typ umowy analizowałeś?"
+    validations:
+      required: false

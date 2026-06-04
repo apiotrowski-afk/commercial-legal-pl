@@ -1,0 +1,50 @@
+name: "📖 Propozycja tematu do bazy wiedzy"
+description: "Zaproponuj nowe zagadnienie prawno-doktrynalne (orzecznictwo, doktryna, strategia kontraktowa)"
+labels: ["enhancement", "baza-wiedzy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Baza wiedzy zawiera analizy doktrynalne i orzecznicze wspierające redakcję umów. Opisz czego brakuje.
+
+  - type: input
+    id: temat
+    attributes:
+      label: "Temat"
+      description: "Krótki tytuł zagadnienia"
+      placeholder: "np. Odpowiedzialność za generatywne AI w umowach IT"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: obszar
+    attributes:
+      label: "Obszar prawa"
+      options:
+        - "Prawa autorskie i oprogramowanie"
+        - "Odpowiedzialność kontraktowa"
+        - "RODO / ochrona danych"
+        - "Prawo zobowiązań (KC)"
+        - "Usługi elektroniczne (u.ś.u.d.e. / DSA)"
+        - "Wykładnia umów"
+        - "Inne"
+    validations:
+      required: true
+
+  - type: textarea
+    id: opis
+    attributes:
+      label: "Dlaczego to jest potrzebne"
+      description: "W jakich sytuacjach brakuje tej wiedzy? Jakie pytania pozostają bez odpowiedzi?"
+      placeholder: "Przy analizie umów AI/SaaS często pojawia się pytanie o..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: zrodla
+    attributes:
+      label: "Źródła (opcjonalnie)"
+      description: "Przepisy, wyroki SN/TSUE, komentarze doktrynalne które powinny być podstawą"
+      placeholder: "np. wyrok SN z ... sygn. ..., art. ... KC"
+    validations:
+      required: false

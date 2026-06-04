@@ -1,0 +1,65 @@
+name: "💡 Propozycja nowej klauzuli"
+description: "Zaproponuj dodanie nowej klauzuli do bazy — z konkretnym typem umowy i kontekstem użycia"
+labels: ["enhancement", "klauzula"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Baza klauzul rośnie dzięki praktykom. Opisz czego brakuje i w jakim kontekście — najlepiej z własnym wzorcem do dyskusji.
+
+  - type: input
+    id: typ-umowy
+    attributes:
+      label: "Typ umowy"
+      description: "Jakiego rodzaju umowy dotyczy brakująca klauzula?"
+      placeholder: "np. body leasing IT, NDA, umowa SaaS, wdrożenie, ugoda"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kategoria
+    attributes:
+      label: "Kategoria klauzuli"
+      description: "Do którego pliku tematycznego powinna trafić?"
+      options:
+        - "01 — Oznaczenie stron"
+        - "02 — Preambuły"
+        - "03 — Definicje"
+        - "04 — Przedmiot umowy"
+        - "05 — Obowiązki stron"
+        - "06 — Wynagrodzenie"
+        - "07 — Terminy i kamienie milowe"
+        - "08 — Prawa autorskie / IP"
+        - "09 — Poufność"
+        - "10 — Kary umowne"
+        - "11 — Odpowiedzialność"
+        - "12 — Wypowiedzenie / exit plan"
+        - "13 — Non-solicitation / zakaz konkurencji"
+        - "14 — RODO"
+        - "15 — Siła wyższa"
+        - "16 — Ugody"
+        - "17 — Postanowienia końcowe"
+        - "18 — Zwrot materiałów"
+        - "19 — Cesja wierzytelności"
+        - "20 — Regulamin u.ś.u.d.e. / AUP"
+        - "Nowa kategoria (opisz w treści)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: opis-potrzeby
+    attributes:
+      label: "Czego brakuje i dlaczego"
+      description: "Opisz przypadek użycia — kiedy ta klauzula jest potrzebna, co zabezpiecza."
+      placeholder: "W umowach wdrożeniowych IT brakuje klauzuli o..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: wzorzec
+    attributes:
+      label: "Proponowane brzmienie (opcjonalnie)"
+      description: "Jeśli masz własny wzorzec — wklej go tutaj. Pamiętaj o anonimizacji (bez nazw klientów, kwot ze spraw)."
+      placeholder: "> Wykonawca zobowiązuje się do..."
+    validations:
+      required: false
