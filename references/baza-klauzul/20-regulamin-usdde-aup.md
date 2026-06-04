@@ -26,7 +26,7 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 
 > „AUP" (Acceptable Use Policy / Zasady dopuszczalnego korzystania) — zasady prawidłowego korzystania z Usług, stanowiące integralną część niniejszego Regulaminu.
 
-> „SLA" (Service Level Agreement) — deklarowany poziom świadczenia Usług w zakresie dostępności, czasów reakcji na zgłoszenia i parametrów technicznych, określony w § [___] Regulaminu.
+> „SLA" (Service Level Agreement) — deklarowany poziom świadczenia Usług w zakresie dostępności, czasów reakcji na zgłoszenia i parametrów technicznych, określony w § [numer paragrafu SLA w docelowym regulaminie — wypełnij po ustaleniu struktury dokumentu].
 
 ### Zawarcie umowy i moment związania regulaminem
 
@@ -83,6 +83,6 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 
 ### Postanowienia końcowe
 
-> Regulamin podlega prawu polskiemu. Wszelkie spory wynikające z niniejszego Regulaminu rozstrzygane są przez sąd właściwy dla siedziby Usługodawcy, z zastrzeżeniem przepisów ochronnych dla konsumentów w zakresie właściwości miejscowej sądu. Konsument może skorzystać z pozasądowych metod rozwiązywania sporów (ODR: https://ec.europa.eu/consumers/odr).
+> Regulamin podlega prawu polskiemu. Wszelkie spory wynikające z niniejszego Regulaminu rozstrzygane są przez sąd właściwy dla siedziby Usługodawcy, z zastrzeżeniem przepisów ochronnych dla konsumentów w zakresie właściwości miejscowej sądu. Konsument może skorzystać z pozasądowych metod rozwiązywania sporów (ODR: https://commission.europa.eu/consumers/odr).
 
 > Jeżeli którekolwiek z postanowień Regulaminu zostanie uznane za nieważne lub bezskuteczne, pozostałe postanowienia zachowują moc (klauzula salwatoryjna). W sprawach nieuregulowanych zastosowanie mają przepisy Kodeksu cywilnego i ustawy o świadczeniu usług drogą elektroniczną.

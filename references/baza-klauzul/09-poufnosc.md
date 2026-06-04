@@ -24,6 +24,8 @@ Brak definicji informacji poufnych. Brak okresu obowiązywania po zakończeniu u
 
 > Niezwłoczne — nie później niż w ciągu 72 godzin — pisemne powiadomienie Strony Ujawniającej o każdym przypadku nieuprawnionego ujawnienia, utraty, kradzieży lub uzasadnionym podejrzeniu naruszenia poufności.
 
+> ⚠️ **Przy łączeniu z klauzulą Poufność techniczna** (sekcja poniżej): stosuj termin 24-godzinny jako lex specialis — usuń termin 72-godzinny z wersji końcowej, aby uniknąć sprzeczności.
+
 ### Body Leasing IT (KTZR)
 
 > Usługodawca zobowiązuje się do zawarcia ze Specjalistami odrębnych umów o zachowaniu poufności (NDA) w zakresie co najmniej równoważnym z niniejszym paragrafem, przed przystąpieniem Specjalisty do świadczenia Usług.

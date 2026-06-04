@@ -64,7 +64,7 @@ references/
 │   ├── 01-oznaczenie-stron.md
 │   ├── 02-preambuly.md
 │   ├── 03-definicje.md
-│   └── ... (19 plików kategorii)
+│   └── ... (20 plików kategorii)
 └── baza-wiedzy/
     ├── INDEX.md              ← mapa bazy wiedzy
     │
@@ -85,7 +85,11 @@ references/
     ├── 10-rodo-audyt-i-odpowiedzialnosc-administracyjna.md
     │
     │   # Wizerunek a prawa autorskie
-    └── 11-wizerunek-a-prawa-autorskie.md
+    ├── 11-wizerunek-a-prawa-autorskie.md
+    │
+    │   # Wykładnia i regulaminy elektroniczne
+    ├── 12-wykladnia-oswiadczen-woli.md
+    └── 13-regulamin-usdde-hosting-ai.md
 
 workflows/
 ├── triage-szybki.md                    ← szybka kategoryzacja GREEN/YELLOW/RED

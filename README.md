@@ -51,8 +51,8 @@ Skill ma pięć warstw merytorycznych:
 | **Złote Reguły** | 12 reguł redakcji polskich umów: kontrola definicji, struktury, języka | `references/zlote-reguly.md` |
 | **Styl redakcyjny KTZR** | Konkretne wzorce stylistyczne wyciągnięte z praktyki: kiedy *„W przypadku"* zamiast *„Jeżeli"*, para stron dla typu stosunku, typografia | `references/style-redakcyjny.md` |
 | **Taksonomia kategorii klauzul** | 7 kategorii klauzul, polski odpowiednik MSCD Adamsa | `references/kategorie-klauzul.md` |
-| **Baza klauzul** | 19 plików tematycznych z wzorcami klauzul: strony, preambuły, definicje, IP, RODO, kary umowne, ugody i inne | `references/baza-klauzul/` |
-| **Baza wiedzy doktrynalnej** | 11 plików z analizą prawno-doktrynalną: *lucrum cessans*, RODO w umowach powierzenia przetwarzania, przeniesienie praw do oprogramowania, open source copyleft, wizerunek vs prawa autorskie | `references/baza-wiedzy/` |
+| **Baza klauzul** | 20 plików tematycznych z wzorcami klauzul: strony, preambuły, definicje, IP, RODO, kary umowne, ugody, regulaminy SaaS/hosting i inne | `references/baza-klauzul/` |
+| **Baza wiedzy doktrynalnej** | 13 plików z analizą prawno-doktrynalną: *lucrum cessans*, RODO, prawa autorskie, open source copyleft, wykładnia oświadczeń woli, regulaminy u.ś.u.d.e./DSA/AI i inne | `references/baza-wiedzy/` |
 
 Plus 8 gotowych workflow'ów do typowych zadań:
 
@@ -146,18 +146,18 @@ commercial-legal-pl/
 │   ├── legal-design.md                   ← Typografia i layout
 │   ├── essentialia-mapowanie.md          ← Essentialia negotii dla typów umów
 │   │
-│   ├── baza-klauzul/                     ← 19 plików tematycznych + INDEX
+│   ├── baza-klauzul/                     ← 20 plików tematycznych + INDEX
 │   │   ├── 01-oznaczenie-stron.md
 │   │   ├── 02-preambuly.md
 │   │   ├── 03-definicje.md
 │   │   ├── ...
-│   │   └── 19-cesja-wierzytelnosci.md
+│   │   └── 20-regulamin-usdde-aup.md
 │   │
-│   └── baza-wiedzy/                      ← 11 plików doktrynalnych + INDEX
+│   └── baza-wiedzy/                      ← 13 plików doktrynalnych + INDEX
 │       ├── 01-maintenance-art750-kc.md
 │       ├── 02-przeniesienie-praw-oprogramowanie.md
 │       ├── ...
-│       └── 11-wizerunek-a-prawa-autorskie.md
+│       └── 13-regulamin-usdde-hosting-ai.md
 │
 ├── workflows/                            ← 8 gotowych workflow'ów
 │   ├── pelna-analiza.md
@@ -177,6 +177,13 @@ Skill nie powstał z niczego — korzystamy z:
 - **Polskie Zasady Techniki Prawodawczej** (Rozp. Prezesa RM z 20.06.2002) — krajowy odpowiednik MSCD dla aktów prawnych, hierarchia struktury (artykuł → ustęp → punkt → litera)
 - **Bryan Garner** i **Joseph Kimble** — plain-language movement zaaplikowany do polskiego języka prawniczego
 - **Praktyka naszej kancelarii** — wzorce wypracowane w codziennej obsłudze klientów z obszaru B2B, IP i IT
+
+## Changelog
+
+| Wersja | Data | Co nowego |
+|---|---|---|
+| **v0.2** | 4 czerwca 2026 | Nowe pliki bazy wiedzy: wykładnia oświadczeń woli (SN 2024–2025), regulaminy u.ś.u.d.e./DSA/AI. Nowe klauzule: gwarancja czystości IP, warranty AI-generated code, SLA, exit plan IT, zakaz konkurencji IT z miesięcznym compliance, regulamin hosting/SaaS/domeny/AI. Baza klauzul: 19 → 20 plików, baza wiedzy: 11 → 13 plików. |
+| **v0.1** | 31 maja 2026 | Pierwsze publiczne wydanie — Złote Reguły, baza klauzul (19 plików), baza wiedzy (11 plików), 8 workflow'ów. |
 
 ## Co dalej
 

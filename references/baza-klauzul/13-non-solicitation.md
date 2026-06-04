@@ -30,6 +30,8 @@ Brak klauzuli non-solicitation w umowie body leasing (=brak ochrony biznesu). Za
 
 ### Zakaz konkurencji dostawcy IT — zakres rozszerzony (umowa wdrożeniowa / maintenance)
 
+> ⚠️ **Okres zakazu:** zalecane max. 2 lata. Przy braku odrębnego wynagrodzenia karencyjnego i szerokim zakresie "Działalności Konkurencyjnej" — sąd może zredukować lub unieważnić (art. 58 § 2 k.c., art. 353¹ k.c.). Patrz Red flags powyżej.
+
 > W okresie obowiązywania Umowy oraz przez [___] lat od daty jej zakończenia, niezależnie od przyczyny, Wykonawca zobowiązuje się do nieprowadzenia Działalności Konkurencyjnej oraz do powstrzymania się od działań mogących narazić interesy Zamawiającego. Działalność Konkurencyjna oznacza: (a) tworzenie, rozwijanie, wdrażanie, licencjonowanie lub sprzedaż oprogramowania funkcjonalnie tożsamego lub zbliżonego do Systemu; (b) świadczenie usług informatycznych lub doradczych na rzecz podmiotów prowadzących działalność konkurencyjną wobec Zamawiającego; (c) zakładanie, przystępowanie lub uczestniczenie w podmiotach prowadzących działalność z lit. a–b; (d) wykorzystywanie — bezpośrednio, pośrednio lub na cudzą rzecz — Systemu, jego modułów, baz danych, logiki działania, architektury lub know-how Zamawiającego.
 
 > Zakaz konkurencji obowiązuje Wykonawcę oraz wszystkie Podmioty Powiązane. Podmiot Powiązany oznacza każdą osobę lub podmiot, w którym Wykonawca posiada udział kapitałowy lub osobowy, pełni funkcję zarządczą lub doradczą, lub na rzecz której świadczy usługi. Naruszenie zakazu przez Podmiot Powiązany traktowane jest na równi z naruszeniem przez Wykonawcę. Wynagrodzenie za zachowanie zakazu po zakończeniu Umowy uwzględnione jest w wynagrodzeniu głównym i nie stanowi podstawy do odrębnych roszczeń Wykonawcy.

@@ -154,6 +154,7 @@ Kierunek — **świadome ukształtowanie postanowień o open source**, nie bezwz
    - ZAWSZE rozdziel umowę na dwa rozdziały (kod wytworzony / komponenty osób trzecich)
    - ZAWSZE załącz wszystkie trzy warstwy ochrony (zapewnienia + indemnifikacja + kary)
    - Klauzula bill of materials jako załącznik
+   - Gotowe klauzule: `baza-klauzul/08-prawa-autorskie-ip.md` § Zakaz komponentów copyleft
 
 3. **Przy analizie umowy:**
    - "Zakaz open source" bez rozdzielenia warstw → 🟠 RYZYKO WYSOKIE (klauzula iluzoryczna, nie chroni przed copyleft w komponentach)
