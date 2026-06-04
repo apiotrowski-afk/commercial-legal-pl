@@ -2,7 +2,7 @@
 
 **Status:** wzorzec analityczny KTZR, pomocny w redakcji i diagnozie klauzul. Inspiracja: *Adams, A Manual of Style for Contract Drafting* (5. wyd., ABA 2023) — *„categories of contract language"*. Adaptacja do polskiego systemu prawnego.
 
-**Cel pliku:** dostarczyć Claude'owi i prawnikowi KTZR taksonomię siedmiu (siedem-osiem) kategorii klauzul, tak by każda klauzula umowy mogła być świadomie zaklasyfikowana do jednej z nich. Mieszanie kategorii w jednej klauzuli jest typowym źródłem niejednoznaczności.
+**Cel pliku:** dostarczyć Claude'owi i prawnikowi KTZR taksonomię 7 kategorii głównych klauzul (plus 2 pomocnicze: Intencja i Rekomendacja), tak by każda klauzula umowy mogła być świadomie zaklasyfikowana do jednej z nich. Mieszanie kategorii w jednej klauzuli jest typowym źródłem niejednoznaczności.
 
 **Zastrzeżenie:** taksonomia ma charakter analityczny, nie normatywny. Nie zastępuje doktryny ani orzecznictwa. W konkretnej sprawie kategoria klauzuli może być przedmiotem sporu — taksonomia służy autorowi umowy, nie sądowi.
 

@@ -18,7 +18,7 @@ Brak limitu odpowiedzialności (= nieograniczona). Asymetryczny cap (tylko jedna
 
 > Zleceniobiorca ponosi pełną odpowiedzialność odszkodowawczą za wszelkie szkody poniesione przez Zleceniodawcę, w tym zapłacone odsetki za zwłokę, nałożone kary, grzywny, sankcje oraz koszty postępowań. Odpowiedzialność nie jest w żaden sposób ograniczona.
 
-> Zleceniobiorca oświadcza, że posiada ubezpieczenie OC z tytułu wykonywania usług księgowych na sumę gwarancyjną nie niższą niż 1.000.000 PLN. Zobowiązuje się do utrzymywania nieprzerwanego ubezpieczenia przez cały okres obowiązywania umowy.
+> Zleceniobiorca oświadcza, że posiada ubezpieczenie OC z tytułu wykonywania usług księgowych na sumę gwarancyjną nie niższą niż [___] PLN. Zobowiązuje się do utrzymywania nieprzerwanego ubezpieczenia przez cały okres obowiązywania umowy.
 
 ### Umowa ramowa przewozu
 

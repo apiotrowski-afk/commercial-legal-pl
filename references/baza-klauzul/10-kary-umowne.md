@@ -24,7 +24,7 @@ Kary tylko na jedną stronę. Brak capów na kary (kumulacja może przekroczyć 
 
 ### Umowa ramowa współpracy prowizyjnej
 
-> W przypadku naruszenia obowiązków poufności Partner zapłaci Zleceniodawcy karę umowną w wysokości 100.000 zł za każdy ujawniony przypadek naruszenia.
+> W przypadku naruszenia obowiązków poufności Partner zapłaci Zleceniodawcy karę umowną w wysokości [___] zł za każdy ujawniony przypadek naruszenia.
 
 ### Umowa licencyjno-doradcza
 

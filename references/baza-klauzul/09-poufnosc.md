@@ -48,4 +48,4 @@ Brak definicji informacji poufnych. Brak okresu obowiązywania po zakończeniu u
 
 > Strona Ujawniająca ma prawo do bieżącego monitorowania aktywności Strony Otrzymującej w zakresie korzystania z udostępnionych zasobów, w tym przeglądania logów i przeprowadzania audytów bezpieczeństwa.
 
-> Obowiązki z niniejszego paragrafu wiążą przez cały okres obowiązywania Umowy oraz przez 10 lat od daty jej zakończenia, niezależnie od przyczyny. Dla informacji stanowiących tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 4 u.z.n.k. obowiązek poufności jest bezterminowy.
+> Obowiązki z niniejszego paragrafu wiążą przez cały okres obowiązywania Umowy oraz przez 10 lat od daty jej zakończenia, niezależnie od przyczyny. Dla informacji stanowiących tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 2 u.z.n.k. obowiązek poufności jest bezterminowy.

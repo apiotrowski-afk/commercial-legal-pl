@@ -192,5 +192,5 @@ Tryb **„full legal design"** (kolory, ikony, infografiki) — **nie robimy w K
 ## Powiązania w skill
 
 - `style-redakcyjny.md` — W1–W7 (warsztat prawnika + styl KTZR). Domyślna typografia KTZR (Arial 11,5 + bordery) jest tu rozszerzeniem warstwy 2.
-- `zlote-reguly.md` — Złote Reguły KTZR (#1–#11). Legal design nie zmienia tych reguł.
+- `zlote-reguly.md` — Złote Reguły KTZR (#1–#12). Legal design nie zmienia tych reguł.
 - `baza-klauzul/` — wzorce klauzul. Visual layer jest *niezależny* od treści klauzul — to jest jak je *prezentujemy*, nie *co* w nich piszemy.

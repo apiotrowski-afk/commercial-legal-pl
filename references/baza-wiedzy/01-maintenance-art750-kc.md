@@ -98,7 +98,7 @@ Jeśli maintenance dotyczy produktów/usług objętych **ustawą o zapewnianiu s
 
 ### Co Claude robi z tą wiedzą
 
-1. **Przy kwalifikacji typu umowy** w workflow 00-kontekst-i-typ.md:
+1. **Przy kwalifikacji typu umowy** (workflow `pelna-analiza.md` Etap 1 lub `triage-szybki.md`):
    - Umowa maintenance/utrzymania/managed services → art. 750 KC w zw. z 734
    - Strony: **Usługodawca / Usługobiorca** lub **Zleceniodawca / Zleceniobiorca** (zgodnie z W4 stylu)
    - Charakter: zobowiązanie starannego działania, **nie rezultatu**

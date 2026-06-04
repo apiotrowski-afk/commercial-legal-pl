@@ -14,7 +14,7 @@ Modele cenowe, terminy płatności, waloryzacja, prowizje.
 
 ### Umowa ramowa przewozu
 
-> Strony ustalają cenę jednego biletu miesięcznego w wysokości 150 zł brutto. Zmiana ceny wymaga porozumienia stron. Zapłata należności nastąpi przelewem w terminie 14 dni od daty wystawienia faktury.
+> Strony ustalają cenę jednego biletu miesięcznego w wysokości [___] zł brutto. Zmiana ceny wymaga porozumienia stron. Zapłata należności nastąpi przelewem w terminie 14 dni od daty wystawienia faktury.
 
 ### Umowa ramowa współpracy prowizyjnej
 
