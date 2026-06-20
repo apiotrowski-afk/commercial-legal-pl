@@ -10,7 +10,7 @@ Brak limitu odpowiedzialności (= nieograniczona). Asymetryczny cap (tylko jedna
 
 ### Klauzula wzorcowa (generyczny IT)
 
-> Całkowita odpowiedzialność Wykonawcy z tytułu Umowy jest ograniczona do kwoty równej wynagrodzeniu netto wypłaconemu Wykonawcy w okresie ostatnich 12 miesięcy. Ograniczenie nie dotyczy szkód wyrządzonych umyślnie, naruszenia poufności oraz naruszenia praw własności intelektualnej. Żadna ze Stron nie ponosi odpowiedzialności za szkody pośrednie, utracone korzyści ani utratę danych.
+> Całkowita odpowiedzialność Wykonawcy z tytułu Umowy jest ograniczona do kwoty równej wynagrodzeniu netto wypłaconemu Wykonawcy w okresie ostatnich 12 miesięcy. Ograniczenie nie dotyczy szkód wyrządzonych umyślnie, naruszenia poufności oraz naruszenia praw własności intelektualnej. Żadna ze Stron nie ponosi odpowiedzialności za szkody pośrednie, utracone korzyści ani utratę danych — chyba że szkoda wynikła z działania umyślnego Strony (art. 473 § 2 KC).
 
 ## Klauzule z umów KTZR
 

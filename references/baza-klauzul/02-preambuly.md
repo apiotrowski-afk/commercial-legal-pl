@@ -92,6 +92,6 @@ Razem (zawężenie definicji + klauzula autonomii) zamykają zarówno kalendarz,
 
 > Zawarcie niniejszej Umowy nie stanowi zobowiązania żadnej ze Stron do zawarcia umowy głównej dotyczącej Projektu ani do kontynuowania rozmów oraz negocjacji.
 
-### Przydział kwaterunkowy
+### Udostępnienie lokalu
 
-> Udostępnienie lokalu Zleceniobiorcy na mocy niniejszego Przydziału nie jest umową najmu ani dzierżawy w rozumieniu przepisów Kodeksu cywilnego ani nie podlega przepisom ustawy z dnia 21 czerwca 2001 r. o ochronie praw lokatorów.
+> Udostępnienie lokalu [Korzystającemu] na mocy niniejszej Umowy nie jest umową najmu ani dzierżawy w rozumieniu przepisów Kodeksu cywilnego ani nie podlega przepisom ustawy z dnia 21 czerwca 2001 r. o ochronie praw lokatorów.

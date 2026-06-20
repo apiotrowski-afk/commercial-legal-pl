@@ -189,7 +189,7 @@ SZKIELET REGULAMINU — ścieżka SaaS (~18 §)
 § 14. Zawieszenie i usunięcie konta — przesłanki, wind-down, eksport danych
 § 15. Wypowiedzenie      — przez każdą ze stron, okresy
 § 16. Zmiana regulaminu  — tryb, okres wyprzedzenia, brak akceptacji
-§ 17. Reklamacje         — procedura, 14 dni roboczych
+§ 17. Reklamacje         — procedura, [___] dni roboczych
 § 18. Postanowienia końcowe — prawo polskie, sąd, klauzula salwatoryjna
 ```
 

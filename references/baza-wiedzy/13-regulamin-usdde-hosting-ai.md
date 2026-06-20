@@ -7,7 +7,7 @@
 
 1. Regulamin usług hostingowych/serwerowych/domenowych jest **ustawowo obowiązkowy** — wynika z art. 8 u.ś.u.d.e. i musi być udostępniony nieodpłatnie przed zawarciem umowy.
 2. **Cztery minimalne elementy** (art. 8 ust. 3 u.ś.u.d.e.): rodzaje usług, warunki techniczne + zakaz treści bezprawnych, warunki zawarcia/rozwiązania, tryb reklamacji.
-3. **Wyłączenie odpowiedzialności hostingu** (art. 14 u.ś.u.d.e.) jest z mocy ustawy — regulamin je realizuje, nie tworzy.
+3. **Wyłączenie odpowiedzialności hostingu** — od 17.02.2024 r. podstawą jest **art. 6 DSA** (Rozp. 2022/2065), stosowany bezpośrednio. Art. 14 u.ś.u.d.e. (implementacja dyrektywy 2000/31/WE) jest uchylony w zakresie objętym DSA (art. 89 DSA) i zachowuje znaczenie wyłącznie pomocnicze poza tym zakresem. W powołaniach: wskazuj art. 6 DSA, nie art. 14 u.ś.u.d.e.
 4. **DSA** nakłada dodatkowe wymogi dotyczące przejrzystości warunków, mechanizmu notice & action i uzasadniania decyzji wobec usługobiorców.
 5. Usługi AI traktowane są jako szczególny wariant usługi świadczonej drogą elektroniczną — reżim u.ś.u.d.e. + DSA stosuje się do nich bez tworzenia odrębnego reżimu.
 6. **Praktyczny wniosek:** regulamin pełni podwójną funkcję — wzorca umowy (art. 384 k.c.) i wykonania obowiązku ustawowego; postanowień nieudostępnionych klientowi przed zawarciem umowy nie można na niego powoływać.

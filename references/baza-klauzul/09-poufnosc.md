@@ -42,7 +42,7 @@ Brak definicji informacji poufnych. Brak okresu obowiązywania po zakończeniu u
 
 > Informacje Poufne obejmują w szczególności: (a) dane techniczne — kod źródłowy, architekturę systemów, loginy, hasła, certyfikaty SSL, klucze API, parametry środowiskowe; (b) dane operacyjne — bazy danych, warunki handlowe, know-how procesowe; (c) dane finansowe — obroty, marże, koszty operacyjne; (d) plany biznesowe — projekty nowych modułów, strategie rozwoju. W razie wątpliwości co do charakteru danej informacji domniemywa się, że stanowi Informację Poufną.
 
-> Strona Otrzymująca nie jest uprawniona do kopiowania, eksportowania, pobierania ani przechowywania poza infrastrukturą Strony Ujawniającej żadnych danych, kodu źródłowego ani innych Informacji Poufnych — z wyjątkiem zatwierdzonych kopii zapasowych. Zakaz obejmuje wszelkie formy i nośniki, w tym pliki lokalne, nośniki zewnętrzne, usługi chmurowe i prywatne repozytoria.
+> Strona Otrzymująca nie jest uprawniona do kopiowania, eksportowania, pobierania ani przechowywania poza infrastrukturą Strony Ujawniającej żadnych danych, kodu źródłowego ani innych Informacji Poufnych. Zakaz obejmuje wszelkie formy i nośniki, w tym pliki lokalne, nośniki zewnętrzne, usługi chmurowe i prywatne repozytoria. Dozwolone są wyłącznie zatwierdzone kopie zapasowe.
 
 > W przypadku powzięcia podejrzenia o nieuprawnionym dostępie do Informacji Poufnych, ich utraty lub ujawnienia, Strona Otrzymująca zobowiązuje się powiadomić Stronę Ujawniającą w formie dokumentowej nie później niż w ciągu 24 godzin od powzięcia informacji. Brak terminowego poinformowania traktowany jest jako odrębne naruszenie poufności.
 

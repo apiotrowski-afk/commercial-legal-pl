@@ -30,7 +30,7 @@ Gdy ugoda zawiera **dwa lub więcej tytułów płatności o różnym reżimie po
 
 ### Wariant redakcyjny: jednolita kwota „brutto"
 
-> ✅ *„Zamawiający zobowiązuje się zapłacić Wykonawcy łączną kwotę 50 000 zł (słownie: pięćdziesiąt tysięcy złotych) brutto, łącznie ze wszystkimi należnościami podatkowymi."*
+> ✅ *„Zamawiający zobowiązuje się zapłacić Wykonawcy łączną kwotę [X] zł (słownie: [X słownie]) brutto, łącznie ze wszystkimi należnościami podatkowymi."*
 
 — Zamyka furtkę interpretacyjną *„a może to było netto"*. Ryzyko VAT po stronie odbiorcy (Wykonawca dolicza sobie VAT z kwoty *brutto*, czyli liczy VAT *„w stu"*).
 
@@ -38,9 +38,9 @@ Gdy ugoda zawiera **dwa lub więcej tytułów płatności o różnym reżimie po
 
 ### Wariant redakcyjny: rozdzielenie tytułów z alokacją
 
-> ✅ *„Z kwoty 50 000 zł:
->   1) 15 000 zł stanowi wynagrodzenie za korzystanie z wizerunku Wykonawcy w Okresie Przejściowym (do tej kwoty Wykonawca doliczy VAT zgodnie z obowiązującą stawką);
->   2) 35 000 zł stanowi zadośćuczynienie i odszkodowanie, nie podlegające VAT."*
+> ✅ *„Z kwoty [X] zł:
+>   1) [Y] zł stanowi wynagrodzenie za korzystanie z wizerunku Wykonawcy w Okresie Przejściowym (do tej kwoty Wykonawca doliczy VAT zgodnie z obowiązującą stawką);
+>   2) [Z] zł stanowi zadośćuczynienie i odszkodowanie, nie podlegające VAT."*
 
 — Czyste, ale wymaga decyzji co do podziału (do uzgodnienia z księgowym klienta).
 

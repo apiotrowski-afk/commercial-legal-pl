@@ -34,6 +34,6 @@ Modele cenowe, terminy płatności, waloryzacja, prowizje.
 
 ### Platforma aukcyjna — prowizja zachowana przy niewykonaniu transakcji
 
-> Administrator Portalu zachowuje prawo do pełnego wynagrodzenia prowizyjnego w przypadku gdy: (a) Aukcja nie dojdzie do skutku z przyczyn leżących po stronie Użytkownika; (b) pomimo skutecznego zakończenia Aukcji Strony nie zawrą umowy będącej jej przedmiotem; (c) którakolwiek ze Stron odstąpi od umowy zawartej w wyniku Aukcji lub ją wypowie. Ciężar wykazania, że przyczyna leży po stronie Administratora, spoczywa na Użytkowniku.
+> Administratorowi Portalu przysługuje pełne wynagrodzenie prowizyjne w przypadku gdy: (a) Aukcja nie dojdzie do skutku z przyczyn leżących po stronie Użytkownika; (b) pomimo skutecznego zakończenia Aukcji Strony nie zawrą umowy będącej jej przedmiotem; (c) którakolwiek ze Stron odstąpi od umowy zawartej w wyniku Aukcji lub ją wypowie. Ciężar wykazania, że przyczyna leży po stronie Administratora, spoczywa na Użytkowniku.
 
 ⚠️ Model pre-paid z brakiem pro rata jest dopuszczalny w relacji B2B — wymaga wyraźnego zastrzeżenia jak powyżej. W relacji B2C (konsument) mógłby być kwestionowany jako klauzula abuzywna (art. 3851 KC).

@@ -3,7 +3,7 @@
 Reguły redakcji umów stosowane w kancelarii KTZR. Plik składa się z dwóch warstw:
 
 1. **Warsztat prawnika** — uniwersalne zasady rzemiosła, niezależne od kancelarii. Mają pierwszeństwo nad warstwą 2 w razie konfliktu.
-2. **Styl KTZR** — specyficzne wzorce składniowe i terminologiczne wyciągnięte z **92 faktycznych klauzul z 13 umów KTZR**.
+2. **Styl KTZR** — specyficzne wzorce składniowe i terminologiczne wyciągnięte z **wewnętrznej bazy wzorcowych klauzul KTZR**.
 
 **Ten plik wczytuj zawsze** przy generowaniu lub edytowaniu klauzul. Reguły są podrzędne wobec Złotych Reguł KTZR i wymagań essentialia negotii.
 

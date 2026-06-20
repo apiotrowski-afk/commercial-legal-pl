@@ -88,11 +88,11 @@ references/
     │   # Wizerunek a prawa autorskie
     ├── 11-wizerunek-a-prawa-autorskie.md
     │
-    │   # Regulaminy i usługi elektroniczne
-    ├── 13-regulamin-usdde-hosting-ai.md
-    │
     │   # Wykładnia i interpretacja
-    └── 12-wykladnia-oswiadczen-woli.md
+    ├── 12-wykladnia-oswiadczen-woli.md
+    │
+    │   # Regulaminy i usługi elektroniczne
+    └── 13-regulamin-usdde-hosting-ai.md
 
 workflows/
 ├── triage-szybki.md                    ← szybka kategoryzacja GREEN/YELLOW/RED

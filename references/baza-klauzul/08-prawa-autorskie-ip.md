@@ -36,11 +36,11 @@ Brak wskazania pól eksploatacji (przeniesienie nieskuteczne — art. 41 ust. 2 
 
 ### Zgoda na wizerunek (umowa o pracę)
 
-> Dobrowolnie wyrażam zgodę na nieodpłatne wykorzystanie i rozpowszechnianie mojego wizerunku dla celów marketingowych Spółki [...] bez ograniczeń terytorialnych oraz czasowych, z zastrzeżeniem, iż po zakończeniu stosunku zatrudnienia obejmuje ona wyłącznie materiały opublikowane przed dniem ustania stosunku pracy.
+> Dobrowolnie wyrażam zgodę na nieodpłatne wykorzystanie i rozpowszechnianie mojego wizerunku dla celów marketingowych Spółki [...] bez ograniczeń terytorialnych oraz czasowych, pod warunkiem że po zakończeniu stosunku zatrudnienia obejmuje ona wyłącznie materiały opublikowane przed dniem ustania stosunku pracy.
 
 ### Gwarancja czystości IP i zakaz odtwarzania kodu (umowa wdrożeniowa / maintenance IT)
 
-> Wykonawca oświadcza i gwarantuje, że: (a) przysługuje mu pełnia autorskich praw majątkowych do Utworów i jest uprawniony do ich przeniesienia bez ograniczeń; (b) Utwory są oryginalne i wolne od wad prawnych oraz roszczeń osób trzecich; (c) jeżeli Wykonawca korzystał z pomocy osób trzecich, zawarł z nimi skuteczne umowy przenoszące na niego prawa do wyników ich pracy; (d) w przypadku gdy Utwory zostały wytworzone z zastosowaniem systemów sztucznej inteligencji, udział twórczy człowieka w wykonaniu Utworu jest wystarczający do uznania efektów za utwór w rozumieniu ustawy o prawie autorskim i prawach pokrewnych.
+> Wykonawca oświadcza i gwarantuje, że: (a) przysługuje mu pełnia autorskich praw majątkowych do Utworów i jest uprawniony do ich przeniesienia bez ograniczeń; (b) Utwory są oryginalne i wolne od wad prawnych oraz roszczeń osób trzecich; (c) W przypadku gdy Wykonawca korzystał z pomocy osób trzecich, zawarł z nimi skuteczne umowy przenoszące na niego prawa do wyników ich pracy; (d) w przypadku gdy Utwory zostały wytworzone z zastosowaniem systemów sztucznej inteligencji, udział twórczy człowieka w wykonaniu Utworu jest wystarczający do uznania efektów za utwór w rozumieniu ustawy o prawie autorskim i prawach pokrewnych.
 
 > Wykonawca zobowiązuje się do bezwzględnego powstrzymania się od jakiegokolwiek wykorzystywania, kopiowania, odtwarzania (w tym inżynierii wstecznej), dekompilacji, modyfikowania lub tworzenia utworów zależnych na bazie Oprogramowania, jego kodów źródłowych, logiki działania lub architektury — na rzecz własną lub osób trzecich. Zakaz ma charakter bezterminowy i dotyczy całości, jak i jakiejkolwiek części Oprogramowania.
 

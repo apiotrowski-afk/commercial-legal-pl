@@ -20,6 +20,8 @@ Brak jakiegokolwiek uregulowania RODO. Brak DPA jako załącznika. Nieokreślone
 
 ### Zgoda na wizerunek
 
-> Podstawą prawną przetwarzania danych osobowych jest art. 6 ust. 1 lit. a oraz art. 6 ust. 1 lit. f RODO. Czas przechowywania danych: do czasu wycofania zgody lub ustania celu przetwarzania, w każdym wypadku przez okres dwóch lat od dnia ustania stosunku pracy.
+> Podstawą prawną przetwarzania danych osobowych jest art. 6 ust. 1 lit. a RODO (zgoda osoby, której dane dotyczą). Czas przechowywania danych: do czasu wycofania zgody lub ustania celu przetwarzania.
+
+⚠️ Podstawę przetwarzania wizerunku należy wskazać jako **jedną** z liter art. 6 ust. 1 RODO — lit. a (zgoda) i lit. f (uzasadniony interes) wykluczają się wzajemnie dla tej samej czynności. Powołanie obu jednocześnie sprawia, że wycofanie zgody staje się bezskuteczne (administrator nadal może powoływać lit. f), co narusza art. 7 ust. 3 RODO. Dla wizerunku pracownika w celach promocyjnych właściwa jest wyłącznie **lit. a**. Jeśli przetwarzanie może być oparte na lit. f — nie pobieraj zgody.
 
 > W dowolnym momencie może Pani/Pan wycofać zgodę poprzez zgłoszenie faktu Administratorowi. Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania mającego miejsce przed jej cofnięciem.

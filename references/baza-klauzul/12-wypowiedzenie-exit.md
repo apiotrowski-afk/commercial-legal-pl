@@ -52,7 +52,7 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 ### Kompleksowy exit plan (maintenance IT / SaaS)
 
-> Niezwłocznie po złożeniu oświadczenia o wypowiedzeniu lub rozwiązaniu Umowy Wykonawca zobowiązany jest do:
+> Po złożeniu oświadczenia o wypowiedzeniu lub rozwiązaniu Umowy Wykonawca jest zobowiązany do:
 > 1. przekazania Zamawiającemu — w terminie 3 Dni Roboczych — pełnego dostępu do infrastruktury, w tym wszystkich danych dostępowych, certyfikatów, kluczy szyfrujących, tokenów API i haseł, z pisemnym potwierdzeniem kompletności;
 > 2. przekazania — w tym samym terminie — pełnego kodu źródłowego w aktualnym stanie wraz z historią zatwierdzeń (commit history), do repozytorium wskazanego przez Zamawiającego;
 > 3. przekazania kompletnej dokumentacji technicznej niezbędnej do dalszego utrzymania przez osobę trzecią — w terminie [___] Dni Roboczych.
@@ -61,4 +61,4 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 > Po upływie okresu wsparcia przejściowego Wykonawca trwale i nieodwracalnie usuwa wszelkie dane, kody źródłowe i dokumentację Zamawiającego ze wszystkich urządzeń, nośników i systemów Wykonawcy oraz podmiotów powiązanych — z zastosowaniem metod uniemożliwiających odtworzenie. W terminie [___] Dni Roboczych przekazuje Zamawiającemu pisemne oświadczenie potwierdzające wykonanie tego obowiązku, ze wskazaniem metody usunięcia.
 
-> Zamawiający zastrzega sobie prawo do przeprowadzenia niezależnego audytu systemów Wykonawcy w celu weryfikacji wykonania obowiązku trwałego usunięcia danych, na co Wykonawca wyraża bezwarunkową zgodę.
+> Zamawiający jest uprawniony do przeprowadzenia niezależnego audytu systemów Wykonawcy w celu weryfikacji wykonania obowiązku trwałego usunięcia danych, na co Wykonawca wyraża bezwarunkową zgodę.

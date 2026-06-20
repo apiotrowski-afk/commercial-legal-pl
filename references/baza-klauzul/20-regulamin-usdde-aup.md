@@ -14,11 +14,13 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 
 ### Klauzula wzorcowa — wyłączenie odpowiedzialności hostingu (generyczny)
 
-> Usługodawca nie ponosi odpowiedzialności za treści przechowywane przez usługobiorców na infrastrukturze usługodawcy, pod warunkiem że usługodawca nie posiada wiedzy o bezprawnym charakterze tych treści lub — po uzyskaniu wiarygodnej wiadomości o ich bezprawności — niezwłocznie uniemożliwi dostęp do tych treści. Usługodawca nie jest zobowiązany do ogólnego nadzoru nad przechowywanymi danymi ani do ich aktywnego poszukiwania. Usługodawca zastrzega prawo do dobrowolnego monitorowania treści i podejmowania dobrowolnych czynności sprawdzających, przy zachowaniu wyłączenia odpowiedzialności, o którym mowa w zdaniu pierwszym.
+> Usługodawca nie ponosi odpowiedzialności za treści przechowywane przez usługobiorców na infrastrukturze usługodawcy, pod warunkiem że usługodawca nie posiada wiedzy o bezprawnym charakterze tych treści lub — po uzyskaniu wiarygodnej wiadomości o ich bezprawności — niezwłocznie uniemożliwi dostęp do tych treści. Usługodawca nie jest zobowiązany do ogólnego nadzoru nad przechowywanymi danymi ani do ich aktywnego poszukiwania. Usługodawca jest uprawniony do dobrowolnego monitorowania treści i podejmowania dobrowolnych czynności sprawdzających, przy zachowaniu wyłączenia odpowiedzialności, o którym mowa w zdaniu pierwszym.
 
 ## Klauzule KTZR — regulaminy usług IT
 
 ### Definicje — System AI i Usługi AI
+
+⚠️ Definicja poniżej pochodzi z konkretnej umowy i ma charakter własny (nie odwołuje się do AI Act). Przy nowych umowach preferuj definicję z art. 3 pkt 1 AI Act — patrz sekcja „Definicja Systemu AI — odesłanie do AI Act" poniżej.
 
 > „System AI" — funkcjonalność systemu teleinformatycznego Usługodawcy oparta na modelu obliczeniowym zdolnym do przetwarzania danych wejściowych i generowania wyników, w szczególności treści, klasyfikacji, prognoz lub rekomendacji, udostępniana Usługobiorcom w ramach Usług.
 
@@ -30,7 +32,7 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 
 ### Zawarcie umowy i moment związania regulaminem
 
-> Umowa o świadczenie Usług zostaje zawarta z chwilą rejestracji Konta przez Usługobiorcę i akceptacji niniejszego Regulaminu, co jest równoznaczne z zapoznaniem się z jego treścią i wyrażeniem zgody na jego postanowienia. Usługodawca potwierdza zawarcie umowy drogą elektroniczną na adres e-mail wskazany przez Usługobiorcę przy rejestracji.
+> Umowa o świadczenie Usług zostaje zawarta z chwilą rejestracji Konta przez Usługobiorcę i akceptacji niniejszego Regulaminu, co jest równoznaczne z zapoznaniem się z jego treścią i wyrażeniem zgody na jego postanowienia. Usługodawca potwierdza zawarcie umowy wiadomością e-mail na adres wskazany przez Usługobiorcę przy rejestracji.
 
 > Regulamin jest udostępniony nieodpłatnie pod adresem [___] w wersji umożliwiającej jego pobranie, odtworzenie i utrwalenie. Usługobiorca niebędący konsumentem potwierdza fakt zapoznania się z Regulaminem przez złożenie oświadczenia przy rejestracji lub złożeniu zamówienia.
 
@@ -63,7 +65,7 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 
 > Usługodawca jest uprawniony do zawieszenia świadczenia Usług ze skutkiem natychmiastowym, bez konieczności uprzedniego wezwania, w przypadku: (a) rażącego lub powtarzającego się naruszenia AUP; (b) zaległości w opłacie wymagalnej przez więcej niż [___] dni; (c) prowadzenia przez Usługobiorcę działalności zagrażającej bezpieczeństwu systemów Usługodawcy lub systemów osób trzecich; (d) urzędowego nakazu lub zabezpieczenia sądowego zobowiązującego do usunięcia lub zablokowania dostępu do treści.
 
-> Usługodawca informuje Usługobiorcę o zawieszeniu Usług i jego przyczynie drogą elektroniczną, z jednoczesnym podaniem terminu, w którym Usługobiorca może usunąć naruszenie. Bezskuteczny upływ terminu uprawnia Usługodawcę do rozwiązania umowy.
+> Usługodawca informuje Usługobiorcę o zawieszeniu Usług i jego przyczynie wiadomością e-mail na adres wskazany przy rejestracji lub komunikatem w Panelu klienta, z jednoczesnym podaniem terminu, w którym Usługobiorca może usunąć naruszenie. Bezskuteczny upływ terminu uprawnia Usługodawcę do rozwiązania umowy.
 
 ### Zasady świadczenia usług domenowych — rola pośrednika
 
@@ -73,17 +75,17 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 
 ### Zmiana Regulaminu
 
-> Usługodawca zastrzega sobie prawo do zmiany Regulaminu w przypadku: (a) zmian obowiązujących przepisów prawa; (b) zmian w ofercie usług lub infrastrukturze technicznej; (c) modyfikacji lub aktualizacji Systemów AI; (d) zmian w regulaminach rejestrów domenowych; (e) decyzji organów regulacyjnych.
+> Usługodawca jest uprawniony do zmiany Regulaminu w przypadku: (a) zmian obowiązujących przepisów prawa; (b) zmian w ofercie usług lub infrastrukturze technicznej; (c) modyfikacji lub aktualizacji Systemów AI; (d) zmian w regulaminach rejestrów domenowych; (e) decyzji organów regulacyjnych.
 
-> O każdej zmianie Regulaminu Usługodawca informuje Usługobiorców nie później niż [___] dni przed datą wejścia zmiany w życie — drogą elektroniczną na adres wskazany przy rejestracji lub komunikatem w Panelu klienta. Usługobiorca, który nie akceptuje zmian, ma prawo wypowiedzieć umowę ze skutkiem na dzień wejścia zmian w życie.
+> O każdej zmianie Regulaminu Usługodawca informuje Usługobiorców nie później niż [___] dni przed datą wejścia zmiany w życie — wiadomością e-mail na adres wskazany przy rejestracji lub komunikatem w Panelu klienta. Usługobiorca, który nie akceptuje zmian, ma prawo wypowiedzieć umowę ze skutkiem na dzień wejścia zmian w życie.
 
 ### Uprawnienia konsumenta — prawo odstąpienia
 
-> Usługobiorca będący konsumentem ma prawo odstąpić od umowy zawartej na odległość w terminie 14 dni od jej zawarcia, bez podawania przyczyny, składając jednoznaczne oświadczenie drogą elektroniczną na adres [___]. Prawo odstąpienia nie przysługuje, jeżeli Usługodawca — za wyraźną uprzednią zgodą konsumenta, z jednoczesnym poinformowaniem o utracie prawa odstąpienia — wykonał usługę w pełni przed upływem terminu do odstąpienia.
+> Usługobiorca będący konsumentem ma prawo odstąpić od umowy zawartej na odległość w terminie 14 dni od jej zawarcia, bez podawania przyczyny, składając jednoznaczne oświadczenie na adres e-mail [___]. Prawo odstąpienia nie przysługuje, w przypadku gdy Usługodawca — za wyraźną uprzednią zgodą konsumenta, z jednoczesnym poinformowaniem o utracie prawa odstąpienia — wykonał usługę w pełni przed upływem terminu do odstąpienia.
 
 ### Postanowienia końcowe
 
-> Regulamin podlega prawu polskiemu. Wszelkie spory wynikające z niniejszego Regulaminu rozstrzygane są przez sąd właściwy dla siedziby Usługodawcy, z zastrzeżeniem przepisów ochronnych dla konsumentów w zakresie właściwości miejscowej sądu. Konsument może skorzystać z pozasądowych metod rozwiązywania sporów (ODR: https://commission.europa.eu/consumers/odr).
+> Regulamin podlega prawu polskiemu. Wszelkie spory wynikające z niniejszego Regulaminu rozstrzygane są przez sąd właściwy dla siedziby Usługodawcy, z uwzględnieniem przepisów ochronnych dla konsumentów w zakresie właściwości miejscowej sądu. Konsument może skorzystać z pozasądowych metod rozwiązywania sporów (ODR: https://commission.europa.eu/consumers/odr).
 
 > Jeżeli którekolwiek z postanowień Regulaminu zostanie uznane za nieważne lub bezskuteczne, pozostałe postanowienia zachowują moc (klauzula salwatoryjna). W sprawach nieuregulowanych zastosowanie mają przepisy Kodeksu cywilnego i ustawy o świadczeniu usług drogą elektroniczną.
 
