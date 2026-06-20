@@ -32,15 +32,15 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 > Strony zgodnie oświadczają, że łącząca je umowa zlecenia zostaje rozwiązana za porozumieniem stron ze skutkiem na dzień [___]. Zleceniobiorca oświadcza, że wyraża zgodę działając dobrowolnie i świadomie, z pełną świadomością konsekwencji rozwiązania umowy.
 
-### Przydział kwaterunkowy — cofnięcie ze skutkiem natychmiastowym
+### Udostępnienie lokalu — cofnięcie ze skutkiem natychmiastowym
 
-> Zleceniodawca jest uprawniony do cofnięcia Przydziału kwaterunkowego w każdym czasie, ze skutkiem natychmiastowym, bez podania przyczyny. Zleceniobiorca jest zobowiązany do opróżnienia lokalu nie później niż w terminie 3 dni.
+> [Udostępniający] jest uprawniony do cofnięcia udostępnienia w każdym czasie, ze skutkiem natychmiastowym, bez podania przyczyny. [Korzystający] zobowiązany jest do opróżnienia i wydania lokalu w terminie [___] dni od doręczenia oświadczenia o cofnięciu.
 
-### Przydział kwaterunkowy — wygaśnięcie z mocy prawa (dwie przyczyny)
+### Udostępnienie lokalu — wygaśnięcie z mocy prawa (dwie przyczyny)
 
-> Przydział wygasa automatycznie z dniem rozwiązania lub wygaśnięcia Umowy Zlecenia — bez konieczności składania odrębnego oświadczenia. Zleceniobiorca zobowiązany jest do opuszczenia lokalu najpóźniej w ostatnim dniu obowiązywania Umowy Zlecenia.
+> Udostępnienie wygasa automatycznie z dniem rozwiązania lub wygaśnięcia Umowy głównej — bez konieczności składania odrębnego oświadczenia. [Korzystający] zobowiązany jest do opróżnienia i wydania lokalu najpóźniej w ostatnim dniu obowiązywania Umowy głównej.
 
-> Przydział wygasa automatycznie w przypadku opuszczenia przez Zleceniobiorcę lokalu na okres dłuższy niż [___] dni — bez konieczności składania odrębnych oświadczeń przez żadną ze Stron.
+> Udostępnienie wygasa automatycznie w przypadku nieobecności [Korzystającego] w lokalu trwającej nieprzerwanie dłużej niż [___] dni — bez konieczności składania odrębnych oświadczeń przez żadną ze Stron.
 
 ### Platforma aukcyjna — zawieszenie i usunięcie konta
 

@@ -34,14 +34,14 @@ Ogólnikowy opis typu „usługi informatyczne” bez konkretyzacji. Brak wskaza
 
 > Przedmiotem Umowy jest: (a) udzielenie przez Licencjodawcę odpłatnej, niewyłącznej licencji na korzystanie z Know-how; (b) świadczenie przez Licencjodawcę Usług Doradczych.
 
-### Przydział kwaterunkowy — przedmiot
+### Udostępnienie lokalu — przedmiot
 
-> W celu umożliwienia Zleceniobiorcy należytej realizacji przedmiotu Umowy Zlecenia, Zleceniodawca, na czas trwania tej umowy, przyznaje Zleceniobiorcy nieodpłatny Przydział kwaterunkowy, polegający na udostępnieniu mu do używania części nieruchomości.
+Stosowany gdy wykonawca/specjalista jest delegowany do wykonywania pracy w miejscu wskazanym przez zlecającego i wymaga zapewnienia miejsca zakwaterowania lub lokalu roboczego. Strony: [Udostępniający] — podmiot zapewniający lokal; [Korzystający] — podmiot delegowany.
 
-### Przydział kwaterunkowy — charakter prawny (nie najem, nie ustawa lokatorów)
+> W celu umożliwienia [Korzystającemu] należytej realizacji przedmiotu Umowy głównej [Udostępniający] przyznaje [Korzystającemu], na czas trwania Umowy głównej, nieodpłatne udostępnienie do używania [opis lokalu / powierzchni / pomieszczeń] położonego pod adresem [___].
 
-*Klauzula uogólniona na podstawie praktyki KTZR w umowach body leasing z delegowanym specjalistą.*
+### Udostępnienie lokalu — charakter prawny (nie najem, nie ustawa lokatorów)
 
-> Udostępnienie lokalu Zleceniobiorcy na mocy niniejszego Przydziału nie stanowi umowy najmu ani dzierżawy w rozumieniu przepisów Kodeksu cywilnego ani nie podlega przepisom ustawy z dnia 21 czerwca 2001 r. o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego. Stosunek prawny łączący Strony jest stosunkiem nieodpłatnego udostępnienia lokalu do używania, ściśle związanym z istnieniem i realizacją Umowy Zlecenia. Zleceniobiorca nie nabywa żadnych praw do lokalu ani rzeczy w nim się znajdujących, poza prawem do ich nieodpłatnego używania na zasadach określonych w Przydziale.
+> Udostępnienie lokalu [Korzystającemu] na mocy niniejszej Umowy nie stanowi umowy najmu ani dzierżawy w rozumieniu przepisów Kodeksu cywilnego ani nie podlega przepisom ustawy z dnia 21 czerwca 2001 r. o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego (t.j. Dz. U. z 2023 r. poz. 725 ze zm.). Stosunek prawny łączący Strony jest stosunkiem nieodpłatnego udostępnienia lokalu do używania, nierozerwalnie związanym z Umową główną i uzależnionym od jej trwania. [Korzystający] nie nabywa żadnych praw do lokalu ani znajdujących się w nim rzeczy, poza prawem do ich nieodpłatnego używania zgodnie z przeznaczeniem przez czas trwania Umowy głównej.
 
-⚠️ Kluczowe dla body leasingu i umów zlecenia z delegowanym wykonawcą: wyraźne wyłączenie ochrony lokatorskiej (ustawa z 2001 r.) i reżimu najmu (art. 659 KC) eliminuje ryzyko roszczeń o przedłużenie pobytu po zakończeniu zlecenia. Sądy akceptują tę konstrukcję pod warunkiem że udostępnienie jest rzeczywiście bezpłatne i powiązane z umową główną. Uwaga: stosunek ten może być kwalifikowany jako użyczenie (art. 710 KC) — implikuje art. 716 KC (żądanie zwrotu przedmiotu użyczenia przy zajściu nieprzewidzianych okoliczności).
+⚠️ Wyraźne wyłączenie reżimu najmu (art. 659 KC) i ochrony lokatorskiej eliminuje ryzyko roszczeń o przedłużenie pobytu po zakończeniu umowy głównej. Konstrukcja skuteczna pod warunkiem że: (a) udostępnienie jest rzeczywiście nieodpłatne i (b) jest powiązane funkcjonalnie z umową główną — inaczej sąd może przekwalifikować na najem. Uwaga: stosunek ten kwalifikuje się jako użyczenie (art. 710 KC) — implikuje art. 716 KC (żądanie natychmiastowego zwrotu przy zajściu nieprzewidzianych okoliczności po stronie użyczającego).

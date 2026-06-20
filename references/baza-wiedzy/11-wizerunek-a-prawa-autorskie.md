@@ -11,7 +11,7 @@ Wiedza doktrynalna, **nie tekst umowy**. Stosuj W6 (oszczędne odsyłanie do prz
 
 1. **Dwa odrębne reżimy** — autorskie prawa majątkowe do utworu (art. 17, 41, 69–70 PrAut) i prawo do wizerunku (art. 81 PrAut + art. 23–24 KC) **chronią różne dobra** i funkcjonują równolegle. Nabycie pierwszego nie wchłania drugiego.
 2. **Klauzula ogólna "wszystkie prawa autorskie majątkowe pozostają po stronie Zamawiającego" nie obejmuje zgody na wizerunek** — i tym bardziej nie kreuje zgody nieodwołalnej. Zgoda na wizerunek wymaga *odrębnej, skonkretyzowanej* regulacji (Niewęgłowski).
-3. **Cofnięcie zgody na wizerunek (art. 81 ust. 1 PrAut) działa ex nunc** — nie podważa legalności wcześniejszych rozpowszechnień, ale **każde kolejne publiczne udostępnienie po cofnięciu = nowe naruszenie**. To dotyczy w szczególności utrzymywania materiałów w serwisach VOD/online — każdy dzień dostępności po cofnięciu jest nowym deliktem (art. 415 KC), niezależnie od pierwotnej legalności utrwalenia.
+3. **Cofnięcie zgody na wizerunek (art. 23 KC + art. 81 PrAut) działa ex nunc** — nie podważa legalności wcześniejszych rozpowszechnień, ale **każde kolejne publiczne udostępnienie po cofnięciu = nowe naruszenie**. To dotyczy w szczególności utrzymywania materiałów w serwisach VOD/online — każdy dzień dostępności po cofnięciu jest nowym deliktem (art. 415 KC), niezależnie od pierwotnej legalności utrwalenia.
 4. **Wyjątek z art. 81 ust. 2 pkt 1 (osoba powszechnie znana / pełniąca funkcje publiczne) interpretuje się ściśle.** Wykonywanie zawodowo działalności edukacyjnej, szkoleniowej, instruktorskiej w sektorze prywatnym **nie spełnia** przesłanek. Wyjątek służy informacji o życiu publicznym, nie komercji.
 5. **Wyjątek z art. 81 ust. 2 pkt 2 ("szczegół całości")** dotyczy sytuacji tłumu, publicznej imprezy — nie nagrań, w których osoba jest głównym podmiotem kadru.
 6. **Wynagrodzenie za wizerunek to odrębny tytuł** — nie jest "korzystaniem z praw autorskich" (Niewęgłowski). Stąd potrzeba **rozdzielenia tytułów** w klauzulach finansowych, gdy strona płaci jednocześnie za pracę twórczą i za korzystanie z wizerunku.
@@ -52,7 +52,7 @@ Przy konstruowaniu pisma jednostronnego oraz preambuły ugody pozamającej spór
 
 > *„Wykonawca cofnął zgodę na dalsze rozpowszechnianie swojego wizerunku."*
 
-**Zakłada:** że zgoda była wcześniej udzielona (formalnie lub dorozumianie). Konstrukcja prawna spójna z art. 81 ust. 1 PrAut (zgoda dorozumiana też podlega odwołaniu).
+**Zakłada:** że zgoda była wcześniej udzielona (formalnie lub dorozumianie). Konstrukcja prawna spójna z art. 23 KC (wizerunek jako dobro osobiste — zgoda odwoływalna z natury) i art. 81 PrAut (wymóg zgody na rozpowszechnianie, a contrario — prawo jej cofnięcia; dotyczy też zgody dorozumianej).
 
 **Wymaga w preambule:** punktu potwierdzającego udzielenie zgody (lub zgodę dorozumianą):
 > *„w okresie współpracy Wykonawca wyrażał zgodę na utrwalanie i rozpowszechnianie Materiałów…"* 
