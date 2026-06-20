@@ -89,6 +89,14 @@ Jedno z:
 
 ### Instalacja
 
+**Opcja 0 — CLI (najszybciej, 40+ agentów)**
+
+```bash
+npx skills add apiotrowski-afk/commercial-legal-pl
+```
+
+Działa z Claude Code, Cursor, Codex i innymi. Instaluje wprost z repo.
+
 **Opcja 1 — Claude.ai (web)**
 
 ```bash
