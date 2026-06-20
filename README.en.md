@@ -66,16 +66,16 @@ The skill ships with **8 operational workflows** in `workflows/`: quick triage (
 
 ## How to use this
 
-The skill is installed in **Claude Code** or **Claude Desktop**, depending on what you work in.
-
 ```bash
-# Claude Code (recommended for technical users)
+# Fastest — works with Claude Code, Cursor, Codex and 40+ agents:
+npx skills add apiotrowski-afk/commercial-legal-pl
+
+# Or clone manually into your skills directory:
 cd ~/.claude/skills
 git clone https://github.com/apiotrowski-afk/commercial-legal-pl.git
-
-# Then in any Claude conversation, the skill loads automatically
-# when the topic touches Polish contracts.
 ```
+
+In any Claude conversation the skill loads automatically when the topic touches Polish contracts.
 
 Detailed installation instructions in the [Polish README](./README.md).
 
