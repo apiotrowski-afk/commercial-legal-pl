@@ -86,3 +86,51 @@ Brak dostępnego publicznie regulaminu (obowiązek ustawowy). Regulamin bez proc
 > Regulamin podlega prawu polskiemu. Wszelkie spory wynikające z niniejszego Regulaminu rozstrzygane są przez sąd właściwy dla siedziby Usługodawcy, z zastrzeżeniem przepisów ochronnych dla konsumentów w zakresie właściwości miejscowej sądu. Konsument może skorzystać z pozasądowych metod rozwiązywania sporów (ODR: https://commission.europa.eu/consumers/odr).
 
 > Jeżeli którekolwiek z postanowień Regulaminu zostanie uznane za nieważne lub bezskuteczne, pozostałe postanowienia zachowują moc (klauzula salwatoryjna). W sprawach nieuregulowanych zastosowanie mają przepisy Kodeksu cywilnego i ustawy o świadczeniu usług drogą elektroniczną.
+
+---
+
+## Zasady redakcji regulaminów — wnioski z praktyki KTZR
+
+### Struktura umowna w serwisach z rejestracją i planami (SaaS)
+
+W serwisach oferujących rejestrację Konta i Plany Abonamentowe stosuj dwupoziomową strukturę umowną — zdefiniowaną w § Definicje i opisaną hierarchicznie w § Zawarcie umowy:
+
+**§ Definicje:**
+> „Umowa ramowa" — umowa o świadczenie Usług zawarta z chwilą rejestracji Konta i akceptacji Regulaminu; określa ogólne warunki korzystania z Platformy i stanowi podstawę dla Umów Planowych.
+
+> „Umowa Planowa" — umowa szczegółowa zawierana w ramach Umowy ramowej z chwilą aktywacji wybranego Planu Abonamentowego; określa zakres Usług i wynagrodzenie odpowiadające danemu Planowi.
+
+**§ Zawarcie umowy:**
+> 1. Umowa ramowa zostaje zawarta z chwilą rejestracji Konta i akceptacji Regulaminu. Usługodawca potwierdza zawarcie wiadomością e-mail na adres wskazany przy rejestracji w terminie nie dłuższym niż [___] dzień roboczy.
+> 2. Zakres Usług w każdym okresie rozliczeniowym określa Umowa Planowa, zawierana z chwilą aktywacji wybranego Planu przez Usługodawcę. W przypadku zmiany Planu nowa Umowa Planowa zastępuje poprzednią ze skutkiem od początku kolejnego okresu rozliczeniowego.
+
+❌ Anti-pattern: jedno zdanie scalające rejestrację i wybór Planu w jedną "chwilę zawarcia umowy" — miesza dwie odrębne czynności prawne.
+
+### Definicja Systemu AI — odesłanie do AI Act (Rozp. 2024/1689)
+
+Nie definiuj Systemu AI własną definicją ogólną — użyj definicji z art. 3 pkt 1 AI Act i wskaż role stron:
+
+> „System AI" — system sztucznej inteligencji w rozumieniu art. 3 pkt 1 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia 13 czerwca 2024 r. w sprawie sztucznej inteligencji (AI Act), zintegrowany z Platformą, służący do [opis funkcjonalności]; dostępny wyłącznie w [Planach X].
+> Usługodawca pełni rolę dostawcy w rozumieniu art. 3 pkt 3 AI Act; Usługobiorca korzystający z Systemu AI pełni rolę podmiotu wdrażającego w rozumieniu art. 3 pkt 4 AI Act.
+
+⚠️ Klasyfikację ryzyka (niskie / wysokie) weryfikuj każdorazowo pod kątem Załącznika III AI Act dla konkretnego przypadku użycia — nie stosuj domyślnie "niskie ryzyko". Wysokie ryzyko (np. zastosowanie w procesach kadrowych, kredytowych, sądowych) uruchamia obowiązki z art. 9–16 AI Act po stronie dostawcy.
+
+### AUP dla Systemu AI — klauzula obowiązków podmiotu wdrażającego
+
+> Usługobiorca jako podmiot wdrażający System AI w rozumieniu art. 3 pkt 4 AI Act zobowiązuje się do:
+> 1) niestosowania Systemu AI do celów zabronionych na podstawie art. 5 AI Act — w szczególności do manipulacji behawioralnej, biometrycznej kategoryzacji osób ani systemów oceny społecznej;
+> 2) nieprzekazywania do Systemu AI danych szczególnych kategorii w rozumieniu art. 9 RODO, chyba że dokumentacja techniczna Platformy wyraźnie to dopuszcza;
+> 3) weryfikacji wyników Systemu AI przed ich zastosowaniem w procesach wywołujących skutki prawne, finansowe lub organizacyjne wobec osób fizycznych — wymóg nadzoru ludzkiego (human oversight); uwaga: art. 26 ust. 1 lit. d AI Act dotyczy wyłącznie systemów wysokiego ryzyka (Załącznik III AI Act) — dla systemów niskiego ryzyka nadzór ludzki jest dobrą praktyką, nie obowiązkiem ustawowym;
+> 4) niepodejmowania prób inżynierii odwrotnej ani obchodzenia technicznych zabezpieczeń Systemu AI;
+> 5) niezwłocznego powiadomienia Usługodawcy [kanał + termin] o każdym działaniu Systemu AI niezgodnym z jego deklarowanym przeznaczeniem lub mogącym stanowić poważny incydent w rozumieniu art. 3 pkt 49 AI Act.
+
+### Treści wprowadzane do platformy — oświadczenie o uprawnieniach (nie licencja)
+
+❌ Anti-pattern — "licencja na przetwarzanie danych": miesza dwa różne reżimy prawne:
+- dane osobowe → podstawa przetwarzania wynika z DPA (art. 28 RODO) — nie potrzeba licencji
+- treści chronione prawem autorskim → tu jest podstawa dla odrębnej klauzuli, ale nie "licencja na przetwarzanie"
+
+✅ Prawidłowa konstrukcja — oświadczenie o uprawnieniach do treści:
+> Usługobiorca oświadcza, że dysponuje prawami lub uprawnieniami do treści wprowadzanych do Platformy w zakresie umożliwiającym ich przetwarzanie przez Usługodawcę — w tym utrwalanie, zwielokrotnianie i analizę przez System AI — wyłącznie w celu świadczenia Usług. Usługodawca nie nabywa żadnych praw do tych treści ponad zakres niezbędny do świadczenia Usług.
+
+Zamiana z licencji (przyznanie praw) na gwarancję (zapewnienie, że Usługobiorca sam ma uprawnienia) — poprawna konstrukcja, bo to Usługobiorca odpowiada za legalność wprowadzanych treści.

@@ -27,3 +27,13 @@ Modele cenowe, terminy płatności, waloryzacja, prowizje.
 ### Cesja
 
 > Przelew roszczeń następuje nieodpłatnie.
+
+### Platforma aukcyjna — abonament płatny z góry (pre-paid)
+
+> Zryczałtowane opłaty abonamentowe pobierane są z góry od Użytkownika za dany miesiąc kalendarzowy, przed uzyskaniem dostępu do zasobów Portalu — na podstawie faktury VAT wystawionej przez Administratora. Użytkownik uzyskuje dostęp od pierwszego do ostatniego dnia miesiąca, w którym nastąpił zakup Abonamentu; w przypadku zakupu w trakcie miesiąca dostęp przysługuje wyłącznie do końca tego miesiąca bez prawa do proporcjonalnego zwrotu.
+
+### Platforma aukcyjna — prowizja zachowana przy niewykonaniu transakcji
+
+> Administrator Portalu zachowuje prawo do pełnego wynagrodzenia prowizyjnego w przypadku gdy: (a) Aukcja nie dojdzie do skutku z przyczyn leżących po stronie Użytkownika; (b) pomimo skutecznego zakończenia Aukcji Strony nie zawrą umowy będącej jej przedmiotem; (c) którakolwiek ze Stron odstąpi od umowy zawartej w wyniku Aukcji lub ją wypowie. Ciężar wykazania, że przyczyna leży po stronie Administratora, spoczywa na Użytkowniku.
+
+⚠️ Model pre-paid z brakiem pro rata jest dopuszczalny w relacji B2B — wymaga wyraźnego zastrzeżenia jak powyżej. W relacji B2C (konsument) mógłby być kwestionowany jako klauzula abuzywna (art. 3851 KC).

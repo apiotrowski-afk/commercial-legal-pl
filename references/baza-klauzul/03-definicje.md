@@ -37,3 +37,15 @@ Brak definicji kluczowych terminów używanych w umowie. Definicje wewnętrznie 
 ### Umowa ramowa współpracy prowizyjnej
 
 > Klientem w rozumieniu niniejszej Umowy Ramowej jest podmiot, z którym Zleceniodawca zawrze Umowę Inwestycyjną za pośrednictwem usług świadczonych przez Partnera. Klientem nie jest: podmiot z którym Zleceniodawca nawiązał współpracę lub kontakt przed otrzymaniem informacji o tym podmiocie od Partnera.
+
+### Platforma aukcyjna / marketplace B2B
+
+> „Aukcja" — usługa świadczona przez Administratora Portalu, w ramach której Sprzedający oferuje określone usługi lub towary, a Licytanci składają wiążące deklaracje nabycia za postulowaną cenę; kończy się przybiciem albo wykupieniem w trybie Kup Teraz.
+
+> „Licytant / Kupujący" — Użytkownik Abonamentu składający ofertę nabycia w ramach Aukcji; Kupującym staje się z chwilą wygrania Aukcji.
+
+> „Sprzedający" — Użytkownik Abonamentu będący inicjatorem Aukcji, deklarujący zawarcie umowy na warunkach opisanych w jej treści.
+
+> „Użytkownik Abonamentu" — Użytkownik Portalu, który nabył odpłatną usługę abonamentową (Plan Abonamentowy) uprawniającą do pełnego dostępu do zasobów i funkcji Portalu; wyróżnia się od zwykłego Użytkownika posiadaniem aktywnego Abonamentu.
+
+> „Plan Abonamentowy" — odpłatna usługa abonamentowa określająca zakres dostępu do zasobów Portalu (moduły funkcjonalne, możliwość organizacji Aukcji); do korzystania z pełnych zasobów Portalu wymagany jest aktywny Plan Abonamentowy.

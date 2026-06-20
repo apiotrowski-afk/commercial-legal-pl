@@ -32,9 +32,23 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 > Strony zgodnie oświadczają, że łącząca je umowa zlecenia zostaje rozwiązana za porozumieniem stron ze skutkiem na dzień [___]. Zleceniobiorca oświadcza, że wyraża zgodę działając dobrowolnie i świadomie, z pełną świadomością konsekwencji rozwiązania umowy.
 
-### Przydział kwaterunkowy
+### Przydział kwaterunkowy — cofnięcie ze skutkiem natychmiastowym
 
 > Zleceniodawca jest uprawniony do cofnięcia Przydziału kwaterunkowego w każdym czasie, ze skutkiem natychmiastowym, bez podania przyczyny. Zleceniobiorca jest zobowiązany do opróżnienia lokalu nie później niż w terminie 3 dni.
+
+### Przydział kwaterunkowy — wygaśnięcie z mocy prawa (dwie przyczyny)
+
+> Przydział wygasa automatycznie z dniem rozwiązania lub wygaśnięcia Umowy Zlecenia — bez konieczności składania odrębnego oświadczenia. Zleceniobiorca zobowiązany jest do opuszczenia lokalu najpóźniej w ostatnim dniu obowiązywania Umowy Zlecenia.
+
+> Przydział wygasa automatycznie w przypadku opuszczenia przez Zleceniobiorcę lokalu na okres dłuższy niż [___] dni — bez konieczności składania odrębnych oświadczeń przez żadną ze Stron.
+
+### Platforma aukcyjna — zawieszenie i usunięcie konta
+
+> Administrator Portalu jest uprawniony do zawieszenia konta Użytkownika w przypadku: braku płatności abonamentu w terminie lub naruszenia postanowień Regulaminu bądź przepisów prawa.
+
+> Administrator Portalu jest uprawniony do usunięcia konta Użytkownika w przypadku: (a) odmowy zawarcia umowy ze zwycięzcą Aukcji lub niewykonania umowy zawartej w ramach Aukcji; (b) naruszenia Regulaminu lub przepisów prawa.
+
+> W przypadku gdy Użytkownik nie zaakceptuje zmienionego Regulaminu i złoży oświadczenie o braku akceptacji — umowa wygasa, Aukcje Użytkownika zostają automatycznie zakończone po [___] dniach od złożenia oświadczenia, a konto usunięte po [___] dniach od tego dnia.
 
 ### Kompleksowy exit plan (maintenance IT / SaaS)
 

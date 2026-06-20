@@ -35,3 +35,13 @@ Prawo właściwe, właściwość sądu, forma zmian, klauzula salwatoryjna, cesj
 ### Przydział kwaterunkowy
 
 > W przypadku wystąpienia sporu sądowego właściwy do rozpoznania sprawy będzie Sąd ustalony według siedziby Zleceniodawcy.
+
+### Platforma aukcyjna — procedura reklamacyjna
+
+> W przypadku zastrzeżeń do usług Administratora Portalu Użytkownik składa reklamację w formie pisemnej (na adres siedziby Administratora) lub elektronicznej (na wskazany adres e-mail). Reklamacja powinna zawierać co najmniej: opis zastrzeżeń, dane identyfikujące Użytkownika (login, dane korespondencyjne) oraz żądane działanie. Administrator rozpatruje reklamację w terminie 14 dni roboczych od jej otrzymania; jeżeli dane zawarte w reklamacji są niewystarczające, Administrator wzywa do uzupełnienia — czas oczekiwania na uzupełnienie odpowiednio przedłuża termin rozpatrzenia. Odpowiedź wysyłana jest tą samą drogą co reklamacja (e-mail lub pismo).
+
+### Platforma aukcyjna — zmiana Regulaminu i ogłoszenie zmian
+
+> Administrator zastrzega sobie prawo do jednostronnej zmiany Regulaminu. Zmieniony Regulamin wchodzi w życie w terminie [___] dni od dnia ogłoszenia zmian w odpowiedniej sekcji Portalu. Administrator informuje Użytkowników o zmianach wiadomością e-mail na adres wskazany przy rejestracji. Zmiana wysokości opłat abonamentowych nie dotyczy Abonamentów już opłaconych przez Użytkowników.
+
+⚠️ Drafting note: nie stosować wymogu formy pisemnej pod rygorem nieważności dla zmian Regulaminu (§ 9 ust. 2 klasycznego wzorca) — wewnętrznie sprzeczne z prawem do jednostronnej zmiany. Dla B2B standardem jest [___]-dniowy okres wyprzedzenia z ogłoszeniem online. Dla relacji B2C stosuje się art. 384¹ KC: zmiana wzorca umownego wymaga pozostawienia konsumentowi „właściwego terminu" na wypowiedzenie umowy — art. 384¹ KC nie wskazuje minimalnej liczby dni; praktyka UOKIK i orzecznictwo wskazują na co najmniej 14 dni, rynkowym standardem jest 30 dni.

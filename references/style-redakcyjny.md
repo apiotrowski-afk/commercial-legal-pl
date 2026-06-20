@@ -598,6 +598,65 @@ Wzorzec klauzul definicyjnych "afirmacja + negacja katalogiem" — bardzo użyte
 - "Zawarcie niniejszej Umowy nie stanowi…" — klauzule wyłączające skutki
 - "Niniejsza umowa ramowa określa…" — preambuły umów ramowych
 
+### 16. Forma czynności prawnych w obrocie elektronicznym
+
+**Hierarchia form — stosuj świadomie:**
+
+| Pojęcie | Podstawa | Co oznacza | Wymóg |
+|---|---|---|---|
+| **forma pisemna** | art. 78 KC | własnoręczny podpis | odręczny podpis |
+| **forma elektroniczna** | art. 78¹ KC | równoważna pisemnej | kwalifikowany podpis elektroniczny (KPE) |
+| **forma dokumentowa** | art. 77² KC | dokument + identyfikacja osoby | brak podpisu — e-mail, log systemowy z potwierdzeniem |
+| **postać elektroniczna** | — | medium/format (PDF, treść e-maila) | brak — tylko opis nośnika |
+| **droga elektroniczna** | art. 2 pkt 5 u.ś.u.d.e. | kanał transmisji | brak — wyłącznie kanał komunikacji |
+| **kliknięcie bez śladu** | — | akt faktyczny | poza KC |
+
+**Reguła operacyjna — nigdy "drogą elektroniczną" jako samodzielna klauzula formy:**
+
+❌ *"wypowiedzenie złożone drogą elektroniczną"* — niejednoznaczne; "droga elektroniczna" to kanał (u.ś.u.d.e.), a nie forma KC; czytający może mylić z formą elektroniczną (KPE)
+
+✅ Zawsze konkretyzuj kanał:
+
+| Intencja | Prawidłowy zapis |
+|---|---|
+| Zwykły e-mail | *"wiadomością e-mail na adres [___]"* |
+| Panel/system | *"za pośrednictwem panelu Konta (system generuje potwierdzenie e-mail)"* |
+| E-mail lub pismo | *"wiadomością e-mail na adres [___] albo w formie pisemnej na adres siedziby"* |
+
+*"Drogą elektroniczną"* stosuj wyłącznie tam, gdzie ustawa o świadczeniu usług drogą elektroniczną używa tego pojęcia wprost — bo tam jest terminem technicznym, nie klauzulą formy.
+
+**"Forma dokumentowa" a kliknięcie:**
+- Sam klik = akt faktyczny, nie oświadczenie *"w postaci dokumentu"* (art. 77³ KC)
+- Klik + automatyczny e-mail potwierdzający = forma dokumentowa (e-mail jest nośnikiem)
+- Klik + log systemowy z identyfikacją użytkownika = prawdopodobnie forma dokumentowa
+- Akceptacja regulaminu checkboxem: wystarczająca dla u.ś.u.d.e. (art. 8) niezależnie od kwalifikacji KC
+
+### 17. Definicje — zasady poprawnego definiowania w regulaminach
+
+**Zakaz tautologii:**
+
+❌ *„Serwis" — serwis internetowy dostępny pod adresem…*
+→ definiowanie pojęcia przez siebie samo
+
+✅ *„Serwis" — platforma dostępna za pośrednictwem sieci Internet pod adresem [___], za pośrednictwem której Usługodawca świadczy Usługi.*
+→ opis funkcjonalny bez powtórzenia definiowanego słowa
+
+**Platforma/Serwis — zawsze dodawaj dostęp przez sieć Internet:**
+
+Sformułowanie *"dostępny za pośrednictwem sieci Internet"* precyzuje medium dostępu i ma znaczenie dla kwalifikacji jako usługi świadczonej drogą elektroniczną w rozumieniu u.ś.u.d.e.
+
+**Usługobiorca — powiązanie z aktem, nie z akceptacją wzorca:**
+
+❌ *podmiot, który zawarł umowę na podstawie niniejszego Regulaminu*
+→ "na podstawie Regulaminu" nie opisuje stosunku prawnego — Regulamin to wzorzec umowy, nie podstawa
+
+✅ *podmiot, który zawarł Umowę ramową przez rejestrację Konta i akceptację Regulaminu*
+→ konkretny akt wejścia w relację (rejestracja / złożenie zamówienia)
+
+**Dziennik Ustaw — oznaczenie tekstu jednolitego:**
+
+Przy pierwszym powołaniu ustaw mniej znanych lub gdy brzmienie tekstu jednolitego ma znaczenie — dodać oznaczenie *t.j. Dz. U. z [rok] r. poz. [numer] ze zm.* Dotyczy w szczególności u.ś.u.d.e., u.p.k., ustawy o ochronie praw lokatorów.
+
 ---
 
 ## Zasady dla Claude'a — jak korzystać z tego pliku
@@ -636,6 +695,11 @@ Wzorzec klauzul definicyjnych "afirmacja + negacja katalogiem" — bardzo użyte
    - **Powtórzenie tej samej regulacji w dwóch miejscach umowy** (W5) → zostaw jedno miejsce, w drugim wstaw odwołanie ("zgodnie z § X")
    - **Odesłanie do KC/PrAut/KP bez funkcji prawnej** (np. "zgodnie z art. 355 § 1 KC" przy ogólnym standardzie staranności, "w sprawach nieuregulowanych stosuje się KC" w postanowieniach końcowych) (W6) → usuń lub przeformułuj
    - **"Strony zawierają umowę na podstawie art. 750 KC…"** w preambule lub § Przedmiot — odesłanie zbędne, typ wynika z treści (W6) → usuń odesłanie
+   - **"drogą elektroniczną"** jako klauzula formy oświadczenia (wypowiedzenie, reklamacja, wezwanie) → zawsze konkretny kanał: "wiadomością e-mail na adres [___]" lub "za pośrednictwem panelu Konta" (sekcja 16)
+   - **"w formie elektronicznej"** dla zwykłego e-maila lub kliknięcia → art. 78¹ KC wymaga KPE; użyj "wiadomością e-mail na adres [___]" albo "w postaci elektronicznej" (sekcja 16)
+   - **Tautologia w definicji** (np. „Serwis" — serwis internetowy…) → przepisz na opis funkcjonalny bez powtórzenia definiowanego słowa (sekcja 17)
+   - **"Usługobiorca" zdefiniowany przez akceptację Regulaminu** bez wskazania aktu wejścia w relację → powiąż z rejestracją lub złożeniem zamówienia (sekcja 17)
+   - **"Licencja na przetwarzanie danych"** → konstrukcja nieistniejąca; dane osobowe → DPA (art. 28 RODO); treści chronione → oświadczenie o uprawnieniach do treści (zob. 20-regulamin-usdde-aup.md)
 
 ---
 

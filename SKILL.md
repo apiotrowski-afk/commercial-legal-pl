@@ -40,6 +40,7 @@ Na podstawie tego, co użytkownik napisał lub załączył, wybierz odpowiedni w
 | *„szybko sprawdź", „triage", „czy to OK do podpisania"*, krótka umowa | `workflows/triage-szybki.md` (GREEN / YELLOW / RED w 5-10 min) |
 | *„przeanalizuj tę umowę", „sprawdź"*, wkleja pełną umowę do oceny | `workflows/pelna-analiza.md` (5-etapowa analiza) |
 | *„wygeneruj umowę", „stwórz NDA", „napisz umowę body leasing"* | `workflows/generator-umow.md` (5-krokowy generator) |
+| *„wygeneruj regulamin", „napisz regulamin usług / sklepu / SaaS / platformy"* | `workflows/generator-regulaminu.md` (cold start → wywiad → szkielet → treść) |
 | *„sprawdź ryzyka", „audyt", „co tu jest niebezpieczne"* | `workflows/audyt-ryzyk.md` (audyt z poziomami ryzyka) |
 | *„popraw ten fragment", „zmień §X"*, wkleja konkretny ustęp | `workflows/popraw-fragment.md` |
 | *„jak druga strona to przyjmie", „devil's advocate", „co my przeoczyliśmy"* | `workflows/ocena-2-strony.md` (analiza oczami drugiej strony) |
@@ -97,6 +98,7 @@ workflows/
 ├── triage-szybki.md                    ← szybka kategoryzacja GREEN/YELLOW/RED
 ├── pelna-analiza.md                    ← 5-etapowy workflow analizy
 ├── generator-umow.md                   ← 5-krokowy generator (z kontekstem)
+├── generator-regulaminu.md             ← cold start → 3 ścieżki (Ogólny/SaaS/E-commerce)
 ├── audyt-ryzyk.md                      ← standalone audyt z poziomami
 ├── ocena-2-strony.md                   ← analiza oczami drugiej strony
 ├── cold-start-klienta.md               ← onboarding nowego klienta (wywiad)

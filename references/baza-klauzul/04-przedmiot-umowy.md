@@ -34,6 +34,14 @@ Ogólnikowy opis typu „usługi informatyczne” bez konkretyzacji. Brak wskaza
 
 > Przedmiotem Umowy jest: (a) udzielenie przez Licencjodawcę odpłatnej, niewyłącznej licencji na korzystanie z Know-how; (b) świadczenie przez Licencjodawcę Usług Doradczych.
 
-### Przydział kwaterunkowy
+### Przydział kwaterunkowy — przedmiot
 
 > W celu umożliwienia Zleceniobiorcy należytej realizacji przedmiotu Umowy Zlecenia, Zleceniodawca, na czas trwania tej umowy, przyznaje Zleceniobiorcy nieodpłatny Przydział kwaterunkowy, polegający na udostępnieniu mu do używania części nieruchomości.
+
+### Przydział kwaterunkowy — charakter prawny (nie najem, nie ustawa lokatorów)
+
+*Klauzula uogólniona na podstawie praktyki KTZR w umowach body leasing z delegowanym specjalistą.*
+
+> Udostępnienie lokalu Zleceniobiorcy na mocy niniejszego Przydziału nie stanowi umowy najmu ani dzierżawy w rozumieniu przepisów Kodeksu cywilnego ani nie podlega przepisom ustawy z dnia 21 czerwca 2001 r. o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego. Stosunek prawny łączący Strony jest stosunkiem nieodpłatnego udostępnienia lokalu do używania, ściśle związanym z istnieniem i realizacją Umowy Zlecenia. Zleceniobiorca nie nabywa żadnych praw do lokalu ani rzeczy w nim się znajdujących, poza prawem do ich nieodpłatnego używania na zasadach określonych w Przydziale.
+
+⚠️ Kluczowe dla body leasingu i umów zlecenia z delegowanym wykonawcą: wyraźne wyłączenie ochrony lokatorskiej (ustawa z 2001 r.) i reżimu najmu (art. 659 KC) eliminuje ryzyko roszczeń o przedłużenie pobytu po zakończeniu zlecenia. Sądy akceptują tę konstrukcję pod warunkiem że udostępnienie jest rzeczywiście bezpłatne i powiązane z umową główną. Uwaga: stosunek ten może być kwalifikowany jako użyczenie (art. 710 KC) — implikuje art. 716 KC (żądanie zwrotu przedmiotu użyczenia przy zajściu nieprzewidzianych okoliczności).
