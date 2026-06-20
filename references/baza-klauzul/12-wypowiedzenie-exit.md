@@ -10,7 +10,7 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 ### Klauzula wzorcowa (generyczny IT)
 
-> Każda ze Stron może wypowiedzieć Umowę z zachowaniem 30-dniowego okresu wypowiedzenia. Rozwiązanie natychmiastowe przysługuje w przypadku: (a) istotnego naruszenia Umowy nieusuniętego w terminie 14 dni od wezwania; (b) złożenia wniosku o upadłość; (c) zaprzestania działalności. W terminie 14 dni od zakończenia Umowy Wykonawca przekaże Zamawiającemu: całość kodu źródłowego, dokumentację techniczną, dane dostępowe, kopie danych oraz udzieli wsparcia migracyjnego w wymiarze do 40 godzin.
+> Każda ze Stron może wypowiedzieć Umowę z zachowaniem [___]-dniowego okresu wypowiedzenia. Rozwiązanie natychmiastowe przysługuje w przypadku: (a) istotnego naruszenia Umowy nieusuniętego w terminie [___] dni od wezwania; (b) złożenia wniosku o upadłość; (c) zaprzestania działalności. W terminie [___] dni od zakończenia Umowy Wykonawca przekaże Zamawiającemu: całość kodu źródłowego, dokumentację techniczną, dane dostępowe, kopie danych oraz udzieli wsparcia migracyjnego w wymiarze do [___] godzin.
 
 ## Klauzule z umów KTZR
 
@@ -31,6 +31,8 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 ### Porozumienie o rozwiązaniu umowy zlecenia
 
 > Strony zgodnie oświadczają, że łącząca je umowa zlecenia zostaje rozwiązana za porozumieniem stron ze skutkiem na dzień [___]. Zleceniobiorca oświadcza, że wyraża zgodę działając dobrowolnie i świadomie, z pełną świadomością konsekwencji rozwiązania umowy.
+
+⚠️ Zdanie drugie („działając dobrowolnie i świadomie...") jest klauzulą pustą (W7) — nie zamyka zarzutów z art. 82–86 KC (wady oświadczenia woli). W nowych porozumieniach pomijaj.
 
 ### Udostępnienie lokalu — cofnięcie ze skutkiem natychmiastowym
 
@@ -59,6 +61,6 @@ Brak możliwości wypowiedzenia (umowa na czas nieokreślony bez klauzuli exit).
 
 > W okresie [___] dni od daty zakończenia Umowy Wykonawca świadczy wsparcie przejściowe na rzecz Zamawiającego lub wskazanego przez niego podmiotu, obejmujące udzielanie odpowiedzi na pytania techniczne, udział w spotkaniach roboczych i pomoc przy wdrożeniu u nowego dostawcy. Wynagrodzenie za wsparcie przejściowe jest objęte ostatnią fakturą za utrzymanie i nie stanowi podstawy do odrębnych roszczeń Wykonawcy.
 
-> Po upływie okresu wsparcia przejściowego Wykonawca trwale i nieodwracalnie usuwa wszelkie dane, kody źródłowe i dokumentację Zamawiającego ze wszystkich urządzeń, nośników i systemów Wykonawcy oraz podmiotów powiązanych — z zastosowaniem metod uniemożliwiających odtworzenie. W terminie [___] Dni Roboczych przekazuje Zamawiającemu pisemne oświadczenie potwierdzające wykonanie tego obowiązku, ze wskazaniem metody usunięcia.
+> Po upływie okresu wsparcia przejściowego Wykonawca trwale i nieodwracalnie usuwa wszelkie dane, kody źródłowe i dokumentację Zamawiającego ze wszystkich urządzeń, nośników i systemów Wykonawcy oraz podmiotów powiązanych — z zastosowaniem metod uniemożliwiających odtworzenie. W terminie [___] Dni Roboczych od trwałego usunięcia danych Wykonawca przekazuje Zamawiającemu pisemne oświadczenie potwierdzające wykonanie tego obowiązku, ze wskazaniem metody usunięcia.
 
 > Zamawiający jest uprawniony do przeprowadzenia niezależnego audytu systemów Wykonawcy w celu weryfikacji wykonania obowiązku trwałego usunięcia danych, na co Wykonawca wyraża bezwarunkową zgodę.

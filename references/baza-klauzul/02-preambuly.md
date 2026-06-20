@@ -82,7 +82,7 @@ Razem (zawężenie definicji + klauzula autonomii) zamykają zarówno kalendarz,
 
 ### Umowa licencyjno-doradcza
 
-> ZWAŻYWSZY, ŻE: A. Licencjodawca jest organizacją posiadającą specjalistyczną wiedzę, doświadczenie oraz unikalny model biznesowy w zakresie tworzenia i prowadzenia jednostek w niszowym obszarze gospodarczym. [...] D. Licencjobiorca jest zainteresowana uzyskaniem licencji na korzystanie z Know-how Licencjodawcy oraz otrzymywaniem wsparcia doradczego.
+> ZWAŻYWSZY, ŻE: A. Licencjodawca jest organizacją posiadającą specjalistyczną wiedzę, doświadczenie oraz sprawdzone metody działania w zakresie tworzenia i prowadzenia jednostek biznesowych w [___] sektorze. [...] D. Licencjobiorca jest zainteresowany uzyskaniem licencji na korzystanie z Know-how Licencjodawcy oraz otrzymywaniem wsparcia doradczego.
 
 ### Umowa o usługi księgowe
 

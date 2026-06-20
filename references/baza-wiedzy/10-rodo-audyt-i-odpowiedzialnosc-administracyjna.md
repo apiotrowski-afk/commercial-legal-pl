@@ -187,7 +187,7 @@ Dostępne źródła publiczne nie zawierają szczegółowej analizy cywilnoprawn
 
 Obszar wymagający szczególnej ostrożności — kancelaria radców prawnych może być zarówno **procesorem** (jeśli klient powierza jej dane swoich klientów do obsługi prawnej), jak i **administratorem** (typowo — wtedy gdy korzysta z procesorów typu Anthropic, Google Workspace, FOTC).
 
-Kolizja: prawo audytu wymaga ujawnienia informacji o sposobie przetwarzania, ale tajemnica zawodowa radców prawnych (art. 3 u.r.p., art. 6 KERP — ogólny obowiązek zawodowy + art. 15 KERP — tajemnica zawodowa) ogranicza ujawnienie informacji uzyskanych w związku z prowadzeniem sprawy klienta.
+Kolizja: prawo audytu wymaga ujawnienia informacji o sposobie przetwarzania, ale tajemnica zawodowa radców prawnych (art. 3 ust. 3–5 u.r.p., art. 6 KERP — ogólny obowiązek zawodowy + art. 15 KERP — tajemnica zawodowa) ogranicza ujawnienie informacji uzyskanych w związku z prowadzeniem sprawy klienta.
 
 #### Stanowisko Claude'a przy generowaniu umów powierzenia z kancelarią prawną
 

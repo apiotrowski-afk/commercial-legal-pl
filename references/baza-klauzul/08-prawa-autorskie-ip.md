@@ -30,6 +30,8 @@ Brak wskazania pól eksploatacji (przeniesienie nieskuteczne — art. 41 ust. 2 
 
 > Udzielenie Licencji nie przenosi na Licencjobiorcę żadnych praw własności intelektualnej do Know-how. Licencjobiorca nie jest uprawniona do modyfikowania, adaptowania, dekompilowania, odtwarzania kodu źródłowego ani tworzenia opracowań bez uprzedniej pisemnej zgody Licencjodawcy.
 
+⚠️ W zakresie, w jakim Know-how obejmuje programy komputerowe: bezwzględny zakaz dekompilacji jest nieważny co do dekompilacji dla interoperacyjności — art. 75 ust. 3 PrAut jest semiimperatywny (art. 58 § 1 KC). Dla Know-how niebędącego programem komputerowym pełny zakaz modyfikacji może być skuteczny.
+
 ### NDA IT (KTZR)
 
 > Niniejsza Umowa nie przenosi na Stronę Otrzymującą żadnych praw własności intelektualnej, licencji, patentów, znaków towarowych ani innych uprawnień. Udostępnienie Informacji Poufnych nie stanowi udzielenia licencji.
@@ -55,3 +57,5 @@ Brak wskazania pól eksploatacji (przeniesienie nieskuteczne — art. 41 ust. 2 
 > Wraz z przeniesieniem autorskich praw majątkowych Wykonawca przenosi prawo do wykonywania i zezwalania na wykonywanie zależnych praw autorskich, w tym modyfikacji, lokalizacji, kompilacji i opracowań udostępnianych pod marką Zamawiającego bez wskazywania Wykonawcy jako twórcy (model white-label). Dla Utworów stanowiących program komputerowy zastosowanie znajduje art. 77 PrAut, wyłączający sprzeciw wobec modyfikacji i nadzór autorski.
 
 > Na pisemne wezwanie Zamawiającego Wykonawca zobowiązuje się zawrzeć umowę przenoszącą autorskie prawa majątkowe do Utworów na każde nowe pole eksploatacji, które stanie się znane po dacie zawarcia Umowy — bez prawa do dodatkowego wynagrodzenia, w terminie 14 dni od wezwania.
+
+⚠️ Zobowiązanie do zawarcia umowy na **przyszłe pola eksploatacji** może być kwestionowane na podstawie art. 41 ust. 4 PrAut — umowa może obejmować wyłącznie pola znane w chwili zawarcia; nieważność klauzuli grozi z art. 58 § 1 KC. Bezpieczniejsza alternatywa: zostawić warunki (cenę i zakres) do negocjacji na moment, gdy nowe pole stanie się znane.

@@ -4,7 +4,7 @@ Doktryna prawnicza, orzecznictwo i strategia kontraktowa wspomagająca rozumieni
 
 ## Zasada nadrzędna — wiedza vs tekst umowy
 
-Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania do umowy. Liczne odesłania do art. KC/PrAut/RODO/KP są tutaj kontekstem doktrynalnym. W generowanej treści umowy stosuj zasadę **W6 — Oszczędne odsyłanie do przepisów** (`../style-redakcyjny.md`).
+Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania do umowy. Liczne odesłania do art. KC/PrAut/RODO/KP są tutaj kontekstem doktrynalnym. W generowanej treści umowy stosuj zasadę **W6 — Oszczędne odsyłanie do przepisów** (`references/style-redakcyjny.md`).
 
 ## Mapa bazy
 
@@ -51,18 +51,18 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 Baza wiedzy łączy się z trzema innymi miejscami w skillu:
 
 1. **Klauzule praktyczne** (`baza-klauzul/`) — wiedza doktrynalna wyjaśnia, **dlaczego** klauzule są napisane tak a nie inaczej
-2. **Złote Reguły** (`zlote-reguly.md`) — wiedza doktrynalna nie zastępuje reguł nadrzędnych
-3. **Styl redakcyjny** (`style-redakcyjny.md`) — wiedza doktrynalna nie zmienia zasady oszczędnego odsyłania (W6)
+2. **Złote Reguły** (`references/zlote-reguly.md`) — wiedza doktrynalna nie zastępuje reguł nadrzędnych
+3. **Styl redakcyjny** (`references/style-redakcyjny.md`) — wiedza doktrynalna nie zmienia zasady oszczędnego odsyłania (W6)
 
 ## Typowe ścieżki użycia
 
 **Analiza umowy maintenance IT z SLA:**
-1. `essentialia-mapowanie.md` → kwalifikacja prawna
+1. `references/essentialia-mapowanie.md` → kwalifikacja prawna
 2. `baza-wiedzy/01-maintenance-art750-kc.md` → potwierdzenie/uściślenie art. 750 KC, charakter starannego działania
 3. `baza-klauzul/04-przedmiot-umowy.md` → klauzule
 
 **Generowanie umowy przeniesienia praw do programu z open source:**
-1. `essentialia-mapowanie.md` → wymagania konstrukcyjne
+1. `references/essentialia-mapowanie.md` → wymagania konstrukcyjne
 2. `baza-wiedzy/02-przeniesienie-praw-oprogramowanie.md` → katalog pól eksploatacji
 3. `baza-wiedzy/03-prawa-zalezne-osobiste-program.md` → konstrukcja praw zależnych/osobistych
 4. `baza-wiedzy/04-open-source-copyleft.md` → trzy warstwy ochrony

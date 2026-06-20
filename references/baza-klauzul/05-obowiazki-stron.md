@@ -10,7 +10,7 @@ Obowiązki określone tylko po stronie wykonawcy. Brak konsekwencji za opóźnie
 
 ### Klauzula wzorcowa (generyczny IT)
 
-> Zamawiający zobowiązuje się do: (a) udostępnienia Wykonawcy środowiska testowego w terminie 5 Dni Roboczych od podpisania Zamówienia; (b) wyznaczenia osoby decyzyjnej upoważnionej do odbioru prac; (c) udzielania odpowiedzi na pytania Wykonawcy w terminie 3 Dni Roboczych. Opóźnienie Zamawiającego w realizacji powyższych obowiązków przesuwa terminy realizacji o odpowiedni okres.
+> Zamawiający zobowiązuje się do: (a) udostępnienia Wykonawcy środowiska testowego w terminie 5 Dni Roboczych od podpisania Zamówienia; (b) wyznaczenia osoby decyzyjnej upoważnionej do odbioru prac; (c) udzielania odpowiedzi na pytania Wykonawcy w terminie 3 Dni Roboczych. Opóźnienie Zamawiającego w realizacji powyższych obowiązków przesuwa terminy realizacji o czas trwania opóźnienia.
 
 ## Klauzule z umów KTZR
 
@@ -22,7 +22,7 @@ Obowiązki określone tylko po stronie wykonawcy. Brak konsekwencji za opóźnie
 
 ### Umowa o usługi księgowe
 
-> Zleceniobiorca zobowiązuje się do bieżącej weryfikacji otrzymywanych od Zleceniodawcy dokumentów pod względem formalnym i rachunkowym oraz do niezwłocznego informowania Zleceniodawcy o stwierdzonych brakach, wadach lub nieprawidłowościach.
+> Zleceniobiorca zobowiązuje się do bieżącej weryfikacji otrzymywanych od Zleceniodawcy dokumentów pod względem formalnym i rachunkowym oraz do informowania Zleceniodawcy o stwierdzonych brakach, wadach lub nieprawidłowościach w terminie [___] Dni Roboczych od ich stwierdzenia.
 
 > Zleceniodawca zobowiązuje się do terminowego dostarczania Zleceniobiorcy kompletnych i rzetelnych dokumentów księgowych, odzwierciedlających rzeczywisty przebieg operacji gospodarczych.
 

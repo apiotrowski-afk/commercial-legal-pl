@@ -30,13 +30,13 @@ Brak definicji kluczowych terminów używanych w umowie. Definicje wewnętrznie 
 
 ### Umowa licencyjno-doradcza
 
-> Know-how – poufny, istotny i zidentyfikowany zbiór nieopatentowanych informacji praktycznych, posiadających wartość gospodarczą, wynikających z wiedzy i doświadczenia Licencjodawcy, obejmujący w szczególności model działania jednostki w niszowym obszarze gospodarczym [...] stanowiące tajemnicę przedsiębiorstwa Licencjodawcy w rozumieniu art. 11 ust. 2 Ustawy o zwalczaniu nieuczciwej konkurencji.
+> „Know-how" — poufny, istotny i zidentyfikowany zbiór nieopatentowanych informacji praktycznych, posiadających wartość gospodarczą, wynikających z wiedzy i doświadczenia Licencjodawcy, obejmujący w szczególności model działania jednostki biznesowej w danym segmencie rynku [...] stanowiące tajemnicę przedsiębiorstwa Licencjodawcy w rozumieniu art. 11 ust. 2 Ustawy o zwalczaniu nieuczciwej konkurencji.
 
-> Siła Wyższa – zdarzenie zewnętrzne, niemożliwe do przewidzenia i niemożliwe do zapobiegnięcia, takie jak wojna, klęski żywiołowe, strajki o zasięgu ogólnokrajowym, akty władzy państwowej, które uniemożliwia jednej ze Stron wykonanie jej zobowiązań.
+> „Siła Wyższa" — zdarzenie zewnętrzne, niemożliwe do przewidzenia i niemożliwe do zapobiegnięcia, takie jak wojna, klęski żywiołowe, strajki o zasięgu ogólnokrajowym, akty władzy państwowej, które uniemożliwia jednej ze Stron wykonanie jej zobowiązań.
 
 ### Umowa ramowa współpracy prowizyjnej
 
-> Klientem w rozumieniu niniejszej Umowy Ramowej jest podmiot, z którym Zleceniodawca zawrze Umowę Inwestycyjną za pośrednictwem usług świadczonych przez Partnera. Klientem nie jest: podmiot z którym Zleceniodawca nawiązał współpracę lub kontakt przed otrzymaniem informacji o tym podmiocie od Partnera.
+> Klientem w rozumieniu niniejszej Umowy Ramowej jest podmiot, z którym Zleceniodawca zawrze Umowę [___] za pośrednictwem usług świadczonych przez Partnera. Klientem nie jest: podmiot z którym Zleceniodawca nawiązał współpracę lub kontakt przed otrzymaniem informacji o tym podmiocie od Partnera.
 
 ### Platforma aukcyjna / marketplace B2B
 

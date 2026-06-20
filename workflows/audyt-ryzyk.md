@@ -147,3 +147,7 @@ Po audycie zaproponuj **konkretne klauzule z bazy** do naprawy najpoważniejszyc
 ```
 
 Nie wkleja się tu pełnej treści klauzul (chyba że użytkownik prosi) — pokazujesz, **gdzie ich szukać**.
+
+---
+
+**STOP. Zaprezentuj raport i zapytaj:** „Chcesz żebym wygenerował poprawione klauzule dla któregoś ze wskazanych ryzyk?"

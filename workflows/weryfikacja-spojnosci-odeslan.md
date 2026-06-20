@@ -340,6 +340,6 @@ Najsilniejsza ścieżka dla bardzo długich umów:
 
 1. **Claude (ten skill)** — pełna analiza 5-etapowa + workflow weryfikacji w Pass 1/Pass 2
 2. **NotebookLM** — 2-3 wywołania dedykowane sprawdzeniu odesłań, terminologii, kwot
-3. **Powrót do Claude** — synteza obu raportów, rozwiązanie konfliktów, opracowanie listy poprawek z odpowiednimi klauzulami z `baza-klauzul/`
+3. **Powrót do Claude** — synteza obu raportów, rozwiązanie konfliktów, opracowanie listy poprawek z odpowiednimi klauzulami z `references/baza-klauzul/`
 
-NotebookLM **nie zastępuje** skilla — uzupełnia go w wąskiej, ale ważnej warstwie weryfikacji wewnętrznej spójności bardzo długich umów. Cała warstwa doktrynalna (`baza-wiedzy/`), klauzulowa (`baza-klauzul/`), stylistyczna (`style-redakcyjny.md`) i workflow agentowy pozostaje w Claude.
+NotebookLM **nie zastępuje** skilla — uzupełnia go w wąskiej, ale ważnej warstwie weryfikacji wewnętrznej spójności bardzo długich umów. Cała warstwa doktrynalna (`references/baza-wiedzy/`), klauzulowa (`references/baza-klauzul/`), stylistyczna (`references/style-redakcyjny.md`) i workflow agentowy pozostaje w Claude.

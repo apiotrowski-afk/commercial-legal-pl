@@ -144,5 +144,5 @@ Przy ugodach kończących spór o wizerunek (zwłaszcza w utworach audiowizualny
 - `baza-klauzul/02-preambuly.md` — adnotacja o rozpisaniu historii stron w ugodach
 - `baza-klauzul/16-ugody.md` — wzorzec porozumienia/ugody (art. 917 KC)
 - `baza-wiedzy/02-przeniesienie-praw-oprogramowanie.md` — autonomia art. 41 PrAut (analogiczna logika konstrukcyjna)
-- `style-redakcyjny.md` — W6 (oszczędne odsyłanie do przepisów w tekście umowy)
+- `references/style-redakcyjny.md` — W6 (oszczędne odsyłanie do przepisów w tekście umowy)
 

@@ -79,7 +79,7 @@ Sprawdź spójność wewnętrzną umowy:
 - Umowa > 15 stron lub > 5 000 słów
 - > 15 paragrafów
 - > 10 odesłań międzyparagrafowych ("§ X ust. Y") w treści
-- Wstępna analiza (kroki 1-6 powyżej) wykazała > 2 niespójności
+- Wstępna analiza (kroki 1-6 powyżej) wykazała > 3 niespójności
 - Słowa kluczowe sygnalizujące złożoność: "Załącznik", "z zastrzeżeniem", "powyższe", "stosuje się odpowiednio"
 
 **Jeśli spełnione co najmniej dwa z powyższych** — zamiast skróconej analizy w 1-2 zdaniach, **otwórz `workflows/weryfikacja-spojnosci-odeslan.md`** i wykonaj jego dwuetapową procedurę (inwentaryzacja → weryfikacja). To zajmie 5-10 min, ale wykrywa błędy, których pojedynczy przebieg nie złapie.

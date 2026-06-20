@@ -119,7 +119,7 @@ W umowie warto:
 
 - **Ureguluj dokumentację i kod źródłowy** — osobno wskaż, że przeniesienie obejmuje kody źródłowe, skrypty, konfiguracje, narzędzia developerskie tworzone w ramach umowy, dokumentację projektową i techniczną; określ formę przekazania (repozytoria, formaty plików)
 
-- **Zadbaj o zgodność z art. 75 PrAut (dozwolone działania użytkownika)** — nie próbuj "sprzedawać" uprawnień, które użytkownik ma z mocy prawa (kopie zapasowe, testowanie, dekompilacja dla interoperacyjności). Licencja w tym zakresie byłaby umową o świadczenie niemożliwe (art. 387 § 1 KC)
+- **Zadbaj o zgodność z art. 75 PrAut (dozwolone działania użytkownika)** — nie próbuj "sprzedawać" uprawnień, które użytkownik ma z mocy prawa (kopie zapasowe, testowanie, dekompilacja dla interoperacyjności). Klauzula ograniczająca te uprawnienia jest nieważna z mocy prawa — art. 75 ust. 3 PrAut jest semiimperatywny (art. 58 § 1 KC)
 
 ---
 

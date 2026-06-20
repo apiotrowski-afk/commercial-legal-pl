@@ -39,6 +39,7 @@ Na podstawie tego, co użytkownik napisał lub załączył, wybierz odpowiedni w
 |---|---|
 | *„szybko sprawdź", „triage", „czy to OK do podpisania"*, krótka umowa | `workflows/triage-szybki.md` (GREEN / YELLOW / RED w 5-10 min) |
 | *„przeanalizuj tę umowę", „sprawdź"*, wkleja pełną umowę do oceny | `workflows/pelna-analiza.md` (5-etapowa analiza) |
+| *„sprawdź odesłania", „czy paragrafy się zgadzają"*, lub auto-trigger z pełnej analizy | `workflows/weryfikacja-spojnosci-odeslan.md` (dwuetapowy: inwentaryzacja → weryfikacja) |
 | *„wygeneruj umowę", „stwórz NDA", „napisz umowę body leasing"* | `workflows/generator-umow.md` (5-krokowy generator) |
 | *„wygeneruj regulamin", „napisz regulamin usług / sklepu / SaaS / platformy"* | `workflows/generator-regulaminu.md` (cold start → wywiad → szkielet → treść) |
 | *„sprawdź ryzyka", „audyt", „co tu jest niebezpieczne"* | `workflows/audyt-ryzyk.md` (audyt z poziomami ryzyka) |

@@ -57,7 +57,6 @@ Komentarz do **art. 77 PrAut** wskazuje, że do programów komputerowych **nie s
 - **Nie ma zastosowania prawo do integralności utworu** (nienaruszalność treści i formy)
 - **Nie ma zastosowania prawo do nadzoru nad sposobem korzystania z utworu**
 - **Brak prawa do decydowania o pierwszym udostępnieniu** programu publiczności
-- **Brak tzw. "prawa do wycofania utworu"** (art. 56–57)
 
 Jednocześnie twórcy programu komputerowego **przysługują autorskie prawa osobiste** w zakresie:
 - **Prawa do autorstwa utworu**

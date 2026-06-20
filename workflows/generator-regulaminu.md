@@ -280,6 +280,8 @@ Kontakt: [dane z wywiadu]
 
 Po wygenerowaniu całości → **ETAP 4 (QA)**.
 
+**STOP. Zapytaj:** „Chcesz żebym teraz przeprowadził QA regulaminu?"
+
 ---
 
 ## ETAP 4: Weryfikacja (QA)
@@ -294,6 +296,7 @@ Sprawdź regulamin pod kątem:
 6. **Terminologia** — jedna nazwa strony przez cały regulamin
 7. **Formularz odstąpienia (E-commerce B2C)** — czy §Prawo Odstąpienia zawiera wzór formularza lub odesłanie do formularza z Załącznika nr 2 u.p.k. (art. 30 u.p.k.)
 8. **Obowiązki informacyjne (E-commerce i SaaS B2C)** — czy regulamin lub wskazane miejsce na stronie pokrywa minimum art. 12 u.p.k. (dane sprzedawcy, łączna cena, czas trwania, prawo odstąpienia, interoperacyjność treści cyfrowych)
+9. **Reklamacje B2C (SaaS z B2C / E-commerce)** — termin w § Reklamacje musi być w dniach **kalendarzowych**, nie roboczych; art. 7a u.p.k. limituje do 14 dni kal. (dłuższy termin = reklamacja uznana z mocy prawa). Przelicz: 1 tydzień = 7 dni kal.; 1 dzień roboczy ≠ 1 dzień kalendarzowy.
 
 Zwróć QA jako listę ✅ / ⚠️ / ❌, a następnie finalny regulamin:
 

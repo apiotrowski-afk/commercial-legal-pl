@@ -46,7 +46,9 @@ Kanały zgłoszeń (panel klienta, e-mail, formularz), zakres wymaganych danych,
 
 ---
 
-## III. Wyłączenie odpowiedzialności hostingu — art. 14 u.ś.u.d.e.
+## III. Wyłączenie odpowiedzialności hostingu — art. 6 DSA (Rozp. 2022/2065)
+
+> ⚠️ Podstawa prawna: od 17.02.2024 r. wyłączenie odpowiedzialności hostingu opiera się na **art. 6 DSA** (Rozp. 2022/2065), stosowanym bezpośrednio jako lex posterior do art. 14 u.ś.u.d.e. (art. 89 DSA). W powołaniach regulaminowych wskazuj art. 6 DSA; art. 14 u.ś.u.d.e. — tylko pomocniczo poza zakresem DSA.
 
 Usługodawca nie ponosi odpowiedzialności za przechowywane przez usługobiorcę dane, jeżeli:
 - nie wie o ich bezprawnym charakterze,

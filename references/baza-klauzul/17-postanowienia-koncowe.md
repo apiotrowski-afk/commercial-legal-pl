@@ -16,7 +16,9 @@ Prawo właściwe, właściwość sądu, forma zmian, klauzula salwatoryjna, cesj
 
 ### Cesja
 
-> W sprawach nieuregulowanych niniejszą Umową mają zastosowanie przepisy Kodeksu Cywilnego, w szczególności art. 509 i następne.
+> W sprawach nieuregulowanych niniejszą Umową mają zastosowanie przepisy Kodeksu cywilnego, w szczególności art. 509 i następne.
+
+⚠️ Klauzula `W sprawach nieuregulowanych` powtarza normę KC obowiązującą z mocy prawa — jest zbędna. W nowych umowach używaj zamiast niej: `Umowa podlega prawu polskiemu.` (szczególnie gdy umowa ma element transgraniczny). Oryginał zawierał błąd ortograficzny: `Kodeksu Cywilnego` → `Kodeksu cywilnego`.
 
 ### Umowa rezerwacyjna (nieruchomości)
 

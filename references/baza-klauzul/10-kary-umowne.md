@@ -10,7 +10,7 @@ Kary tylko na jedną stronę. Brak capów na kary (kumulacja może przekroczyć 
 
 ### Klauzula wzorcowa (generyczny IT)
 
-> Wykonawca zapłaci Zamawiającemu karę umowną w wysokości: (a) 10% wynagrodzenia brutto za każdy dzień opóźnienia w realizacji Kamienia Milowego, nie więcej niż 30% wynagrodzenia za dany Kamień Milowy; (b) [kwota] PLN za każdy przypadek naruszenia poufności; (c) równowartość 12-miesięcznego wynagrodzenia Specjalisty za naruszenie zakazu solicytacji. Zamawiający zastrzega prawo dochodzenia odszkodowania przewyższającego wysokość kar umownych.
+> Wykonawca zapłaci Zamawiającemu karę umowną w wysokości: (a) 10% wynagrodzenia brutto za każdy dzień opóźnienia w realizacji Kamienia Milowego, nie więcej niż 30% wynagrodzenia za dany Kamień Milowy; (b) [kwota] PLN za każdy przypadek naruszenia poufności; (c) równowartość 12-miesięcznego wynagrodzenia Specjalisty za naruszenie zakazu solicytacji. Zamawiającemu przysługuje prawo dochodzenia odszkodowania uzupełniającego na zasadach ogólnych.
 
 ## Klauzule z umów KTZR
 

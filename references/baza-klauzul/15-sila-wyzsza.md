@@ -8,7 +8,7 @@ Okoliczności niezależne od stron uniemożliwiające wykonanie umowy.
 
 ### Umowa licencyjno-doradcza
 
-> Żadna ze Stron nie ponosi odpowiedzialności za niewykonanie lub nienależyte wykonanie zobowiązań, jeśli zostało to spowodowane działaniem Siły Wyższej. Strona dotknięta Siłą Wyższą zobowiązana jest do niezwłocznego pisemnego powiadomienia drugiej Strony, nie później niż w ciągu 7 dni od zaistnienia zdarzenia.
+> Żadna ze Stron nie ponosi odpowiedzialności za niewykonanie lub nienależyte wykonanie zobowiązań, w przypadku gdy zostało to spowodowane działaniem Siły Wyższej. Strona dotknięta Siłą Wyższą zobowiązana jest do pisemnego powiadomienia drugiej Strony w terminie 7 dni od zaistnienia zdarzenia.
 
 ### Umowa rezerwacyjna (nieruchomości)
 

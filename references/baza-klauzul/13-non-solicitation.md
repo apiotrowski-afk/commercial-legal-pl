@@ -26,7 +26,7 @@ Brak klauzuli non-solicitation w umowie body leasing (=brak ochrony biznesu). Za
 
 ### Umowa rezerwacyjna (nieruchomości)
 
-> Właściciel udziela Spółce wyłączności na okres 24 miesięcy do prowadzenia audytów nieruchomości i negocjacji warunków umowy przedwstępnej.
+> Właściciel udziela Spółce wyłączności na okres [___] miesięcy do prowadzenia audytów nieruchomości i negocjacji warunków umowy przedwstępnej.
 
 ### Zakaz konkurencji dostawcy IT — zakres rozszerzony (umowa wdrożeniowa / maintenance)
 

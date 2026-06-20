@@ -186,7 +186,7 @@ Po naprawach — **ponownie uruchom workflow** (krok 1–3). Iteruj do momentu, 
 3. **Czy nazewnictwo wyliczeń jest spójne?**
    - Po reformie z `(a)(b)(c)` na `1)2)3)` — sprawdź, czy odesłania używają *„pkt"* a nie *„podpunkt"* / *„lit."* (zob. `style-redakcyjny.md` warstwa 2, reguła 5)
 4. **Czy nie ma duplikatów mechanizmów?**
-   - Zob. `baza-klauzul/16-ugody.md`, anti-pattern „dublowanie mechanizmów sankcji"
+   - Zob. `references/baza-klauzul/16-ugody.md`, anti-pattern „dublowanie mechanizmów sankcji"
    - Każdy mechanizm = jeden paragraf; jeśli dwa różne paragrafy regulują ten sam skutek, jeden jest do wycięcia
 5. **Czy spójność przypadków gramatycznych przy łączeniu list?**
    - *„wraz z X oraz Y"* — X i Y muszą być w tym samym przypadku (narzędnik), nie mieszać z dopełniaczem

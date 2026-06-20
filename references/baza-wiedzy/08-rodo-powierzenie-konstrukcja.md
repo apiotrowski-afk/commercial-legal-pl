@@ -87,6 +87,8 @@ WSA w Warszawie w sprawie cyfrowego archiwum (II SA/Wa 1226/24) szczegółowo pr
 
 Te pięć elementów MUSI być w umowie. Brak któregokolwiek = nieprawidłowa umowa powierzenia, ryzyko sankcji.
 
+Obok elementów wstępnych art. 28 ust. 3 RODO wymaga ujęcia **8 obligatoryjnych zobowiązań procesora** (lit. a–h): (a) przetwarzanie wyłącznie na udokumentowane polecenie ADO; (b) zapewnienie obowiązku poufności osób upoważnionych; (c) stosowanie środków z art. 32 RODO; (d) warunki angażowania podprocesorów (pisemna zgoda ADO, flow-down obowiązków); (e) pomoc ADO przy realizacji praw podmiotów danych (art. 15–22 RODO); (f) pomoc ADO przy bezpieczeństwie, zgłaszaniu naruszeń i DPIA (art. 32–36 RODO); (g) usunięcie lub zwrot danych po zakończeniu usługi (wybór ADO); (h) udostępnianie informacji na potrzeby weryfikacji + prawo audytu. **Łącznie: 5 elementów wstępnych + lit. a–h = kompletna umowa powierzenia z art. 28 ust. 3 RODO.**
+
 #### Wystarczające gwarancje — art. 28 ust. 1 RODO
 
 > *Administrator może korzystać wyłącznie z usług takich podmiotów przetwarzających, które zapewniają wystarczające gwarancje wdrożenia odpowiednich środków technicznych i organizacyjnych, aby przetwarzanie spełniało wymogi rozporządzenia i chroniło prawa osób, których dane dotyczą.*

@@ -30,7 +30,7 @@ Brak limitu odpowiedzialności (= nieograniczona). Asymetryczny cap (tylko jedna
 
 ### Umowa współpracy operacyjnej (B2B)
 
-> Zleceniobiorca ponosi pełną odpowiedzialność względem Zlecającego oraz osób trzecich za prawidłowe i terminowe wykonywanie obowiązków. Usługi Zleceniobiorca może wykonać przy pomocy osób trzecich — w takiej sytuacji ponosi odpowiedzialność za ich działania jak za własne.
+> Zleceniobiorca ponosi pełną odpowiedzialność względem Zleceniodawcy oraz osób trzecich za prawidłowe i terminowe wykonywanie obowiązków. Usługi Zleceniobiorca może wykonać przy pomocy osób trzecich — w takiej sytuacji ponosi odpowiedzialność za ich działania jak za własne.
 
 ### SLA — gwarantowana dostępność systemu i czasy reakcji (maintenance IT)
 
@@ -43,7 +43,7 @@ Brak limitu odpowiedzialności (= nieograniczona). Asymetryczny cap (tylko jedna
 
 > W przypadku niedotrzymania parametrów SLA Zamawiający ma prawo do proporcjonalnego obniżenia wynagrodzenia za dany miesiąc o wartość odpowiadającą procentowemu udziałowi czasu niedostępności przekraczającego dopuszczalny próg — niezależnie od kar umownych.
 
-> Wykonawca ponosi odpowiedzialność za działania i zaniechania osób, którymi posługuje się przy realizacji Umowy (w tym podwykonawców i współpracowników), jak za działania i zaniechania własne — na zasadzie ryzyka.
+> Wykonawca ponosi odpowiedzialność za działania i zaniechania osób, którymi posługuje się przy realizacji Umowy (w tym podwykonawców i współpracowników), jak za działania i zaniechania własne.
 
 ### Platforma aukcyjna — wyłączenie odpowiedzialności pośrednika (art. 14 u.ś.u.d.e.)
 
