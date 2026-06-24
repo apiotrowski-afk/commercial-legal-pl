@@ -67,6 +67,19 @@ Plus 8 gotowych workflow'ów do typowych zadań:
 | `cold-start-klienta.md` | Onboarding nowego klienta, 10-15 minutowy wywiad |
 | `weryfikacja-spojnosci-odeslan.md` | Sprawdzenie spójności odesłań § / ust. / pkt |
 
+## Komplementarne narzędzie: legal-cite-pl
+
+Skill działa najlepiej w parze z **[legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl)** — serwerem MCP, który pobiera **dokładne, aktualne brzmienie cytowanego przepisu** prosto ze źródła (Sejm ELI / EUR-Lex), zwracając **tekst jednolity**, nie pierwotny.
+
+Gdy podłączysz go w Claude (stdio lokalnie albo jeden URL na Cloud Run), skill cytuje przepisy (k.c., RODO, pr. aut., u.ś.u.d.e. itd.) **z weryfikacją ze źródła zamiast z pamięci modelu** — mniej halucynacji w cytatach:
+
+```
+verify_article("art. 385¹ KC")   → dosłowny tekst przepisu (niedozwolone postanowienia umowne)
+verify_article("art. 28 ust. 3 RODO")
+```
+
+Instalacja i szczegóły: **[github.com/apiotrowski-afk/legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl)**.
+
 ## Dla kogo
 
 W praktyce skill najlepiej sprawdza się dla:
