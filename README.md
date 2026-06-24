@@ -80,6 +80,10 @@ verify_article("art. 28 ust. 3 RODO")
 
 Instalacja i szczegóły: **[github.com/apiotrowski-afk/legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl)**.
 
+**Pozostałe z ekosystemu** (otwarte narzędzia LegalTech PL):
+- **[anon-legal-pl](https://github.com/apiotrowski-afk/anon-legal-pl)** — lokalna anonimizacja akt prawnych (PESEL/NIP, sygnatury) na bazie Presidio.
+- **[kancelaria-dms](https://github.com/apiotrowski-afk/kancelaria-dms)** — DMS/CRM dla kancelarii (Google Workspace).
+
 ## Dla kogo
 
 W praktyce skill najlepiej sprawdza się dla:
