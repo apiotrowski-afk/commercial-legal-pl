@@ -76,10 +76,17 @@ REGEX_PATTERNS = [
         "Adres email",
         "warn",  # warn, bo READMy mogą zawierać email kontaktowy
     ),
-    # Numery telefonów PL (+48 / 48 / 9 cyfr)
+    # Numery telefonów PL — z prefiksem +48/48
+    # (bez prefiksu byłyby nieodróżnialne od REGON-ów i NIP-ów)
     (
-        r"(?:\+48|48)?\s*[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{3}\b",
-        "Numer telefonu PL",
+        r"\+48\s*[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{3}\b",
+        "Numer telefonu PL (+48)",
+        "warn",
+    ),
+    # Numery telefonów PL — bez prefiksu, ale z etykietą (tel., kom., fax)
+    (
+        r"(?:tel\.?|kom\.?|telefon|mobile|fax)\s*:?\s*[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{3}\b",
+        "Numer telefonu PL (tel./kom.)",
         "warn",
     ),
 ]
