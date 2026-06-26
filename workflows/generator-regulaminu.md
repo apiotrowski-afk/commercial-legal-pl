@@ -298,6 +298,16 @@ Sprawdź regulamin pod kątem:
 8. **Obowiązki informacyjne (E-commerce i SaaS B2C)** — czy regulamin lub wskazane miejsce na stronie pokrywa minimum art. 12 u.p.k. (dane sprzedawcy, łączna cena, czas trwania, prawo odstąpienia, interoperacyjność treści cyfrowych)
 9. **Reklamacje B2C (SaaS z B2C / E-commerce)** — termin w § Reklamacje musi być w dniach **kalendarzowych**, nie roboczych; art. 7a u.p.k. limituje do 14 dni kal. (dłuższy termin = reklamacja uznana z mocy prawa). Przelicz: 1 tydzień = 7 dni kal.; 1 dzień roboczy ≠ 1 dzień kalendarzowy.
 
+Przed finalną wersją — bramka:
+
+```
+⛔ Przed finalnym regulaminem — potwierdź:
+1. Dane podmiotu (nazwa, NIP, adres, KRS) zweryfikowane?
+2. Platforma/sklep B2C czy wyłącznie B2B? (zmienia zakres obowiązków)
+3. Prawnik widział draft?
+→ „tak, generuj" / lub wskaż co poprawić
+```
+
 Zwróć QA jako listę ✅ / ⚠️ / ❌, a następnie finalny regulamin:
 
 ```

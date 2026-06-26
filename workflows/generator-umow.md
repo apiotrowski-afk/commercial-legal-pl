@@ -199,6 +199,23 @@ Zwróć **FINALNĄ WERSJĘ** umowy — sam tekst umowy, **bez komentarzy w treś
 
 ---
 
+## BRAMKA FINALNA
+
+Przed wygenerowaniem finalnej wersji wyświetl:
+
+```
+⛔ Przed finalną wersją — potwierdź:
+1. Dane stron (KRS/NIP/adresy) zweryfikowane źródłowo?
+2. Cytowane przepisy sprawdzone (verify_article lub ręcznie)?
+3. Prawnik prowadzący sprawę widział ten draft?
+
+→ „tak, generuj finalną wersję" / lub wskaż co poprawić
+```
+
+Dopiero po potwierdzeniu — generuj. Bez potwierdzenia — zwróć draft z nagłówkiem `[DRAFT — DO WERYFIKACJI]`.
+
+---
+
 ## FINALNA UMOWA
 
 [czysty tekst gotowy do wklejenia w dokument]

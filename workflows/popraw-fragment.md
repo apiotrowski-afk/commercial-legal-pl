@@ -58,6 +58,8 @@ Jeśli fragment jest "do śmieci" (np. nieważna klauzula próbująca wyłączy�
 
 ### Wariant domyślny (wystarczy poprawiony tekst)
 
+> ⛔ Jeśli poprawiony fragment jest gotowy do wklejenia w podpisywaną umowę — najpierw zapytaj: „Czy prawnik prowadzący sprawę widział tę zmianę?" Bez potwierdzenia: dodaj `[DO WERYFIKACJI]` nad fragmentem.
+
 ```
 [gotowy poprawiony fragment, do wklejenia w dokument]
 ```
