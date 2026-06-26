@@ -1,5 +1,8 @@
 # Workflow: Ocena umowy z perspektywy drugiej strony (devil's advocate)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 Workflow symulujący czytanie projektu umowy / ugody przez **pełnomocnika drugiej strony**. Cel: znaleźć wszystko, co druga strona mogłaby wykorzystać przeciwko naszemu klientowi — *zanim* dokument zostanie wysłany.
 
 **Triggery (kiedy uruchamiać):**

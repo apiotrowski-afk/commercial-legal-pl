@@ -1,5 +1,8 @@
 # Workflow: Cold-start klienta (onboarding nowego klienta)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 **Cel:** szybki, ustrukturyzowany wywiad z nowym klientem (10-15 min), który pozwala wypracować *profil klienta* używany w dalszej pracy Claude'a nad jego sprawami. Profil pomaga kontekstualizować rekomendacje — bez niego Claude pracuje na *„generycznym B2B"*, co zwykle daje gorszy efekt niż praca na rzeczywistym profilu klienta.
 
 **Inspiracja:** *„cold-start interview"* z Anthropic `claude-for-legal` (commercial-legal, employment-legal). Zaadaptowane do polskiego rynku B2B IT i SME.

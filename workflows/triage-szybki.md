@@ -1,5 +1,8 @@
 # Workflow: Triage szybki (GREEN / YELLOW / RED)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 **Cel:** szybka kategoryzacja umowy / NDA / aneksu w ciągu 5-10 minut, pomagająca w decyzji *„podpisać", „przekazać do analizy", „odrzucić bez negocjacji"*. Komplementarny do `pelna-analiza.md` (która jest głębsza i czasochłonna).
 
 **Inspiracja:** Anthropic Contract Review skill (`anthropics/claude-for-legal`), zaadaptowany do polskiego B2B IT.

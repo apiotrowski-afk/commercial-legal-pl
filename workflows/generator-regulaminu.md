@@ -1,5 +1,8 @@
 # Workflow: Generator regulaminu (cold start → wywiad → szkielet → treść)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 Interaktywny generator regulaminów usług elektronicznych (u.ś.u.d.e., DSA). Workflow **zawsze zaczyna od 3 pytań diagnostycznych** — by wybrać właściwą ścieżkę. Następnie prowadzi wywiad jedno pytanie po drugim, pokazuje szkielet struktury do akceptacji, a dopiero potem generuje pełną treść.
 
 ## Trzy ścieżki

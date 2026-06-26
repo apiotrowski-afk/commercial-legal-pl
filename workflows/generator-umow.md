@@ -1,5 +1,8 @@
 # Workflow: Generator umów (5 kroków, z kontekstem)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 5-krokowy workflow generowania nowej umowy w stylu KTZR. **Każdy krok wymaga akceptacji użytkownika** przed przejściem dalej. Generator może działać z dodatkowym **kontekstem** (emaile klienta, notatki, brief, dokumenty referencyjne).
 
 ## Przyjmowanie briefu i kontekstu

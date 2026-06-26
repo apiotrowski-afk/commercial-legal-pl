@@ -1,5 +1,8 @@
 # Workflow: Audyt ryzyk (standalone)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 Standalone audyt ryzyk prawnych i biznesowych w umowie. Mniejszy zakres niż pełna analiza — skupiony **wyłącznie na ryzykach**, bez essentialii, checklisty kompletności i logiki wewnętrznej.
 
 Używaj tego workflowu, gdy użytkownik mówi: "sprawdź ryzyka", "audyt", "co tu jest niebezpieczne", "co mi grozi", "sprawdź pułapki".

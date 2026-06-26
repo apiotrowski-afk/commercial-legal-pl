@@ -1,5 +1,8 @@
 # Workflow: Popraw fragment
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 Workflow do edycji **konkretnego fragmentu umowy** — gdy użytkownik wkleja klauzulę i prosi o poprawienie, lub gdy przerywa szerszy workflow analizy, żeby naprawić jeden paragraf.
 
 Używaj, gdy:

@@ -1,5 +1,8 @@
 # Workflow: Pełna analiza umowy (5 etapów)
 
+
+> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+
 5-etapowy workflow analizy umowy. **Po każdym etapie zatrzymaj się i poczekaj na korekty użytkownika** zanim przejdziesz do następnego. To nie jest one-shot — to dialog.
 
 ## Tryb express (opcjonalny)
