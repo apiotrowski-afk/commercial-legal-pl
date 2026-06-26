@@ -131,7 +131,7 @@ tools/
 
 ## Narzędzie MCP: legal-cite
 
-Jeśli serwer `legal-cite` jest aktywny w sesji, używaj go **zawsze gdy cytowanie przepisu ma znaczenie dla jakości klauzuli** — zamiast polegać na swojej wiedzy:
+Gdy serwer `legal-cite` jest aktywny — `verify_article()` jest **OBOWIĄZKOWY** przed każdym cytatem przepisu. Halucynacja treści artykułu to błąd prawny, nie stylistyczny.
 
 ```
 verify_article("art. 474 KC")           → dosłowny tekst art. 474 KC
@@ -140,7 +140,22 @@ verify_article("art. 75 ust. 3 PrAut") → tekst art. 75 ust. 3 PrAut
 list_acts()                             → lista obsługiwanych skrótów
 ```
 
-Akty są cachowane w sesji — pierwsze pobranie ustawy (~300 KB) jest jednorazowe; kolejne `verify_article` dla tej samej ustawy są natychmiastowe.
+**Reguła:** cytat przepisu w drafcie lub analizie → `verify_article()` najpierw, potem tekst.  
+**Gdy MCP niedostępny:** dopisz `[NIEZWERYFIKOWANE — brak legal-cite-pl]` przy każdym cytacie.  
+Akty są cachowane w sesji — pierwsze pobranie ustawy (~300 KB) jednorazowe; kolejne wywołania natychmiastowe.
+
+## Format output — checklist przed każdym dokumentem
+
+Przed zwróceniem każdego wygenerowanego lub poprawionego dokumentu uruchom mentalnie `references/format-checklist.md`:
+
+```
+✓ cudzysłowy „polskie"     ✓ pauza długa —        ✓ kwoty cyframi i słownie
+✓ numeracja §/ust./pkt     ✓ Wielkie = definicja   ✓ odesłania wewnętrzne działają
+✓ bez łaciny w klauzulach  ✓ bez „niezwłocznie"    ✓ spójna nazwa stron
+✓ cytaty przepisów zweryfikowane (verify_article lub [NIEZWERYFIKOWANE])
+```
+
+Pełna lista z przykładami: `references/format-checklist.md`.
 
 Instalacja (po publikacji na PyPI):
 ```json

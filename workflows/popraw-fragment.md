@@ -46,6 +46,8 @@ Jeśli użytkownik chce naprawić istniejący tekst (np. "ujednolicaj z resztą 
 
 Jeśli fragment jest "do śmieci" (np. nieważna klauzula próbująca wyłączyć winę umyślną — art. 473 § 2 KC):
 
+> **Reguła cytowania:** każdy przywołany artykuł (w wyjaśnieniu lub w nowej klauzuli) → wywołaj `verify_article()`. Jeśli MCP niedostępny → `[NIEZWERYFIKOWANE]` przy cytacie.
+
 1. Wyjaśnij krótko, dlaczego fragment jest problematyczny
 2. Zaproponuj zastępczą klauzulę z bazy
 3. Pokaż "przed i po"

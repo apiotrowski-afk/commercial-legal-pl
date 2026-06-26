@@ -105,6 +105,8 @@ Na podstawie zatwierdzonej struktury napisz **pełną umowę**.
 
 4. **Złote Reguły KTZR** mają pierwszeństwo nad bazą klauzul — np. jeśli klauzula z bazy ma odesłanie "zgodnie z § 5", a w Twojej strukturze § 5 to co innego — popraw odesłanie.
 
+5. **Cytaty przepisów — obowiązek weryfikacji:** każdy artykuł przywołany w klauzuli (np. „art. 473 § 2 KC", „art. 28 RODO") → wywołaj `verify_article()` przed wpisaniem brzmienia. Jeśli MCP niedostępny → dopisz `[NIEZWERYFIKOWANE]` przy cytacie. Halucynacja treści przepisu dyskwalifikuje draft.
+
 ### Format wyjścia
 
 ```

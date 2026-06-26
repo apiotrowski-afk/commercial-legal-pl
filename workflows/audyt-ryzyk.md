@@ -10,6 +10,8 @@ Używaj tego workflowu, gdy użytkownik mówi: "sprawdź ryzyka", "audyt", "co t
 
 Przeczytaj umowę z uwagą na typowe obszary ryzyka. Otwórz `references/zlote-reguly.md` jako filtr, przez który patrzysz na tekst umowy.
 
+**Cytaty przepisów:** każdy artykuł przywołany w raporcie (np. „art. 473 § 2 KC nieważne") → wywołaj `verify_article()` przed użyciem. Jeśli MCP niedostępny → dopisz `[NIEZWERYFIKOWANE]`. Błędny numer artykułu w raporcie to błąd merytoryczny.
+
 ### Typowe obszary ryzyka do sprawdzenia
 
 **Odpowiedzialność i kary:**
