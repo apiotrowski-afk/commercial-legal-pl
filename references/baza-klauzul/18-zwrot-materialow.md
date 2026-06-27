@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Zwrot materiałów i dokumentacji
+tags: [zwrot-dokumentów, usunięcie-danych, NDA, dokumentacja, prawo-zatrzymania, potwierdzenie-pisemne]
+contract_types: [NDA, body-leasing, usługi-księgowe]
+risk_level: średni
+mandatory_for: [NDA]
+requires: [09-poufnosc.md, 12-wypowiedzenie-exit.md]
+timestamp: 2026-06-27
+---
+
 # Zwrot materiałów i dokumentacji
 
 ## Klauzule z umów KTZR

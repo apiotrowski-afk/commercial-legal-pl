@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Wynagrodzenie i rozliczenia
+tags: [wynagrodzenie, T&M, timesheet, prowizja, waloryzacja, GUS, abonament, pre-paid, VAT]
+contract_types: [B2B-IT, body-leasing, ramowa-prowizja, przewóz, platforma-aukcyjna]
+risk_level: wysoki
+mandatory_for: [B2B-IT, body-leasing]
+requires: [07-terminy-kamienie-milowe.md]
+timestamp: 2026-06-27
+---
+
 # Wynagrodzenie i rozliczenia
 
 ## Kiedy stosować i na co uważać

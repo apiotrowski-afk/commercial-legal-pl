@@ -1,3 +1,11 @@
+---
+type: Index
+title: Baza klauzul KTZR
+description: Katalog 20 kategorii klauzul z umów kancelarii KTZR — IT, NDA, body-leasing, SaaS, ugody.
+tags: [baza-klauzul, KTZR, IT, NDA, body-leasing, SaaS, ugody]
+timestamp: 2026-06-27
+---
+
 # Baza klauzul KTZR — INDEX
 
 Zbiór klauzul z umów kancelarii KTZR.pl, uporządkowany po kategoriach. Otwieraj konkretny plik dopiero gdy potrzebujesz klauzul z danej kategorii — nie ładuj wszystkich na raz.

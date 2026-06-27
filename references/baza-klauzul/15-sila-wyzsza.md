@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Siła wyższa
+tags: [siła-wyższa, force-majeure, zwolnienie-z-odpowiedzialności, notyfikacja-7-dni]
+contract_types: [licencyjna, ramowa, nieruchomości, B2B-IT]
+risk_level: niski
+mandatory_for: []
+requires: [11-odpowiedzialnosc.md]
+timestamp: 2026-06-27
+---
+
 # Siła wyższa
 
 ## Kiedy stosować i na co uważać

@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Preambuły i oświadczenia stron
+tags: [preambuła, oświadczenia, ugoda, charakter-umowy, zważywszy-że, definicja-zamknięta]
+contract_types: [ugoda, body-leasing, NDA, licencyjna, usługi-księgowe]
+risk_level: średni
+mandatory_for: [ugoda]
+requires: [03-definicje.md]
+timestamp: 2026-06-27
+---
+
 # Preambuły i oświadczenia stron
 
 ## Zasada długości preambuły

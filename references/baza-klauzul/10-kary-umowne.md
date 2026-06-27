@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Kary umowne
+tags: [kary-umowne, non-solicitation, naruszenie-poufności, cap, miarkowanie, art-484-KC, odszkodowanie-uzupełniające]
+contract_types: [NDA, body-leasing, licencyjna, ramowa-prowizja, B2B-IT]
+risk_level: wysoki
+mandatory_for: [NDA, body-leasing]
+requires: [09-poufnosc.md, 13-non-solicitation.md]
+timestamp: 2026-06-27
+---
+
 # Kary umowne
 
 ## Kiedy stosować i na co uważać

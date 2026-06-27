@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Terminy i kamienie milowe
+tags: [terminy, harmonogram, odbiór, UAT, kamienie-milowe, wada-krytyczna, milczący-odbiór]
+contract_types: [B2B-IT, wdrożenie, body-leasing]
+risk_level: wysoki
+mandatory_for: [wdrożenie]
+requires: [05-obowiazki-stron.md, 10-kary-umowne.md]
+timestamp: 2026-06-27
+---
+
 # Terminy i kamienie milowe
 
 ## Kiedy stosować i na co uważać

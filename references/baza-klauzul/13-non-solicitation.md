@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Non-solicitation / Zakaz konkurencji
+tags: [non-solicitation, zakaz-konkurencji, body-leasing, outsourcing, kara-umowna, podmioty-powiązane, compliance]
+contract_types: [body-leasing, wdrożenie, maintenance, ramowa-prowizja]
+risk_level: wysoki
+mandatory_for: [body-leasing]
+requires: [10-kary-umowne.md]
+timestamp: 2026-06-27
+---
+
 # Non-solicitation / Zakaz konkurencji
 
 ## Kiedy stosować i na co uważać

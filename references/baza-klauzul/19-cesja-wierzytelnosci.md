@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Cesja wierzytelności
+tags: [cesja, przelew-wierzytelności, art-509-KC, art-516-KC, dłużnik, zawiadomienie, zakaz-potrąceń]
+contract_types: [cesja]
+risk_level: wysoki
+mandatory_for: [cesja]
+requires: [03-definicje.md, 17-postanowienia-koncowe.md]
+timestamp: 2026-06-27
+---
+
 # Cesja wierzytelności
 
 ## Klauzule z umów KTZR

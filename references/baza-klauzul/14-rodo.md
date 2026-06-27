@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Dane osobowe / RODO
+tags: [RODO, DPA, administrator, procesor, art-28-RODO, EOG, data-breach, wizerunek, zgoda, art-6-RODO]
+contract_types: [B2B-IT, body-leasing, platforma, hosting, SaaS]
+risk_level: krytyczny
+mandatory_for: [B2B-IT, SaaS, platforma]
+requires: [03-definicje.md]
+timestamp: 2026-06-27
+---
+
 # Dane osobowe / RODO
 
 ## Kiedy stosować i na co uważać

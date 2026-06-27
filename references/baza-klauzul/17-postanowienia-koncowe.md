@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Postanowienia końcowe
+tags: [prawo-właściwe, właściwość-sądu, cesja, klauzula-salwatoryjna, forma-zmian, reklamacja, e-podpis]
+contract_types: [wszystkie]
+risk_level: niski
+mandatory_for: [wszystkie]
+requires: []
+timestamp: 2026-06-27
+---
+
 # Postanowienia końcowe
 
 ## Kiedy stosować i na co uważać

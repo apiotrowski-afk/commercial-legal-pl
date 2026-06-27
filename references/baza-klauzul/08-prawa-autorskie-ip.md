@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Prawa autorskie / Własność intelektualna
+tags: [prawa-autorskie, IP, pola-eksploatacji, prawa-zależne, open-source, copyleft, licencja, AI-generowane, wizerunek, white-label]
+contract_types: [B2B-IT, body-leasing, wdrożenie, licencyjna, NDA, maintenance]
+risk_level: krytyczny
+mandatory_for: [B2B-IT, body-leasing, wdrożenie]
+requires: [03-definicje.md, 06-wynagrodzenie.md]
+timestamp: 2026-06-27
+---
+
 # Prawa autorskie / Własność intelektualna
 
 ## Kiedy stosować i na co uważać

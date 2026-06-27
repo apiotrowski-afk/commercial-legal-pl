@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Oznaczenie stron i reprezentacja
+tags: [komparycja, reprezentacja, KRS, NIP, pełnomocnictwo, forma-prawna]
+contract_types: [wszystkie]
+risk_level: wysoki
+mandatory_for: [wszystkie]
+requires: []
+timestamp: 2026-06-27
+---
+
 # Oznaczenie stron i reprezentacja
 
 ## Kiedy stosować i na co uważać

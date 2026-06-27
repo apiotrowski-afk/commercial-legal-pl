@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Wypowiedzenie i exit plan
+tags: [wypowiedzenie, exit-plan, vendor-lock-in, kod-źródłowy, przekazanie-danych, wsparcie-przejściowe, commit-history]
+contract_types: [B2B-IT, body-leasing, usługi-księgowe, maintenance, platforma]
+risk_level: wysoki
+mandatory_for: [maintenance]
+requires: [04-przedmiot-umowy.md, 09-poufnosc.md]
+timestamp: 2026-06-27
+---
+
 # Wypowiedzenie i exit plan
 
 ## Kiedy stosować i na co uważać

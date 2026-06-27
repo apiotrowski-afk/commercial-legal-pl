@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Regulamin usług elektronicznych / AUP
+tags: [regulamin, u.ś.u.d.e., AUP, hosting, SaaS, DSA, AI-Act, domeny, notice-action, konsument, ODR]
+contract_types: [SaaS, hosting, platforma, regulamin]
+risk_level: wysoki
+mandatory_for: [SaaS, hosting, platforma]
+requires: [03-definicje.md, 11-odpowiedzialnosc.md, 14-rodo.md]
+timestamp: 2026-06-27
+---
+
 # Regulamin usług elektronicznych / AUP (hosting, serwery, domeny, AI)
 
 ## Kiedy stosować i na co uważać

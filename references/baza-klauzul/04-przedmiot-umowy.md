@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Przedmiot umowy
+tags: [przedmiot, zakres-usług, T&M, fixed-price, body-leasing, charakter-cywilnoprawny, art-22-KP]
+contract_types: [wszystkie]
+risk_level: wysoki
+mandatory_for: [wszystkie]
+requires: [03-definicje.md]
+timestamp: 2026-06-27
+---
+
 # Przedmiot umowy
 
 ## Kiedy stosować i na co uważać

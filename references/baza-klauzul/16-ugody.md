@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Ugody i porozumienia
+tags: [ugoda, art-917-KC, VAT, zadośćuczynienie, odszkodowanie, wizerunek, roszczenia, cofnięcie-zgody, warunek-zawieszający]
+contract_types: [ugoda, porozumienie]
+risk_level: wysoki
+mandatory_for: [ugoda]
+requires: [02-preambuly.md, 17-postanowienia-koncowe.md]
+timestamp: 2026-06-27
+---
+
 # Ugody i porozumienia
 
 ## Klauzule z umów KTZR

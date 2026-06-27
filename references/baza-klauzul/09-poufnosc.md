@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Poufność
+tags: [poufność, NDA, informacje-poufne, tajemnica-przedsiębiorstwa, breach-notification, wykluczenia, 72h]
+contract_types: [NDA, body-leasing, licencyjna, ramowa, B2B-IT]
+risk_level: wysoki
+mandatory_for: [NDA]
+requires: [03-definicje.md, 18-zwrot-materialow.md]
+timestamp: 2026-06-27
+---
+
 # Poufność
 
 ## Kiedy stosować i na co uważać

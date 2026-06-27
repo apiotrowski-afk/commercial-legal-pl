@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Odpowiedzialność i limity
+tags: [odpowiedzialność, cap, szkody-pośrednie, SLA, uptime, maintenance, DSA, hosting, art-14-usdde]
+contract_types: [B2B-IT, body-leasing, usługi-księgowe, maintenance, platforma, hosting]
+risk_level: krytyczny
+mandatory_for: [B2B-IT]
+requires: [10-kary-umowne.md, 07-terminy-kamienie-milowe.md]
+timestamp: 2026-06-27
+---
+
 # Odpowiedzialność i limity
 
 ## Kiedy stosować i na co uważać

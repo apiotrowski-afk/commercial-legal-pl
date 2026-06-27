@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Definicje
+tags: [definicje, słownik, Utwór, Informacje-Poufne, Know-how, Wada, Specjalista, Timesheet]
+contract_types: [wszystkie]
+risk_level: wysoki
+mandatory_for: [wszystkie]
+requires: []
+timestamp: 2026-06-27
+---
+
 # Definicje
 
 ## Kiedy stosować i na co uważać

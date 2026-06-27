@@ -1,3 +1,14 @@
+---
+type: Klauzula
+title: Obowiązki stron
+tags: [obowiązki, zamawiający, wykonawca, dostępy, środowisko-testowe, opóźnienia, autonomia-specjalisty]
+contract_types: [B2B-IT, body-leasing, usługi-księgowe, licencyjna]
+risk_level: wysoki
+mandatory_for: [B2B-IT, body-leasing]
+requires: [04-przedmiot-umowy.md, 07-terminy-kamienie-milowe.md]
+timestamp: 2026-06-27
+---
+
 # Obowiązki stron
 
 ## Kiedy stosować i na co uważać
