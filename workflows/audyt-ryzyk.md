@@ -9,6 +9,29 @@ Używaj tego workflowu, gdy użytkownik mówi: "sprawdź ryzyka", "audyt", "co t
 
 ---
 
+## Krok 0: Pamięć kancelarii
+
+Przed analizą sprawdź pamięć kancelarii — mogą być wcześniejsze wpisy o tej sprawie lub kontrahencie.
+
+1. `list_categories()` — jeśli pamięć pusta: pomiń resztę kroku, przejdź do Kroku 1
+2. Jeśli pamięć niepusta:
+   - `recall("nazwa kontrahenta")` — jeśli widoczna w umowie
+   - `recall("typ umowy")` — np. "NDA", "body leasing", "SaaS"
+   - `recall("kluczowe ryzyka")` — np. "cap odpowiedzialności", "non-solicitation"
+
+Wyświetl trafienia zwięźle (max 5 wpisów):
+
+```
+📋 Pamięć kancelarii — kontekst sprawy:
+[wpis 1]
+[wpis 2]
+...
+```
+
+Jeśli brak trafień — **pomiń sekcję, nie informuj użytkownika**. Przejdź do Kroku 1.
+
+---
+
 ## Krok 1: Identyfikacja ryzyk
 
 Przeczytaj umowę z uwagą na typowe obszary ryzyka. Otwórz `references/zlote-reguly.md` jako filtr, przez który patrzysz na tekst umowy.

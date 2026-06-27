@@ -11,6 +11,27 @@ Jeśli użytkownik wyraźnie powie "zrób całość bez pytania", "tryb express"
 
 ---
 
+## ETAP 0/5: Pamięć kancelarii
+
+Przed analizą sprawdź pamięć kancelarii — wcześniejsze wpisy o tej sprawie lub kontrahencie mogą zmienić priorytety analizy.
+
+1. `list_categories()` — jeśli pamięć pusta: pomiń resztę etapu, przejdź do ETAP 1
+2. Jeśli pamięć niepusta:
+   - `recall("nazwa kontrahenta")` — jeśli widoczna w umowie
+   - `recall("typ umowy")` — np. "body leasing", "NDA", "wdrożenie"
+   - `recall("ryzyka negocjacje")` — pozycje negocjacyjne, ryzyka zaznaczone wcześniej
+
+Wyświetl trafienia przed ETAP 1:
+
+```
+📋 Pamięć kancelarii — kontekst sprawy:
+[podsumowanie trafień — max 5 wpisów, tylko co istotne dla tej analizy]
+```
+
+Jeśli brak trafień — **pomiń sekcję**. Przejdź do ETAP 1.
+
+---
+
 ## ETAP 1/5: Essentialia negotii
 
 **Otwórz:** `references/essentialia-mapowanie.md`

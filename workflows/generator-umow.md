@@ -21,6 +21,27 @@ Brief minimalny od użytkownika:
 
 ---
 
+## KROK 0/5: Pamięć kancelarii
+
+Po otrzymaniu briefu — przed analizą — sprawdź pamięć kancelarii pod kątem tej sprawy.
+
+1. `list_categories()` — jeśli pamięć pusta: pomiń resztę kroku, przejdź do KROKU 1
+2. Jeśli pamięć niepusta:
+   - `recall("nazwa kontrahenta")` — Strona B z briefu
+   - `recall("typ umowy")` — np. "body leasing", "NDA", "SaaS"
+   - `recall("negocjacje pozycja")` — wcześniejsze ustalenia negocjacyjne
+
+Wyświetl trafienia w sekcji kroku 1 jako:
+
+```
+### 📋 Pamięć kancelarii — kontekst sprawy
+[podsumowanie trafień — co istotne dla tej umowy]
+```
+
+Jeśli brak trafień — **pomiń sekcję**. Przejdź do KROKU 1.
+
+---
+
 ## KROK 1/5: Analiza briefu
 
 **Otwórz:** `references/essentialia-mapowanie.md`

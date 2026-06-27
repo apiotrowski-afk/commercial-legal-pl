@@ -20,6 +20,27 @@ Workflow symulujący czytanie projektu umowy / ugody przez **pełnomocnika drugi
 
 ---
 
+## Krok 0: Pamięć kancelarii
+
+Przed oceną z perspektywy drugiej strony — sprawdź czy kancelaria ma wcześniejsze informacje o kontrahencie lub jego stylu negocjacyjnym.
+
+1. `list_categories()` — jeśli pamięć pusta: pomiń resztę kroku, przejdź do Kroku 1
+2. Jeśli pamięć niepusta:
+   - `recall("nazwa kontrahenta")` — historia współpracy, wcześniejsze pozycje
+   - `recall("negocjacje")` — udokumentowane taktyki drugiej strony
+   - `recall("precedensy")` — jak podobne sprawy się zakończyły
+
+Wyświetl trafienia jako kontekst dla persony oponenta:
+
+```
+📋 Pamięć kancelarii — historia kontrahenta:
+[wpisy o kontrahencie i historii negocjacji — wpływają na ocenę persony oponenta w Kroku 1]
+```
+
+Jeśli brak trafień — **pomiń sekcję**. Przejdź do Kroku 1.
+
+---
+
 ## Krok 1: Określ stronę i kontekst
 
 Zanim zaczniesz czytanie "z drugiej strony":
