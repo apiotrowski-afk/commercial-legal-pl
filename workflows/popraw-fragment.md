@@ -1,7 +1,7 @@
 # Workflow: Popraw fragment
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
 
 Workflow do edycji **konkretnego fragmentu umowy** — gdy użytkownik wkleja klauzulę i prosi o poprawienie, lub gdy przerywa szerszy workflow analizy, żeby naprawić jeden paragraf.
 
@@ -49,7 +49,7 @@ Jeśli użytkownik chce naprawić istniejący tekst (np. "ujednolicaj z resztą 
 
 Jeśli fragment jest "do śmieci" (np. nieważna klauzula próbująca wyłączyć winę umyślną — art. 473 § 2 KC):
 
-> **Reguła cytowania:** każdy przywołany artykuł (w wyjaśnieniu lub w nowej klauzuli) → wywołaj `verify_article()`. Jeśli MCP niedostępny → `[NIEZWERYFIKOWANE]` przy cytacie.
+> _(R1): `verify_article()` przed każdym cytowanym artykułem — lub `[NIEZWERYFIKOWANE]` przy braku MCP._
 
 1. Wyjaśnij krótko, dlaczego fragment jest problematyczny
 2. Zaproponuj zastępczą klauzulę z bazy
@@ -63,7 +63,7 @@ Jeśli fragment jest "do śmieci" (np. nieważna klauzula próbująca wyłączy�
 
 ### Wariant domyślny (wystarczy poprawiony tekst)
 
-> ⛔ Jeśli poprawiony fragment jest gotowy do wklejenia w podpisywaną umowę — najpierw zapytaj: „Czy prawnik prowadzący sprawę widział tę zmianę?" Bez potwierdzenia: dodaj `[DO WERYFIKACJI]` nad fragmentem.
+> ⛔ Jeśli poprawiony fragment jest gotowy do wklejenia w podpisywaną umowę — najpierw zapytaj: „Czy prawnik prowadzący sprawę widział tę zmianę?" Bez potwierdzenia: dodaj `[DRAFT — DO WERYFIKACJI]` nad fragmentem.
 
 ```
 [gotowy poprawiony fragment, do wklejenia w dokument]

@@ -1,7 +1,9 @@
 # Workflow: Generator umów (5 kroków, z kontekstem)
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
+
+> **R3 — LAIK:** dodatkowe sygnały dla umów: „muszę podpisać umowę", „jestem klientem [firmy X]", „sprawdź czy mogę to podpisać".
 
 5-krokowy workflow generowania nowej umowy w stylu KTZR. **Każdy krok wymaga akceptacji użytkownika** przed przejściem dalej. Generator może działać z dodatkowym **kontekstem** (emaile klienta, notatki, brief, dokumenty referencyjne).
 
@@ -201,12 +203,13 @@ Zwróć **FINALNĄ WERSJĘ** umowy — sam tekst umowy, **bez komentarzy w treś
 ✅ Odesłania wewnętrzne — 8/8 prowadzą do istniejących przepisów
 ⚠️ Termin "Dni Robocze" w § 5 ust. 3 — w § 1 zdefiniowano jako "dni od pn. do pt. z wyłączeniem dni ustawowo wolnych"; sprawdź zgodność
 [...]
+```
 
 ---
 
 ## BRAMKA FINALNA
 
-Przed wygenerowaniem finalnej wersji wyświetl:
+Wyświetl użytkownikowi poniższe pytania i **zaczekaj na odpowiedź** przed generowaniem:
 
 ```
 ⛔ Przed finalną wersją — potwierdź:
@@ -217,14 +220,15 @@ Przed wygenerowaniem finalnej wersji wyświetl:
 → „tak, generuj finalną wersję" / lub wskaż co poprawić
 ```
 
-Dopiero po potwierdzeniu — generuj. Bez potwierdzenia — zwróć draft z nagłówkiem `[DRAFT — DO WERYFIKACJI]`.
+Dopiero po potwierdzeniu — generuj. Bez potwierdzenia — zwróć `[DRAFT — DO WERYFIKACJI]` nad dokumentem i zatrzymaj się.
+
+Wyjątek: jeśli użytkownik powiedział „tryb express" lub „zrób bez pytania" — generuj, ale dodaj `[DRAFT — DO WERYFIKACJI]` na początku i końcu dokumentu.
 
 ---
 
 ## FINALNA UMOWA
 
-[czysty tekst gotowy do wklejenia w dokument]
-```
+[czysty tekst gotowy do wklejenia w dokument, bez komentarzy w treści]
 
 ---
 

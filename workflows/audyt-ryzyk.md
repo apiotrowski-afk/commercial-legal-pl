@@ -1,7 +1,7 @@
 # Workflow: Audyt ryzyk (standalone)
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
 
 Standalone audyt ryzyk prawnych i biznesowych w umowie. Mniejszy zakres niż pełna analiza — skupiony **wyłącznie na ryzykach**, bez essentialii, checklisty kompletności i logiki wewnętrznej.
 
@@ -13,7 +13,7 @@ Używaj tego workflowu, gdy użytkownik mówi: "sprawdź ryzyka", "audyt", "co t
 
 Przeczytaj umowę z uwagą na typowe obszary ryzyka. Otwórz `references/zlote-reguly.md` jako filtr, przez który patrzysz na tekst umowy.
 
-**Cytaty przepisów:** każdy artykuł przywołany w raporcie (np. „art. 473 § 2 KC nieważne") → wywołaj `verify_article()` przed użyciem. Jeśli MCP niedostępny → dopisz `[NIEZWERYFIKOWANE]`. Błędny numer artykułu w raporcie to błąd merytoryczny.
+**Cytaty przepisów (R1):** `verify_article()` przed każdym cytowanym artykułem — lub `[NIEZWERYFIKOWANE]` przy braku MCP. Błędny numer artykułu w raporcie to błąd merytoryczny. Sygnatur wyroków sądowych **nie podawaj z pamięci** — jeśli chcesz powołać się na orzecznictwo, opisz tezę bez sygnatury lub oznacz `[SYGNATURA NIEZWERYFIKOWANA]`.
 
 ### Typowe obszary ryzyka do sprawdzenia
 

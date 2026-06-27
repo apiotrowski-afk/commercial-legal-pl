@@ -97,7 +97,7 @@ Anna Kowalska — Prezes Zarządu &emsp;&emsp;&emsp; Monika Zając — Prezes Za
 > - §5 ust. 3: cap = 1 miesięczny abonament (2.400 zł netto) = prawdopodobnie za niski jak na zobowiązania RODO
 > - §9 ust. 1: brak enumeracji środków bezpieczeństwa (art. 28 ust. 3 lit. c RODO wymaga konkretnych środków)
 > - §9 ust. 2: podpodmioty przetwarzające — brak uprzedniej zgody Administratora (art. 28 ust. 2 RODO wymaga zgody szczegółowej lub ogólnej z prawem sprzeciwu); sama „informacja" to za mało
-> - brak obowiązku powiadomienia o naruszeniu ochrony danych (art. 28 ust. 3 lit. f RODO)
+> - brak obowiązku powiadomienia o naruszeniu ochrony danych (art. 33 ust. 2 RODO — bezpośredni obowiązek procesora wobec administratora; art. 28 ust. 3 lit. f to obowiązek pomocy w spełnieniu art. 32–36, nie sam obowiązek powiadomienia)
 > - brak klauzuli audytu (art. 28 ust. 3 lit. h RODO)
 > - brak wskazania państw, do których dane mogą być transferowane
 > - §2 ust. 1: licencja „na czas trwania Umowy" — brak: co z danymi przetworzonymi po zakończeniu (backup, retencja)

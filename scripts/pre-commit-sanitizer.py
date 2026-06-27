@@ -85,7 +85,7 @@ REGEX_PATTERNS = [
     ),
     # Numery telefonów PL — bez prefiksu, ale z etykietą (tel., kom., fax)
     (
-        r"(?:tel\.?|kom\.?|telefon|mobile|fax)\s*:?\s*[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{3}\b",
+        re.compile(r"(?:tel\.?|kom\.?|telefon|mobile|fax)\s*:?\s*[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{3}\b", re.IGNORECASE),
         "Numer telefonu PL (tel./kom.)",
         "warn",
     ),
@@ -93,6 +93,7 @@ REGEX_PATTERNS = [
 
 # Wykluczenia — pliki/katalogi, dla których hook nie sprawdza
 EXCLUDED_PATHS = [
+    "examples/",           # testowe-akta — dane fikcyjne, oznaczone w README
     "case-studies/",
     "suplement/",
     "suplement-",          # suplement-it/, suplement-*/
@@ -149,7 +150,7 @@ def get_all_md_files() -> List[str]:
 def is_excluded(filepath: str) -> bool:
     """Sprawdza czy plik powinien być pominięty."""
     for excl in EXCLUDED_PATHS:
-        if excl in filepath:
+        if filepath.startswith(excl):
             return True
     return False
 
@@ -162,6 +163,8 @@ def check_file(filepath: str) -> List[Tuple[str, int, str, str]]:
     violations = []
 
     try:
+        if os.path.isdir(filepath):
+            return []
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
     except (FileNotFoundError, UnicodeDecodeError):

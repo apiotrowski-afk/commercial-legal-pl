@@ -1,0 +1,21 @@
+[project]
+name = "ktzr-memory"
+version = "0.1.0"
+description = "MCP server: pamięć kancelarii KTZR (remember / recall / list_categories)"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2",
+    "sqlalchemy[asyncio]>=2.0",
+    "aiosqlite>=0.19",
+    "asyncpg>=0.29",
+]
+
+[project.scripts]
+ktzr-memory = "ktzr_memory.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ktzr_memory"]

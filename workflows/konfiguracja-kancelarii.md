@@ -134,6 +134,8 @@ Jednorazowy wywiad, który generuje plik `practice-profile.md` — trwałą konf
 
 Po zebraniu odpowiedzi ze wszystkich 5 sekcji — wygeneruj plik w poniższym formacie. Uzupełnij wartości na podstawie odpowiedzi; brak odpowiedzi → stosuj wartość domyślną podaną w nawiasach.
 
+Przy generowaniu zastąp: `[DZISIAJ]` → datą dzisiejszą w formacie DD.MM.RRRR; `[lista z odpowiedzi]` → konkretną listą z udzielonych odpowiedzi; `[odpowiedź]` → wybraną wartością z opcji lub tekstem użytkownika.
+
 ```markdown
 # practice-profile.md
 # Konfiguracja kancelarii — plik prywatny (gitignored)

@@ -36,6 +36,14 @@ umowy/
 pisma/
 korespondencja/
 
+# === Python build artifacts ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
 # === System ===
 .DS_Store
 Thumbs.db

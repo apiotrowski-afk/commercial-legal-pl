@@ -1,7 +1,7 @@
 # Workflow: Triage szybki (GREEN / YELLOW / RED)
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
 
 **Cel:** szybka kategoryzacja umowy / NDA / aneksu w ciągu 5-10 minut, pomagająca w decyzji *„podpisać", „przekazać do analizy", „odrzucić bez negocjacji"*. Komplementarny do `pelna-analiza.md` (która jest głębsza i czasochłonna).
 

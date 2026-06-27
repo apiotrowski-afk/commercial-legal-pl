@@ -1,7 +1,7 @@
 # Workflow: Pełna analiza umowy (5 etapów)
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
 
 5-etapowy workflow analizy umowy. **Po każdym etapie zatrzymaj się i poczekaj na korekty użytkownika** zanim przejdziesz do następnego. To nie jest one-shot — to dialog.
 

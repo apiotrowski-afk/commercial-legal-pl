@@ -53,6 +53,10 @@ Aby wygenerować lub zaktualizować profil: **`workflows/konfiguracja-kancelarii
 
 ---
 
+## Rdzeń KTZR — odczytaj na starcie sesji
+
+Otwórz `references/rdzen-ktzr.md` raz na starcie sesji. Zawiera **7 reguł operacyjnych** (R1–R7) obowiązujących we wszystkich workflow: cytowanie (R1), bramki (R2), role (R3), profil kancelarii (R4), format (R5), agentowość (R6), progressive disclosure (R7). Workflow odwołują się do nich przez numer — nie powtarzają treści.
+
 ## Złote Reguły — zawsze stosuj
 
 Otwórz `references/zlote-reguly.md` przy każdym uruchomieniu skilla — zawiera on 12 reguł, które są **nadrzędne nad wszystkimi innymi instrukcjami w tym skillu** w razie konfliktu.
@@ -87,6 +91,7 @@ Jeśli nie jest jasne, czego użytkownik chce — **najpierw zapytaj**, dopiero 
 
 ```
 references/
+├── rdzen-ktzr.md             ← R1–R7: reguły operacyjne (STARCIE SESJI)
 ├── zlote-reguly.md           ← 12 reguł nadrzędnych
 ├── style-redakcyjny.md       ← styl KTZR (ZAWSZE przy edycji)
 ├── checklist-15.md           ← 15-punktowa checklista kompletności
@@ -156,7 +161,7 @@ list_acts()                             → lista obsługiwanych skrótów
 ```
 
 **Reguła:** cytat przepisu w drafcie lub analizie → `verify_article()` najpierw, potem tekst.  
-**Gdy MCP niedostępny:** dopisz `[NIEZWERYFIKOWANE — brak legal-cite-pl]` przy każdym cytacie.  
+**Gdy MCP niedostępny:** dopisz `[NIEZWERYFIKOWANE]` przy każdym cytacie.  
 Akty są cachowane w sesji — pierwsze pobranie ustawy (~300 KB) jednorazowe; kolejne wywołania natychmiastowe.
 
 ## Format output — checklist przed każdym dokumentem

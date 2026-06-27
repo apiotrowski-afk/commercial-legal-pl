@@ -1,7 +1,7 @@
 # Workflow: Cold-start klienta (onboarding nowego klienta)
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
 
 **Cel:** szybki, ustrukturyzowany wywiad z nowym klientem (10-15 min), który pozwala wypracować *profil klienta* używany w dalszej pracy Claude'a nad jego sprawami. Profil pomaga kontekstualizować rekomendacje — bez niego Claude pracuje na *„generycznym B2B"*, co zwykle daje gorszy efekt niż praca na rzeczywistym profilu klienta.
 

@@ -1,7 +1,9 @@
 # Workflow: Generator regulaminu (cold start → wywiad → szkielet → treść)
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
+
+> **R3 — LAIK:** dodatkowe sygnały dla regulaminów: „muszę opublikować regulamin", „jestem właścicielem sklepu", „chcę uruchomić sklep".
 
 Interaktywny generator regulaminów usług elektronicznych (u.ś.u.d.e., DSA). Workflow **zawsze zaczyna od 3 pytań diagnostycznych** — by wybrać właściwą ścieżkę. Następnie prowadzi wywiad jedno pytanie po drugim, pokazuje szkielet struktury do akceptacji, a dopiero potem generuje pełną treść.
 
@@ -301,15 +303,20 @@ Sprawdź regulamin pod kątem:
 8. **Obowiązki informacyjne (E-commerce i SaaS B2C)** — czy regulamin lub wskazane miejsce na stronie pokrywa minimum art. 12 u.p.k. (dane sprzedawcy, łączna cena, czas trwania, prawo odstąpienia, interoperacyjność treści cyfrowych)
 9. **Reklamacje B2C (SaaS z B2C / E-commerce)** — termin w § Reklamacje musi być w dniach **kalendarzowych**, nie roboczych; art. 7a u.p.k. limituje do 14 dni kal. (dłuższy termin = reklamacja uznana z mocy prawa). Przelicz: 1 tydzień = 7 dni kal.; 1 dzień roboczy ≠ 1 dzień kalendarzowy.
 
-Przed finalną wersją — bramka:
+Przed finalną wersją — bramka. Wyświetl pytania i **zaczekaj na odpowiedź**:
 
 ```
 ⛔ Przed finalnym regulaminem — potwierdź:
-1. Dane podmiotu (nazwa, NIP, adres, KRS) zweryfikowane?
-2. Platforma/sklep B2C czy wyłącznie B2B? (zmienia zakres obowiązków)
-3. Prawnik widział draft?
+1. Dane podmiotu (nazwa, NIP, adres, KRS) zweryfikowane źródłowo?
+2. Cytaty przepisów sprawdzone (verify_article lub ręcznie)?
+3. Platforma/sklep B2C czy wyłącznie B2B? (zmienia zakres obowiązków u.p.k.)
+4. Prawnik widział draft?
 → „tak, generuj" / lub wskaż co poprawić
 ```
+
+Dopiero po potwierdzeniu — generuj. Bez potwierdzenia — zwróć `[DRAFT — DO WERYFIKACJI]` nad regulaminem.
+
+Wyjątek: „tryb express" lub „zrób bez pytania" → generuj z `[DRAFT — DO WERYFIKACJI]` na początku i końcu.
 
 Zwróć QA jako listę ✅ / ⚠️ / ❌, a następnie finalny regulamin:
 

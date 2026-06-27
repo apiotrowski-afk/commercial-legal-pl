@@ -1,7 +1,7 @@
 # Workflow: Weryfikacja spójności odesłań i powiązań
 
 
-> **Profil kancelarii:** jeśli istnieje `practice-profile.md` — odczytaj go teraz i stosuj progi ryzyka, pozycje negocjacyjne oraz format przez cały workflow.
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
 
 Dedykowany dwuetapowy workflow do wykrywania **błędów odesłań i niespójności wewnętrznych** w długich umowach (typowo 15+ stron). Adresuje typowy problem: model dobrze czyta każdy paragraf osobno, ale gorzej widzi **relacje pomiędzy odległymi fragmentami** — efekt attention dilution w długim kontekście.
 
