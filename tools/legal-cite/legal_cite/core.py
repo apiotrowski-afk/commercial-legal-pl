@@ -131,7 +131,7 @@ async def _fetch_pl(info: dict) -> str | None:
                 parts = (ent.get("id") or "").split("/")
                 if len(parts) == 3:
                     positions.append(tuple(parts))  # (pub, year, pos) tekstu jednolitego
-        except Exception:
+        except (httpx.HTTPError, ValueError, KeyError):
             pass
         positions = positions[:4]  # najnowsze TJ (świeże bywają bez HTML — pomijamy puste)
         positions.append((info["pub"], str(info["year"]), str(info["pos"])))  # fallback oryginał
