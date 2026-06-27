@@ -149,8 +149,9 @@ def get_all_md_files() -> List[str]:
 
 def is_excluded(filepath: str) -> bool:
     """Sprawdza czy plik powinien być pominięty."""
+    normalized = os.path.normpath(filepath)
     for excl in EXCLUDED_PATHS:
-        if filepath.startswith(excl):
+        if normalized.startswith(os.path.normpath(excl)):
             return True
     return False
 

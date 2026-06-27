@@ -79,7 +79,8 @@ async def search_memories(
 
         words = [w.strip() for w in query.split() if w.strip()]
         for word in words:
-            pattern = f"%{word}%"
+            escaped = word.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+            pattern = f"%{escaped}%"
             stmt = stmt.where(
                 or_(
                     Memory.content.ilike(pattern),

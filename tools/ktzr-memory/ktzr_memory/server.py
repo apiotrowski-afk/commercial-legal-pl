@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(server: FastMCP) -> AsyncIterator[None]:
     await db.init_db()
-    db_hint = db.DATABASE_URL.split("///")[-1][:60]
+    db_hint = db.DATABASE_URL.split("://")[-1][:60]
     logger.info("DB gotowe: %s", db_hint)
     yield
 

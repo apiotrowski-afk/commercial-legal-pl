@@ -5,7 +5,7 @@ tags: [terminy, harmonogram, odbiór, UAT, kamienie-milowe, wada-krytyczna, milc
 contract_types: [B2B-IT, wdrożenie, body-leasing]
 risk_level: wysoki
 mandatory_for: [wdrożenie]
-requires: [05-obowiazki-stron.md, 10-kary-umowne.md]
+requires: [10-kary-umowne.md]
 timestamp: 2026-06-27
 ---
 
