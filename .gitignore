@@ -81,3 +81,6 @@ scripts/*.draft.md
 
 ROADMAP-wewnetrzny.md
 practice-profile.md
+
+# Prywatny serwer MCP kancelarii — open-source wersja: claude-legal-persistent-memory-pl
+tools/ktzr-memory/
