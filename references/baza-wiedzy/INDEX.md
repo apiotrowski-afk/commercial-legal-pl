@@ -32,6 +32,12 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 |---|---|---|
 | `13-regulamin-usdde-hosting-ai.md` | Regulamin u.ś.u.d.e. — obowiązkowe elementy (art. 8), wyłączenie odpowiedzialności hostingu (art. 14), DSA (notice & action, uzasadnianie decyzji), usługi AI jako wariant usługi elektronicznej | Tworzenie lub analiza regulaminu hostingu/SaaS/domen/AI. Pytania o zakres obowiązku ustawowego, wyłączenie odpowiedzialności, AUP, DSA |
 
+### Compliance AI Act
+
+| Plik | Zagadnienie | Kiedy sięgnąć |
+|---|---|---|
+| `14-polityka-ai-wdrozenie.md` | Polityka AI firmowa — komentarz prawnika: §-po-§, kluczowe luki (Rejestr, umowa powierzenia RODO, Opiekun), checklista wdrożeniowa, tabela terminów AI Act | Klient/firma chce wdrożyć politykę AI. Pytania o art. 4 AI Act, zakazy art. 5, obowiązki chatbot/deepfake art. 50, incydenty AI, rekrutacja AI — kiedy potrzebne odrębne procedury. |
+
 ### Wykładnia i interpretacja
 
 | Plik | Zagadnienie | Kiedy sięgnąć |

@@ -1,9 +1,9 @@
 ---
 type: Index
 title: Baza klauzul KTZR
-description: Katalog 20 kategorii klauzul z umów kancelarii KTZR — IT, NDA, body-leasing, SaaS, ugody.
-tags: [baza-klauzul, KTZR, IT, NDA, body-leasing, SaaS, ugody]
-timestamp: 2026-06-27
+description: Katalog 21 kategorii klauzul z umów kancelarii KTZR — IT, NDA, body-leasing, SaaS, ugody, polityka AI.
+tags: [baza-klauzul, KTZR, IT, NDA, body-leasing, SaaS, ugody, AI Act, polityka AI]
+timestamp: 2026-07-17
 ---
 
 # Baza klauzul KTZR — INDEX
@@ -41,6 +41,7 @@ Zbiór klauzul z umów kancelarii KTZR.pl, uporządkowany po kategoriach. Otwier
 | 18 | `18-zwrot-materialow.md` | Zwrot materiałów i dokumentacji | Umowy z dostarczaniem materiałów / poufne |
 | 19 | `19-cesja-wierzytelnosci.md` | Cesja wierzytelności | Specyficzne dla cesji |
 | 20 | `20-regulamin-usdde-aup.md` | Regulamin usług elektronicznych / AUP (hosting, serwery, domeny, AI) | Regulamin u.ś.u.d.e., SaaS, hosting, domeny, moduły AI — zakaz treści bezprawnych, notice & action, SLA, prawo konsumenta |
+| 21 | `21-polityka-ai.md` | Polityka korzystania ze sztucznej inteligencji (wzór KTZR) | Firma wdraża AI i potrzebuje polityki dla deployera — art. 4 AI Act (kompetencje), art. 5 (zakazy), art. 50 (oznaczanie). Obejmuje Rejestr narzędzi, Dane chronione, RODO, incydenty. |
 
 ## Zasady wyboru klauzul
 
