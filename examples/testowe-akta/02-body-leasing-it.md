@@ -15,7 +15,7 @@ zwaną dalej „**Dostawcą**",
 
 a
 
-**GAMMA FINANCE SPÓŁKA AKCYJNA** z siedzibą w Poznaniu, ul. Święty Marcin 22, 61-806 Poznań, KRS: **0000999003**, NIP: **7822399003**, REGON: **389003003**, reprezentowaną przez Piotra Wiśniewskiego — Prezesa Zarządu oraz Katarzynę Lewandowską — Wiceprezesa Zarządu, działających łącznie,
+**GAMMA FINANCE SPÓŁKA AKCYJNA** z siedzibą w Poznaniu, ul. Święty Marcin 22, 61-806 Poznań, KRS: **0000999003**, NIP: **7822399007**, REGON: **389003003**, reprezentowaną przez Piotra Wiśniewskiego — Prezesa Zarządu oraz Katarzynę Lewandowską — Wiceprezesa Zarządu, działających łącznie,
 
 zwaną dalej „**Zamawiającym**".
 
