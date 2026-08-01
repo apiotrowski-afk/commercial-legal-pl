@@ -68,25 +68,33 @@ Jednorazowy wywiad, który generuje plik `practice-profile.md` — trwałą konf
 
 ## SEKCJA 3/5 — Domyślne pozycje negocjacyjne
 
+Zbieramy pozycje jako **drabinę**, nie jeden punkt: pozycja wyjściowa (od czego zaczynamy), fallback (minimum, które jeszcze przyjmiemy) i próg prohibited (czego nie oddajemy bez eskalacji do partnera). Dzięki temu skill przy audycie od razu podaje fallback, a nie tylko diagnozę.
+
 **Pytania:**
 
-1. **Cap odpowiedzialności:** jaki cap rekomenduje kancelaria jako punkt wyjścia negocjacji?
-   - Np. „12 miesięcy wynagrodzenia netto" / „wartość kontraktu" / „zależy od wartości umowy"
+1. **Cap odpowiedzialności** — podaj drabinę:
+   - **Wyjściowa** (od czego zaczynamy): np. „12 miesięcy wynagrodzenia netto"
+   - **Fallback** (minimum akceptowalne): np. „wartość rocznego kontraktu"
+   - **Prohibited** (nie oddajemy bez eskalacji): np. „brak capu / cap poniżej 6 miesięcy"
 
-2. **Poufność:** standardowy okres poufności po zakończeniu umowy w kancelarii?
-   - Np. „3 lata dla informacji zwykłych, bezterminowo dla tajemnicy przedsiębiorstwa"
+2. **Poufność** — drabina okresu po zakończeniu:
+   - **Wyjściowa** / **Fallback** / **Prohibited**
+   - Np. wyjściowa „bezterminowo dla tajemnicy przedsiębiorstwa, 5 lat dla reszty" / fallback „3 lata" / prohibited „brak okresu"
 
 3. **RODO:** domyślna pozycja kancelarii:
    - Reprezentujemy administratora (strona zlecająca przetwarzanie)
    - Reprezentujemy podmiot przetwarzający (strona przyjmująca dane)
    - Obustronnie
 
-4. **Rozstrzyganie sporów:** preferowane forum?
-   - Sąd powszechny (siedziba której strony?)
-   - Arbitraż (jaki sąd arbitrażowy?)
-   - Zależy od wartości i stron
+4. **Rozstrzyganie sporów** — drabina forum:
+   - **Wyjściowa** (np. sąd siedziby naszego klienta) / **Fallback** (np. sąd siedziby drugiej strony w PL) / **Prohibited** (np. jurysdykcja zagraniczna, prawo obce)
 
 5. **Kary umowne:** czy kancelaria standardowo proponuje kary umowne w każdej umowie, czy tylko gdy klient prosi?
+
+6. **Tiery ustępstw** — sklasyfikuj, czym wolno handlować w negocjacji:
+   - **Tier 1 — must-win** (dealbreakery, nie oddajemy): np. cap, pola eksploatacji, wyłączenie winy umyślnej
+   - **Tier 2 — should-have** (walczymy, ale wymienialne za Tier 1): np. okres poufności, terminy płatności
+   - **Tier 3 — nice-to-have** (karty przetargowe do oddania): np. drobne terminy, formalności raportowe
 
 **STOP — poczekaj na odpowiedzi do Sekcji 3.**
 
@@ -161,11 +169,32 @@ RED bezwzględne (zawsze blokuj bez negocjacji):
 
 ## Domyślne pozycje negocjacyjne
 
-Cap odpowiedzialności (punkt wyjścia): [odpowiedź / domyślnie: 12 miesięcy wynagrodzenia netto]
-Okres poufności po zakończeniu: [odpowiedź / domyślnie: 3 lata dla informacji zwykłych, bezterminowo dla tajemnicy przedsiębiorstwa]
+Format drabiny: wyjściowa → fallback (minimum) → prohibited (nie oddawać bez eskalacji).
+
+Cap odpowiedzialności:
+- wyjściowa: [odpowiedź / domyślnie: 12 miesięcy wynagrodzenia netto]
+- fallback: [odpowiedź / domyślnie: wartość rocznego kontraktu]
+- prohibited: [odpowiedź / domyślnie: brak capu lub cap < 6 miesięcy]
+
+Okres poufności po zakończeniu:
+- wyjściowa: [odpowiedź / domyślnie: bezterminowo dla tajemnicy przedsiębiorstwa, 5 lat dla reszty]
+- fallback: [odpowiedź / domyślnie: 3 lata]
+- prohibited: [odpowiedź / domyślnie: brak okresu po zakończeniu]
+
 Pozycja RODO: [Administrator / Podmiot przetwarzający / Obustronnie]
-Forum sporów: [odpowiedź / domyślnie: sąd właściwy dla siedziby naszego klienta]
+
+Forum sporów:
+- wyjściowa: [odpowiedź / domyślnie: sąd właściwy dla siedziby naszego klienta]
+- fallback: [odpowiedź / domyślnie: sąd siedziby drugiej strony w PL]
+- prohibited: [odpowiedź / domyślnie: jurysdykcja zagraniczna lub prawo obce bez uzasadnienia]
+
 Kary umowne: [standardowo / na żądanie klienta]
+
+## Tiery ustępstw (czym wolno handlować)
+
+Tier 1 — must-win (dealbreakery, nie oddawać bez eskalacji): [lista / domyślnie: cap, pola eksploatacji, zakaz wyłączenia winy umyślnej]
+Tier 2 — should-have (walczyć, wymienialne za Tier 1): [lista / domyślnie: okres poufności, terminy płatności]
+Tier 3 — nice-to-have (karty przetargowe): [lista / domyślnie: drobne terminy, formalności raportowe]
 
 ## Styl i format
 

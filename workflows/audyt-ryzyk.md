@@ -38,6 +38,8 @@ Przeczytaj umowę z uwagą na typowe obszary ryzyka. Otwórz `references/zlote-r
 
 **Cytaty przepisów (R1):** `verify_article()` przed każdym cytowanym artykułem — lub `[NIEZWERYFIKOWANE]` przy braku MCP. Błędny numer artykułu w raporcie to błąd merytoryczny. Sygnatur wyroków sądowych **nie podawaj z pamięci** — jeśli chcesz powołać się na orzecznictwo, opisz tezę bez sygnatury lub oznacz `[SYGNATURA NIEZWERYFIKOWANA]`.
 
+**Skan po brzmieniu:** oprócz obszarów kategorialnych poniżej — otwórz `references/antywzorce-jezykowe.md` i przeskanuj tekst pod kątem pułapek wykrywanych **po sformułowaniu** („dołoży starań" przy obowiązku rezultatu, „według wyłącznego uznania", „niezależnie od pozostałych postanowień", pozorna wzajemność itd.). Fraza to sygnał do sprawdzenia, nie automatyczny werdykt.
+
 ### Typowe obszary ryzyka do sprawdzenia
 
 **Odpowiedzialność i kary:**
@@ -116,12 +118,15 @@ Obszar pominięty milcząco to błąd, nie oszczędność — czytelnik nie odr�
 ```
 ## AUDYT RYZYK — [Nazwa umowy/projektu]
 
+> **WERDYKT: 🟩 ZIELONY / 🟨 ŻÓŁTY / 🟥 CZERWONY** — [jedno zdanie: co z tym zrobić]
+
 ### 🔴 RYZYKA KRYTYCZNE
 
 #### 1. [Krótki tytuł ryzyka] — § X ust. Y
 **Opis:** [konkretnie co jest źle, dlaczego ryzykowne]
 **Skutek:** [co może się stać — egzekucja, nieważność, kara, utrata praw]
-**Rekomendacja:** [konkretna naprawa]
+**Rekomendacja (preferowana):** [najlepszy kierunek naprawy — nasza pozycja wyjściowa]
+**Fallback (minimum akceptowalne):** [kompromis, który jeszcze da się przyjąć, gdy druga strona nie ustąpi — druga linia obrony w negocjacji]
 **Klauzula z bazy:** `references/baza-klauzul/XX-yyy.md`
 
 #### 2. [...]
@@ -168,6 +173,20 @@ Obszar pominięty milcząco to błąd, nie oszczędność — czytelnik nie odr�
 | 0–29 | Niebezpieczna; nie podpisywać w obecnej formie | NIE PODPISYWAĆ |
 
 Każde 🔴 odejmuje ok. 15–20 pkt, każde 🟠 ok. 5–10 pkt, 🟡 ok. 1–3 pkt, 🟢 ok. 0,5 pkt.
+
+---
+
+## Reguły werdyktu (nagłówek raportu)
+
+Werdykt na górze raportu wynika z **twardych reguł**, nie z wyczucia. Sprawdzaj w kolejności — pierwszy pasujący kolor wygrywa:
+
+- **🟥 CZERWONY** — jeśli **którekolwiek** z: co najmniej jedno ryzyko 🔴 KRYTYCZNE · naruszenie normy bezwzględnie obowiązującej · trafienie w RED bezwzględne z `practice-profile.md`. → *„Nie podpisywać w obecnej formie — wymaga negocjacji punktów krytycznych przed podpisem."*
+- **🟨 ŻÓŁTY** — jeśli brak 🔴, ale występuje **co najmniej jedno** 🟠 WYSOKIE (lub kilka 🟡). → *„Do negocjacji — wskazane poprawki przed podpisem, bez dealbreakerów."*
+- **🟩 ZIELONY** — jeśli **wszystkie** poniższe: zero 🔴, zero 🟠, brak trafień RED z profilu. → *„Do podpisania z drobnymi poprawkami redakcyjnymi."*
+
+Werdykt (kolor) i ocena XX/100 muszą być spójne — 🟥 nie może współistnieć z oceną 85/100. Przy rozbieżności popraw ocenę, nie werdykt (reguły werdyktu są nadrzędne).
+
+Uwaga: werdykt 🟩🟨🟥 (3 kolory, oś decyzji „co robić") to **inna oś** niż flagi ryzyka 🔴🟠🟡🟢 (4 poziomy, oś „jak groźne pojedyncze ryzyko"). Nie mylić.
 
 ---
 

@@ -59,7 +59,8 @@ Na starcie sesji odczytaj `practice-profile.md` (jeśli istnieje) i stosuj przez
 | Sekcja w `practice-profile.md` | Co nadpisuje |
 |---------------------------------|-------------|
 | `## Progi ryzyka` | kiedy RED/YELLOW, styl (konserwatywny/umiarkowany/agresywny) |
-| `## Domyślne pozycje negocjacyjne` | cap, poufność, forum sporów, kary umowne |
+| `## Domyślne pozycje negocjacyjne` | cap, poufność, forum, kary — jako **drabina** (wyjściowa → fallback → prohibited); fallback zasila pole „Fallback" w audycie |
+| `## Tiery ustępstw` | must-win / should-have / nice-to-have — czym wolno handlować w negocjacji |
 | `## Styl i format` | formalność, legal design, język roboczy |
 | `## Wykluczenia` | typy spraw / klientów — odmów lub zaznacz poza profilem |
 

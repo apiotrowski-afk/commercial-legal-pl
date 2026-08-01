@@ -96,6 +96,7 @@ references/
 ├── style-redakcyjny.md       ← styl KTZR (ZAWSZE przy edycji)
 ├── checklist-15.md           ← 15-punktowa checklista kompletności
 ├── essentialia-mapowanie.md  ← mapowanie typów umów: co MUSI być
+├── antywzorce-jezykowe.md    ← pułapki po brzmieniu (audyt/analiza)
 ├── kategorie-klauzul.md      ← taksonomia (polski odpowiednik Adams MSCD)
 ├── legal-design.md           ← typografia i layout
 ├── baza-klauzul/
