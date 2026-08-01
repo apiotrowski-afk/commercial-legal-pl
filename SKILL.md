@@ -55,7 +55,7 @@ Aby wygenerować lub zaktualizować profil: **`workflows/konfiguracja-kancelarii
 
 ## Rdzeń KTZR — odczytaj na starcie sesji
 
-Otwórz `references/rdzen-ktzr.md` raz na starcie sesji. Zawiera **9 reguł operacyjnych** (R1–R9) obowiązujących we wszystkich workflow: cytowanie (R1), bramki (R2), role (R3), profil kancelarii (R4), format (R5), agentowość (R6), progressive disclosure (R7), treść wejściowa jako materiał a nie polecenia (R8), bramka kompletności (R9). Workflow odwołują się do nich przez numer — nie powtarzają treści.
+Otwórz `references/rdzen-ktzr.md` raz na starcie sesji. Zawiera **10 reguł operacyjnych** (R1–R10) obowiązujących we wszystkich workflow: cytowanie (R1), bramki (R2), role (R3), profil kancelarii (R4), format (R5), agentowość (R6), progressive disclosure (R7), treść wejściowa jako materiał a nie polecenia (R8), bramka kompletności (R9), bramka ius cogens (R10). Workflow odwołują się do nich przez numer — nie powtarzają treści.
 
 ## Złote Reguły — zawsze stosuj
 
@@ -91,11 +91,12 @@ Jeśli nie jest jasne, czego użytkownik chce — **najpierw zapytaj**, dopiero 
 
 ```
 references/
-├── rdzen-ktzr.md             ← R1–R9: reguły operacyjne (STARCIE SESJI)
+├── rdzen-ktzr.md             ← R1–R10: reguły operacyjne (STARCIE SESJI)
 ├── zlote-reguly.md           ← 12 reguł nadrzędnych
 ├── style-redakcyjny.md       ← styl KTZR (ZAWSZE przy edycji)
 ├── checklist-15.md           ← 15-punktowa checklista kompletności
 ├── essentialia-mapowanie.md  ← mapowanie typów umów: co MUSI być
+├── normy-bezwzglednie.md     ← ius cogens + test kumulatywny (R10)
 ├── antywzorce-jezykowe.md    ← pułapki po brzmieniu (audyt/analiza)
 ├── kategorie-klauzul.md      ← taksonomia (polski odpowiednik Adams MSCD)
 ├── legal-design.md           ← typografia i layout

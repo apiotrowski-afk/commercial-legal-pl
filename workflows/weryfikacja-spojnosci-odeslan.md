@@ -1,7 +1,7 @@
 # Workflow: Weryfikacja spójności odesłań i powiązań
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności)._
 
 Dedykowany dwuetapowy workflow do wykrywania **błędów odesłań i niespójności wewnętrznych** w długich umowach (typowo 15+ stron). Adresuje typowy problem: model dobrze czyta każdy paragraf osobno, ale gorzej widzi **relacje pomiędzy odległymi fragmentami** — efekt attention dilution w długim kontekście.
 
@@ -223,6 +223,28 @@ Każde odesłanie semantyczne wymaga **rozszyfrowania kontekstowego** — co kon
 | Nazwa strony pierwszej | Preambuła: "Usługodawca" / § 4 ust. 2: "Wykonawca" / § 8: "Spółka" | 🔴 NIESPÓJNE |
 | Określenie usługi | "Usługi" / "Świadczenie" / "Czynności" | ⚠️ Wymaga ujednolicenia |
 ```
+
+### Krok 2.5: Model wieloznaczności A/B (klauzule sporne interpretacyjnie)
+
+Weryfikacja odesłań łapie błędy *techniczne* (zły numer, sprzeczna kwota). Ten krok łapie co innego: klauzule **jednoznaczne w zapisie, ale wieloznaczne w znaczeniu** — takie, które strona A i strona B odczytają inaczej i o które pójdzie spór. Nie kończ na „zapis niejasny — doprecyzuj". Rozpisz spór.
+
+Dla każdej klauzuli budzącej wątpliwość interpretacyjną wypełnij model:
+
+```
+## WIELOZNACZNOŚĆ — § X ust. Y
+
+**Sytuacja:** [neutralne fakty — co klauzula reguluje, bez oceny]
+**Odczyt strony A:** [najmocniejsza wersja interpretacji korzystnej dla strony A]
+**Odczyt strony B:** [najmocniejsza wersja interpretacji korzystnej dla strony B]
+**Czego tekst NIE mówi:** [jedno zdanie — luka, która rodzi spór]
+**Prawdopodobny wynik:** [jak rozstrzygnie sąd + reguła wykładni: art. 65 KC (wykładnia kombinowana, zgodny zamiar stron), a przy wzorcu — art. 385 § 2 KC (in dubio contra proferentem — wątpliwości na niekorzyść autora wzorca)] [NIEZWERYFIKOWANE bez legal-cite]
+**Redraft (kierunek naprawy):** [propozycja przeredagowania usuwająca wieloznaczność]
+```
+
+Zasady:
+- **Steel-manning obu stron** — zawsze dokładnie dwa przeciwstawne odczyty, każdy w najmocniejszej wersji. Jeśli konstruujesz drugi odczyt (bo tekst sugeruje jeden), oznacz to jawnie.
+- Reguła `contra proferentem` (art. 385 § 2 KC) działa tylko przy wzorcu narzuconym — sprawdź, czy klauzula była negocjowana.
+- Model uruchamiaj dla klauzul granicznych, nie dla każdego zdania — nadużycie rozmywa raport.
 
 ---
 

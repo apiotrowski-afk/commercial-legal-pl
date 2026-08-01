@@ -1,7 +1,7 @@
 # Workflow: Pełna analiza umowy (5 etapów)
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności · R10 bramka ius cogens)._
 
 5-etapowy workflow analizy umowy. **Po każdym etapie zatrzymaj się i poczekaj na korekty użytkownika** zanim przejdziesz do następnego. To nie jest one-shot — to dialog.
 

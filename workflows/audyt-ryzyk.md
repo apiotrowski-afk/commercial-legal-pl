@@ -1,7 +1,7 @@
 # Workflow: Audyt ryzyk (standalone)
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności · R10 bramka ius cogens)._
 
 Standalone audyt ryzyk prawnych i biznesowych w umowie. Mniejszy zakres niż pełna analiza — skupiony **wyłącznie na ryzykach**, bez essentialii, checklisty kompletności i logiki wewnętrznej.
 
@@ -29,6 +29,16 @@ Wyświetl trafienia zwięźle (max 5 wpisów):
 ```
 
 Jeśli brak trafień — **pomiń sekcję, nie informuj użytkownika**. Przejdź do Kroku 1.
+
+---
+
+## Krok 0b: Bramka ius cogens (R10)
+
+Zanim ocenisz klauzule po kategoriach — otwórz `references/normy-bezwzglednie.md` i przebiegnij katalog norm bezwzględnie obowiązujących. Szukasz klauzul, które próbują **obejść** *ius cogens* (wyłączenie winy umyślnej — art. 473 § 2 KC, kara umowna za zobowiązanie pieniężne — art. 483 § 1 KC, przeniesienie praw osobistych — art. 16 PrAut, przeniesienie majątkowych bez pól eksploatacji — art. 41 ust. 2 PrAut, wydłużenie terminów zapłaty ponad ustawę o zatorach itd.).
+
+Trafienie to **nieważność z mocy prawa, nie ryzyko** — flaguj 🔴 i przesuń werdykt-triage do 🟥.
+
+Sprawdź też **trigger mikroprzedsiębiorcy** (art. 3855 KC): jeśli jedną ze stron jest jednoosobowa firma, a umowa nie ma dla niej charakteru zawodowego — włącz skan klauzul abuzywnych. Klauzule graniczne → **test pięciopunktowy z efektem kumulatywnym** (tamże).
 
 ---
 
