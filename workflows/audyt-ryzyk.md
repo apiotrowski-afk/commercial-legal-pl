@@ -1,7 +1,7 @@
 # Workflow: Audyt ryzyk (standalone)
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności)._
 
 Standalone audyt ryzyk prawnych i biznesowych w umowie. Mniejszy zakres niż pełna analiza — skupiony **wyłącznie na ryzykach**, bez essentialii, checklisty kompletności i logiki wewnętrznej.
 
@@ -101,6 +101,16 @@ Dla każdego zidentyfikowanego ryzyka przypisz poziom:
 
 ---
 
+## Krok 2b: Bramka kompletności (R9)
+
+Każdy z dziewięciu obszarów ryzyka z Kroku 1 (odpowiedzialność i kary · prawa autorskie · definicje i logika · reprezentacja · wypowiedzenie i exit · RODO · tytuł prawny i przekwalifikowanie · poufność · spory) musi zostać **jawnie zamknięty** przed raportem — albo zidentyfikowane ryzyko z flagą, albo `✓ brak zastrzeżeń`. Obszar nieadekwatny do typu umowy oznacz `— n/d`.
+
+Obszar pominięty milcząco to błąd, nie oszczędność — czytelnik nie odróżni „sprawdzone, czysto" od „przeoczone". Jeśli w danym obszarze nie ma ryzyka, powiedz to wprost w podsumowaniu (Krok 3), nie zostawiaj luki.
+
+**Cicha samokontrola przed prezentacją raportu:** wszystkie dziewięć obszarów pokryte · każde ryzyko ma flagę 🔴/🟠/🟡/🟢 · ocena bezpieczeństwa spójna z liczbą i wagą flag · brak sprzecznych werdyktów. Dopiero po tej kontroli pokazujesz wynik.
+
+---
+
 ## Krok 3: Format wyjścia
 
 ```
@@ -127,6 +137,10 @@ Dla każdego zidentyfikowanego ryzyka przypisz poziom:
 ### 🟢 RYZYKA NISKIE
 
 #### 1. [...]
+
+### ✓ Obszary bez zastrzeżeń
+
+[wymień obszary z Kroku 1 sprawdzone i czyste — np. „Reprezentacja stron · RODO · Spory: brak zastrzeżeń". Obszary n/d pomiń.]
 
 ---
 

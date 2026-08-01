@@ -1,7 +1,7 @@
 # Workflow: Pełna analiza umowy (5 etapów)
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności)._
 
 5-etapowy workflow analizy umowy. **Po każdym etapie zatrzymaj się i poczekaj na korekty użytkownika** zanim przejdziesz do następnego. To nie jest one-shot — to dialog.
 
@@ -79,6 +79,8 @@ Przejdź przez wszystkie 15 punktów. Dla każdego oznacz status (✅ / ⚠️ /
 ```
 
 Wskaż na końcu **TOP 3 braki** wymagające naprawy.
+
+**Bramka kompletności (R9):** przed prezentacją sprawdź cicho, że każdy z 15 punktów ma przypisany status (żaden nie zniknął), suma statusów = 15, a wynik „X/15" zgadza się z liczbą ✅. Punkt pominięty milcząco to błąd — status ➖ (n/d) stosuj jawnie, nie przez pominięcie.
 
 **STOP. Zapytaj:** "Idziemy do logiki wewnętrznej, czy najpierw chcesz poprawić któryś z braków?"
 
