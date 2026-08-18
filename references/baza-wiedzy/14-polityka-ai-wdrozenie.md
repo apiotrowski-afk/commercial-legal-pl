@@ -104,7 +104,7 @@ Powiązanie z reżimem AI Act (poważny incydent → obowiązki wobec dostawcy i
 
 **Na co uważać:**
 
-Bez **imiennie wskazanego Opiekuna** i realnego cyklu przeglądów polityka staje się martwym dokumentem. Zalecane: przegląd co 6–12 miesięcy i po każdej istotnej zmianie przepisów (Digital Omnibus może przesunąć terminy AI Act).
+Bez **imiennie wskazanego Opiekuna** i realnego cyklu przeglądów polityka staje się martwym dokumentem. Zalecane: przegląd co 6–12 miesięcy i po każdej istotnej zmianie przepisów (Digital Omnibus z lipca 2026 r. już przesunął terminy dla systemów wysokiego ryzyka — kolejne zmiany możliwe).
 
 Szkolenie odwzorowuje przesłanki art. 4 (rola, wiedza, kontekst) — to dobrze i wystarczające jako minimum.
 
@@ -118,7 +118,26 @@ Szkolenie odwzorowuje przesłanki art. 4 (rola, wiedza, kontekst) — to dobrze 
 
 Polityka „ożywa" dopiero z **wypełnionym Rejestrem**. Sam wzór (§10 bez uzupełnionego Zał. 1) to szkielet bez mięśni.
 
-Pamiętaj o zastrzeżeniu stanu prawnego — terminy stosowania AI Act mogą się zmienić w związku z pakietem Digital Omnibus.
+Pamiętaj o zastrzeżeniu stanu prawnego — terminy stosowania AI Act zostały zmienione rozporządzeniem 2026/1744 (Digital Omnibus) i mogą podlegać dalszym zmianom.
+
+---
+
+## Klasyfikacja systemu jako wysokiego ryzyka (zał. III) — sekwencja
+
+Gdy klient pyta „czy mój system AI jest wysokiego ryzyka", nie odpowiadaj z pamięci — przejdź sekwencję i **zweryfikuj brzmienie przez konektor AI Act KB** (`mcp__aiakt-kb__przepis`). Kolejność kroków ma znaczenie:
+
+1. **Dopasowanie do obszaru zał. III** — czy zastosowanie należy do któregoś z obszarów wysokiego ryzyka (m.in. zatrudnienie i zarządzanie pracownikami, dostęp do usług, edukacja, ocena zdolności kredytowej, biometryka)? Jeśli nie — nie jest wysokiego ryzyka z zał. III.
+2. **Wyjątek art. 6 ust. 3** — system z obszaru zał. III jest **co do zasady** wysokiego ryzyka; może nim nie być, jeśli **nie stwarza istotnego ryzyka** szkody dla zdrowia, bezpieczeństwa lub praw podstawowych (w tym nie wpływa istotnie na wynik decyzji) **i** spełnia co najmniej jeden z warunków art. 6 ust. 3 (np. wąskie zadanie proceduralne, poprawa wyniku wcześniejszej czynności człowieka). Warunki te **nie są automatycznymi wyłączeniami** — trzeba wykazać brak istotnego ryzyka.
+3. **Override profilowaniem** — **pułapka:** jeśli system **profiluje osoby fizyczne**, wyjątek z art. 6 ust. 3 **nie działa** — system pozostaje wysokiego ryzyka. Sprawdź to zawsze, gdy w grę wchodzą dane o osobach.
+4. **Dokumentacja i rejestracja (art. 6 ust. 4, art. 49 ust. 2)** — jeśli dostawca uznaje, że system z obszaru zał. III **nie** jest wysokiego ryzyka, musi to udokumentować przed wprowadzeniem, przedstawić dokumentację organowi na żądanie **i zarejestrować system w bazie UE** (obowiązek zachowany po Digital Omnibus, w lżejszej formie).
+
+**Uwaga terminowa:** zasadnicza stosowalność powyższych obowiązków do samodzielnych systemów z zał. III (w tym FRIA z art. 27) została przesunięta na **2 grudnia 2027 r.** (rozporządzenie 2026/1744) — zob. tabela terminów niżej.
+
+**Obowiązki podmiotu stosującego (deployera)** rozdziel na dwie grupy:
+- **Bramki przed uruchomieniem** (blokują go-live): m.in. ocena, czy nie jest to zastosowanie zakazane; sprawdzenie instrukcji dostawcy; ocena, czy wymagana jest FRIA (ocena wpływu na prawa podstawowe, art. 27 — dotyczy m.in. podmiotów publicznych i wybranych zastosowań).
+- **Obowiązki ciągłe** (po uruchomieniu): nadzór człowieka, monitorowanie działania, prowadzenie rejestrów/logów, reagowanie na incydenty.
+
+⚠️ **R1 / ostrożność:** obszary zał. III, wyjątki i terminy stosowania **zawsze** weryfikuj przez `mcp__aiakt-kb__`, nie z pamięci — brzmienie i daty AI Act bywają nieprecyzyjnie zapamiętane. Klasyfikacja konkretnego systemu wymaga oceny prawnika; ta sekwencja to szkielet, nie automat.
 
 ---
 
@@ -139,12 +158,17 @@ Pamiętaj o zastrzeżeniu stanu prawnego — terminy stosowania AI Act mogą si�
 
 ## Przepisy kluczowe
 
-| Przepis | Treść | Obowiązuje od |
+| Przepis | Treść | Stosuje się od |
 |---|---|---|
 | Art. 4 AI Act | Kompetencje w zakresie AI — obowiązek zapewnienia szkolenia | 2 lutego 2025 r. |
-| Art. 5 AI Act | Praktyki zakazane (manipulacja, scoring społeczny, rozpoznawanie emocji w miejscu pracy) | 2 lutego 2025 r. |
-| Zał. III AI Act | Systemy wysokiego ryzyka (rekrutacja, zarządzanie pracownikami, ocena) | 2 sierpnia 2026 r. |
-| Art. 50 AI Act | Przejrzystość: oznaczanie AI, chatboty, deepfake | 2 sierpnia 2026 r. |
+| Art. 5 AI Act | Praktyki zakazane (pierwotny katalog) | 2 lutego 2025 r. |
+| Art. 5 AI Act — nowe zakazy | Zakazy dodane rozporządzeniem 2026/1744 | 2 grudnia 2026 r. |
+| Obowiązki GPAI, zarządzanie | Modele ogólnego przeznaczenia | 2 sierpnia 2025 r. |
+| Art. 50 AI Act | Przejrzystość: oznaczanie AI, chatboty, deepfake | 2 sierpnia 2026 r. (dla części systemów generujących treści syntetyczne wprowadzonych wcześniej — dostosowanie do 2 grudnia 2026 r.) |
+| Zał. III AI Act | Samodzielne systemy wysokiego ryzyka (rekrutacja, zarządzanie pracownikami, ocena) — w tym FRIA z art. 27 | **2 grudnia 2027 r.** (przesunięte) |
+| Zał. I AI Act | Systemy wysokiego ryzyka wbudowane w produkty regulowane odrębnie | **2 sierpnia 2028 r.** (przesunięte) |
 | Art. 28 RODO | Umowa powierzenia danych osobowych z podmiotem przetwarzającym | Obowiązuje |
 
-*Stan prawny: lipiec 2026. Terminy AI Act mogą ulec zmianie (Digital Omnibus) — przed wdrożeniem zweryfikuj aktualny stan przez `mcp__aiakt-kb__przepis()` lub bezpośrednio w EUR-Lex CELEX:32024R1689.*
+**Zmiana harmonogramu:** rozporządzenie (UE) 2026/1744 (*Digital Omnibus on AI*), opublikowane 24 lipca 2026 r., obowiązujące od 27 lipca 2026 r., **przesunęło** stosowanie obowiązków dla systemów wysokiego ryzyka: zał. III → 2 grudnia 2027 r., zał. I → 2 sierpnia 2028 r. Nie zmieniło stosowania art. 4/5 (od lutego 2025) ani art. 50 (od sierpnia 2026). Obowiązek rejestracji w bazie UE (art. 49 ust. 2) dla systemów uznanych w samoocenie za niebędące wysokiego ryzyka został **zachowany** (w lżejszej formie).
+
+*Stan prawny: sierpień 2026 (po Digital Omnibus). Przed wdrożeniem zweryfikuj aktualny stan przez `mcp__aiakt-kb__przepis()` lub bezpośrednio w EUR-Lex (CELEX:32024R1689 oraz 32026R1744).*

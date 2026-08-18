@@ -19,7 +19,7 @@ Polityka dotyczy wyłącznie roli **podmiotu stosującego (deployera)** — jeś
 
 ### ⚠️ Red flags
 
-Brak imiennie wskazanego Opiekuna Polityki (martwy dokument bez właściciela). Polityka bez realnego Rejestru narzędzi AI — każde użycie ChatGPT poza kontrolą. Zakaz wrzucania danych osobowych bez umowy powierzenia (art. 28 RODO) — kliknięcie „akceptuję regulamin" SaaS tego nie zastępuje. Definicja „Celów służbowych" zbyt wąska — luka „prywatny laptop, prywatne konto" pozwala omijać zakazy. Brak konkretnego terminu zgłoszenia incydentu (samo „niezwłocznie" bez liczby dni jest źródłem sporów). Zastosowania HR (rekrutacja, ocena pracowników) włączone bez odrębnych procedur — to systemy wysokiego ryzyka (zał. III AI Act). Polityka bez daty przeglądu i trybu aktualizacji po zmianie przepisów.
+Brak imiennie wskazanego Opiekuna Polityki (martwy dokument bez właściciela). Polityka bez realnego Rejestru narzędzi AI — każde użycie ChatGPT poza kontrolą. Zakaz wrzucania danych osobowych bez umowy powierzenia (art. 28 RODO) — kliknięcie „akceptuję regulamin" SaaS tego nie zastępuje. Definicja „Celów służbowych" zbyt wąska — luka „prywatny laptop, prywatne konto" pozwala omijać zakazy. Brak konkretnego terminu zgłoszenia incydentu (samo „niezwłocznie" bez liczby dni jest źródłem sporów). Zastosowania HR (rekrutacja, ocena pracowników) włączone bez odrębnych procedur — to systemy wysokiego ryzyka (zał. III AI Act; obowiązki stosowane od 2 grudnia 2027 r. po Digital Omnibus). Polityka bez daty przeglądu i trybu aktualizacji po zmianie przepisów.
 
 ### Pole do uzupełnienia przed wdrożeniem
 
@@ -188,4 +188,4 @@ Oświadczam, że zapoznałem/zapoznałam się z Polityką korzystania ze sztuczn
 
 ---
 
-*Wzór KTZR — stan prawny: lipiec 2026. Terminy stosowania AI Act mogą ulec zmianie w związku z pakietem Digital Omnibus — przed wdrożeniem zweryfikuj aktualny stan przepisów. Wzór wymaga dostosowania do konkretnej organizacji. Materiał nie stanowi porady prawnej. © Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy (KTZR), Gdańsk — ktzr.pl.*
+*Wzór KTZR — stan prawny: sierpień 2026 (po rozporządzeniu 2026/1744 — Digital Omnibus). Terminy stosowania AI Act mogą podlegać dalszym zmianom — przed wdrożeniem zweryfikuj aktualny stan przepisów. Wzór wymaga dostosowania do konkretnej organizacji. Materiał nie stanowi porady prawnej. © Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy (KTZR), Gdańsk — ktzr.pl.*

@@ -14,6 +14,7 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 |---|---|---|
 | `01-maintenance-art750-kc.md` | Maintenance IT i SLA — art. 750 KC | Umowa zawiera "maintenance", "utrzymanie", "wsparcie", "SLA", "managed services". Pytanie: dzieło czy zlecenie/usługi? |
 | `02-przeniesienie-praw-oprogramowanie.md` | Pola eksploatacji, utwory przyszłe (art. 41, 74 PrAut) | Umowa zawiera "przeniesienie praw autorskich", "pola eksploatacji", "Utwór". Brak wymienienia pól = krytyczny błąd |
+| `15-ochrona-utworu-test.md` | Czy wytwór jest utworem — test dwustopniowy (art. 1 ust. 1 PrAut), 4 podstawy wyłączenia, decyzyjnik dla kodu/GUI/baz danych, wytwór AI a ochrona | PRZED oceną pól eksploatacji. Szeroka klauzula "przenosi prawa do wszystkich rezultatów"; kod generyczny/konfiguracja/dane; wytwór AI lub AI-assisted; pytanie "czy to w ogóle utwór" |
 | `03-prawa-zalezne-osobiste-program.md` | Utwory zależne, autorskie prawa osobiste (art. 74, 77 PrAut) | W umowie z programem komputerowym i fazą rozwoju. Pytanie o modyfikacje, nadzór autorski, prawo do oznaczenia autorstwa |
 | `04-open-source-copyleft.md` | Open source, copyleft, indemnifikacja (art. 75-76 PrAut) | Umowa wdrożeniowa IT. Klient chce zabezpieczenia przed copyleft. Pytania o GPL/AGPL/MIT, "zakaz open source" |
 | `11-wizerunek-a-prawa-autorskie.md` | Wizerunek (art. 81 PrAut) vs. autorskie prawa majątkowe do utworu audiowizualnego — autonomia reżimów, cofnięcie zgody ex nunc, wyjątki z art. 81 ust. 2, ciężar dowodu zakresu zgody | Sprawy o nagrania z udziałem osób (instruktorzy, prelegenci, modele). Umowy o dzieło z klauzulą "wszystkie prawa autorskie" obejmujące materiały z wizerunkiem. Ugody i porozumienia wizerunkowe. Argumenty "mamy prawa autorskie, więc możemy puszczać" |
@@ -51,6 +52,9 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 | `08-rodo-powierzenie-konstrukcja.md` | Kwalifikacja administrator/procesor/współadministrator, art. 28 ust. 3 RODO, subprocesorzy, zwrot/usunięcie danych | "Powierzenie przetwarzania", "DPA", "procesor", "administrator", "subprocesor". Generowanie umowy powierzenia |
 | `09-rodo-bezpieczenstwo-i-naruszenia.md` | Środki techniczne i organizacyjne (art. 32 RODO), incydenty bezpieczeństwa (art. 33-34 RODO) | "Środki TOMs", "ISO 27001", "SOC 2", "data breach", "incydent", "72 godziny" |
 | `10-rodo-audyt-i-odpowiedzialnosc-administracyjna.md` | Prawo audytu (art. 28 ust. 3 lit. h), kary administracyjne (art. 82-83 RODO), regres A → P | "Prawo audytu", "kontrola procesora", "kary RODO", "regres", "PUODO" |
+| `16-podstawy-przetwarzania.md` | Podstawy z art. 6/7/9 RODO — test trójstopniowy uzasadnionego interesu (lit. f), zgoda w stosunku pracy (art. 22¹ᵃ/ᵇ k.p.), dane szczególne (art. 9), niejednolita zmiana podstawy | Ustalenie podstawy przetwarzania dla procesu w umowie. "Uzasadniony interes", "zgoda pracownika", "monitoring", "marketing", "dane wrażliwe/szczególne", "art. 6/9" |
+
+**Siatka operacyjna DPA:** do przeglądu/konstrukcji umowy powierzenia — `references/checklist-dpa-art28.md` (18-punktowy audyt art. 28 z flagami i remediacją; uzupełnia `08` o „co sprawdzić punkt po punkcie").
 
 ## Powiązania z klauzulami i stylem
 

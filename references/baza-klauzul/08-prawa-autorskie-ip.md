@@ -17,7 +17,9 @@ Kto jest właścicielem rezultatów pracy, na jakich polach eksploatacji, kiedy 
 
 ### ⚠️ Red flags
 
-Brak wskazania pól eksploatacji (przeniesienie nieskuteczne — art. 41 ust. 2 PrAut). Brak uregulowania praw do komponentów open-source / third-party. Moment przeniesienia nieokreślony. Brak przeniesienia prawa do wykonywania praw zależnych. Klauzula licencyjna zamiast przeniesienia bez uzasadnienia biznesowego.
+Brak wskazania pól eksploatacji (przeniesienie nieskuteczne — art. 41 ust. 2 PrAut). Brak uregulowania praw do komponentów open-source / third-party. Moment przeniesienia nieokreślony. Brak przeniesienia prawa do wykonywania praw zależnych. Klauzula licencyjna zamiast przeniesienia bez uzasadnienia biznesowego. Szeroka klauzula „przenosi prawa do wszystkich rezultatów" bez rozróżnienia utwór / nie-utwór — przy wytworach zdeterminowanych technicznie lub wygenerowanych przez AI przeniesienie bywa **bezprzedmiotowe** (nie ma czego przenieść).
+
+> **Zanim ocenisz pola eksploatacji** — sprawdź, czy wytwór w ogóle jest utworem: `references/baza-wiedzy/15-ochrona-utworu-test.md` (test dwustopniowy, decyzyjnik dla kodu/GUI/baz danych/wytworu AI). Rezultat nie-utwór wymaga alternatywnego tytułu (tajemnica przedsiębiorstwa, zobowiązanie umowne), nie przeniesienia praw autorskich.
 
 ### Klauzula wzorcowa (generyczny IT)
 
