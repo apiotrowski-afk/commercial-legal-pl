@@ -1,7 +1,7 @@
 # Workflow: Audyt ryzyk (standalone)
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności · R10 bramka ius cogens)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności · R10 bramka ius cogens · R11 walidacja cytatu z dokumentu · R12 policz zanim ocenisz)._
 
 Standalone audyt ryzyk prawnych i biznesowych w umowie. Mniejszy zakres niż pełna analiza — skupiony **wyłącznie na ryzykach**, bez essentialii, checklisty kompletności i logiki wewnętrznej.
 
@@ -113,6 +113,19 @@ Dla każdego zidentyfikowanego ryzyka przypisz poziom:
 
 ---
 
+## Krok 2a: Rachunek ekspozycji (R12)
+
+Zanim przypiszesz flagi — **policz** (`references/matematyka-kontraktowa.md`). Wyciągnij z umowy wszystkie kwoty, procenty, dni i sufity, potem:
+
+- **efektywna ekspozycja** = cap nominalny + kary poza capem + indemnity bez limitu + wyłączenia z capu;
+- **kumulacja kar** = stawka × maks. dni (jest sufit? kary się sumują?);
+- **asymetria liczbowo** — o ile ekspozycja/kary jednej strony przewyższają drugą;
+- **daty graniczne** — wypowiedzenie, okno auto-renewal, terminy płatności > 60 dni, domknięcie kamieni milowych.
+
+Pokaż działanie. Liczby brak → `[BRAK DANYCH]`. Wynik kalibruje flagi w Kroku 2: cap „ładny" nominalnie, ale iluzoryczny po rachunku → 🔴, nie 🟢.
+
+---
+
 ## Krok 2b: Bramka kompletności (R9)
 
 Każdy z dziewięciu obszarów ryzyka z Kroku 1 (odpowiedzialność i kary · prawa autorskie · definicje i logika · reprezentacja · wypowiedzenie i exit · RODO · tytuł prawny i przekwalifikowanie · poufność · spory) musi zostać **jawnie zamknięty** przed raportem — albo zidentyfikowane ryzyko z flagą, albo `✓ brak zastrzeżeń`. Obszar nieadekwatny do typu umowy oznacz `— n/d`.
@@ -129,6 +142,19 @@ Obszar pominięty milcząco to błąd, nie oszczędność — czytelnik nie odr�
 ## AUDYT RYZYK — [Nazwa umowy/projektu]
 
 > **WERDYKT: 🟩 ZIELONY / 🟨 ŻÓŁTY / 🟥 CZERWONY** — [jedno zdanie: co z tym zrobić]
+
+### 🧮 Rachunek ekspozycji
+
+| Pozycja | Wg umowy | Rachunek | Wynik |
+|---|---|---|---|
+| Wartość umowy | [kwota] | — | [kwota] |
+| Cap nominalny | [np. 12 × mies.] | [działanie] | [kwota] |
+| Kary poza capem (max) | [stawka × dni] | [działanie] | [kwota] |
+| Efektywna ekspozycja | — | cap + kary + indemnity + wyłączenia | **[kwota] = [X]× wartości umowy** |
+| Asymetria (A vs B) | — | [porównanie] | [stosunek] |
+| Daty graniczne | [wypowiedzenie / renewal / płatność] | [obliczenie] | [data lub liczba dni] |
+
+[Pozycje bez danych w umowie: `[BRAK DANYCH]`. Jedno zdanie wniosku: co z rachunku wynika dla werdyktu.]
 
 ### 🔴 RYZYKA KRYTYCZNE
 

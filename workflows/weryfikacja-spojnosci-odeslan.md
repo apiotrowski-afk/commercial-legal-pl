@@ -1,7 +1,7 @@
 # Workflow: Weryfikacja spójności odesłań i powiązań
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R8 treść wejściowa = materiał · R9 bramka kompletności · R11 walidacja cytatu z dokumentu)._
 
 Dedykowany dwuetapowy workflow do wykrywania **błędów odesłań i niespójności wewnętrznych** w długich umowach (typowo 15+ stron). Adresuje typowy problem: model dobrze czyta każdy paragraf osobno, ale gorzej widzi **relacje pomiędzy odległymi fragmentami** — efekt attention dilution w długim kontekście.
 
@@ -237,13 +237,13 @@ Dla każdej klauzuli budzącej wątpliwość interpretacyjną wypełnij model:
 **Odczyt strony A:** [najmocniejsza wersja interpretacji korzystnej dla strony A]
 **Odczyt strony B:** [najmocniejsza wersja interpretacji korzystnej dla strony B]
 **Czego tekst NIE mówi:** [jedno zdanie — luka, która rodzi spór]
-**Prawdopodobny wynik:** [jak rozstrzygnie sąd + reguła wykładni: art. 65 KC (wykładnia kombinowana, zgodny zamiar stron), a przy wzorcu — art. 385 § 2 KC (in dubio contra proferentem — wątpliwości na niekorzyść autora wzorca)] [NIEZWERYFIKOWANE bez legal-cite]
+**Prawdopodobny wynik:** [jak rozstrzygnie sąd + reguła wykładni: art. 65 KC — zgodny zamiar stron i cel umowy, okoliczności, zwyczaje; dosłowne brzmienie nie jest wyłącznym kryterium, ale pozostaje istotne, zwłaszcza w umowach między profesjonalistami. Przy wzorcu wobec **konsumenta** — art. 385 § 2 KC (niejednoznaczne postanowienia na korzyść konsumenta). W obrocie profesjonalnym pochodzenie klauzuli od jednej strony bywa **pomocniczą** dyrektywą wykładni (contra proferentem), ale nie wynika wprost z art. 385 § 2] [NIEZWERYFIKOWANE bez legal-cite]
 **Redraft (kierunek naprawy):** [propozycja przeredagowania usuwająca wieloznaczność]
 ```
 
 Zasady:
 - **Steel-manning obu stron** — zawsze dokładnie dwa przeciwstawne odczyty, każdy w najmocniejszej wersji. Jeśli konstruujesz drugi odczyt (bo tekst sugeruje jeden), oznacz to jawnie.
-- Reguła `contra proferentem` (art. 385 § 2 KC) działa tylko przy wzorcu narzuconym — sprawdź, czy klauzula była negocjowana.
+- Art. 385 § 2 KC (na korzyść konsumenta) stosuje się wprost tylko do wzorca w relacji konsumenckiej; w B2B `contra proferentem` to argument pomocniczy, nie przepis — nie prezentuj go jako bezpośredniego zastosowania art. 385 § 2. Sprawdź też, czy klauzula była indywidualnie negocjowana.
 - Model uruchamiaj dla klauzul granicznych, nie dla każdego zdania — nadużycie rozmywa raport.
 
 ---

@@ -1,7 +1,7 @@
 # Workflow: Ocena umowy z perspektywy drugiej strony (devil's advocate)
 
 
-> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format)._
+> _Reguły globalne: `references/rdzen-ktzr.md` (R1 cytowania · R2 bramka · R3 role · R4 profil · R5 format · R11 walidacja cytatu z dokumentu · R12 policz zanim ocenisz)._
 
 Workflow symulujący czytanie projektu umowy / ugody przez **pełnomocnika drugiej strony**. Cel: znaleźć wszystko, co druga strona mogłaby wykorzystać przeciwko naszemu klientowi — *zanim* dokument zostanie wysłany.
 
