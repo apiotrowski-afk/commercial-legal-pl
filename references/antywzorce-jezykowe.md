@@ -30,7 +30,7 @@ Zasada: wykrycie frazy to **sygnał do sprawdzenia**, nie automatyczny werdykt. 
 |---|---|---|
 | „według wyłącznego uznania", „wedle własnego uznania", „w każdym czasie i bez podania przyczyny" | uznaniowość bez standardu | Jedna strona decyduje bez kryteriów i kontroli. Przy blokadzie usługi, zmianie warunków, akceptacji odbioru — rażąca asymetria. Żądaj obiektywnych przesłanek. |
 | „może, ale nie jest zobowiązany" | pozorne zobowiązanie | Uprawnienie udające obowiązek — druga strona nie może na nim polegać. Sprawdź, czy miało być obowiązkiem. |
-| „zastrzega sobie prawo do…" | jednostronna zmiana | Często ukrywa prawo do jednostronnej zmiany istotnych warunków. Sprawdź granice i tryb (przy wzorcach — art. 384¹ KC). |
+| „zastrzega sobie prawo do…" | jednostronna zmiana | Często ukrywa prawo do jednostronnej zmiany istotnych warunków. Sama klauzula powinna określać **przesłanki i zakres** zmiany. Przy wzorcu w stosunku ciągłym — art. 384¹ KC wiąże nowym wzorcem tylko przy prawidłowym doręczeniu/udostępnieniu (art. 384) **i** realnej możliwości wypowiedzenia w najbliższym terminie; przepis nie legalizuje każdej klauzuli zmiany, a wobec konsumenta podlega ona kontroli abuzywności. |
 | „z przyczyn leżących po stronie…" (bez katalogu) | przerzucenie ryzyka | Otwarta formuła obciążająca jedną stronę nieokreślonym zbiorem zdarzeń. Żądaj zamkniętego katalogu. |
 
 ## Rozdmuchanie / zawężenie zakresu
@@ -38,7 +38,7 @@ Zasada: wykrycie frazy to **sygnał do sprawdzenia**, nie automatyczny werdykt. 
 | Fraza w umowie | Typ pułapki | Dlaczego groźne / co sprawdzić |
 |---|---|---|
 | „w tym w szczególności", „między innymi" po stronie **obowiązków klienta** | zakres otwarty w górę | Lista przykładowa obowiązków = obowiązki nieograniczone. Przy obowiązkach naszego klienta domagaj się katalogu zamkniętego. |
-| „wszelkie", „jakiekolwiek", „nieograniczone" przy odpowiedzialności/licencji/danych | zakres maksymalny | „nieograniczona odpowiedzialność", „licencja na wszelkich polach", „prawo do wszelkich danych" — sprawdź, czy to nie obejście capu / pól eksploatacji (art. 41 ust. 2 PrAut) / minimalizacji danych (RODO). |
+| „wszelkie", „jakiekolwiek", „nieograniczone" przy odpowiedzialności/licencji/danych | zakres maksymalny | „nieograniczona odpowiedzialność", „licencja na wszelkich polach", „prawo do wszelkich danych" — sprawdź, czy to nie obejście capu / minimalizacji danych (RODO). Przy IP: sama formuła „wszelkie pola" **nie zastępuje** wyraźnego wskazania pól (art. 41 ust. 2 PrAut) — wadliwa jest ogólna formuła **zamiast** identyfikacji; jeśli po niej następuje kompletne, jednoznaczne wyliczenie, wymóg może być spełniony. Umowa nie obejmie pól nieznanych w chwili zawarcia (art. 41 ust. 4); licencja wyłączna wymaga formy pisemnej (art. 67 ust. 5). |
 | „niezależnie od pozostałych postanowień", „bez względu na inne zapisy" | nadpisanie umowy | Klauzula wyłączająca inne postanowienia — może cicho ubezskutecznić cap, karę, wyłączenia. Sprawdź, co realnie nadpisuje (cross-check z resztą umowy). |
 | „trwałe", „nieodwołalne", „bezterminowe" przy licencji/zgodzie/zobowiązaniu | brak wyjścia | Zobowiązanie bez końca i bez możliwości cofnięcia. Sprawdź, czy adekwatne do ekwiwalentu i czy w ogóle dopuszczalne. |
 
@@ -48,7 +48,7 @@ Zasada: wykrycie frazy to **sygnał do sprawdzenia**, nie automatyczny werdykt. 
 |---|---|---|
 | „na własny koszt i ryzyko" | cichy transfer kosztów | Sprawdź, czy koszt/ryzyko nie powinno leżeć po drugiej stronie lub być dzielone. |
 | „zwolni z wszelkiej odpowiedzialności", „zabezpieczy przed wszelkimi roszczeniami" (indemnity otwarta) | indemnifikacja bez limitu | Otwarte hold-harmless potrafi obejść cap odpowiedzialności. Sprawdź limit, wyłączenia i wzajemność. |
-| „odpowiada jak za własne działania" (bez ograniczeń) | odpowiedzialność za podwykonawców | Sprawdź, czy współmierne (art. 474 KC) i czy nie obejmuje operatorów chmury poza kontrolą strony. |
+| „odpowiada jak za własne działania" (bez ograniczeń) | odpowiedzialność za podwykonawców | Art. 474 KC to reguła ustawowa (za osoby, którymi dłużnik się posługuje) — w obrocie profesjonalnym modyfikowalna w granicach art. 473, 3531 i 58 KC. Sprawdź, czy współmierne i czy nie obejmuje operatorów chmury poza kontrolą strony. |
 | „kara umowna nie wyłącza dochodzenia odszkodowania przewyższającego" (jednostronnie) | kumulacja sankcji | Sprawdź symetrię i czy nie prowadzi do rażąco wygórowanej sankcji (art. 484 §2 KC — miarkowanie). |
 
 ## Pozorna wzajemność i definicje-wytrychy
