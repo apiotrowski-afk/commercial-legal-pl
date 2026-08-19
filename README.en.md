@@ -64,6 +64,13 @@ Add to this `references/essentialia-mapowanie.md` (essentialia negotii for each 
 
 The skill ships with **8 operational workflows** in `workflows/`: quick triage (GREEN/YELLOW/RED), full contract analysis, risk audit, contract generation, clause editing, consistency check, devil's advocate review, and client onboarding. Each workflow specifies exactly which reference files to load and when.
 
+## Related open-source tools from the same firm
+
+- **[legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl)** — an MCP server that fetches the exact, current wording of a cited Polish/EU provision straight from the source (Sejm ELI / EUR-Lex), so the skill cites statutes with source verification instead of from the model's memory.
+- **[okf-legal](https://github.com/apiotrowski-afk/okf-legal)** — a legal-domain profile over Google's Open Knowledge Format: a sub-document unit ("directed reason"), typed relations carrying direction, and anti-hallucination consumption rules. This skill's clause structure (frontmatter, `risk-level`, `mandatory-for`) is one of the two independent systems the profile was distilled from.
+- **[anon-legal-pl](https://github.com/apiotrowski-afk/anon-legal-pl)** — local anonymization of legal files (PESEL/NIP, case numbers) on Presidio.
+- **[kancelaria-dms](https://github.com/apiotrowski-afk/kancelaria-dms)** — a DMS/CRM for a law firm (Google Workspace).
+
 ## How to use this
 
 ```bash
