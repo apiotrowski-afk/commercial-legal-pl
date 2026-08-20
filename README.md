@@ -83,6 +83,7 @@ Instalacja i szczegóły: **[github.com/apiotrowski-afk/legal-cite-pl](https://g
 **Pozostałe z ekosystemu** (otwarte narzędzia LegalTech PL):
 - **[anon-legal-pl](https://github.com/apiotrowski-afk/anon-legal-pl)** — lokalna anonimizacja akt prawnych (PESEL/NIP, sygnatury) na bazie Presidio.
 - **[kancelaria-dms](https://github.com/apiotrowski-afk/kancelaria-dms)** — DMS/CRM dla kancelarii (Google Workspace).
+- **[okf-legal](https://github.com/apiotrowski-afk/okf-legal)** — profil prawniczy nad Open Knowledge Format (Google): jednostka pod-dokumentowa „racja kierunkowa", relacje typowane z kierunkiem, reguły anty-halucynacyjne. Struktura klauzul tego skilla (frontmatter, `risk-level`, `mandatory-for`) jest jednym z dwóch niezależnych systemów, z których profil został zdestylowany.
 
 ## Dla kogo
 
