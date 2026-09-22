@@ -61,3 +61,19 @@ Brak limitu odpowiedzialności (= nieograniczona). Asymetryczny cap (tylko jedna
 > Administrator Portalu nie ponosi odpowiedzialności za zachowania Użytkowników w ramach Portalu ani za niewykonanie lub nienależyte wykonanie przez nich umów zawartych za pośrednictwem Portalu. Administrator nie ponosi w szczególności odpowiedzialności za: jakość, bezpieczeństwo lub legalność usług oferowanych w Aukcjach; zdolność Sprzedających do zawarcia i wykonania umowy; wypłacalność Kupujących; prawdziwość i rzetelność informacji podawanych przez Użytkowników. Portal nie jest stroną umów zawieranych między Użytkownikami i nie gwarantuje, że są oni uprawnieni do zawarcia i wykonania umowy.
 
 ⚠️ Podstawa: art. 6 DSA (Rozp. 2022/2065, hosting safe harbour) — bezpośrednio stosowany od 17.02.2024 r. DSA uchyla art. 14 u.ś.u.d.e. w zakresie przez siebie objętym (art. 89 DSA); art. 14 u.ś.u.d.e. zachowuje znaczenie pomocnicze wyłącznie poza zakresem przedmiotowym DSA. W powołaniach: wskazuj DSA jako lex posterior i lex specialis; art. 14 u.ś.u.d.e. — ewentualnie pomocniczo. Wyłączenie skuteczne pod warunkiem, że Administrator: (a) nie ma rzeczywistej wiedzy o bezprawności działań Użytkownika; (b) po uzyskaniu takiej wiedzy niezwłocznie usuwa lub blokuje dostęp do treści (termin ustawowy — nie dookreślać w klauzuli; praktyka: do 24–48 h od potwierdzenia zgłoszenia). Nie obejmuje sytuacji, gdy Portal sam aktywnie uczestniczy w transakcji lub sprawuje redakcyjną kontrolę nad treścią Aukcji.
+
+## Indemnifikacja odwrócona (klient zwalnia dostawcę)
+
+Standardowo indemnifikacja idzie od dostawcy do klienta (naruszenie IP, dane). Istnieje jednak sytuacja odwrotna, typowa dla **usług przetwarzających dane na polecenie klienta** (SaaS, AI, transkrypcja, marketing): to klient odpowiada za legalność tego, co poleca, a dostawca ponosi ryzyko cudzego zaniedbania.
+
+> W granicach, na jakie zezwala prawo, Zamawiający **zwolni Wykonawcę od odpowiedzialności względem osób trzecich** i zwróci mu udokumentowane wydatki, obejmujące koszty pomocy prawnej oraz **administracyjne kary pieniężne**, jeżeli Wykonawca poniósł je wskutek uchybienia przez Zamawiającego obowiązkom wskazanym w § [•] — zwłaszcza wskutek braku podstawy prawnej [przetwarzania / nagrywania], zaniechania obowiązku informacyjnego, udostępnienia danych szerszych niż zakres uzgodniony przez Strony albo posłużenia się wynikami niezgodnie z Umową.
+
+Towarzyszy jej klauzula rozgraniczająca kompetencje:
+
+> Wykonawca **nie ocenia zgodności z prawem** [procesu], który stosuje Zamawiający.
+
+Dwa zastrzeżenia przy ocenie takiej klauzuli:
+- **Nie działa wobec osób, których dane dotyczą** — odpowiedzialność z art. 82 RODO pozostaje niezależna od umownego podziału ryzyka między stronami. Klauzula reguluje wyłącznie rozliczenia wewnętrzne.
+- **Kary administracyjne** jako przedmiot indemnifikacji bywają sporne — organ nakłada karę na konkretny podmiot za jego własne naruszenie; umowne przerzucenie ciężaru ekonomicznego to nie to samo co przeniesienie odpowiedzialności publicznoprawnej. Zob. `baza-wiedzy/10-rodo-audyt-i-odpowiedzialnosc-administracyjna.md`.
+
+Przy audycie: indemnifikacja odwrócona **bez limitu** to ekspozycja otwarta po stronie klienta — policz ją w rachunku ekspozycji (R12).

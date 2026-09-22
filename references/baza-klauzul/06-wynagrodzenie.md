@@ -48,3 +48,13 @@ Modele cenowe, terminy płatności, waloryzacja, prowizje.
 > Administratorowi Portalu przysługuje pełne wynagrodzenie prowizyjne w przypadku gdy: (a) Aukcja nie dojdzie do skutku z przyczyn leżących po stronie Użytkownika; (b) pomimo skutecznego zakończenia Aukcji Strony nie zawrą umowy będącej jej przedmiotem; (c) którakolwiek ze Stron odstąpi od umowy zawartej w wyniku Aukcji lub ją wypowie. Ciężar wykazania, że przyczyna leży po stronie Administratora, spoczywa na Użytkowniku.
 
 ⚠️ Model pre-paid z brakiem pro rata jest dopuszczalny w relacji B2B — wymaga wyraźnego zastrzeżenia jak powyżej. W relacji B2C (konsument) mógłby być kwestionowany jako klauzula abuzywna (art. 3851 KC).
+
+## Kwantyfikacja wsparcia i prac dodatkowych
+
+Częste źródło sporu: co mieści się w abonamencie, a co jest pracą dodatkową. Zamiast „rozsądne wsparcie" — próg liczbowy.
+
+> Wynagrodzenie za Usługę obejmuje udostępnienie funkcji [Produktu], dokumentacji już sporządzonej oraz informacji, którymi Wykonawca dysponuje. **Czynności wykonywane ręcznie w wymiarze przekraczającym [2] godziny miesięcznie** rozlicza się odrębnie, według stawki ustalonej przez Strony, a gdy Strony jej nie ustalą — w wysokości **[•] PLN netto za każdą rozpoczętą godzinę**.
+
+Trzy elementy, które czynią klauzulę skuteczną: **co jest w cenie** (wyliczone rodzajowo) · **próg** (liczba godzin/miesiąc) · **stawka domyślna** na wypadek braku uzgodnienia. Bez trzeciego elementu spór wraca przy pierwszym przekroczeniu progu.
+
+Analogicznie koszty audytu: rutynowy — na koszt żądającego; **audyt po naruszeniu zawinionym przez drugą stronę — na jej koszt**. Zob. `references/checklist-dpa-art28.md`.

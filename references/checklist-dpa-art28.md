@@ -74,6 +74,48 @@ Umowa (lub inny akt prawny) — **forma pisemna, w tym elektroniczna** (art. 28 
 - Dopuszczalne **rozsądne** ograniczenia (nie czyniące prawa iluzorycznym): częstotliwość (np. raz/rok + ad hoc po incydencie), oparcie o raporty/certyfikaty (ISO 27001) jako podstawowy środek z prawem własnej inspekcji przy wątpliwościach, podział kosztów (rutyna vs audyt po naruszeniu), wcześniejsze zawiadomienie z możliwością audytu ad hoc przy incydencie.
 - 🔴, jeśli audyt wyłączony lub warunki czynią go niewykonalnym.
 
+## Warstwa AI — gdy procesorem jest dostawca usługi opartej na modelach
+
+Umowa powierzenia dla usługi AI (transkrypcja, analiza treści, asystenci, scoring) wymaga **pięciu klauzul ponad standard art. 28**. Ich brak to dziś najczęstsza luka w DPA.
+
+| # | Klauzula | Dlaczego krytyczna | Kryterium 🔴 |
+|---|---|---|---|
+| A1 | **Zakaz trenowania, dostrajania i ewaluacji modeli** na powierzonych danych — z **flow-down na subprocesorów** | Bez tego dane klienta zasilają model dostawcy; „nie używamy do treningu" w FAQ nie zastępuje klauzuli | brak zakazu albo zakaz bez rozciągnięcia na dalsze podmioty |
+| A2 | **Anonimizacja i użycie zbioru zanonimizowanego** — dopuszczalna, ale: trwałe zerwanie powiązania, **zakaz ponownej identyfikacji**, wyłączenie trenowania modeli, zgoda na użycie marketingowe, możliwość wyłączenia przez administratora | Anonimizacja bywa furtką do obejścia A1 | użycie „danych zanonimizowanych" bez zakazu re-identyfikacji i bez wyłączenia treningu |
+| A3 | **Wyłączenie danych biometrycznych** — procesor nie tworzy wzorców głosu/twarzy ani nie przetwarza w sposób prowadzący do uzyskania danych biometrycznych (art. 4 pkt 14 RODO) | Nagranie głosu ≠ dane biometryczne, dopóki nie służy identyfikacji — granicę trzeba zapisać | brak wyłączenia przy usłudze przetwarzającej głos/obraz |
+| A4 | **Dane z art. 9/10 ujawnione incydentalnie** — usługa ich nie zbiera celowo, ale mogą paść w rozmowie; polecenie ogranicza przetwarzanie do transkrypcji/raportu/usunięcia, **bez wyodrębniania i bez użycia jako kryterium oceny**; procesor informuje administratora i może wstrzymać przetwarzanie | Realne ryzyko przy transkrypcji rozmów — bez tego przetwarzanie jest bezpodstawne | brak regulacji przy usłudze przetwarzającej swobodną wypowiedź |
+| A5 | **Zakaz decyzji wywołujących skutki prawne** po stronie procesora + wymóg **znaczącego udziału człowieka** po stronie administratora | Odsuwa art. 22 RODO i porządkuje role | wynik AI jako podstawa decyzji bez człowieka |
+
+### Definicja „udokumentowanego polecenia" jako katalog zamknięty
+
+Najlepsza praktyka: umowa **wylicza wyczerpująco**, co jest poleceniem administratora — np. (a) postanowienia umowy powierzenia i umowy głównej, (b) czynności i ustawienia dokonywane przez użytkowników w panelu (konfiguracja, retencja), (c) polecenia w formie dokumentowej na wskazany adres. Wszystko poza katalogiem nie jest poleceniem.
+
+Zaleta: usuwa spór „czy klikniecie w panelu to polecenie" i wiąże konfigurację z odpowiedzialnością administratora. Flaga 🟡, gdy umowa mówi o „udokumentowanych poleceniach" bez wskazania, co nim jest.
+
+## Okno naruszenia — od „niezwłocznie" do liczby
+
+Art. 33 ust. 2 RODO nie daje procesorowi terminu liczbowego („bez zbędnej zwłoki"), a administrator ma **72 h od stwierdzenia**. Umowa powinna skonkretyzować:
+
+- **Termin: 24–48 h** liczone **od uzyskania rozsądnego stopnia pewności**, że doszło do naruszenia (nie od pierwszego sygnału/podejrzenia) — wzorzec dobrze wyważony.
+- **Zakres zgłoszenia**: elementy z art. 33 ust. 3 w zakresie znanym procesorowi, z możliwością **uzupełniania etapami** (art. 33 ust. 4).
+- Obejmuje **także naruszenia u subprocesora**.
+- **„Zgłoszenie nie stanowi uznania winy ani odpowiedzialności"** — bez tego procesorzy zwlekają z powiadomieniem.
+- Ograniczenie publikacji identyfikującej procesora bez jego zgody — z wyjątkiem informacji dla organu, osób, których dane dotyczą, i postępowań.
+
+🔴 gdy: brak terminu liczbowego · termin liczony od „potwierdzenia naruszenia" (przesuwa start dowolnie) · brak obowiązku przy naruszeniu u subprocesora.
+
+## Żądanie organu państwa trzeciego (dostęp pozaunijny)
+
+Klauzula często pomijana, a kluczowa przy dostawcach z ekspozycją na prawo USA (zob. red flag Cloud Act/FISA wyżej):
+
+> W przypadku otrzymania przez Procesora lub Podprocesora **wiążącego żądania dostępu** do Danych Osobowych pochodzącego od organu państwa trzeciego Procesor **informuje Administratora w terminie [3 Dni Robocze]** i może wstrzymać przetwarzanie, chyba że prawo tego zakazuje; w sposób uzgodniony z Administratorem podejmuje **uzasadnione ekonomicznie działania w celu zakwestionowania żądania** oraz udostępnia **wyłącznie dane niezbędne** do jego wykonania.
+
+Trzy elementy, które muszą wystąpić łącznie: **powiadomienie** (o ile prawo pozwala) · **kwestionowanie** żądania · **minimalizacja** ujawnienia. Sama informacja bez obowiązku kwestionowania to za mało.
+
+## Kwantyfikacja wsparcia (koszty realizacji żądań)
+
+Dobra praktyka zamiast sporu „czy to w cenie": funkcje panelu, istniejąca dokumentacja i posiadane informacje — **w wynagrodzeniu**; praca manualna do [2 h/miesiąc] — w cenie; powyżej — stawka uzgodniona, domyślnie [•] PLN netto za rozpoczętą godzinę. Analogicznie audyt: raz w roku na koszt administratora, **po naruszeniu zawinionym przez procesora — na koszt procesora**.
+
 ## Powiązania
 
 - Kwalifikacja ról (administrator/współadministrator/procesor) i skutki błędu → `baza-wiedzy/08-rodo-powierzenie-konstrukcja.md`.

@@ -38,6 +38,7 @@ Wszystkie pliki bazy wiedzy to **wiedza doktrynalna**, nie tekst do kopiowania d
 | Plik | Zagadnienie | Kiedy sięgnąć |
 |---|---|---|
 | `14-polityka-ai-wdrozenie.md` | Polityka AI firmowa — komentarz prawnika: §-po-§, kluczowe luki (Rejestr, umowa powierzenia RODO, Opiekun), checklista wdrożeniowa, tabela terminów AI Act | Klient/firma chce wdrożyć politykę AI. Pytania o art. 4 AI Act, zakazy art. 5, obowiązki chatbot/deepfake art. 50, incydenty AI, rekrutacja AI — kiedy potrzebne odrębne procedury. |
+| `17-ai-act-rola-dostawcy.md` | Rola **dostawcy** systemu AI: pułapka art. 25 (przejęcie roli przy white-label i istotnej modyfikacji), sekwencja klasyfikacji z profilowaniem wyłączającym odstępstwo z art. 6 ust. 3, obowiązki z zał. IV, trzy reguły instrukcji obsługi (art. 13 ust. 3), nadzór człowieka (art. 14) | Klient **tworzy albo wprowadza do obrotu** system AI; umowa white-label; klient modyfikuje cudzy system |
 
 ### Wykładnia i interpretacja
 

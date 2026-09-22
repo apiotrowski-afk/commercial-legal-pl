@@ -44,7 +44,7 @@ Kwota/stawka, waluta, termin płatności, mechanizm fakturowania, podstawa rozli
 
 ## 7. Prawa autorskie / IP
 
-Kto jest właścicielem utworów? Przeniesienie vs licencja? Pola eksploatacji wymienione wprost (art. 50/74 PrAut)? Moment przejścia praw? Wynagrodzenie za przeniesienie wyraźnie wskazane (lub inkluzja w wynagrodzeniu głównym)? Klauzula anty-copyleft? Prawa zależne? Prawa osobiste — zobowiązanie do niewykonywania?
+Kto jest właścicielem utworów? Przeniesienie vs licencja? **Pola eksploatacji wymienione wprost i maksymalnie szeroko** (art. 41 ust. 2 PrAut — katalog wyczerpujący, nie przykładowy; zasada 1 KTZR)? **Klauzula nowych pól eksploatacji** — zobowiązanie do przeniesienia na wezwanie, bez dodatkowego wynagrodzenia (art. 41 ust. 4 + art. 45 PrAut; zasada 2 KTZR)? Moment przejścia praw? Wynagrodzenie za przeniesienie wyraźnie wskazane (lub inkluzja w wynagrodzeniu głównym)? Klauzula anty-copyleft? Prawa zależne (odrębne zezwolenie — art. 2 PrAut)? Własność nośników (art. 52 PrAut)? Prawa osobiste — zobowiązanie do niewykonywania + upoważnienie do rozpowszechniania bez oznaczania autorstwa? **Forma pisemna pod rygorem nieważności** (art. 53, art. 67 ust. 5 PrAut)?
 
 **Krytyczne dla umów IT.**
 
@@ -80,7 +80,7 @@ Sąd właściwy (umowny czy ustawowy)? Mediacja/arbitraż jako etap przedsądowy
 
 ## 15. Postanowienia końcowe
 
-Forma zmian (pisemna pod rygorem nieważności)? Klauzula salwatoryjna? Załączniki wymienione i przywołane w treści? Liczba egzemplarzy? Wejście w życie?
+Forma zmian (pisemna pod rygorem nieważności)? **Adresy do doręczeń wskazane wprost + obowiązek zawiadomienia o zmianie pod rygorem skuteczności doręczenia na ostatni adres** (zasada KTZR — bez rygoru klauzula jest bezzębna)? Klauzula salwatoryjna? Załączniki wymienione i przywołane w treści? Liczba egzemplarzy? Wejście w życie?
 
 ---
 

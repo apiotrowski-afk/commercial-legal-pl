@@ -95,7 +95,7 @@ references/
 ├── zlote-reguly.md           ← 12 reguł nadrzędnych
 ├── style-redakcyjny.md       ← styl KTZR (ZAWSZE przy edycji)
 ├── checklist-15.md           ← 15-punktowa checklista kompletności
-├── checklist-dpa-art28.md    ← siatka audytu umowy powierzenia (RODO art. 28)
+├── checklist-dpa-art28.md    ← siatka audytu umowy powierzenia (RODO art. 28 + warstwa AI)
 ├── essentialia-mapowanie.md  ← mapowanie typów umów: co MUSI być
 ├── normy-bezwzglednie.md     ← ius cogens + test kumulatywny (R10)
 ├── antywzorce-jezykowe.md    ← pułapki po brzmieniu (audyt/analiza)
@@ -107,7 +107,7 @@ references/
 │   ├── 01-oznaczenie-stron.md
 │   ├── 02-preambuly.md
 │   ├── 03-definicje.md
-│   └── ... (20 plików kategorii)
+│   └── ... (24 pliki kategorii)
 └── baza-wiedzy/
     ├── INDEX.md              ← mapa bazy wiedzy
     │

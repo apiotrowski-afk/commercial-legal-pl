@@ -1,9 +1,9 @@
 ---
 type: Index
 title: Baza klauzul KTZR
-description: Katalog 21 kategorii klauzul z umów kancelarii KTZR — IT, NDA, body-leasing, SaaS, ugody, polityka AI.
-tags: [baza-klauzul, KTZR, IT, NDA, body-leasing, SaaS, ugody, AI Act, polityka AI]
-timestamp: 2026-07-17
+description: Katalog 23 kategorii klauzul z umów kancelarii KTZR — IT, NDA, body-leasing, SaaS, ugody, polityka AI, monitoring pracowników, umowa ramowa.
+tags: [baza-klauzul, KTZR, IT, NDA, body-leasing, SaaS, ugody, AI Act, polityka AI, monitoring, umowa ramowa]
+timestamp: 2026-09-20
 ---
 
 # Baza klauzul KTZR — INDEX
@@ -42,6 +42,8 @@ Zbiór klauzul z umów kancelarii KTZR.pl, uporządkowany po kategoriach. Otwier
 | 19 | `19-cesja-wierzytelnosci.md` | Cesja wierzytelności | Specyficzne dla cesji |
 | 20 | `20-regulamin-usdde-aup.md` | Regulamin usług elektronicznych / AUP (hosting, serwery, domeny, AI) | Regulamin u.ś.u.d.e., SaaS, hosting, domeny, moduły AI — zakaz treści bezprawnych, notice & action, SLA, prawo konsumenta |
 | 21 | `21-polityka-ai.md` | Polityka korzystania ze sztucznej inteligencji (wzór KTZR) | Firma wdraża AI i potrzebuje polityki dla deployera — art. 4 AI Act (kompetencje), art. 5 (zakazy), art. 50 (oznaczanie). Obejmuje Rejestr narzędzi, Dane chronione, RODO, incydenty. |
+| 22 | `22-monitoring-pracownikow.md` | Monitoring pracowników — rozmowy, AI, regulamin pracy | Nagrywanie i analiza AI rozmów pracowników: art. 22³ § 4 k.p., zakaz rozpoznawania emocji (art. 5 AI Act), zakaz wyłącznej podstawy decyzji, zał. III pkt 4 lit. b, retencja, informacja 2 tygodnie przed |
+| 23 | `23-umowa-ramowa-zlecenia.md` | Umowa ramowa zlecenia — model propozycja–przyjęcie | Współpraca bez gwarancji zleceń i dostępności: konstrukcja anty-przekwalifikowaniowa (art. 22 § 1 k.p.), zastępstwo, ewidencja ≠ lista obecności, brak automatycznego przeniesienia praw, status studenta |
 
 ## Zasady wyboru klauzul
 

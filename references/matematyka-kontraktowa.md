@@ -78,3 +78,42 @@ Zasada: „niezwłocznie"/„w rozsądnym terminie" **nie da się policzyć** �
 3. Liczba nieobecna w umowie → `[BRAK DANYCH]`, nie szacunek. Wynik zależny od założenia → oznacz założenie jawnie.
 4. **Werdykt i flagi kalibruj do policzonych kwot**, nie do etykiet w umowie: „cap 12 mies." przy karach poza capem 3× wartości to 🔴, nie 🟢.
 5. Wynik wpisz do raportu w sekcji **„Rachunek ekspozycji"** (audyt) — kwoty i terminy przed oceną słowną, zgodnie z zasadą: ryzyko przez kwotę i termin, czytelnik sam wyciąga wniosek.
+
+## 6. Rozpiska terminów — zobowiązania czasowe jako osobny deliverable
+
+R12 każe policzyć kwoty. Druga połowa ryzyka to **terminy** — a te giną rozsypane po paragrafach. Przy umowach z wieloma obowiązkami czasowymi (powierzenie danych, SLA, wdrożenia, umowy ramowe) wyciągnij je do osobnej tabeli, **rozdzielonej per strona**.
+
+**Tabela 1 — obowiązki [Wykonawcy/Procesora]**
+
+| Termin | Co trzeba zrobić | Podstawa |
+|---|---|---|
+| [48] godzin | zgłoszenie naruszenia — liczone od uzyskania rozsądnego stopnia pewności | § [•] |
+| [3] dni robocze | przekazanie żądania skierowanego bezpośrednio do Wykonawcy | § [•] |
+| [30] dni przed | poinformowanie o nowym lub zmienionym podwykonawcy | § [•] |
+| [raz w roku] | przegląd środków technicznych i organizacyjnych | § [•] |
+
+**Tabela 2 — obowiązki [Zamawiającego/Administratora]** — ta sama struktura.
+
+**Tabela 3 — okresy przechowywania**
+
+| Dane | Okres | Uwaga |
+|---|---|---|
+| [kategoria] | [okres] | konfigurowalne w dół / sztywne |
+| kopie zapasowe | [okres], potem nadpisanie | dane usunięte z produkcji znikają w tym samym oknie |
+| po zakończeniu | zwrot lub usunięcie w [okres] | + okno kopii + [okres] na potwierdzenie |
+
+**Tabela 4 — limity i kwoty**
+
+| Pozycja | Wartość |
+|---|---|
+| wsparcie w cenie | [zakres rodzajowy] |
+| praca manualna w cenie | [2] h/miesiąc |
+| powyżej limitu | [•] PLN netto za rozpoczętą godzinę |
+| audyt | raz w roku, maks. [5] dni, koszt [strony] |
+| limit odpowiedzialności | [wynagrodzenie z 12 miesięcy] |
+
+### Po co to robić
+
+Trzy rzeczy, których nie widać w narracyjnym raporcie: **terminy sprzeczne** (obowiązek w 3 dni zależny od informacji przychodzącej w 5), **łańcuchy, które się nie domykają** (procesor zgłasza w 72 h, a administrator ma 72 h od stwierdzenia — nie zdąży), **asymetria czasowa** (jedna strona ma dni, druga godziny).
+
+Rozpiska jest też **najużyteczniejszym fragmentem raportu dla klienta** — trafia do kalendarza i procedur, podczas gdy reszta analizy zostaje w segregatorze. Warto ją generować także jako samodzielny deliverable po podpisaniu umowy.
