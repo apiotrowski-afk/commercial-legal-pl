@@ -1,7 +1,7 @@
 {
   "name": "commercial-legal-pl",
   "description": "Polish Commercial Legal — Claude skill for drafting and reviewing contracts under Polish civil law. Focused on B2B, IP and IT contracts (body leasing, NDAs, IT implementation, SaaS, IP assignment, settlements). Built from the practice of Zurawska Piotrowski Law Firm (ktzr.pl). Use when the user asks to analyze a Polish contract, audit contract risks, generate a new agreement, edit a clause, or check contract consistency.",
-  "version": "0.2.0",
+  "version": "0.7.0",
   "author": {
     "name": "Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy",
     "email": "a.piotrowski@ktzr.pl",
