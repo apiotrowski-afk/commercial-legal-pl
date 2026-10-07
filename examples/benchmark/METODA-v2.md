@@ -22,13 +22,14 @@ rodzin. Raportujemy zgodność per metryka: ile wad obaj uznali za wykryte, ile
 tylko jeden, i gdzie się rozjechali. Rozjazd większy niż różnice między
 konfiguracjami oznacza, że ranking konfiguracji jest szumem sędziego.
 
-**Granica tej kontroli.** Opus i Fable to różne linie modeli, ale ten sam
-dostawca. Przesądzenie wyklucza więc samopreferencję w obrębie linii, a nie
-tego, co obie linie mogą dzielić: ten sam sposób czytania umowy, te same
-ślepe plamy, ten sam gust co do tego, co jest ryzykiem. Pełna kontrola wymaga
-sędziego spoza dostawcy — u nas Gemini — a do tego potrzebny jest klucz API
-albo zalogowana sesja. Dopóki tego nie ma, wynik opisujemy jako „sędzia z
-innej linii", nie „sędzia niezależny".
+**Granica tej kontroli — zamknięta 7.10.2026.** Opus i Fable to różne linie
+modeli, ale ten sam dostawca, więc przesądzenie samo w sobie nie wykluczało
+wspólnych ślepych plam. Kontrolę domknął **Gemini 2.5 Pro przez Vertex AI**
+(projekt ktzr-asystent, lokalizacja `global`, temperatura 0), uruchamiany
+skryptem na poświadczeniach gcloud — bez przeglądarki i bez osobnego klucza.
+Na pomiarze v0.8 zgodność z sędzią Opus jest pełna na każdej punktowanej
+metryce. Od tej pory pomiar bez sędziego spoza dostawcy opisujemy jako
+niepełny.
 
 *Stan: przesądzenie pilotu sędzią Opus — zrobione, wyniki w `wyniki/pilot/oceny-v2/`.*
 

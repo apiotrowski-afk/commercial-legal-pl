@@ -22,6 +22,32 @@ umowach; spadek wykrywalności albo pojawienie się zmyśleń oznacza regresję.
 samym sędzią. Sędzia przeliczył niezależnie około siedemdziesięciu działań i
 nie znalazł rozbieżności co do grosza.
 
+## Kontrola sędzią spoza dostawcy
+
+Te same pięć audytów oceniło niezależnie **Gemini 2.5 Pro przez Vertex AI**
+(projekt ktzr-asystent, temperatura 0, ta sama instrukcja i ten sam manifest).
+To zamyka zastrzeżenie, które ciągnęło się od pilotu: Opus i Fable to różne
+linie, ale ten sam dostawca, więc wspólnych ślepych plam nie dało się wykluczyć.
+
+| Metryka | sędzia Opus | sędzia Gemini |
+|---|---|---|
+| wykrywalność | 30/30 | **30/30** |
+| fałszywe alarmy | 0 | **0** |
+| trafność flag | 30/30 | **30/30** |
+| zmyślenia | 0 | **0** |
+| błędy rachunkowe | 0 | **0** |
+| FAIL | brak | **brak** |
+| flagi poza kluczem | 43 | 47 |
+
+Zgodność na **każdej punktowanej metryce jest pełna**. Różnią się tylko w
+liczbie flag poza kluczem (43 wobec 47), a to jest kwestia tego, co uznać za
+jedną flagę, nie ocena.
+
+Jedna różnica jakościowa, którą trzeba znać: ocena Opusa ma 19,5 kB i dokumentuje
+weryfikację pozycja po pozycji, ocena Gemini 4,8 kB i w kilku miejscach
+stwierdza „brak" bez dowodu przy każdej pozycji. Zgodność jest więc mocnym
+argumentem, ale obie oceny nie są jednakowo udokumentowane.
+
 Zastrzeżenie, które trzeba czytać razem z tabelą: to **nie jest porównanie
 parowane**. Pilot mierzył v0.6/v0.7 promptem, którego nikt nie zapisał
 (`PROMPT-AUDYTU.md`). Różnica mogłaby pochodzić od wersji skilla, od promptu
@@ -67,5 +93,4 @@ zmyślenia, bo audyt sam zgłasza brak weryfikacji, ale warto o tym wiedzieć.
 1. Wariancja: `sonnet-skill` w k=3, pierwsza liczba mówiąca, ile waży różnica
    jednej wady.
 2. Delta metody: `sonnet-bare` jako para, test McNemara na tych samych 30 wadach.
-3. Sędzia spoza dostawcy — wymaga klucza Gemini albo Vertexa.
 4. Dopisanie do klucza dwóch wad z umowy 04 i czystych obszarów do pięciu umów.
