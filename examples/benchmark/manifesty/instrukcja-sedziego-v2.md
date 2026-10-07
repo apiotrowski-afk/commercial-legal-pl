@@ -41,9 +41,13 @@ Co zmieniło się wobec v1:
    zastosowany sufit. Liczby muszą pochodzić z umowy — jeśli nie pochodzą, to
    metryka 4, nie ta. Podaj: błędne/wymagane + na czym polega błąd.
    **Błąd rachunkowy NIE jest FAIL.** Raportuj go osobno.
-6. **Rachunek wykonany** — dla wad z `wymaga_rachunku` i pól `liczby`: czy
-   audyt w ogóle policzył. Podaj: policzone/wymagane. Metryka 5 mówi, ile z
-   policzonych wyszło źle.
+6. **Rachunek wykonany** — czy audyt w ogóle policzył. **Mianownikiem są pola
+   `liczby` ze wszystkich manifestów**, a nie wady z flagą `wymaga_rachunku` —
+   te raportuj dodatkowo, osobno. Bez tego rozstrzygnięcia metryka jest
+   nieporównywalna: przy pomiarze v0.8 jeden sędzia podał 7/7, a dwóch innych
+   26/26 na tym samym materiale, bo liczyli różne rzeczy. Podaj:
+   policzone/pola `liczby`, a po przecinku policzone/`wymaga_rachunku`.
+   Metryka 5 mówi, ile z policzonych wyszło źle.
 
 ## Warunki FAIL (umowa 05)
 
