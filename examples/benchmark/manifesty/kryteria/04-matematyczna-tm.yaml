@@ -1,0 +1,311 @@
+# Kryteria atomowe — umowa 04-matematyczna-tm
+# Pilot metody v3 (METODA-v3-propozycja.md). Rozpisanie pięciu grubych wad
+# m1-m5 z manifesty.yaml na pozycje rozstrzygalne pojedynczo.
+#
+# ZASADA: match_criteria JEST wzorcem. Sędzia nie dostaje innego źródła prawdy
+# niż to pole i tekst umowy. Każde kryterium ocenia się osobno, zero-jedynkowo.
+# Nie dopisujemy tez prawnych poza tym, co stwierdza manifest — kryterium
+# wymaga ZGŁOSZENIA ryzyka, nie przyjęcia konkretnego poglądu doktrynalnego.
+#
+# Wynik zadania: all-pass (1,0 tylko gdy wszystkie zaliczone).
+# Odsetek zaliczonych kryteriów = metryka diagnostyczna, nie wynik.
+
+umowa: 04-matematyczna-tm
+wersja: 1
+data: 2026-10-07
+deliverables: [audyt]
+liczby_odniesienia:
+  stawka_h: 220
+  godziny_mies: 320              # 2 Specjalistów x 160 h
+  wynagrodzenie_mies: 70400      # 220 x 320
+  cap_12_mies: 844800            # 70.400 x 12
+  wartosc_24_mies: 1689600       # 70.400 x 24
+  kara_zwloka_dzien: 352         # 0,5% x 70.400
+  kara_jakosc_szt: 5000
+  kara_konkurencja_szt: 300000
+  stawka_po_renewalu: 237.60     # 220 x 1,08
+  wynagrodzenie_mies_po_renewalu: 76032
+  wzrost_roczny_z_renewalu: 67584
+
+kryteria:
+
+  # ---------- Podstawa rachunkowa (bez niej reszta liczb nie ma sensu) ----------
+  - id: K04-001
+    wada: rachunek
+    typ: liczba
+    title: Godziny miesięczne jako 320
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje miesięczne zaangażowanie 320 godzin albo
+      jawnie pokazuje działanie 2 x 160. NIEZALICZONE, jeśli podaje 160 godzin
+      albo nie przelicza zaangażowania na godziny w ogóle.
+  - id: K04-002
+    wada: rachunek
+    typ: liczba
+    title: Wynagrodzenie miesięczne 70.400 zł
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje 70.400 zł jako wynagrodzenie miesięczne
+      albo pokazuje działanie 220 x 320. NIEZALICZONE przy każdej innej kwocie,
+      w szczególności 35.200 zł (pominięty mnożnik dwóch Specjalistów).
+  - id: K04-003
+    wada: rachunek
+    typ: liczba
+    title: Cap z § 3 ust. 1 wyliczony na 844.800 zł
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje kwotowo limit odpowiedzialności z § 3 ust. 1
+      jako 844.800 zł albo pokazuje działanie 70.400 x 12. NIEZALICZONE, jeśli
+      limit zostaje opisany tylko słownie („12-miesięczne wynagrodzenie") bez
+      podania kwoty.
+  - id: K04-004
+    wada: rachunek
+    typ: liczba
+    title: Kara za zwłokę przeliczona na 352 zł za dzień
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje 352 zł za każdy rozpoczęty dzień zwłoki albo
+      pokazuje działanie 0,5% x 70.400. NIEZALICZONE, jeśli kara zostaje podana
+      wyłącznie jako procent.
+
+  # ---------- m5: kara za zwłokę bez sufitu ----------
+  - id: K04-005
+    wada: m5
+    typ: wykrycie
+    title: Brak limitu łącznego kar za zwłokę zgłoszony
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza, że kara za zwłokę z § 2 ust. 1 nie ma
+      limitu łącznego (sufitu). NIEZALICZONE, jeśli audyt opisuje tę karę bez
+      wskazania braku limitu.
+  - id: K04-006
+    wada: m5
+    typ: liczba
+    title: Skala kary za zwłokę pokazana na konkretnym horyzoncie
+    match_criteria: >
+      ZALICZONE, jeśli audyt pokazuje narastanie kary na jakimkolwiek wskazanym
+      horyzoncie dni z poprawnym wynikiem (np. 30 dni = 10.560 zł, 100 dni =
+      35.200 zł, 200 dni = 70.400 zł, czyli całe wynagrodzenie miesięczne).
+      NIEZALICZONE, jeśli brak jakiegokolwiek przeliczenia narastania.
+  - id: K04-007
+    wada: m5
+    typ: poziom
+    title: Poziom ryzyka dla kary bez sufitu
+    match_criteria: >
+      ZALICZONE, jeśli wada z § 2 ust. 1 dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie ŚREDNIM, NISKIM albo braku poziomu.
+
+  # ---------- m1: cap iluzoryczny ----------
+  - id: K04-008
+    wada: m1
+    typ: wykrycie
+    title: Kary poza limitem odpowiedzialności
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza, że kary umowne nie są wliczane do limitu
+      z § 3 (§ 2 ust. 4). NIEZALICZONE, jeśli audyt omawia cap bez tego
+      zastrzeżenia.
+  - id: K04-009
+    wada: m1
+    typ: wykrycie
+    title: Sumowanie kar umownych
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza, że kary umowne podlegają sumowaniu
+      (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.
+  - id: K04-010
+    wada: m1
+    typ: wykrycie
+    title: Odszkodowanie ponad kary umowne
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza, że Zamawiający może dochodzić
+      odszkodowania przewyższającego kary umowne na zasadach ogólnych
+      (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.
+  - id: K04-011
+    wada: m1
+    typ: wykrycie
+    title: Wniosek, że limit z § 3 ust. 1 jest iluzoryczny
+    match_criteria: >
+      ZALICZONE, jeśli audyt stwierdza wprost, że przy takiej konstrukcji limit
+      odpowiedzialności nie ogranicza realnej ekspozycji Wykonawcy (jest
+      iluzoryczny, pozorny, obchodzony). NIEZALICZONE, jeśli audyt wymienia
+      składniki, ale nie wyciąga tego wniosku.
+  - id: K04-012
+    wada: m1
+    typ: liczba
+    title: Ekspozycja ponad cap pokazana liczbowo
+    match_criteria: >
+      ZALICZONE, jeśli audyt pokazuje choć jeden poprawny rachunek, w którym
+      suma świadczeń Wykonawcy przekracza 844.800 zł, a składniki są wzięte z
+      umowy (np. trzy naruszenia zakazu konkurencji 3 x 300.000 = 900.000 zł
+      ponad capem). NIEZALICZONE, jeśli teza o przekroczeniu capu pozostaje
+      bez rachunku albo rachunek jest błędny.
+  - id: K04-013
+    wada: m1
+    typ: poziom
+    title: Poziom ryzyka dla iluzoryczności capu
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- m2: indemnifikacja IP ----------
+  - id: K04-014
+    wada: m2
+    typ: wykrycie
+    title: Indemnifikacja IP bez limitu kwotowego
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza, że zobowiązanie z § 3 ust. 2 („wszelka
+      odpowiedzialność" i „wszelkie koszty") nie ma limitu kwotowego.
+      NIEZALICZONE w razie pominięcia tego postanowienia albo opisania go bez
+      wskazania braku limitu.
+  - id: K04-015
+    wada: m2
+    typ: wykrycie
+    title: Indemnifikacja poza limitem z § 3 ust. 1
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że indemnifikacja z ust. 2 nie jest
+      objęta limitem z ust. 1 tego samego paragrafu albo że relacja tych dwóch
+      ustępów jest nierozstrzygnięta. NIEZALICZONE, jeśli audyt milcząco
+      przyjmuje, że limit obejmuje indemnifikację.
+  - id: K04-016
+    wada: m2
+    typ: wykrycie
+    title: Koszty obsługi prawnej jako osobny składnik ekspozycji
+    match_criteria: >
+      ZALICZONE, jeśli audyt odnotowuje, że indemnifikacja obejmuje koszty
+      obsługi prawnej. NIEZALICZONE w razie pominięcia.
+  - id: K04-017
+    wada: m2
+    typ: poziom
+    title: Poziom ryzyka dla indemnifikacji IP
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- m3: zakaz konkurencji ----------
+  - id: K04-018
+    wada: m3
+    typ: wykrycie
+    title: Zakaz konkurencji po zakończeniu umowy — 24 miesiące
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje, że zakaz obowiązuje 24 miesiące po
+      zakończeniu Umowy. NIEZALICZONE, jeśli okres nie zostaje podany albo
+      zostaje podany błędnie.
+  - id: K04-019
+    wada: m3
+    typ: wykrycie
+    title: Brak ekwiwalentu zgłoszony jako ryzyko
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza jako ryzyko to, że zakaz nie jest związany
+      z dodatkowym wynagrodzeniem. Wystarcza zgłoszenie ryzyka — kryterium NIE
+      wymaga przyjęcia stanowiska, że brak ekwiwalentu czyni zakaz nieważnym.
+      NIEZALICZONE, jeśli audyt opisuje zakaz, nie podnosząc braku ekwiwalentu.
+  - id: K04-020
+    wada: m3
+    typ: liczba
+    title: Kara za naruszenie zakazu podana jako 300.000 zł za przypadek
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje 300.000 zł i wskazuje, że kara należy się
+      za każdy przypadek naruszenia. NIEZALICZONE, jeśli brakuje kwoty albo
+      pominięta jest krotność („za każdy przypadek").
+  - id: K04-021
+    wada: m3
+    typ: wykrycie
+    title: Brak limitu liczby przypadków naruszenia
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że liczba przypadków naruszenia nie jest
+      ograniczona, więc kara nie ma sufitu. NIEZALICZONE w razie pominięcia.
+  - id: K04-022
+    wada: m3
+    typ: poziom
+    title: Poziom ryzyka dla zakazu konkurencji
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- m4: auto-renewal ----------
+  - id: K04-023
+    wada: m4
+    typ: wykrycie
+    title: Automatyczne przedłużenie na okresy 12-miesięczne
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza mechanizm automatycznego przedłużenia na
+      kolejne okresy 12-miesięczne z § 4 ust. 1. NIEZALICZONE w razie
+      pominięcia albo opisania go jako neutralnego, bez wskazania ryzyka.
+  - id: K04-024
+    wada: m4
+    typ: liczba
+    title: Okno sprzeciwu 90 dni
+    match_criteria: >
+      ZALICZONE, jeśli audyt podaje termin 90 dni przed końcem bieżącego okresu
+      jako warunek nieprzedłużenia. NIEZALICZONE przy braku terminu albo innym
+      terminie.
+  - id: K04-025
+    wada: m4
+    typ: wykrycie
+    title: Skutek przegapienia okna
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że niezłożenie oświadczenia w terminie
+      wiąże stronę na kolejne 12 miesięcy. NIEZALICZONE w razie pominięcia
+      skutku.
+  - id: K04-026
+    wada: m4
+    typ: liczba
+    title: Podwyżka 8% przeliczona na stawkę albo na kwotę
+    match_criteria: >
+      ZALICZONE, jeśli audyt przelicza podwyżkę z § 4 ust. 2 na konkretną
+      wartość i wynik jest poprawny: stawka 237,60 zł/h albo wynagrodzenie
+      76.032 zł miesięcznie, albo 912.384 zł za rok przedłużenia, albo wzrost
+      67.584 zł rocznie. NIEZALICZONE, jeśli podwyżka zostaje tylko wspomniana
+      jako 8% bez przeliczenia, oraz przy błędnym wyniku.
+  - id: K04-027
+    wada: m4
+    typ: wykrycie
+    title: Podwyżka jest kumulatywna wobec okresu poprzedniego
+    match_criteria: >
+      ZALICZONE, jeśli audyt odnotowuje, że podwyżka liczy się „względem okresu
+      poprzedniego", czyli narasta przy kolejnych przedłużeniach. NIEZALICZONE,
+      jeśli audyt traktuje ją jako jednorazową.
+  - id: K04-028
+    wada: m4
+    typ: poziom
+    title: Poziom ryzyka dla pułapki terminowej
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- Próba negatywna: § 1 jest obszarem czystym ----------
+  - id: K04-029
+    wada: czysty
+    typ: czysty
+    title: Model T&M i stawka nie są kwestionowane jako wadliwe
+    match_criteria: >
+      Obszarem czystym jest KONSTRUKCJA modelu Time & Material i wysokość
+      stawki 220 zł/h — nie brak zabezpieczeń wokół nich.
+      ZALICZONE, jeśli żadna flaga nie twierdzi, że sam model rozliczeń T&M
+      jest wadliwy, nierynkowy albo niedopuszczalny, ani że stawka 220 zł/h
+      jest wadliwa albo nierynkowa.
+      Flaga wskazująca BRAK czegoś obok § 1 — procedury akceptacji godzin,
+      terminu płatności, minimalnego wolumenu, budżetu, mechanizmu kontroli
+      kosztów — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu,
+      bo dotyczy luki, a nie konstrukcji uznanej za czystą.
+      NIEZALICZONE tylko wtedy, gdy audyt kwestionuje model albo stawkę jako
+      takie.
+  - id: K04-030
+    wada: czysty
+    typ: czysty
+    title: Brak flagi za samo zawarcie umowy na 24 miesiące
+    match_criteria: >
+      ZALICZONE, jeśli audyt nie stawia flagi KRYTYCZNEJ ani WYSOKIEJ na samym
+      okresie 24 miesięcy z § 1 ust. 3 w oderwaniu od mechanizmu przedłużenia z
+      § 4. NIEZALICZONE, jeśli sam okres podstawowy zostaje potraktowany jako
+      wada ciężka.
+
+  # ---------- Twarde zero: zmyślenia ----------
+  # WYCOFANE z rubryki atomowej 7.10.2026, po pilocie.
+  # K04-031, K04-032 i K04-033 kazały sędziemu przejrzeć WSZYSTKIE cytaty,
+  # wszystkie liczby i wszystkie powołania przepisów w całym audycie. To nie
+  # jest kryterium atomowe, tylko cała metryka przebrana za kryterium — i tak
+  # się zachowywało: na 132 zapytaniach dziewięć nie zakończyło się w limicie
+  # czasu, wszystkie z tych trzech pozycji.
+  # Do tego K04-031 dało fałszywy dodatni: audyt p2 napisał „Działalność
+  # konkurencyjna wobec Zamawiającego" w mianowniku, nazywając niezdefiniowane
+  # pojęcie, a umowa ma „działalność konkurencyjną wobec Zamawiającego" w
+  # biernku (§ 5 ust. 1). Odmiana nie jest zmyśleniem.
+  # Integralność zostaje tam, gdzie była: jako metryka 4 w
+  # instrukcja-sedziego-v2.md, z wymogiem dosłownego cytatu i dowodu ze
+  # źródła, oceniana osobnym przebiegiem na całym audycie — nie w rubryce
+  # all-pass. To dwa różne przyrządy i nie wolno ich łączyć.

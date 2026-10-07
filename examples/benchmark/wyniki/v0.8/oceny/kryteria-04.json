@@ -1,0 +1,1202 @@
+[
+ {
+  "id": "K04-001",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Godziny miesięczne jako 320",
+  "match": "ZALICZONE, jeśli audyt podaje miesięczne zaangażowanie 320 godzin albo jawnie pokazuje działanie 2 x 160. NIEZALICZONE, jeśli podaje 160 godzin albo nie przelicza zaangażowania na godziny w ogóle.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. W sekcji «Rachunek ekspozycji (R12)», w pierwszym wierszu tabeli, audyt poprawnie identyfikuje zaangażowanie jako «2 Specjalistów × 160 h», a w kolumnie «Rachunek» i «Wynik» jawnie pokazuje działanie «2 × 160» i podaje wynik «320 h»."
+ },
+ {
+  "id": "K04-002",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Wynagrodzenie miesięczne 70.400 zł",
+  "match": "ZALICZONE, jeśli audyt podaje 70.400 zł jako wynagrodzenie miesięczne albo pokazuje działanie 220 x 320. NIEZALICZONE przy każdej innej kwocie, w szczególności 35.200 zł (pominięty mnożnik dwóch Specjalistów).",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli w sekcji «🧮 Rachunek ekspozycji (R12)» audyt prawidłowo oblicza szacowane wynagrodzenie miesięczne, pokazując działanie «220 × 320» i podając wynik «70 400 zł netto»."
+ },
+ {
+  "id": "K04-003",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Cap z § 3 ust. 1 wyliczony na 844.800 zł",
+  "match": "ZALICZONE, jeśli audyt podaje kwotowo limit odpowiedzialności z § 3 ust. 1 jako 844.800 zł albo pokazuje działanie 70.400 x 12. NIEZALICZONE, jeśli limit zostaje opisany tylko słownie („12-miesięczne wynagrodzenie\") bez podania kwoty.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W sekcji «Rachunek ekspozycji (R12)», w wierszu «Cap nominalny (wariant A: 12 × szac. wynagrodzenie)», audyt przedstawia wyliczenie limitu jako 70 400 × 12 = 844 800 zł, co wprost spełnia kryterium."
+ },
+ {
+  "id": "K04-004",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Kara za zwłokę przeliczona na 352 zł za dzień",
+  "match": "ZALICZONE, jeśli audyt podaje 352 zł za każdy rozpoczęty dzień zwłoki albo pokazuje działanie 0,5% x 70.400. NIEZALICZONE, jeśli kara zostaje podana wyłącznie jako procent.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli »Rachunek ekspozycji« w wierszu »Kara za zwłokę — stawka dzienna« audyt poprawnie wylicza i podaje kwotę 352 zł/dzień, pokazując działanie 0,005 × 70 400."
+ },
+ {
+  "id": "K04-005",
+  "wada": "m5",
+  "typ": "wykrycie",
+  "title": "Brak limitu łącznego kar za zwłokę zgłoszony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kara za zwłokę z § 2 ust. 1 nie ma limitu łącznego (sufitu). NIEZALICZONE, jeśli audyt opisuje tę karę bez wskazania braku limitu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na brak limitu w tytule ryzyka 🟠 1: 'Kara za zwłokę [...] bez sufitu [...] — § 2 ust. 1'. Kwestia jest też poruszona w tabeli 'Rachunek ekspozycji' oraz w opisie tego ryzyka."
+ },
+ {
+  "id": "K04-006",
+  "wada": "m5",
+  "typ": "liczba",
+  "title": "Skala kary za zwłokę pokazana na konkretnym horyzoncie",
+  "match": "ZALICZONE, jeśli audyt pokazuje narastanie kary na jakimkolwiek wskazanym horyzoncie dni z poprawnym wynikiem (np. 30 dni = 10.560 zł, 100 dni = 35.200 zł, 200 dni = 70.400 zł, czyli całe wynagrodzenie miesięczne). NIEZALICZONE, jeśli brak jakiegokolwiek przeliczenia narastania.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. W sekcji 'Rachunek ekspozycji (R12)' audyt poprawnie oblicza stawkę dzienną kary za zwłokę (352 zł), a następnie przedstawia jej narastanie w horyzontach 30, 90 i 365 dni, podając prawidłowe wyniki (np. 10 560 zł za 30 dni)."
+ },
+ {
+  "id": "K04-007",
+  "wada": "m5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary bez sufitu",
+  "match": "ZALICZONE, jeśli wada z § 2 ust. 1 dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie ŚREDNIM, NISKIM albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE' pod pozycją 1. prawidłowo zidentyfikował karę z § 2 ust. 1 jako ryzyko wysokie, m.in. z powodu braku sufitu."
+ },
+ {
+  "id": "K04-008",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Kary poza limitem odpowiedzialności",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne nie są wliczane do limitu z § 3 (§ 2 ust. 4). NIEZALICZONE, jeśli audyt omawia cap bez tego zastrzeżenia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie i jednoznacznie zgłasza, że kary umowne są wyłączone z limitu odpowiedzialności. Wskazuje na to już w głównym werdykcie ('kary spoza limitu'), a następnie poświęca temu zagadnieniu osobny punkt w ryzykach krytycznych (🔴 2. Cap iluzoryczny), gdzie wprost cytuje klauzulę § 2 ust. 4 umowy."
+ },
+ {
+  "id": "K04-009",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Sumowanie kar umownych",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne podlegają sumowaniu (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na sumowanie się kar, m.in. w teście kumulatywnym w kroku 0b („Wykonawcę obciążają trzy kary poza capem, które się sumują”), w rachunku ekspozycji oraz w opisie ryzyka krytycznego nr 2, gdzie wprost cytuje § 2 ust. 4 umowy."
+ },
+ {
+  "id": "K04-010",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Odszkodowanie ponad kary umowne",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że Zamawiający może dochodzić odszkodowania przewyższającego kary umowne na zasadach ogólnych (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie i prawidłowo identyfikuje możliwość dochodzenia odszkodowania ponad kary umowne, m.in. w opisie ryzyka krytycznego 🔴 2 („Cap iluzoryczny”) oraz w ramach dedykowanego ryzyka średniego 🟡 3, analizującego kolizję tej klauzuli z limitem odpowiedzialności."
+ },
+ {
+  "id": "K04-011",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Wniosek, że limit z § 3 ust. 1 jest iluzoryczny",
+  "match": "ZALICZONE, jeśli audyt stwierdza wprost, że przy takiej konstrukcji limit odpowiedzialności nie ogranicza realnej ekspozycji Wykonawcy (jest iluzoryczny, pozorny, obchodzony). NIEZALICZONE, jeśli audyt wymienia składniki, ale nie wyciąga tego wniosku.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost stwierdza, że limit odpowiedzialności jest iluzoryczny. Wniosek ten pojawia się wielokrotnie, m.in. w podsumowaniu sekcji 'Rachunek ekspozycji' ('cap jest iluzoryczny'), w tytule ryzyka krytycznego nr 2 ('Cap iluzoryczny') oraz w głównym werdykcie ('cap [...] przestaje cokolwiek ograniczać')."
+ },
+ {
+  "id": "K04-012",
+  "wada": "m1",
+  "typ": "liczba",
+  "title": "Ekspozycja ponad cap pokazana liczbowo",
+  "match": "ZALICZONE, jeśli audyt pokazuje choć jeden poprawny rachunek, w którym suma świadczeń Wykonawcy przekracza 844.800 zł, a składniki są wzięte z umowy (np. trzy naruszenia zakazu konkurencji 3 x 300.000 = 900.000 zł ponad capem). NIEZALICZONE, jeśli teza o przekroczeniu capu pozostaje bez rachunku albo rachunek jest błędny.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W sekcji «Rachunek ekspozycji (R12)» audyt przedstawia poprawny rachunek, zgodnie z którym kara za trzy przypadki naruszenia zakazu konkurencji wynosi 900 000 zł (3 x 300 000 zł), co przekracza nominalny limit odpowiedzialności (cap) w wysokości 844 800 zł. Rachunek jest zgodny z treścią umowy i wprost realizuje założenia kryterium."
+ },
+ {
+  "id": "K04-013",
+  "wada": "m1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla iluzoryczności capu",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji «🔴 RYZYKA KRYTYCZNE» pod pozycją 2. «Cap iluzoryczny — efektywna ekspozycja otwarta» prawidłowo zidentyfikował tę wadę i przypisał jej najwyższy poziom ryzyka (krytyczny), co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-014",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja IP bez limitu kwotowego",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że zobowiązanie z § 3 ust. 2 („wszelka odpowiedzialność\" i „wszelkie koszty\") nie ma limitu kwotowego. NIEZALICZONE w razie pominięcia tego postanowienia albo opisania go bez wskazania braku limitu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie i jednoznacznie wskazuje na brak limitu kwotowego w zobowiązaniu indemnifikacyjnym z § 3 ust. 2. Kwestia ta jest podniesiona już w werdykcie na wstępie („indemnity bez sufitu”), w tabeli z rachunkiem ekspozycji (pozycja „Indemnity IP”, wynik: „sufit: brak”), a przede wszystkim w dedykowanym punkcie 🟠 3 „Indemnity IP otwarta: bez limitu, bez procedury, bez wyłączeń”, gdzie wprost stwierdzono, że skutkiem jest „ekspozycja bez sufitu”."
+ },
+ {
+  "id": "K04-015",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja poza limitem z § 3 ust. 1",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że indemnifikacja z ust. 2 nie jest objęta limitem z ust. 1 tego samego paragrafu albo że relacja tych dwóch ustępów jest nierozstrzygnięta. NIEZALICZONE, jeśli audyt milcząco przyjmuje, że limit obejmuje indemnifikację.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wprost wskazuje w ryzyku wysokim 🟠3, że relacja indemnifikacji do limitu odpowiedzialności jest niejasna, pisząc: „Brakuje relacji do capu (sformułowanie „Łączna odpowiedzialność” w ust. 1 sugeruje, że cap obejmuje indemnity, ale tego nie przesądza)”. Kwestia jest również podniesiona w tabeli z rachunkiem ekspozycji."
+ },
+ {
+  "id": "K04-016",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Koszty obsługi prawnej jako osobny składnik ekspozycji",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że indemnifikacja obejmuje koszty obsługi prawnej. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost cytuje fragment umowy dotyczący kosztów obsługi prawnej w opisie ryzyka wysokiego nr 3 (🟠 3. Indemnity IP otwarta)."
+ },
+ {
+  "id": "K04-017",
+  "wada": "m2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla indemnifikacji IP",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE' pod numerem 3. ('Indemnity IP otwarta: bez limitu, bez procedury, bez wyłączeń — § 3 ust. 2') prawidłowo przypisał temu ryzyku poziom 'WYSOKI', co spełnia kryterium zaliczenia."
+ },
+ {
+  "id": "K04-018",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Zakaz konkurencji po zakończeniu umowy — 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt podaje, że zakaz obowiązuje 24 miesiące po zakończeniu Umowy. NIEZALICZONE, jeśli okres nie zostaje podany albo zostaje podany błędnie.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje okres obowiązywania zakazu konkurencji, m.in. w tytule ryzyka krytycznego nr 3: «Zakaz konkurencji: 24 mies. po umowie...» oraz w jego opisie: «...przez okres umowy i 24 miesiące po niej»."
+ },
+ {
+  "id": "K04-019",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak ekwiwalentu zgłoszony jako ryzyko",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko to, że zakaz nie jest związany z dodatkowym wynagrodzeniem. Wystarcza zgłoszenie ryzyka — kryterium NIE wymaga przyjęcia stanowiska, że brak ekwiwalentu czyni zakaz nieważnym. NIEZALICZONE, jeśli audyt opisuje zakaz, nie podnosząc braku ekwiwalentu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje zakaz konkurencji jako ryzyko krytyczne (🔴 3), a w jego tytule i opisie wprost wskazuje na 'brak ekwiwalentu' i cytuje fragment umowy: 'Zakaz nie jest związany z dodatkowym wynagrodzeniem'. Analiza skutków również łączy brak wynagrodzenia z ryzykiem uznania zakazu za nieegzekwowalny."
+ },
+ {
+  "id": "K04-020",
+  "wada": "m3",
+  "typ": "liczba",
+  "title": "Kara za naruszenie zakazu podana jako 300.000 zł za przypadek",
+  "match": "ZALICZONE, jeśli audyt podaje 300.000 zł i wskazuje, że kara należy się za każdy przypadek naruszenia. NIEZALICZONE, jeśli brakuje kwoty albo pominięta jest krotność („za każdy przypadek\").",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wielokrotnie i poprawnie wskazuje kwotę 300.000 zł oraz jej krotność, m.in. w tytule ryzyka krytycznego nr 3: „kara 300 000 zł za każdy przypadek”, a także w sekcji „Rachunek ekspozycji”, gdzie oblicza skutki dla 1 i 3 przypadków naruszenia."
+ },
+ {
+  "id": "K04-021",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak limitu liczby przypadków naruszenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że liczba przypadków naruszenia nie jest ograniczona, więc kara nie ma sufitu. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na brak limitu liczby przypadków, co prowadzi do braku sufitu dla poszczególnych kar. Najbardziej bezpośrednio w opisie ryzyka 🟠 2: 'Kara jakościowa oparta na nieistniejącym Załączniku nr 2, bez limitu liczby przypadków'. Problem jest też analizowany ilościowo w sekcji 'Rachunek ekspozycji' dla wszystkich trzech rodzajów kar."
+ },
+ {
+  "id": "K04-022",
+  "wada": "m3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla zakazu konkurencji",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE' w punkcie 3. prawidłowo zaklasyfikował zakaz konkurencji jako ryzyko krytyczne, co spełnia warunek kryterium."
+ },
+ {
+  "id": "K04-023",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Automatyczne przedłużenie na okresy 12-miesięczne",
+  "match": "ZALICZONE, jeśli audyt zgłasza mechanizm automatycznego przedłużenia na kolejne okresy 12-miesięczne z § 4 ust. 1. NIEZALICZONE w razie pominięcia albo opisania go jako neutralnego, bez wskazania ryzyka.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował mechanizm automatycznego przedłużenia umowy z § 4 ust. 1 i zaklasyfikował go jako ryzyko wysokie (🟠 4), wskazując na ryzyko kosztu i vendor lock-in dla Zamawiającego oraz problem z obliczeniem terminu na złożenie oświadczenia."
+ },
+ {
+  "id": "K04-024",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Okno sprzeciwu 90 dni",
+  "match": "ZALICZONE, jeśli audyt podaje termin 90 dni przed końcem bieżącego okresu jako warunek nieprzedłużenia. NIEZALICZONE przy braku terminu albo innym terminie.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje 90-dniowy termin na złożenie oświadczenia o nieprzedłużaniu umowy, co jest wprost wskazane w tytule i opisie Ryzyka Wysokiego nr 4 oraz w tabeli 'Rachunek ekspozycji'."
+ },
+ {
+  "id": "K04-025",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Skutek przegapienia okna",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że niezłożenie oświadczenia w terminie wiąże stronę na kolejne 12 miesięcy. NIEZALICZONE w razie pominięcia skutku.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje, że 'Jedno przegapione okno 90 dni wiąże go zobowiązaniem rzędu 912 384 zł' (sekcja 'Wniosek z rachunku') oraz że 'przegapienie okna oznacza 912 384 zł (szac.) za kolejne 12 mies.' (ryzyko 🟠 4)."
+ },
+ {
+  "id": "K04-026",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Podwyżka 8% przeliczona na stawkę albo na kwotę",
+  "match": "ZALICZONE, jeśli audyt przelicza podwyżkę z § 4 ust. 2 na konkretną wartość i wynik jest poprawny: stawka 237,60 zł/h albo wynagrodzenie 76.032 zł miesięcznie, albo 912.384 zł za rok przedłużenia, albo wzrost 67.584 zł rocznie. NIEZALICZONE, jeśli podwyżka zostaje tylko wspomniana jako 8% bez przeliczenia, oraz przy błędnym wyniku.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt w sekcji „🧮 Rachunek ekspozycji (R12)” w wierszach „Stawka po 1. przedłużeniu” oraz „Koszt przegapienia okna (Zamawiający)” poprawnie przelicza podwyżkę 8% na nową stawkę (237,60 zł/h), wynagrodzenie miesięczne (76 032 zł), roczne (912 384 zł) oraz kwotę samej podwyżki (67 584 zł)."
+ },
+ {
+  "id": "K04-027",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Podwyżka jest kumulatywna wobec okresu poprzedniego",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że podwyżka liczy się „względem okresu poprzedniego\", czyli narasta przy kolejnych przedłużeniach. NIEZALICZONE, jeśli audyt traktuje ją jako jednorazową.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje podwyżkę jako 'składaną', co wprost odnotowuje w tytule i opisie ryzyka 🟠 4. Ponadto, w sekcji 'Rachunek ekspozycji' prawidłowo oblicza stawkę po drugim i trzecim przedłużeniu, stosując procent składany (np. 'Stawka po 2. przedłużeniu (...) 237,60 × 1,08')."
+ },
+ {
+  "id": "K04-028",
+  "wada": "m4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla pułapki terminowej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował klauzulę automatycznego przedłużenia umowy z jednoczesną podwyżką stawki (§ 4) jako istotne ryzyko i przypisał mu poziom 'WYSOKIE' w punkcie '🟠 RYZYKA WYSOKIE', nr 4. Spełnia to warunek zaliczenia."
+ },
+ {
+  "id": "K04-029",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Model T&M i stawka nie są kwestionowane jako wadliwe",
+  "match": "Obszarem czystym jest KONSTRUKCJA modelu Time & Material i wysokość stawki 220 zł/h — nie brak zabezpieczeń wokół nich. ZALICZONE, jeśli żadna flaga nie twierdzi, że sam model rozliczeń T&M jest wadliwy, nierynkowy albo niedopuszczalny, ani że stawka 220 zł/h jest wadliwa albo nierynkowa. Flaga wskazująca BRAK czegoś obok § 1 — procedury akceptacji godzin, terminu płatności, minimalnego wolumenu, budżetu, mechanizmu kontroli kosztów — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu, bo dotyczy luki, a nie konstrukcji uznanej za czystą. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje model albo stawkę jako takie.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje modelu T&M ani stawki jako takich. Flaga 🟠 1 wskazuje na sprzeczność kary za rezultat (§ 2 ust. 1) z modelem starannego działania (T&M), co jest analizą wewnętrznej spójności umowy, a nie wadliwości samego modelu. Flaga 🟠 7, dotycząca braku mechanizmu rozliczeń, jest wprost dopuszczona przez kryterium jako wskazanie luki."
+ },
+ {
+  "id": "K04-030",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Brak flagi za samo zawarcie umowy na 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt nie stawia flagi KRYTYCZNEJ ani WYSOKIEJ na samym okresie 24 miesięcy z § 1 ust. 3 w oderwaniu od mechanizmu przedłużenia z § 4. NIEZALICZONE, jeśli sam okres podstawowy zostaje potraktowany jako wada ciężka.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie identyfikuje samego 24-miesięcznego okresu obowiązywania umowy z § 1 ust. 3 jako ryzyka krytycznego lub wysokiego. Ryzyka związane z czasem trwania umowy, takie jak 🟠 4 (Auto-renewal) i 🟠 5 (Brak wypowiedzenia), są poprawnie przypisane do konkretnych mechanizmów (automatyczne przedłużenie, brak klauzuli wyjścia), a nie do samej długości okresu podstawowego."
+ },
+ {
+  "id": "K04-001",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Godziny miesięczne jako 320",
+  "match": "ZALICZONE, jeśli audyt podaje miesięczne zaangażowanie 320 godzin albo jawnie pokazuje działanie 2 x 160. NIEZALICZONE, jeśli podaje 160 godzin albo nie przelicza zaangażowania na godziny w ogóle.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji', w wierszu 'Godziny miesięcznie', audyt jawnie pokazuje działanie '2 × 160' i podaje wynik '320 h', co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-002",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Wynagrodzenie miesięczne 70.400 zł",
+  "match": "ZALICZONE, jeśli audyt podaje 70.400 zł jako wynagrodzenie miesięczne albo pokazuje działanie 220 x 320. NIEZALICZONE przy każdej innej kwocie, w szczególności 35.200 zł (pominięty mnożnik dwóch Specjalistów).",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli w sekcji 'Rachunek ekspozycji', w wierszu 'Wynagrodzenie miesięczne (netto)', audyt prawidłowo przedstawia rachunek '320 × 220' i podaje wynik '70.400 zł', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-003",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Cap z § 3 ust. 1 wyliczony na 844.800 zł",
+  "match": "ZALICZONE, jeśli audyt podaje kwotowo limit odpowiedzialności z § 3 ust. 1 jako 844.800 zł albo pokazuje działanie 70.400 x 12. NIEZALICZONE, jeśli limit zostaje opisany tylko słownie („12-miesięczne wynagrodzenie\") bez podania kwoty.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli „Rachunek ekspozycji” w wierszu „Cap nominalny” podaje zarówno działanie (70.400 × 12), jak i wynik (844.800 zł), co w pełni spełnia kryterium. Kwota ta jest również wielokrotnie powtórzona w dalszej części analizy."
+ },
+ {
+  "id": "K04-004",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Kara za zwłokę przeliczona na 352 zł za dzień",
+  "match": "ZALICZONE, jeśli audyt podaje 352 zł za każdy rozpoczęty dzień zwłoki albo pokazuje działanie 0,5% x 70.400. NIEZALICZONE, jeśli kara zostaje podana wyłącznie jako procent.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli 'Rachunek ekspozycji', w wierszu 'Kara za zwłokę — dziennie', podaje zarówno rachunek (0,005 × 70.400), jak i wynik (352 zł/dzień), spełniając kryterium."
+ },
+ {
+  "id": "K04-005",
+  "wada": "m5",
+  "typ": "wykrycie",
+  "title": "Brak limitu łącznego kar za zwłokę zgłoszony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kara za zwłokę z § 2 ust. 1 nie ma limitu łącznego (sufitu). NIEZALICZONE, jeśli audyt opisuje tę karę bez wskazania braku limitu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wprost wskazuje na brak limitu w tabeli 'Rachunek ekspozycji' w wierszu 'Kara za zwłokę — 24 mies. (730 dni)', dodając komentarz '(brak sufitu)', a także w opisie ryzyka krytycznego 🔴1, gdzie stwierdza: 'Brak sufitu dla jakiejkolwiek z trzech kar'."
+ },
+ {
+  "id": "K04-006",
+  "wada": "m5",
+  "typ": "liczba",
+  "title": "Skala kary za zwłokę pokazana na konkretnym horyzoncie",
+  "match": "ZALICZONE, jeśli audyt pokazuje narastanie kary na jakimkolwiek wskazanym horyzoncie dni z poprawnym wynikiem (np. 30 dni = 10.560 zł, 100 dni = 35.200 zł, 200 dni = 70.400 zł, czyli całe wynagrodzenie miesięczne). NIEZALICZONE, jeśli brak jakiegokolwiek przeliczenia narastania.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli „Rachunek ekspozycji” poprawnie oblicza narastanie kary za zwłokę w kilku horyzontach czasowych, w tym dla 30 dni (10.560 zł), 365 dni (128.480 zł) oraz 730 dni (256.960 zł), co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-007",
+  "wada": "m5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary bez sufitu",
+  "match": "ZALICZONE, jeśli wada z § 2 ust. 1 dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie ŚREDNIM, NISKIM albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA KRYTYCZNE' (punkt 1) identyfikuje problem kar umownych 'poza capem, sumowane, bez sufitu', wprost odnosząc się do § 2 ust. 1-3. Wada z § 2 ust. 1 została więc oceniona jako ryzyko krytyczne, co spełnia kryterium."
+ },
+ {
+  "id": "K04-008",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Kary poza limitem odpowiedzialności",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne nie są wliczane do limitu z § 3 (§ 2 ust. 4). NIEZALICZONE, jeśli audyt omawia cap bez tego zastrzeżenia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował to ryzyko jako krytyczne. Wskazuje na nie w głównym werdykcie ('kary poza capem') i szczegółowo analizuje jako Ryzyko Krytyczne nr 1: 'Kary umowne poza capem, sumowane, bez sufitu...', wprost powołując się na § 2 ust. 4 umowy."
+ },
+ {
+  "id": "K04-009",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Sumowanie kar umownych",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne podlegają sumowaniu (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie zidentyfikował, że kary umowne podlegają sumowaniu, co zostało podkreślone jako ryzyko krytyczne w punkcie 🔴 1, którego tytuł brzmi: «Kary umowne poza capem, sumowane, bez sufitu...». W opisie tego ryzyka audyt cytuje również wprost zapis z § 2 ust. 4 umowy."
+ },
+ {
+  "id": "K04-010",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Odszkodowanie ponad kary umowne",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że Zamawiający może dochodzić odszkodowania przewyższającego kary umowne na zasadach ogólnych (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje to uprawnienie w opisie ryzyka krytycznego nr 1 (sekcja 🔴), gdzie wprost stwierdza, że „Zamawiający może ponadto żądać odszkodowania przewyższającego karę”. Kwestia ta jest również wspomniana w podsumowaniu tabeli z rachunkiem ekspozycji."
+ },
+ {
+  "id": "K04-011",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Wniosek, że limit z § 3 ust. 1 jest iluzoryczny",
+  "match": "ZALICZONE, jeśli audyt stwierdza wprost, że przy takiej konstrukcji limit odpowiedzialności nie ogranicza realnej ekspozycji Wykonawcy (jest iluzoryczny, pozorny, obchodzony). NIEZALICZONE, jeśli audyt wymienia składniki, ale nie wyciąga tego wniosku.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wprost stwierdza, że limit odpowiedzialności jest iluzoryczny. W sekcji „Rachunek ekspozycji” znajduje się wniosek: „Cap jest w praktyce iluzoryczny, co przesuwa werdykt na CZERWONY”. Stwierdzenie to jest powtórzone w podsumowaniu „OCENA BEZPIECZEŃSTWA”."
+ },
+ {
+  "id": "K04-012",
+  "wada": "m1",
+  "typ": "liczba",
+  "title": "Ekspozycja ponad cap pokazana liczbowo",
+  "match": "ZALICZONE, jeśli audyt pokazuje choć jeden poprawny rachunek, w którym suma świadczeń Wykonawcy przekracza 844.800 zł, a składniki są wzięte z umowy (np. trzy naruszenia zakazu konkurencji 3 x 300.000 = 900.000 zł ponad capem). NIEZALICZONE, jeśli teza o przekroczeniu capu pozostaje bez rachunku albo rachunek jest błędny.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'Rachunek ekspozycji', w wierszu 'Efektywna ekspozycja (scenariusz)', przedstawia poprawny rachunek, w którym łączna ekspozycja Wykonawcy wynosi 1.585.360 zł. Jest to suma limitu odpowiedzialności (844.800 zł) oraz przykładowych kar umownych wyłączonych spod tego limitu (740.560 zł). Obliczona kwota przekracza wartość samego limitu odpowiedzialności, co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-013",
+  "wada": "m1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla iluzoryczności capu",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE' jako punkt 1. identyfikuje 'Kary umowne poza capem, sumowane, bez sufitu', co jest bezpośrednią przyczyną iluzoryczności limitu odpowiedzialności. Wada ta otrzymała najwyższy poziom ryzyka, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-014",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja IP bez limitu kwotowego",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że zobowiązanie z § 3 ust. 2 („wszelka odpowiedzialność\" i „wszelkie koszty\") nie ma limitu kwotowego. NIEZALICZONE w razie pominięcia tego postanowienia albo opisania go bez wskazania braku limitu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji Ryzyk Wysokich (pkt 1) wprost identyfikuje ryzyko 'Nielimitowana indemnifikacja IP' i wskazuje na 'potencjalnie ekspozycję ponad cap (otwarta kwota)', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-015",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja poza limitem z § 3 ust. 1",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że indemnifikacja z ust. 2 nie jest objęta limitem z ust. 1 tego samego paragrafu albo że relacja tych dwóch ustępów jest nierozstrzygnięta. NIEZALICZONE, jeśli audyt milcząco przyjmuje, że limit obejmuje indemnifikację.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA WYSOKIE', pkt 1, wprost stwierdza, że 'Relacja do capu [limitu odpowiedzialności] niejasna' oraz że istnieje 'spór interpretacyjny co do tego, czy indemnity mieści się w [limicie]'. Wskazuje to na nierozstrzygniętą relację obu ustępów, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-016",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Koszty obsługi prawnej jako osobny składnik ekspozycji",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że indemnifikacja obejmuje koszty obsługi prawnej. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "niezaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA WYSOKIE', pkt 1, analizując klauzulę indemnifikacyjną z § 3 ust. 2 umowy, pomija fakt, że umowa wprost wymienia 'koszty obsługi prawnej' jako składnik kosztów do pokrycia."
+ },
+ {
+  "id": "K04-017",
+  "wada": "m2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla indemnifikacji IP",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował ryzyko w sekcji '🟠 RYZYKA WYSOKIE' pod tytułem 'Nielimitowana indemnifikacja IP — „wszelkie koszty” — § 3 ust. 2', co spełnia warunek zaliczenia (poziom WYSOKI lub KRYTYCZNY)."
+ },
+ {
+  "id": "K04-018",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Zakaz konkurencji po zakończeniu umowy — 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt podaje, że zakaz obowiązuje 24 miesiące po zakończeniu Umowy. NIEZALICZONE, jeśli okres nie zostaje podany albo zostaje podany błędnie.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje okres obowiązywania zakazu konkurencji w sekcji '🔴 RYZYKA KRYTYCZNE', pkt 2, w tytule: 'Zakaz konkurencji 24 miesiące po umowie...' oraz w opisie: 'Zakaz obowiązuje w trakcie umowy i 24 mies. po niej'."
+ },
+ {
+  "id": "K04-019",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak ekwiwalentu zgłoszony jako ryzyko",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko to, że zakaz nie jest związany z dodatkowym wynagrodzeniem. Wystarcza zgłoszenie ryzyka — kryterium NIE wymaga przyjęcia stanowiska, że brak ekwiwalentu czyni zakaz nieważnym. NIEZALICZONE, jeśli audyt opisuje zakaz, nie podnosząc braku ekwiwalentu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost identyfikuje jako ryzyko krytyczne (pkt 2) 'Zakaz konkurencji 24 miesiące po umowie, bez wynagrodzenia...'. W opisie skutków tego ryzyka wskazano, że 'Zakaz po zakończeniu, bez ekwiwalentu... jest wystawiony na zarzut sprzeczności z zasadami współżycia...'. Tym samym kryterium zostało spełnione."
+ },
+ {
+  "id": "K04-020",
+  "wada": "m3",
+  "typ": "liczba",
+  "title": "Kara za naruszenie zakazu podana jako 300.000 zł za przypadek",
+  "match": "ZALICZONE, jeśli audyt podaje 300.000 zł i wskazuje, że kara należy się za każdy przypadek naruszenia. NIEZALICZONE, jeśli brakuje kwoty albo pominięta jest krotność („za każdy przypadek\").",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo identyfikuje kwotę kary (300.000 zł) oraz jej krotność, wprost używając sformułowania „za każdy przypadek” w tytule ryzyka krytycznego nr 2 oraz w tabeli „Rachunek ekspozycji”."
+ },
+ {
+  "id": "K04-021",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak limitu liczby przypadków naruszenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że liczba przypadków naruszenia nie jest ograniczona, więc kara nie ma sufitu. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje w sekcji Ryzyk Krytycznych (pkt 1), że 'kara jakościowa nie ma limitu liczby przypadków', a w podsumowaniu rachunku ekspozycji, że kary 'nie mają sufitu'."
+ },
+ {
+  "id": "K04-022",
+  "wada": "m3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla zakazu konkurencji",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował zakaz konkurencji (§ 5 w zw. z § 2 ust. 3) jako ryzyko i przypisał mu najwyższy poziom '🔴 RYZYKA KRYTYCZNE', co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K04-023",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Automatyczne przedłużenie na okresy 12-miesięczne",
+  "match": "ZALICZONE, jeśli audyt zgłasza mechanizm automatycznego przedłużenia na kolejne okresy 12-miesięczne z § 4 ust. 1. NIEZALICZONE w razie pominięcia albo opisania go jako neutralnego, bez wskazania ryzyka.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował mechanizm automatycznego przedłużenia umowy z § 4 ust. 1 i prawidłowo zakwalifikował go jako 'RYZYKO WYSOKIE' (punkt 🟠 3), wskazując na ryzyko finansowe związane z przegapieniem 90-dniowego terminu na złożenie oświadczenia o nieprzedłużaniu."
+ },
+ {
+  "id": "K04-024",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Okno sprzeciwu 90 dni",
+  "match": "ZALICZONE, jeśli audyt podaje termin 90 dni przed końcem bieżącego okresu jako warunek nieprzedłużenia. NIEZALICZONE przy braku terminu albo innym terminie.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo identyfikuje 90-dniowy termin na złożenie oświadczenia o nieprzedłużaniu umowy, co jest wspomniane zarówno w tabeli 'Rachunek ekspozycji' (wiersz 'Okno na sprzeciw wobec odnowienia'), jak i w opisie ryzyka wysokiego nr 3."
+ },
+ {
+  "id": "K04-025",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Skutek przegapienia okna",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że niezłożenie oświadczenia w terminie wiąże stronę na kolejne 12 miesięcy. NIEZALICZONE w razie pominięcia skutku.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje skutek w sekcji 'Rachunek ekspozycji' w wierszu 'Okno na sprzeciw wobec odnowienia', wskazując: 'Przegapienie = kolejne 12 mies. = 912.384 zł zobowiązania'. Ryzyko jest też szczegółowo omówione w punkcie 🟠3 'RYZYKA WYSOKIE'."
+ },
+ {
+  "id": "K04-026",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Podwyżka 8% przeliczona na stawkę albo na kwotę",
+  "match": "ZALICZONE, jeśli audyt przelicza podwyżkę z § 4 ust. 2 na konkretną wartość i wynik jest poprawny: stawka 237,60 zł/h albo wynagrodzenie 76.032 zł miesięcznie, albo 912.384 zł za rok przedłużenia, albo wzrost 67.584 zł rocznie. NIEZALICZONE, jeśli podwyżka zostaje tylko wspomniana jako 8% bez przeliczenia, oraz przy błędnym wyniku.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli „Rachunek ekspozycji”, w wierszu „Odnowienie 1 (miesiące 25–36)”, audyt poprawnie przelicza podwyżkę 8% na nową stawkę godzinową (237,60 zł/h), nowe wynagrodzenie miesięczne (76.032 zł), roczne (912.384 zł) oraz kwotę wzrostu (67.584 zł), co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-027",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Podwyżka jest kumulatywna wobec okresu poprzedniego",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że podwyżka liczy się „względem okresu poprzedniego\", czyli narasta przy kolejnych przedłużeniach. NIEZALICZONE, jeśli audyt traktuje ją jako jednorazową.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie zidentyfikował kumulatywny charakter podwyżki. W tabeli 'Rachunek ekspozycji' w wierszu 'Odnowienie 2' pokazano obliczenie składane (237,60 × 1,08), a w opisie ryzyka 'RYZYKA WYSOKIE' nr 3 wprost stwierdzono, że jest to 'składanie (+16,64% po dwóch odnowieniach: 1,08 × 1,08)'."
+ },
+ {
+  "id": "K04-028",
+  "wada": "m4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla pułapki terminowej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował klauzulę automatycznego odnowienia umowy (§ 4 ust. 1-2) jako ryzyko i w sekcji '🟠 RYZYKA WYSOKIE', w punkcie 3, przypisał jej odpowiednio wysoki poziom zagrożenia, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-029",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Model T&M i stawka nie są kwestionowane jako wadliwe",
+  "match": "Obszarem czystym jest KONSTRUKCJA modelu Time & Material i wysokość stawki 220 zł/h — nie brak zabezpieczeń wokół nich. ZALICZONE, jeśli żadna flaga nie twierdzi, że sam model rozliczeń T&M jest wadliwy, nierynkowy albo niedopuszczalny, ani że stawka 220 zł/h jest wadliwa albo nierynkowa. Flaga wskazująca BRAK czegoś obok § 1 — procedury akceptacji godzin, terminu płatności, minimalnego wolumenu, budżetu, mechanizmu kontroli kosztów — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu, bo dotyczy luki, a nie konstrukcji uznanej za czystą. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje model albo stawkę jako takie.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje samego modelu T&M ani stawki 220 zł/h jako wadliwych. Flaga 🟠4 „T&M bez mechanizmów kontroli” dotyczy brakujących zabezpieczeń wokół modelu (np. limitu budżetu, procedury akceptacji), co jest zgodne z zastrzeżeniem w kryterium. Flaga 🟡2 „Niespójność modelu T&M z karami za rezultat” krytykuje połączenie modelu z karami, a nie sam model jako taki."
+ },
+ {
+  "id": "K04-030",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Brak flagi za samo zawarcie umowy na 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt nie stawia flagi KRYTYCZNEJ ani WYSOKIEJ na samym okresie 24 miesięcy z § 1 ust. 3 w oderwaniu od mechanizmu przedłużenia z § 4. NIEZALICZONE, jeśli sam okres podstawowy zostaje potraktowany jako wada ciężka.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie identyfikuje samego 24-miesięcznego okresu umowy jako wady. Ryzyko wysokie (🟠 3) jest przypisane do połączenia tego okresu z mechanizmem automatycznego odnowienia i brakiem możliwości wypowiedzenia, a nie do samego faktu zawarcia umowy na 24 miesiące."
+ },
+ {
+  "id": "K04-001",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Godziny miesięczne jako 320",
+  "match": "ZALICZONE, jeśli audyt podaje miesięczne zaangażowanie 320 godzin albo jawnie pokazuje działanie 2 x 160. NIEZALICZONE, jeśli podaje 160 godzin albo nie przelicza zaangażowania na godziny w ogóle.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji', w wierszu 'Godziny miesięcznie', audyt jawnie pokazuje działanie '2 × 160' i podaje wynik '320 h', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K04-002",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Wynagrodzenie miesięczne 70.400 zł",
+  "match": "ZALICZONE, jeśli audyt podaje 70.400 zł jako wynagrodzenie miesięczne albo pokazuje działanie 220 x 320. NIEZALICZONE przy każdej innej kwocie, w szczególności 35.200 zł (pominięty mnożnik dwóch Specjalistów).",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli w sekcji 'Rachunek ekspozycji', w wierszu 'Wynagrodzenie miesięczne', audyt poprawnie oblicza i podaje kwotę 70.400 zł, pokazując działanie '320 h × 220 zł'."
+ },
+ {
+  "id": "K04-003",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Cap z § 3 ust. 1 wyliczony na 844.800 zł",
+  "match": "ZALICZONE, jeśli audyt podaje kwotowo limit odpowiedzialności z § 3 ust. 1 jako 844.800 zł albo pokazuje działanie 70.400 x 12. NIEZALICZONE, jeśli limit zostaje opisany tylko słownie („12-miesięczne wynagrodzenie\") bez podania kwoty.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji', w wierszu 'Cap nominalny', audyt podaje zarówno działanie (70.400 zł × 12), jak i wynikową kwotę limitu odpowiedzialności (844.800 zł), co wprost spełnia kryterium."
+ },
+ {
+  "id": "K04-004",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Kara za zwłokę przeliczona na 352 zł za dzień",
+  "match": "ZALICZONE, jeśli audyt podaje 352 zł za każdy rozpoczęty dzień zwłoki albo pokazuje działanie 0,5% x 70.400. NIEZALICZONE, jeśli kara zostaje podana wyłącznie jako procent.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji', w wierszu 'Kara zwłokowa dzienna', audyt poprawnie wylicza i podaje kwotę 352 zł/dzień, pokazując również działanie matematyczne (70.400 × 0,005)."
+ },
+ {
+  "id": "K04-005",
+  "wada": "m5",
+  "typ": "wykrycie",
+  "title": "Brak limitu łącznego kar za zwłokę zgłoszony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kara za zwłokę z § 2 ust. 1 nie ma limitu łącznego (sufitu). NIEZALICZONE, jeśli audyt opisuje tę karę bez wskazania braku limitu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone, ponieważ audyt wprost identyfikuje ten problem w tytule ryzyka nr 4 w sekcji Ryzyk Wysokich: 'Kara zwłokowa dzienna bez sufitu, bez związku z winą — § 2 ust. 1', a także w jego opisie: 'bez górnej granicy'."
+ },
+ {
+  "id": "K04-006",
+  "wada": "m5",
+  "typ": "liczba",
+  "title": "Skala kary za zwłokę pokazana na konkretnym horyzoncie",
+  "match": "ZALICZONE, jeśli audyt pokazuje narastanie kary na jakimkolwiek wskazanym horyzoncie dni z poprawnym wynikiem (np. 30 dni = 10.560 zł, 100 dni = 35.200 zł, 200 dni = 70.400 zł, czyli całe wynagrodzenie miesięczne). NIEZALICZONE, jeśli brak jakiegokolwiek przeliczenia narastania.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli «Rachunek ekspozycji» przedstawia narastanie kary za zwłokę w kilku horyzontach czasowych, w tym dla 30 dni (wynik: 10.560 zł), 200 dni (wynik: 70.400 zł) oraz 24 miesięcy (wynik: 253.440 zł), co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-007",
+  "wada": "m5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary bez sufitu",
+  "match": "ZALICZONE, jeśli wada z § 2 ust. 1 dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie ŚREDNIM, NISKIM albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 4. 'Kara zwłokowa dzienna bez sufitu, bez związku z winą — § 2 ust. 1' przypisał analizowanej wadzie poziom ryzyka 'WYSOKIE', co jest zgodne z kryterium zaliczenia."
+ },
+ {
+  "id": "K04-008",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Kary poza limitem odpowiedzialności",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne nie są wliczane do limitu z § 3 (§ 2 ust. 4). NIEZALICZONE, jeśli audyt omawia cap bez tego zastrzeżenia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie zidentyfikował, że kary umowne nie są wliczane do limitu odpowiedzialności, co stanowi jego pierwszy i główny punkt w sekcji Ryzyk Krytycznych (punkt 1: 'Kary poza capem, sumowane, bez sufitu; cap iluzoryczny — § 2 ust. 4, § 3 ust. 1')."
+ },
+ {
+  "id": "K04-009",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Sumowanie kar umownych",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne podlegają sumowaniu (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje sumowanie kar jako ryzyko krytyczne w punkcie 1. 'Kary poza capem, sumowane, bez sufitu', wprost powołując się na § 2 ust. 4 umowy. Kwestia jest również wspomniana w podsumowaniu tabeli 'Rachunek ekspozycji'."
+ },
+ {
+  "id": "K04-010",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Odszkodowanie ponad kary umowne",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że Zamawiający może dochodzić odszkodowania przewyższającego kary umowne na zasadach ogólnych (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko w punkcie 1. 'RYZYKA KRYTYCZNE', wprost wskazując w opisie, że 'dopuszczono odszkodowanie ponad karę'. Kwestia ta jest również uwzględniona w 'Rachunku ekspozycji' oraz w rekomendacjach."
+ },
+ {
+  "id": "K04-011",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Wniosek, że limit z § 3 ust. 1 jest iluzoryczny",
+  "match": "ZALICZONE, jeśli audyt stwierdza wprost, że przy takiej konstrukcji limit odpowiedzialności nie ogranicza realnej ekspozycji Wykonawcy (jest iluzoryczny, pozorny, obchodzony). NIEZALICZONE, jeśli audyt wymienia składniki, ale nie wyciąga tego wniosku.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost stwierdza, że 'cap nominalny [...] jest iluzoryczny' (w sekcji 'Wniosek z rachunku') oraz tytułuje pierwsze ryzyko krytyczne jako 'cap iluzoryczny'."
+ },
+ {
+  "id": "K04-012",
+  "wada": "m1",
+  "typ": "liczba",
+  "title": "Ekspozycja ponad cap pokazana liczbowo",
+  "match": "ZALICZONE, jeśli audyt pokazuje choć jeden poprawny rachunek, w którym suma świadczeń Wykonawcy przekracza 844.800 zł, a składniki są wzięte z umowy (np. trzy naruszenia zakazu konkurencji 3 x 300.000 = 900.000 zł ponad capem). NIEZALICZONE, jeśli teza o przekroczeniu capu pozostaje bez rachunku albo rachunek jest błędny.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt w tabeli «Rachunek ekspozycji» przedstawia kilka poprawnych rachunków, w których suma świadczeń Wykonawcy przekracza limit 844.800 zł. Przykładowo, w wierszu «Kara za konkurencję — 3 przypadki» poprawnie wyliczono, że suma kar za trzy naruszenia wynosi 900.000 zł, co samo w sobie przekracza cap. Ponadto, w wierszu «Efektywna ekspozycja Wykonawcy» zsumowano cap i kary poza nim, uzyskując ekspozycję w wysokości co najmniej 1.805.360 zł."
+ },
+ {
+  "id": "K04-013",
+  "wada": "m1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla iluzoryczności capu",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował ryzyko iluzoryczności capu w sekcji '🔴 RYZYKA KRYTYCZNE' jako ryzyko nr 1, zatytułowane 'Kary poza capem, sumowane, bez sufitu; cap iluzoryczny'."
+ },
+ {
+  "id": "K04-014",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja IP bez limitu kwotowego",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że zobowiązanie z § 3 ust. 2 („wszelka odpowiedzialność\" i „wszelkie koszty\") nie ma limitu kwotowego. NIEZALICZONE w razie pominięcia tego postanowienia albo opisania go bez wskazania braku limitu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 6. «RYZYKA WYSOKIE» poprawnie zidentyfikował zobowiązanie z § 3 ust. 2 jako ryzyko, nadając mu tytuł «Indemnity IP bez limitu i bez procedury». W opisie ryzyka wprost wskazano na brak sufitu kwotowego i otwartą ekspozycję, co spełnia kryterium."
+ },
+ {
+  "id": "K04-015",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja poza limitem z § 3 ust. 1",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że indemnifikacja z ust. 2 nie jest objęta limitem z ust. 1 tego samego paragrafu albo że relacja tych dwóch ustępów jest nierozstrzygnięta. NIEZALICZONE, jeśli audyt milcząco przyjmuje, że limit obejmuje indemnifikację.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 6. (Ryzyka Wysokie) wprost wskazuje, że jest 'Niejasne, czy [indemnifikacja] podlega capowi z § 3 ust. 1 (...) — redakcja „wszelkie” sugeruje, że nie'. Dodatkowo, w tabeli 'Rachunek ekspozycji' indemnifikacja jest liczona jako pozycja '[indemnity bez limitu]' obok limitu odpowiedzialności."
+ },
+ {
+  "id": "K04-016",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Koszty obsługi prawnej jako osobny składnik ekspozycji",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że indemnifikacja obejmuje koszty obsługi prawnej. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "niezaliczone",
+  "uzasadnienie": "Audyt w punkcie 6 (RYZYKA WYSOKIE) analizuje klauzulę indemnifikacyjną z § 3 ust. 2 umowy, ale pomija kluczową informację, że zobowiązanie do pokrycia kosztów wprost obejmuje „koszty obsługi prawnej”, co było wyraźnie wskazane w tekście źródłowym."
+ },
+ {
+  "id": "K04-017",
+  "wada": "m2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla indemnifikacji IP",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 6. («Indemnity IP bez limitu i bez procedury») przypisał temu ryzyku kategorię 🟠 RYZYKA WYSOKIE, co jest zgodne z kryterium zaliczenia."
+ },
+ {
+  "id": "K04-018",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Zakaz konkurencji po zakończeniu umowy — 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt podaje, że zakaz obowiązuje 24 miesiące po zakończeniu Umowy. NIEZALICZONE, jeśli okres nie zostaje podany albo zostaje podany błędnie.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje okres w sekcji 'RYZYKA KRYTYCZNE', w punkcie 2: 'Zakaz obejmuje czas umowy i 24 mies. po niej (min. 48 mies.)'."
+ },
+ {
+  "id": "K04-019",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak ekwiwalentu zgłoszony jako ryzyko",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko to, że zakaz nie jest związany z dodatkowym wynagrodzeniem. Wystarcza zgłoszenie ryzyka — kryterium NIE wymaga przyjęcia stanowiska, że brak ekwiwalentu czyni zakaz nieważnym. NIEZALICZONE, jeśli audyt opisuje zakaz, nie podnosząc braku ekwiwalentu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 2. listy ryzyk krytycznych ('Zakaz konkurencji...') wprost wskazuje na brak wynagrodzenia, używając w opisie sformułowania 'bez ekwiwalentu (0 zł)'."
+ },
+ {
+  "id": "K04-020",
+  "wada": "m3",
+  "typ": "liczba",
+  "title": "Kara za naruszenie zakazu podana jako 300.000 zł za przypadek",
+  "match": "ZALICZONE, jeśli audyt podaje 300.000 zł i wskazuje, że kara należy się za każdy przypadek naruszenia. NIEZALICZONE, jeśli brakuje kwoty albo pominięta jest krotność („za każdy przypadek\").",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje kwotę kary (300.000 zł) oraz jej krotność, co widać m.in. w tytule ryzyka krytycznego nr 2: 'Zakaz konkurencji [...] i kara 300.000 zł za każdy przypadek'. Informacja ta jest również powtórzona w tabeli 'Rachunek ekspozycji'."
+ },
+ {
+  "id": "K04-021",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak limitu liczby przypadków naruszenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że liczba przypadków naruszenia nie jest ograniczona, więc kara nie ma sufitu. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wielokrotnie wskazuje na brak limitu liczby przypadków, co prowadzi do braku sufitu dla kar. Jest to wyrażone m.in. w opisie Ryzyka Krytycznego nr 1 ('Żadna kara nie ma sufitu kwotowego'), Ryzyka Krytycznego nr 2 ('kara 300.000 zł za każdy przypadek') oraz Ryzyka Wysokiego nr 5 ('Brak sufitu i liczby przypadków')."
+ },
+ {
+  "id": "K04-022",
+  "wada": "m3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla zakazu konkurencji",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE' w punkcie 2. ('Zakaz konkurencji...') przypisał temu ryzyku poziom krytyczny, co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K04-023",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Automatyczne przedłużenie na okresy 12-miesięczne",
+  "match": "ZALICZONE, jeśli audyt zgłasza mechanizm automatycznego przedłużenia na kolejne okresy 12-miesięczne z § 4 ust. 1. NIEZALICZONE w razie pominięcia albo opisania go jako neutralnego, bez wskazania ryzyka.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował i ocenił mechanizm automatycznego przedłużenia umowy z § 4 ust. 1, klasyfikując go jako 'RYZYKO WYSOKIE' w punkcie 7. listy ryzyk i szczegółowo opisując negatywne konsekwencje dla obu stron."
+ },
+ {
+  "id": "K04-024",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Okno sprzeciwu 90 dni",
+  "match": "ZALICZONE, jeśli audyt podaje termin 90 dni przed końcem bieżącego okresu jako warunek nieprzedłużenia. NIEZALICZONE przy braku terminu albo innym terminie.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo wskazuje 90-dniowy termin na złożenie oświadczenia o nieprzedłużaniu umowy w opisie ryzyka wysokiego nr 7 oraz w tabeli 'Rachunek ekspozycji' w wierszu 'Data graniczna sprzeciwu wobec przedłużenia'."
+ },
+ {
+  "id": "K04-025",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Skutek przegapienia okna",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że niezłożenie oświadczenia w terminie wiąże stronę na kolejne 12 miesięcy. NIEZALICZONE w razie pominięcia skutku.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje skutek przegapienia okna na złożenie oświadczenia o nieprzedłużaniu umowy. Wskazano to dwukrotnie: w tabeli „Rachunek ekspozycji” („Przegapienie = zobowiązanie na kolejne 12 mies. ≈ 912.384 zł”) oraz w opisie ryzyka wysokiego nr 7 („Przegapienie okna = ok. 912.384 zł zobowiązania”)."
+ },
+ {
+  "id": "K04-026",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Podwyżka 8% przeliczona na stawkę albo na kwotę",
+  "match": "ZALICZONE, jeśli audyt przelicza podwyżkę z § 4 ust. 2 na konkretną wartość i wynik jest poprawny: stawka 237,60 zł/h albo wynagrodzenie 76.032 zł miesięcznie, albo 912.384 zł za rok przedłużenia, albo wzrost 67.584 zł rocznie. NIEZALICZONE, jeśli podwyżka zostaje tylko wspomniana jako 8% bez przeliczenia, oraz przy błędnym wyniku.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli „Rachunek ekspozycji”, w wierszu „Wynagrodzenie po 1. przedłużeniu”, audyt poprawnie przelicza podwyżkę o 8%, podając nową stawkę godzinową (237,60 zł/h), wynagrodzenie miesięczne (76.032 zł), roczne (912.384 zł) oraz roczny wzrost (+67.584 zł)."
+ },
+ {
+  "id": "K04-027",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Podwyżka jest kumulatywna wobec okresu poprzedniego",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że podwyżka liczy się „względem okresu poprzedniego\", czyli narasta przy kolejnych przedłużeniach. NIEZALICZONE, jeśli audyt traktuje ją jako jednorazową.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli 'Rachunek ekspozycji' poprawnie oblicza skumulowaną podwyżkę w kolejnych okresach przedłużenia (np. w wierszu 'Po 2. przedłużeniu' mnoży stawkę z poprzedniego okresu przez 1,08). Dodatkowo, w opisie ryzyka nr 7 wprost stwierdza, że 'stawka rośnie o 8% względem poprzedniego okresu'."
+ },
+ {
+  "id": "K04-028",
+  "wada": "m4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla pułapki terminowej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 7. 'Automatyczne przedłużenie i podwyżka stawki o 8% za każdy okres' zidentyfikował ryzyko związane z pułapką terminową i przypisał mu kategorię 'RYZYKA WYSOKIE', co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K04-029",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Model T&M i stawka nie są kwestionowane jako wadliwe",
+  "match": "Obszarem czystym jest KONSTRUKCJA modelu Time & Material i wysokość stawki 220 zł/h — nie brak zabezpieczeń wokół nich. ZALICZONE, jeśli żadna flaga nie twierdzi, że sam model rozliczeń T&M jest wadliwy, nierynkowy albo niedopuszczalny, ani że stawka 220 zł/h jest wadliwa albo nierynkowa. Flaga wskazująca BRAK czegoś obok § 1 — procedury akceptacji godzin, terminu płatności, minimalnego wolumenu, budżetu, mechanizmu kontroli kosztów — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu, bo dotyczy luki, a nie konstrukcji uznanej za czystą. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje model albo stawkę jako takie.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje samego modelu T&M ani stawki 220 zł/h jako wadliwych lub nierynkowych. Flaga nr 9 („Model T&M bez zasad rozliczeń”) prawidłowo identyfikuje brak mechanizmów zabezpieczających (limit budżetu, procedura akceptacji godzin), co jest zgodne z kryterium, które dopuszcza wskazywanie takich luk bez uznania tego za błąd."
+ },
+ {
+  "id": "K04-030",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Brak flagi za samo zawarcie umowy na 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt nie stawia flagi KRYTYCZNEJ ani WYSOKIEJ na samym okresie 24 miesięcy z § 1 ust. 3 w oderwaniu od mechanizmu przedłużenia z § 4. NIEZALICZONE, jeśli sam okres podstawowy zostaje potraktowany jako wada ciężka.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie oznacza samego 24-miesięcznego okresu obowiązywania umowy jako ryzyka krytycznego ani wysokiego. Ryzyko nr 10, dotyczące braku możliwości wypowiedzenia umowy w tym okresie, zostało poprawnie sklasyfikowane jako średnie. Mechanizm automatycznego przedłużenia (ryzyko nr 7) jest analizowany osobno, co jest zgodne z założeniami kryterium."
+ },
+ {
+  "id": "K04-001",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Godziny miesięczne jako 320",
+  "match": "ZALICZONE, jeśli audyt podaje miesięczne zaangażowanie 320 godzin albo jawnie pokazuje działanie 2 x 160. NIEZALICZONE, jeśli podaje 160 godzin albo nie przelicza zaangażowania na godziny w ogóle.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji', w wierszu 'Godziny miesięcznie', audyt poprawnie wylicza zaangażowanie jako '2 × 160' i podaje wynik '320 h', co spełnia kryterium."
+ },
+ {
+  "id": "K04-002",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Wynagrodzenie miesięczne 70.400 zł",
+  "match": "ZALICZONE, jeśli audyt podaje 70.400 zł jako wynagrodzenie miesięczne albo pokazuje działanie 220 x 320. NIEZALICZONE przy każdej innej kwocie, w szczególności 35.200 zł (pominięty mnożnik dwóch Specjalistów).",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji', w wierszu 'Wynagrodzenie miesięczne (szacunek)', audyt poprawnie oblicza wartość jako '320 h × 220 zł' i podaje wynik '70.400 zł netto'."
+ },
+ {
+  "id": "K04-003",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Cap z § 3 ust. 1 wyliczony na 844.800 zł",
+  "match": "ZALICZONE, jeśli audyt podaje kwotowo limit odpowiedzialności z § 3 ust. 1 jako 844.800 zł albo pokazuje działanie 70.400 x 12. NIEZALICZONE, jeśli limit zostaje opisany tylko słownie („12-miesięczne wynagrodzenie\") bez podania kwoty.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli «Rachunek ekspozycji», w wierszu «Cap nominalny», prawidłowo wylicza limit odpowiedzialności jako 844.800 zł, pokazując działanie 12 × 70.400 zł."
+ },
+ {
+  "id": "K04-004",
+  "wada": "rachunek",
+  "typ": "liczba",
+  "title": "Kara za zwłokę przeliczona na 352 zł za dzień",
+  "match": "ZALICZONE, jeśli audyt podaje 352 zł za każdy rozpoczęty dzień zwłoki albo pokazuje działanie 0,5% x 70.400. NIEZALICZONE, jeśli kara zostaje podana wyłącznie jako procent.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli «Rachunek ekspozycji» audyt przedstawia zarówno obliczenie kary za zwłokę (0,005 × 70.400 zł), jak i jej wynik w postaci kwoty dziennej (352 zł/dzień)."
+ },
+ {
+  "id": "K04-005",
+  "wada": "m5",
+  "typ": "wykrycie",
+  "title": "Brak limitu łącznego kar za zwłokę zgłoszony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kara za zwłokę z § 2 ust. 1 nie ma limitu łącznego (sufitu). NIEZALICZONE, jeśli audyt opisuje tę karę bez wskazania braku limitu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na brak limitu kary za zwłokę, m.in. w tabeli 'Rachunek ekspozycji' (wiersze 'Kara za zwłokę'), w opisie Ryzyka nr 1 ('kary dzienne z § 2 ust. 1 rosną bez granicy') oraz wprost w opisie Ryzyka nr 6 ('bez sufitu')."
+ },
+ {
+  "id": "K04-006",
+  "wada": "m5",
+  "typ": "liczba",
+  "title": "Skala kary za zwłokę pokazana na konkretnym horyzoncie",
+  "match": "ZALICZONE, jeśli audyt pokazuje narastanie kary na jakimkolwiek wskazanym horyzoncie dni z poprawnym wynikiem (np. 30 dni = 10.560 zł, 100 dni = 35.200 zł, 200 dni = 70.400 zł, czyli całe wynagrodzenie miesięczne). NIEZALICZONE, jeśli brak jakiegokolwiek przeliczenia narastania.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W tabeli 'Rachunek ekspozycji' audyt poprawnie oblicza i pokazuje narastanie kary za zwłokę w horyzoncie 30 dni (10.560 zł) oraz 200 dni (70.400 zł)."
+ },
+ {
+  "id": "K04-007",
+  "wada": "m5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary bez sufitu",
+  "match": "ZALICZONE, jeśli wada z § 2 ust. 1 dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie ŚREDNIM, NISKIM albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 6. zidentyfikował ryzyko związane z karą za zwłokę z § 2 ust. 1 i przypisał mu kategorię 'RYZYKA WYSOKIE', co jest zgodne z kryterium zaliczenia."
+ },
+ {
+  "id": "K04-008",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Kary poza limitem odpowiedzialności",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne nie są wliczane do limitu z § 3 (§ 2 ust. 4). NIEZALICZONE, jeśli audyt omawia cap bez tego zastrzeżenia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to jako ryzyko krytyczne nr 1, zatytułowane 'Kary umowne poza capem, sumujące się, bez sufitu, plus odszkodowanie ponad karę — § 2 ust. 4, § 3 ust. 1'. W opisie tego ryzyka wprost stwierdzono, że 'Kary nie wliczają się do limitu'."
+ },
+ {
+  "id": "K04-009",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Sumowanie kar umownych",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że kary umowne podlegają sumowaniu (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie zidentyfikował i przeanalizował ryzyko sumowania się kar umownych. Jest to wskazane wprost w tytule i opisie Ryzyka Krytycznego nr 1: «Kary umowne poza capem, sumujące się, bez sufitu...» oraz w sekcji «Rachunek ekspozycji» w wierszu «Kary poza capem (max)», gdzie audyt stwierdza: «sumują się, bez sufitu, poza capem (§ 2 ust. 4)»"
+ },
+ {
+  "id": "K04-010",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Odszkodowanie ponad kary umowne",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że Zamawiający może dochodzić odszkodowania przewyższającego kary umowne na zasadach ogólnych (§ 2 ust. 4). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko jako krytyczne w punkcie 1. W jego opisie wprost wskazano, że 'Zamawiający może dochodzić odszkodowania ponad kary'. Kwestia ta jest również odnotowana w tabeli 'Rachunek ekspozycji'."
+ },
+ {
+  "id": "K04-011",
+  "wada": "m1",
+  "typ": "wykrycie",
+  "title": "Wniosek, że limit z § 3 ust. 1 jest iluzoryczny",
+  "match": "ZALICZONE, jeśli audyt stwierdza wprost, że przy takiej konstrukcji limit odpowiedzialności nie ogranicza realnej ekspozycji Wykonawcy (jest iluzoryczny, pozorny, obchodzony). NIEZALICZONE, jeśli audyt wymienia składniki, ale nie wyciąga tego wniosku.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost stwierdza, że limit odpowiedzialności jest 'iluzoryczny' (w sekcji 'Wniosek z rachunku') oraz 'pozorny' (w sekcji 'OCENA BEZPIECZEŃSTWA'), ponieważ kary umowne i indemnity IP są z niego wyłączone. Jest to bezpośrednia realizacja kryterium."
+ },
+ {
+  "id": "K04-012",
+  "wada": "m1",
+  "typ": "liczba",
+  "title": "Ekspozycja ponad cap pokazana liczbowo",
+  "match": "ZALICZONE, jeśli audyt pokazuje choć jeden poprawny rachunek, w którym suma świadczeń Wykonawcy przekracza 844.800 zł, a składniki są wzięte z umowy (np. trzy naruszenia zakazu konkurencji 3 x 300.000 = 900.000 zł ponad capem). NIEZALICZONE, jeśli teza o przekroczeniu capu pozostaje bez rachunku albo rachunek jest błędny.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt w tabeli 'Rachunek ekspozycji', w wierszu 'Kara za konkurencję, 3 przypadki', przedstawia poprawny rachunek (3 x 300.000 zł = 900.000 zł), który przekracza nominalny cap odpowiedzialności (844.800 zł). Dodatkowo, w wierszu 'Efektywna ekspozycja Wykonawcy' przedstawiono scenariusz, w którym łączna ekspozycja wynosi 1.180.360 zł, co również spełnia kryterium."
+ },
+ {
+  "id": "K04-013",
+  "wada": "m1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla iluzoryczności capu",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje ryzyko 'Kary umowne poza capem, sumujące się, bez sufitu' i klasyfikuje je w sekcji 'RYZYKA KRYTYCZNE' jako ryzyko nr 1. Wprost nazywa też cap 'iluzorycznym' we wnioskach z rachunku ekspozycji."
+ },
+ {
+  "id": "K04-014",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja IP bez limitu kwotowego",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że zobowiązanie z § 3 ust. 2 („wszelka odpowiedzialność\" i „wszelkie koszty\") nie ma limitu kwotowego. NIEZALICZONE w razie pominięcia tego postanowienia albo opisania go bez wskazania braku limitu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował to ryzyko jako krytyczne (punkt 3: „Nieograniczony indemnity IP”), wprost wskazując w opisie, że klauzula nie ma limitu („Brak sufitu”) i w skutkach, że prowadzi to do potencjalnie nieograniczonej ekspozycji."
+ },
+ {
+  "id": "K04-015",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Indemnifikacja poza limitem z § 3 ust. 1",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że indemnifikacja z ust. 2 nie jest objęta limitem z ust. 1 tego samego paragrafu albo że relacja tych dwóch ustępów jest nierozstrzygnięta. NIEZALICZONE, jeśli audyt milcząco przyjmuje, że limit obejmuje indemnifikację.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na ryzyko krytyczne nr 3 („Nieograniczony indemnity IP i niejasna relacja do capu”), stwierdzając w jego opisie, że umowa nie rozstrzyga, czy indemnifikacja mieści się w limicie odpowiedzialności, co stanowi wewnętrzną sprzeczność: „czy indemnity mieści się w capie, czy nie, umowa nie rozstrzyga”."
+ },
+ {
+  "id": "K04-016",
+  "wada": "m2",
+  "typ": "wykrycie",
+  "title": "Koszty obsługi prawnej jako osobny składnik ekspozycji",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że indemnifikacja obejmuje koszty obsługi prawnej. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w opisie Ryzyka Krytycznego nr 3 (\"Nieograniczony indemnity IP...\") wprost cytuje fragment umowy: \"'pokryje wszelkie związane z tym koszty, w tym koszty obsługi prawnej'\", co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-017",
+  "wada": "m2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla indemnifikacji IP",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 3. 'Nieograniczony indemnity IP i niejasna relacja do capu' zaklasyfikował to ryzyko do kategorii 'RYZYKA KRYTYCZNE', co spełnia warunek kryterium (poziom WYSOKIE lub KRYTYCZNE)."
+ },
+ {
+  "id": "K04-018",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Zakaz konkurencji po zakończeniu umowy — 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt podaje, że zakaz obowiązuje 24 miesiące po zakończeniu Umowy. NIEZALICZONE, jeśli okres nie zostaje podany albo zostaje podany błędnie.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje okres w tytule Ryzyka Krytycznego nr 2, wskazując 'zakaz 24 mies. po umowie'."
+ },
+ {
+  "id": "K04-019",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak ekwiwalentu zgłoszony jako ryzyko",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko to, że zakaz nie jest związany z dodatkowym wynagrodzeniem. Wystarcza zgłoszenie ryzyka — kryterium NIE wymaga przyjęcia stanowiska, że brak ekwiwalentu czyni zakaz nieważnym. NIEZALICZONE, jeśli audyt opisuje zakaz, nie podnosząc braku ekwiwalentu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje brak wynagrodzenia za zakaz konkurencji jako element ryzyka krytycznego nr 2. W tytule ryzyka wskazano „bez wynagrodzenia”, w opisie zacytowano fragment umowy „nie jest związany z dodatkowym wynagrodzeniem”, a w analizie skutków podkreślono, że „Zakaz po ustaniu umowy, bez ekwiwalentu, ryzykuje uznanie za sprzeczny z zasadami współżycia społecznego”."
+ },
+ {
+  "id": "K04-020",
+  "wada": "m3",
+  "typ": "liczba",
+  "title": "Kara za naruszenie zakazu podana jako 300.000 zł za przypadek",
+  "match": "ZALICZONE, jeśli audyt podaje 300.000 zł i wskazuje, że kara należy się za każdy przypadek naruszenia. NIEZALICZONE, jeśli brakuje kwoty albo pominięta jest krotność („za każdy przypadek\").",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje kwotę (300.000 zł) i krotność kary („za każdy przypadek”), co jest wprost wyrażone w tytule ryzyka krytycznego nr 2: „Kara 300.000 zł za każdy przypadek naruszenia zakazu konkurencji...”. Informacja ta jest powtórzona w opisie ryzyka oraz w tabeli „Rachunek ekspozycji”."
+ },
+ {
+  "id": "K04-021",
+  "wada": "m3",
+  "typ": "wykrycie",
+  "title": "Brak limitu liczby przypadków naruszenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że liczba przypadków naruszenia nie jest ograniczona, więc kara nie ma sufitu. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na brak limitu liczby przypadków naruszenia, co prowadzi do braku sufitu dla kar. Jest to podniesione m.in. w Ryzyku Krytycznym nr 1 („Kary umowne poza capem, sumujące się, bez sufitu”), Ryzyku Krytycznym nr 2 („Kara 300.000 zł za każdy przypadek naruszenia [...] bez sufitu”) oraz w tabeli „Rachunek ekspozycji” (np. w wierszu „Kary poza capem (max)”)."
+ },
+ {
+  "id": "K04-022",
+  "wada": "m3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla zakazu konkurencji",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował ryzyko związane z zakazem konkurencji (§ 5 umowy) i w punkcie 2. sekcji 'RYZYKA KRYTYCZNE' przypisał mu poziom 'KRYTYCZNE', co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K04-023",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Automatyczne przedłużenie na okresy 12-miesięczne",
+  "match": "ZALICZONE, jeśli audyt zgłasza mechanizm automatycznego przedłużenia na kolejne okresy 12-miesięczne z § 4 ust. 1. NIEZALICZONE w razie pominięcia albo opisania go jako neutralnego, bez wskazania ryzyka.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował mechanizm automatycznego przedłużenia umowy, zaklasyfikował go jako 'RYZYKO WYSOKIE' (ryzyko nr 5) i szczegółowo opisał jego negatywne konsekwencje finansowe, w tym automatyczne zaciągnięcie zobowiązania o wartości 912.384 zł w przypadku przegapienia okna na złożenie sprzeciwu."
+ },
+ {
+  "id": "K04-024",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Okno sprzeciwu 90 dni",
+  "match": "ZALICZONE, jeśli audyt podaje termin 90 dni przed końcem bieżącego okresu jako warunek nieprzedłużenia. NIEZALICZONE przy braku terminu albo innym terminie.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje termin w tabeli 'Rachunek ekspozycji' w wierszu 'Data graniczna sprzeciwu', podając '90 dni przed końcem okresu', a także w opisie Ryzyka nr 5, wskazując 'sprzeciw tylko 90 dni przed końcem'."
+ },
+ {
+  "id": "K04-025",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Skutek przegapienia okna",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że niezłożenie oświadczenia w terminie wiąże stronę na kolejne 12 miesięcy. NIEZALICZONE w razie pominięcia skutku.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na skutek przegapienia okna, zarówno w tabeli 'Rachunek ekspozycji' (wiersz 'Wartość nieskutecznego sprzeciwu'), jak i w opisie Ryzyka nr 5, gdzie w sekcji 'Skutek' stwierdza: 'Przegapienie okna = zobowiązanie na 912.384 zł', co odpowiada wartości kolejnego 12-miesięcznego okresu."
+ },
+ {
+  "id": "K04-026",
+  "wada": "m4",
+  "typ": "liczba",
+  "title": "Podwyżka 8% przeliczona na stawkę albo na kwotę",
+  "match": "ZALICZONE, jeśli audyt przelicza podwyżkę z § 4 ust. 2 na konkretną wartość i wynik jest poprawny: stawka 237,60 zł/h albo wynagrodzenie 76.032 zł miesięcznie, albo 912.384 zł za rok przedłużenia, albo wzrost 67.584 zł rocznie. NIEZALICZONE, jeśli podwyżka zostaje tylko wspomniana jako 8% bez przeliczenia, oraz przy błędnym wyniku.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli «Rachunek ekspozycji» oraz w opisie ryzyka nr 5 («RYZYKA WYSOKIE») poprawnie przelicza podwyżkę 8%. Podaje nową stawkę (237,60 zł/h), nowe wynagrodzenie miesięczne (76.032 zł), roczne (912.384 zł) oraz roczny wzrost (67.584 zł), co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K04-027",
+  "wada": "m4",
+  "typ": "wykrycie",
+  "title": "Podwyżka jest kumulatywna wobec okresu poprzedniego",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że podwyżka liczy się „względem okresu poprzedniego\", czyli narasta przy kolejnych przedłużeniach. NIEZALICZONE, jeśli audyt traktuje ją jako jednorazową.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie zidentyfikował kumulatywny charakter podwyżki. W tabeli 'Rachunek ekspozycji' prawidłowo obliczono stawkę dla 'Okresu 3' (256,61 zł/h) na podstawie stawki z 'Okresu 2' (237,60 zł/h), a nie bazowej. Dodatkowo, w opisie Ryzyka nr 5 wprost wskazano, że stawka rośnie 'względem okresu poprzedniego' i przedstawiono narastającą kalkulację."
+ },
+ {
+  "id": "K04-028",
+  "wada": "m4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla pułapki terminowej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Ryzyko związane z automatycznym przedłużeniem umowy i podwyżką stawki (§ 4 umowy) zostało zidentyfikowane w audycie jako 'RYZYKO WYSOKIE' (punkt 5), co spełnia kryterium zaliczenia (poziom WYSOKIE lub KRYTYCZNE)."
+ },
+ {
+  "id": "K04-029",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Model T&M i stawka nie są kwestionowane jako wadliwe",
+  "match": "Obszarem czystym jest KONSTRUKCJA modelu Time & Material i wysokość stawki 220 zł/h — nie brak zabezpieczeń wokół nich. ZALICZONE, jeśli żadna flaga nie twierdzi, że sam model rozliczeń T&M jest wadliwy, nierynkowy albo niedopuszczalny, ani że stawka 220 zł/h jest wadliwa albo nierynkowa. Flaga wskazująca BRAK czegoś obok § 1 — procedury akceptacji godzin, terminu płatności, minimalnego wolumenu, budżetu, mechanizmu kontroli kosztów — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu, bo dotyczy luki, a nie konstrukcji uznanej za czystą. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje model albo stawkę jako takie.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje modelu T&M ani stawki jako takich. Ryzyko #6 wskazuje na nieadekwatność kary umownej do modelu T&M, a nie na wadliwość samego modelu. Ryzyko #8 wskazuje na brakujące elementy wokół modelu (np. budżet, wolumen), co jest zgodne z kryterium. Sekcja 'Obszary bez zastrzeżeń' wprost potwierdza brak zastrzeżeń do konstrukcji T&M."
+ },
+ {
+  "id": "K04-030",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Brak flagi za samo zawarcie umowy na 24 miesiące",
+  "match": "ZALICZONE, jeśli audyt nie stawia flagi KRYTYCZNEJ ani WYSOKIEJ na samym okresie 24 miesięcy z § 1 ust. 3 w oderwaniu od mechanizmu przedłużenia z § 4. NIEZALICZONE, jeśli sam okres podstawowy zostaje potraktowany jako wada ciężka.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie flaguje samego okresu 24 miesięcy jako wady. Ryzyko wysokie nr 9 dotyczy braku możliwości wypowiedzenia umowy w tym okresie, a nie samego czasu jego trwania. Ryzyko wysokie nr 5 dotyczy mechanizmu automatycznego przedłużenia, co jest zgodne z założeniami kryterium."
+ }
+]
