@@ -1,0 +1,341 @@
+# Kryteria atomowe — umowa 02-wdrozenie-erp
+# Metoda v3. Rozpisanie dziesięciu wad e1-e10 z manifesty.yaml.
+#
+# ZASADA: match_criteria JEST wzorcem. Kryteria ocenia się pojedynczo,
+# zero-jedynkowo, bez zaliczenia częściowego.
+#
+# DWIE REGUŁY, KTÓRE WYSZŁY Z PILOTU UMOWY 04:
+# 1. Kryterium ma być atomowe. Jeśli każe przejrzeć cały audyt pod jakimś
+#    kątem, to nie jest kryterium, tylko metryka — i tam nie należy.
+# 2. Nie wiązać warunku wyłączającego z poziomem flagi, tylko z tym, CZEGO
+#    flaga dotyczy.
+#
+# Audyty biegną bez MCP legal-cite, więc kryterium NIE wymaga podania numeru
+# przepisu — wymaga wskazania istoty wady. Numer, gdy pada, ma być poprawny:
+# to sprawdza osobny przebieg integralności, nie ta rubryka.
+
+umowa: 02-wdrozenie-erp
+wersja: 2
+data: 2026-10-08
+# v2 (kalibracja 8.10): K02-034 zwalnia też flagi o nieokreślonym zakresie
+# świadczenia. Sędzia brał „ryczałt bez zakresu" za atak na sam ryczałt.
+deliverables: [audyt]
+liczby_odniesienia:
+  wartosc_umowy: 480000
+  kara_dzienna: 50000
+  udzial_kary_dziennej_pct: 10.42      # 50.000 / 480.000
+  dni_do_100pct: 9.6                   # 480.000 / 50.000
+  kara_30_dni: 1500000
+  krotnosc_wartosci_30_dni: 3.125
+  termin_platnosci_dni: 60
+
+kryteria:
+
+  # ---------- e1: kara za opóźnienie w płatności ----------
+  - id: K02-001
+    wada: e1
+    typ: wykrycie
+    title: Kara umowna zastrzeżona za świadczenie pieniężne
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że kara z § 5 ust. 2 została zastrzeżona
+      za opóźnienie w PŁATNOŚCI, czyli za niewykonanie zobowiązania pieniężnego,
+      i że jest to wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest
+      wymagane. NIEZALICZONE, jeśli audyt krytykuje tylko wysokość kary albo jej
+      jednostronność, nie dotykając pieniężnego charakteru świadczenia.
+  - id: K02-002
+    wada: e1
+    typ: wykrycie
+    title: Jednostronność kary
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że kara obciąża wyłącznie Zamawiającego,
+      a Wykonawca nie ponosi kar żadnych. NIEZALICZONE w razie pominięcia.
+  - id: K02-003
+    wada: e1
+    typ: wykrycie
+    title: Brak sufitu kary
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że kara nie ma limitu łącznego i narasta
+      bez ograniczenia. NIEZALICZONE w razie pominięcia.
+  - id: K02-004
+    wada: e1
+    typ: liczba
+    title: Skala kary odniesiona do wartości umowy
+    match_criteria: >
+      ZALICZONE, jeśli audyt pokazuje poprawnie policzoną relację kary do
+      wartości umowy w jakiejkolwiek z postaci: ok. 10,4% wartości za każdy
+      dzień, 9,6 dnia do osiągnięcia pełnej wartości 480.000 zł, albo
+      1.500.000 zł po 30 dniach, co odpowiada ok. 3,1-krotności wartości
+      umowy. NIEZALICZONE, jeśli kara zostaje podana tylko kwotowo (50.000 zł)
+      bez odniesienia do wartości umowy, oraz przy błędnym wyniku.
+  - id: K02-005
+    wada: e1
+    typ: poziom
+    title: Poziom ryzyka dla kary za opóźnienie w płatności
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e2: wyłączenie odpowiedzialności za winę umyślną ----------
+  - id: K02-006
+    wada: e2
+    typ: wykrycie
+    title: Wyłączenie odpowiedzialności za winę umyślną podwykonawców
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że § 5 ust. 1 wyłącza odpowiedzialność
+      Wykonawcy za winę umyślną podwykonawców i że takie zastrzeżenie jest
+      wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane.
+      NIEZALICZONE, jeśli audyt omawia ograniczenie odpowiedzialności, nie
+      podnosząc kwestii winy umyślnej.
+  - id: K02-007
+    wada: e2
+    typ: wykrycie
+    title: Zawężenie odpowiedzialności wyłącznie do winy umyślnej Wykonawcy
+    match_criteria: >
+      ZALICZONE, jeśli audyt odnotowuje, że poza winą umyślną Wykonawca nie
+      odpowiada w ogóle, czyli wyłączono niedbalstwo i rażące niedbalstwo.
+      NIEZALICZONE w razie pominięcia.
+  - id: K02-008
+    wada: e2
+    typ: poziom
+    title: Poziom ryzyka dla wyłączenia winy umyślnej
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e3: przeniesienie praw bez pól eksploatacji ----------
+  - id: K02-009
+    wada: e3
+    typ: wykrycie
+    title: Brak wymienionych pól eksploatacji
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że § 4 ust. 1 przenosi prawa „bez
+      ograniczeń", nie wymieniając pól eksploatacji, i że czyni to przeniesienie
+      wadliwym albo nieskutecznym w tym zakresie. NIEZALICZONE, jeśli audyt
+      omawia przeniesienie praw, nie podnosząc braku pól eksploatacji.
+  - id: K02-010
+    wada: e3
+    typ: wykrycie
+    title: Skutek braku pól wskazany
+    match_criteria: >
+      ZALICZONE, jeśli audyt mówi, co z tego wynika — że przeniesienie nie
+      obejmuje pól niewymienionych albo że postanowienie jest w tym zakresie
+      bezskuteczne. NIEZALICZONE, jeśli zostaje przy stwierdzeniu, że pól
+      brakuje, bez skutku.
+  - id: K02-011
+    wada: e3
+    typ: poziom
+    title: Poziom ryzyka dla przeniesienia bez pól
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e4: trenowanie AI na danych Zamawiającego ----------
+  - id: K02-012
+    wada: e4
+    typ: wykrycie
+    title: Prawo do trenowania modeli AI na danych Zamawiającego
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza postanowienie § 8 ust. 2 o wykorzystaniu
+      danych Zamawiającego do trenowania modeli AI jako ryzyko. NIEZALICZONE w
+      razie pominięcia tego ustępu.
+  - id: K02-013
+    wada: e4
+    typ: wykrycie
+    title: Klauzula nadrzędności wobec reszty umowy
+    match_criteria: >
+      ZALICZONE, jeśli audyt odnotowuje zwrot „niezależnie od pozostałych
+      postanowień Umowy" i wskazuje, że uchyla on w tym zakresie inne
+      postanowienia, w szczególności poufność z § 6. NIEZALICZONE, jeśli audyt
+      omawia trenowanie AI, nie zauważając konstrukcji nadrzędności.
+  - id: K02-014
+    wada: e4
+    typ: wykrycie
+    title: Brak podstawy przetwarzania danych osobowych
+    match_criteria: >
+      ZALICZONE, jeśli audyt podnosi, że dla takiego wykorzystania danych brakuje
+      podstawy przetwarzania albo umowy powierzenia, jeżeli w danych są dane
+      osobowe. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE w razie
+      pominięcia wątku ochrony danych przy tym postanowieniu.
+  - id: K02-015
+    wada: e4
+    typ: poziom
+    title: Poziom ryzyka dla trenowania AI
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e5: prawo Delaware i sąd w Wilmington ----------
+  - id: K02-016
+    wada: e5
+    typ: wykrycie
+    title: Obce prawo właściwe między polskimi spółkami
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza jako ryzyko wybór prawa stanu Delaware przy
+      umowie między dwiema polskimi spółkami. NIEZALICZONE w razie pominięcia.
+  - id: K02-017
+    wada: e5
+    typ: wykrycie
+    title: Sąd w Wilmington jako odrębne ryzyko
+    match_criteria: >
+      ZALICZONE, jeśli audyt odnotowuje właściwość sądu w Wilmington, wskazując
+      na koszt, odległość albo utrudnienie dochodzenia roszczeń. NIEZALICZONE,
+      jeśli audyt porusza tylko prawo właściwe, pomijając jurysdykcję.
+  - id: K02-018
+    wada: e5
+    typ: poziom
+    title: Poziom ryzyka dla prawa i sądu obcego
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e6: asymetria wypowiedzenia ----------
+  - id: K02-019
+    wada: e6
+    typ: wykrycie
+    title: Zamawiający pozbawiony prawa wypowiedzenia
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że § 7 ust. 1 wyłącza wypowiedzenie przez
+      Zamawiającego przed zakończeniem Wdrożenia. NIEZALICZONE w razie
+      pominięcia.
+  - id: K02-020
+    wada: e6
+    typ: wykrycie
+    title: Wykonawca może wypowiedzieć w każdym czasie bez przyczyny
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje uprawnienie Wykonawcy z § 7 ust. 2.
+      NIEZALICZONE w razie pominięcia.
+  - id: K02-021
+    wada: e6
+    typ: wykrycie
+    title: Asymetria nazwana wprost
+    match_criteria: >
+      ZALICZONE, jeśli audyt zestawia oba ustępy i nazywa to asymetrią,
+      nierównowagą albo jednostronnością. NIEZALICZONE, jeśli opisuje oba
+      uprawnienia osobno, nie wyciągając wniosku o nierównowadze.
+  - id: K02-022
+    wada: e6
+    typ: wykrycie
+    title: Brak procedury wyjścia
+    match_criteria: >
+      ZALICZONE, jeśli audyt podnosi brak procedury exit — rozliczenia prac,
+      wydania materiałów, przekazania wdrożenia. NIEZALICZONE w razie
+      pominięcia.
+  - id: K02-023
+    wada: e6
+    typ: poziom
+    title: Poziom ryzyka dla asymetrii wypowiedzenia
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e7: „dołoży starań" ----------
+  - id: K02-024
+    wada: e7
+    typ: wykrycie
+    title: Degradacja zobowiązania rezultatu
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że zwrot „dołoży starań" w § 1 ust. 1
+      zamienia zobowiązanie do wdrożenia systemu w zobowiązanie starannego
+      działania, osłabiając pozycję Zamawiającego. NIEZALICZONE, jeśli zwrot
+      zostaje tylko odnotowany jako nieprecyzyjny, bez skutku dla charakteru
+      zobowiązania.
+  - id: K02-025
+    wada: e7
+    typ: poziom
+    title: Poziom ryzyka dla „dołoży starań"
+    match_criteria: >
+      ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE.
+      NIEZALICZONE przy poziomie niższym albo braku poziomu.
+
+  # ---------- e8: terminy nieoznaczone ----------
+  - id: K02-026
+    wada: e8
+    typ: wykrycie
+    title: „Niezwłocznie" jako termin nieoznaczony
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza, że termin wykonania Wdrożenia
+      („niezwłocznie po podpisaniu Umowy", § 2 ust. 1) nie jest oznaczony.
+      NIEZALICZONE w razie pominięcia.
+  - id: K02-027
+    wada: e8
+    typ: wykrycie
+    title: „Na bieżąco" jako termin nieoznaczony
+    match_criteria: >
+      ZALICZONE, jeśli audyt zgłasza nieoznaczoność zgłaszania uwag „na bieżąco"
+      (§ 2 ust. 2). NIEZALICZONE w razie pominięcia.
+  - id: K02-028
+    wada: e8
+    typ: wykrycie
+    title: Brak harmonogramu i kamieni milowych
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że umowa nie zawiera harmonogramu,
+      etapów ani kamieni milowych wdrożenia. NIEZALICZONE w razie pominięcia.
+
+  # ---------- e9: poufność szczątkowa ----------
+  - id: K02-029
+    wada: e9
+    typ: wykrycie
+    title: Brak okresu obowiązywania poufności po umowie
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że § 6 nie określa, jak długo poufność
+      obowiązuje po zakończeniu Umowy. NIEZALICZONE w razie pominięcia.
+  - id: K02-030
+    wada: e9
+    typ: wykrycie
+    title: Brak wyłączeń z poufności
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje brak katalogu wyłączeń (informacje
+      publiczne, niezależnie opracowane, ujawniane na żądanie organu).
+      NIEZALICZONE w razie pominięcia.
+  - id: K02-031
+    wada: e9
+    typ: wykrycie
+    title: Brak sankcji za naruszenie poufności
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że naruszenie poufności nie jest
+      obwarowane żadną sankcją. NIEZALICZONE w razie pominięcia.
+
+  # ---------- e10: kod źródłowy ----------
+  - id: K02-032
+    wada: e10
+    typ: wykrycie
+    title: Pozorność zobowiązania do wydania kodu
+    match_criteria: >
+      ZALICZONE, jeśli audyt wskazuje, że zwrot „może, ale nie jest zobowiązany"
+      z § 4 ust. 2 nie tworzy żadnego obowiązku po stronie Wykonawcy.
+      NIEZALICZONE w razie pominięcia tego ustępu.
+  - id: K02-033
+    wada: e10
+    typ: wykrycie
+    title: Związek braku kodu z wartością przeniesienia praw
+    match_criteria: >
+      ZALICZONE, jeśli audyt łączy brak kodu źródłowego z § 4 ust. 1 i wskazuje,
+      że bez kodu nabyte prawa do systemu ERP są dla Zamawiającego iluzoryczne
+      albo niewykonalne w praktyce. NIEZALICZONE, jeśli oba ustępy są omówione
+      osobno, bez tego powiązania.
+
+  # ---------- Próba negatywna: § 3 ust. 1 ----------
+  - id: K02-034
+    wada: czysty
+    typ: czysty
+    title: Konstrukcja ryczałtu nie jest kwestionowana jako wadliwa
+    match_criteria: >
+      Obszarem czystym jest KONSTRUKCJA wynagrodzenia ryczałtowego i
+      jednoznaczność kwoty 480.000 zł — nie brak zabezpieczeń wokół niej.
+      ZALICZONE, jeśli żadna flaga nie twierdzi, że ryczałt jako model
+      rozliczenia albo sama kwota są wadliwe, nierynkowe lub niejednoznaczne.
+      Flaga dotycząca BRAKU czegoś obok — waloryzacji, podziału na etapy,
+      powiązania płatności z odbiorem, zabezpieczenia płatności, a także
+      nieokreślonego zakresu świadczenia (np. niedołączony Załącznik nr 1),
+      przez który nie wiadomo, co ryczałt obejmuje — NIE narusza tego
+      kryterium NIEZALEŻNIE od nadanego poziomu.
+      NIEZALICZONE tylko wtedy, gdy audyt kwestionuje ryczałt albo kwotę jako
+      takie.
+  - id: K02-035
+    wada: czysty
+    typ: czysty
+    title: Termin płatności 60 dni odnotowany bez błędu
+    match_criteria: >
+      ZALICZONE, jeśli audyt albo w ogóle nie podnosi terminu płatności z § 3
+      ust. 2, albo podnosi go podając poprawnie 60 dni. NIEZALICZONE, jeśli
+      podaje inny termin niż 60 dni.

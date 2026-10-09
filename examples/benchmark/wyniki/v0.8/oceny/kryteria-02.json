@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "K02-001",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Kara umowna zastrzeżona za świadczenie pieniężne",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara z § 5 ust. 2 została zastrzeżona za opóźnienie w PŁATNOŚCI, czyli za niewykonanie zobowiązania pieniężnego, i że jest to wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt krytykuje tylko wysokość kary albo jej jednostronność, nie dotykając pieniężnego charakteru świadczenia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji Ryzyk Krytycznych (flaga 🔴 1) wprost stwierdza, że 'Kara umowna może zabezpieczać wyłącznie zobowiązanie niepieniężne (...); obowiązek zapłaty wynagrodzenia jest pieniężny', co prowadzi do nieważności postanowienia. Jest to dokładne zidentyfikowanie wady wskazanej w kryterium."
+ },
+ {
+  "id": "K02-002",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Jednostronność kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara obciąża wyłącznie Zamawiającego, a Wykonawca nie ponosi kar żadnych. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na asymetrię w tabeli „Rachunek ekspozycji”, w wierszu „Asymetria kar (Zamawiający : Wykonawca)”, gdzie wprost odnotowuje: „sankcja tylko po jednej stronie”. Dodatkowo, w ramach ryzyka krytycznego 🔴 5, audyt wymienia fakt, że „Wykonawca nie ponosi kar” jako jeden z elementów rażącej asymetrii."
+ },
+ {
+  "id": "K02-003",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Brak sufitu kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara nie ma limitu łącznego i narasta bez ograniczenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na brak limitu kary w sekcji „Rachunek ekspozycji”, w wierszu „sufit kary” podając „brak” oraz obliczając, że ekspozycja jest „otwarta”. Kwestia jest również podniesiona w podsumowaniu tej sekcji."
+ },
+ {
+  "id": "K02-004",
+  "wada": "e1",
+  "typ": "liczba",
+  "title": "Skala kary odniesiona do wartości umowy",
+  "match": "ZALICZONE, jeśli audyt pokazuje poprawnie policzoną relację kary do wartości umowy w jakiejkolwiek z postaci: ok. 10,4% wartości za każdy dzień, 9,6 dnia do osiągnięcia pełnej wartości 480.000 zł, albo 1.500.000 zł po 30 dniach, co odpowiada ok. 3,1-krotności wartości umowy. NIEZALICZONE, jeśli kara zostaje podana tylko kwotowo (50.000 zł) bez odniesienia do wartości umowy, oraz przy błędnym wyniku.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W sekcji «Rachunek ekspozycji» audyt poprawnie oblicza i przedstawia relację kary do wartości umowy, wskazując stawkę dzienną (10,42% wartości), próg przekroczenia wartości umowy (10. dzień opóźnienia, na podstawie wyliczenia 9,6 dnia) oraz kwotę po 30 dniach (1.500.000 zł, czyli 312,5% wartości umowy). Wszystkie te wartości są zgodne z kryterium."
+ },
+ {
+  "id": "K02-005",
+  "wada": "e1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary za opóźnienie w płatności",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zakwalifikował karę umowną za opóźnienie w płatności jako ryzyko krytyczne (punkt 🔴 1 w sekcji 'RYZYKA KRYTYCZNE'), wskazując na jej nieważność z mocy prawa."
+ },
+ {
+  "id": "K02-006",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Wyłączenie odpowiedzialności za winę umyślną podwykonawców",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 5 ust. 1 wyłącza odpowiedzialność Wykonawcy za winę umyślną podwykonawców i że takie zastrzeżenie jest wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt omawia ograniczenie odpowiedzialności, nie podnosząc kwestii winy umyślnej.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wprost identyfikuje to ryzyko w punkcie «🔴 RYZYKA KRYTYCZNE» nr 2, zatytułowanym «Wyłączenie odpowiedzialności za winę umyślną podwykonawców — § 5 ust. 1 zd. 2». W opisie ryzyka wskazano, że postanowienie jest wadliwe, a jego skutkiem jest prawdopodobna nieważność."
+ },
+ {
+  "id": "K02-007",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Zawężenie odpowiedzialności wyłącznie do winy umyślnej Wykonawcy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że poza winą umyślną Wykonawca nie odpowiada w ogóle, czyli wyłączono niedbalstwo i rażące niedbalstwo. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie i wprost odnotowuje wyłączenie odpowiedzialności za niedbalstwo i rażące niedbalstwo, m.in. w ramach ryzyka krytycznego 🔴 5: „odpowiedzialność wyłącznie za szkody wyrządzone umyślnie (§ 5 ust. 1) — niedbalstwo, w tym rażące, wolne od odpowiedzialności”."
+ },
+ {
+  "id": "K02-008",
+  "wada": "e2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla wyłączenia winy umyślnej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował wyłączenie odpowiedzialności za winę umyślną podwykonawców (§ 5 ust. 1 zd. 2) i przypisał mu najwyższy poziom ryzyka, klasyfikując je jako ryzyko krytyczne nr 2 w sekcji '🔴 RYZYKA KRYTYCZNE'."
+ },
+ {
+  "id": "K02-009",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Brak wymienionych pól eksploatacji",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 4 ust. 1 przenosi prawa „bez ograniczeń\", nie wymieniając pól eksploatacji, i że czyni to przeniesienie wadliwym albo nieskutecznym w tym zakresie. NIEZALICZONE, jeśli audyt omawia przeniesienie praw, nie podnosząc braku pól eksploatacji.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost identyfikuje to ryzyko jako krytyczne (🔴 3). W opisie ryzyka wskazano, że formuła „wszelkie prawa autorskie … bez ograniczeń” nie zastępuje wymogu wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 PrAut), co powoduje, że przeniesienie praw nie ma skutku rozporządzającego."
+ },
+ {
+  "id": "K02-010",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Skutek braku pól wskazany",
+  "match": "ZALICZONE, jeśli audyt mówi, co z tego wynika — że przeniesienie nie obejmuje pól niewymienionych albo że postanowienie jest w tym zakresie bezskuteczne. NIEZALICZONE, jeśli zostaje przy stwierdzeniu, że pól brakuje, bez skutku.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'Skutek' dla ryzyka krytycznego nr 3 ('Przeniesienie praw autorskich bez pól eksploatacji') wprost stwierdza, że konsekwencją jest 'brak skutku rozporządzającego', a 'prawa majątkowe zostają przy Wykonawcy'. Spełnia to kryterium."
+ },
+ {
+  "id": "K02-011",
+  "wada": "e3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla przeniesienia bez pól",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Wada polegająca na próbie przeniesienia praw autorskich bez wymienienia pól eksploatacji (§ 4 ust. 1 umowy) została zidentyfikowana i oznaczona jako ryzyko 🔴 KRYTYCZNE w punkcie 3 sekcji 'RYZYKA KRYTYCZNE'."
+ },
+ {
+  "id": "K02-012",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Prawo do trenowania modeli AI na danych Zamawiającego",
+  "match": "ZALICZONE, jeśli audyt zgłasza postanowienie § 8 ust. 2 o wykorzystaniu danych Zamawiającego do trenowania modeli AI jako ryzyko. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował postanowienie § 8 ust. 2 jako ryzyko krytyczne, poświęcając mu dedykowany punkt analizy (flaga 🔴 4 „Prawo Wykonawcy do trenowania modeli AI na danych Zamawiającego”)."
+ },
+ {
+  "id": "K02-013",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Klauzula nadrzędności wobec reszty umowy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje zwrot „niezależnie od pozostałych postanowień Umowy\" i wskazuje, że uchyla on w tym zakresie inne postanowienia, w szczególności poufność z § 6. NIEZALICZONE, jeśli audyt omawia trenowanie AI, nie zauważając konstrukcji nadrzędności.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost odnotowuje zwrot „Niezależnie od pozostałych postanowień Umowy” i wskazuje, że klauzula ta „nadpisuje § 6”. Analiza znajduje się w opisie ryzyka krytycznego nr 4, a także jest powtórzona przy omawianiu ryzyka średniego nr 1 (klauzula poufności)."
+ },
+ {
+  "id": "K02-014",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Brak podstawy przetwarzania danych osobowych",
+  "match": "ZALICZONE, jeśli audyt podnosi, że dla takiego wykorzystania danych brakuje podstawy przetwarzania albo umowy powierzenia, jeżeli w danych są dane osobowe. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE w razie pominięcia wątku ochrony danych przy tym postanowieniu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt identyfikuje problem w dwóch miejscach. Po pierwsze, w ramach ryzyka krytycznego 🔴 4 («Prawo Wykonawcy do trenowania modeli AI na danych Zamawiającego») wprost stwierdza, że dla tego celu brakuje podstawy prawnej przetwarzania. Po drugie, w ramach ryzyka wysokiego 🟠 8 («Brak umowy powierzenia przetwarzania danych») wskazuje na brak wymaganego instrumentu z art. 28 RODO (umowy powierzenia)."
+ },
+ {
+  "id": "K02-015",
+  "wada": "e4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla trenowania AI",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował ryzyko związane z trenowaniem modeli AI na danych Zamawiającego (§ 8 ust. 2 umowy) i przypisał mu poziom '🔴 RYZYKA KRYTYCZNE' w dedykowanym punkcie 4 tej sekcji."
+ },
+ {
+  "id": "K02-016",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Obce prawo właściwe między polskimi spółkami",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko wybór prawa stanu Delaware przy umowie między dwiema polskimi spółkami. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje wybór prawa stanu Delaware jako ryzyko wysokie w punkcie 🟠 7, wskazując na brak jakiegokolwiek łącznika z USA przy umowie między dwiema polskimi spółkami i związane z tym koszty oraz komplikacje prawne."
+ },
+ {
+  "id": "K02-017",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Sąd w Wilmington jako odrębne ryzyko",
+  "match": "ZALICZONE, jeśli audyt odnotowuje właściwość sądu w Wilmington, wskazując na koszt, odległość albo utrudnienie dochodzenia roszczeń. NIEZALICZONE, jeśli audyt porusza tylko prawo właściwe, pomijając jurysdykcję.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt w ramach ryzyka wysokiego nr 7 (🟠 7) wprost odnosi się do sądu w Wilmington, wskazując, że 'koszt i czas sporu [będzie] nieproporcjonalny do wartości' umowy, co stanowi utrudnienie w dochodzeniu roszczeń."
+ },
+ {
+  "id": "K02-018",
+  "wada": "e5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla prawa i sądu obcego",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE' pod pozycją 7. zidentyfikował klauzulę o prawie i sądzie właściwym (§ 8 ust. 1) i przypisał jej wysoki poziom ryzyka, co spełnia kryterium."
+ },
+ {
+  "id": "K02-019",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Zamawiający pozbawiony prawa wypowiedzenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 7 ust. 1 wyłącza wypowiedzenie przez Zamawiającego przed zakończeniem Wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował to ryzyko jako krytyczne w punkcie 🔴 6 'Asymetria wyjścia i wyłączenie wypowiedzenia z ważnych powodów', gdzie wprost cytuje § 7 ust. 1 i analizuje jego skutki."
+ },
+ {
+  "id": "K02-020",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Wykonawca może wypowiedzieć w każdym czasie bez przyczyny",
+  "match": "ZALICZONE, jeśli audyt wskazuje uprawnienie Wykonawcy z § 7 ust. 2. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to uprawnienie wielokrotnie, m.in. w ramach ryzyka krytycznego 🔴 6 („Asymetria wyjścia...”), gdzie wprost cytuje § 7 ust. 2 umowy, a także w tabeli „Rachunek ekspozycji” i w analizie ryzyka 🔴 5."
+ },
+ {
+  "id": "K02-021",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Asymetria nazwana wprost",
+  "match": "ZALICZONE, jeśli audyt zestawia oba ustępy i nazywa to asymetrią, nierównowagą albo jednostronnością. NIEZALICZONE, jeśli opisuje oba uprawnienia osobno, nie wyciągając wniosku o nierównowadze.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost nazywa nierównowagę uprawnień do rozwiązania umowy 'asymetrią wyjścia', zarówno w tabeli 'Rachunek ekspozycji', jak i w tytule oraz opisie ryzyka krytycznego nr 6, gdzie zestawia oba ustępy § 7."
+ },
+ {
+  "id": "K02-022",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Brak procedury wyjścia",
+  "match": "ZALICZONE, jeśli audyt podnosi brak procedury exit — rozliczenia prac, wydania materiałów, przekazania wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował brak procedury wyjścia jako ryzyko krytyczne (🔴 6). W opisie i rekomendacji wprost wskazano na brak zasad rozliczenia prac wykonanych przed wypowiedzeniem oraz brak obowiązku wydania wyników prac, kodu i dokumentacji, rekomendując wprowadzenie kompleksowego 'exit planu'."
+ },
+ {
+  "id": "K02-023",
+  "wada": "e6",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla asymetrii wypowiedzenia",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji RYZYKA KRYTYCZNE, w punkcie 🔴 6, identyfikuje 'Asymetrię wyjścia i wyłączenie wypowiedzenia z ważnych powodów' jako ryzyko krytyczne, co spełnia warunek kryterium."
+ },
+ {
+  "id": "K02-024",
+  "wada": "e7",
+  "typ": "wykrycie",
+  "title": "Degradacja zobowiązania rezultatu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „dołoży starań\" w § 1 ust. 1 zamienia zobowiązanie do wdrożenia systemu w zobowiązanie starannego działania, osłabiając pozycję Zamawiającego. NIEZALICZONE, jeśli zwrot zostaje tylko odnotowany jako nieprecyzyjny, bez skutku dla charakteru zobowiązania.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje, że zwrot „dołoży starań” (§ 1 ust. 1) oznacza „zamiast rezultatu staranne działanie” (ryzyko krytyczne 🔴 5) oraz kwalifikuje go jako cechę umowy o świadczenie usług (staranne działanie) w przeciwieństwie do umowy o dzieło (rezultat) (ryzyko wysokie 🟠 1). W pełni realizuje to kryterium."
+ },
+ {
+  "id": "K02-025",
+  "wada": "e7",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla „dołoży starań\"",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował klauzulę 'dołoży starań' (§ 1 ust. 1) jako element ryzyka wysokiego (🟠 1 - niespójna kwalifikacja umowy) oraz jako kluczowy składnik ryzyka krytycznego (🔴 5 - wydrążenie zobowiązania Wykonawcy w efekcie kumulatywnym)."
+ },
+ {
+  "id": "K02-026",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Niezwłocznie\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że termin wykonania Wdrożenia („niezwłocznie po podpisaniu Umowy\", § 2 ust. 1) nie jest oznaczony. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje problem w ramach ryzyka wysokiego 🟠 2 „Brak terminu wykonania i harmonogramu — § 2 ust. 1”, gdzie wprost nazywa sformułowanie „niezwłocznie” antywzorcem i wskazuje, że brak oznaczonego terminu uniemożliwia ustalenie zwłoki. Kwestia jest również podniesiona w tabeli „Rachunek ekspozycji” oraz w ryzyku krytycznym 🔴 5."
+ },
+ {
+  "id": "K02-027",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Na bieżąco\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza nieoznaczoność zgłaszania uwag „na bieżąco\" (§ 2 ust. 2). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt identyfikuje problem w sekcji Ryzyka Wysokie (🟠 3), gdzie cytuje § 2 ust. 2 umowy („Zamawiający będzie zgłaszał uwagi na bieżąco”) i wskazuje, że jest to postanowienie wadliwe z uwagi na brak zdefiniowanej procedury odbioru, terminów i kategorii wad."
+ },
+ {
+  "id": "K02-028",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "Brak harmonogramu i kamieni milowych",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że umowa nie zawiera harmonogramu, etapów ani kamieni milowych wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost identyfikuje to ryzyko w sekcji Ryzyka Wysokie, pkt 2, zatytułowanym 'Brak terminu wykonania i harmonogramu', wskazując na 'brak kamieni milowych i daty końcowej' jako kluczową wadę § 2 ust. 1 umowy."
+ },
+ {
+  "id": "K02-029",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak okresu obowiązywania poufności po umowie",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 6 nie określa, jak długo poufność obowiązuje po zakończeniu Umowy. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA ŚREDNIE', w punkcie 1 ('Szczątkowa klauzula poufności — § 6 ust. 1'), wprost wskazuje na 'brak (...) okresu po zakończeniu umowy' jako jedną z wad analizowanego postanowienia. Kwestia ta jest również zasygnalizowana w tabeli 'Rachunek ekspozycji'."
+ },
+ {
+  "id": "K02-030",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak wyłączeń z poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje brak katalogu wyłączeń (informacje publiczne, niezależnie opracowane, ujawniane na żądanie organu). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA ŚREDNIE' (pkt 1) wprost wskazuje na 'brak ... wyłączeń (informacje publiczne, uzyskane niezależnie, ujawnienie na żądanie organu)' w analizowanej klauzuli poufności."
+ },
+ {
+  "id": "K02-031",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak sankcji za naruszenie poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że naruszenie poufności nie jest obwarowane żadną sankcją. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka średniego 🟡 1 («Szczątkowa klauzula poufności») wprost wskazuje na brak sankcji, pisząc w opisie o braku «kary umownej», a w analizie skutków o tym, że «bez kary umownej — konieczność wykazania szkody»."
+ },
+ {
+  "id": "K02-032",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Pozorność zobowiązania do wydania kodu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „może, ale nie jest zobowiązany\" z § 4 ust. 2 nie tworzy żadnego obowiązku po stronie Wykonawcy. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost identyfikuje § 4 ust. 2 jako ryzyko wysokie (🟠 4), nazywając je 'antywzorcem pozornego zobowiązania', co dokładnie odpowiada kryterium oceny."
+ },
+ {
+  "id": "K02-033",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Związek braku kodu z wartością przeniesienia praw",
+  "match": "ZALICZONE, jeśli audyt łączy brak kodu źródłowego z § 4 ust. 1 i wskazuje, że bez kodu nabyte prawa do systemu ERP są dla Zamawiającego iluzoryczne albo niewykonalne w praktyce. NIEZALICZONE, jeśli oba ustępy są omówione osobno, bez tego powiązania.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W sekcji 🟠 RYZYKA WYSOKIE, pkt 4, audyt wprost stwierdza, że 'nawet po skutecznym przeniesieniu praw Zamawiający nie może z nich korzystać (modyfikacje, utrzymanie przez innego dostawcę)', co bezpośrednio łączy brak kodu z iluzorycznością nabytych praw, spełniając kryterium."
+ },
+ {
+  "id": "K02-034",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Konstrukcja ryczałtu nie jest kwestionowana jako wadliwa",
+  "match": "Obszarem czystym jest KONSTRUKCJA wynagrodzenia ryczałtowego i jednoznaczność kwoty 480.000 zł — nie brak zabezpieczeń wokół niej. ZALICZONE, jeśli żadna flaga nie twierdzi, że ryczałt jako model rozliczenia albo sama kwota są wadliwe, nierynkowe lub niejednoznaczne. Flaga dotycząca BRAKU czegoś obok — waloryzacji, podziału na etapy, powiązania płatności z odbiorem, zabezpieczenia płatności, a także nieokreślonego zakresu świadczenia (np. niedołączony Załącznik nr 1), przez który nie wiadomo, co ryczałt obejmuje — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje ryczałt albo kwotę jako takie.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje samego modelu ryczałtowego ani kwoty 480.000 zł. Flaga 🟠 1, która wskazuje na ryzyko 'ryczałtu bez zakresu' z powodu braku Załącznika nr 1, jest zgodna z kryterium, które wprost dopuszcza flagowanie nieokreślonego zakresu świadczenia przy wynagrodzeniu ryczałtowym."
+ },
+ {
+  "id": "K02-035",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Termin płatności 60 dni odnotowany bez błędu",
+  "match": "ZALICZONE, jeśli audyt albo w ogóle nie podnosi terminu płatności z § 3 ust. 2, albo podnosi go podając poprawnie 60 dni. NIEZALICZONE, jeśli podaje inny termin niż 60 dni.",
+  "konfiguracja": "fable-skill",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje termin płatności wynoszący 60 dni w kilku miejscach, m.in. w tabeli 'Rachunek ekspozycji' w wierszu 'Daty graniczne — płatność' oraz w podsumowaniu 'Obszary bez zastrzeżeń'."
+ },
+ {
+  "id": "K02-001",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Kara umowna zastrzeżona za świadczenie pieniężne",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara z § 5 ust. 2 została zastrzeżona za opóźnienie w PŁATNOŚCI, czyli za niewykonanie zobowiązania pieniężnego, i że jest to wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt krytykuje tylko wysokość kary albo jej jednostronność, nie dotykając pieniężnego charakteru świadczenia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji «🔴 RYZYKA KRYTYCZNE», w punkcie 2, wprost wskazuje, że «Płatność wynagrodzenia jest zobowiązaniem pieniężnym; kara umowna nie może zabezpieczać zobowiązań pieniężnych», a w konsekwencji «Postanowienie jest nieważne». Tym samym audyt prawidłowo identyfikuje wadliwość klauzuli ze względu na pieniężny charakter zabezpieczanego świadczenia, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-002",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Jednostronność kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara obciąża wyłącznie Zamawiającego, a Wykonawca nie ponosi kar żadnych. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wskazuje na jednostronność kary w kilku miejscach, m.in. w tabeli 'Rachunek ekspozycji' (wiersz 'Kary Wykonawcy' i 'Asymetria kar') oraz wprost w opisie ryzyka krytycznego nr 2, gdzie cytuje postanowienie 'Wykonawca nie ponosi kar'."
+ },
+ {
+  "id": "K02-003",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Brak sufitu kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara nie ma limitu łącznego i narasta bez ograniczenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na brak limitu kary umownej, m.in. w tytule ryzyka krytycznego nr 2 ('Kara umowna [...], jednostronna, bez sufitu'), w tabeli 'Rachunek ekspozycji' ('brak sufitu') oraz w podsumowaniu ('kara 50.000 zł/dzień bez sufitu')."
+ },
+ {
+  "id": "K02-004",
+  "wada": "e1",
+  "typ": "liczba",
+  "title": "Skala kary odniesiona do wartości umowy",
+  "match": "ZALICZONE, jeśli audyt pokazuje poprawnie policzoną relację kary do wartości umowy w jakiejkolwiek z postaci: ok. 10,4% wartości za każdy dzień, 9,6 dnia do osiągnięcia pełnej wartości 480.000 zł, albo 1.500.000 zł po 30 dniach, co odpowiada ok. 3,1-krotności wartości umowy. NIEZALICZONE, jeśli kara zostaje podana tylko kwotowo (50.000 zł) bez odniesienia do wartości umowy, oraz przy błędnym wyniku.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji »🧮 Rachunek ekspozycji« poprawnie oblicza, że kara dzienna stanowi 10,4% wartości umowy, a wartość umowy zostaje wyczerpana po 9,6 dnia. Dodatkowo, w tej samej sekcji oraz w opisie ryzyka krytycznego nr 2, poprawnie wskazano, że po 30 dniach kara wynosi 1.500.000 zł, co stanowi 3,13-krotność wartości umowy."
+ },
+ {
+  "id": "K02-005",
+  "wada": "e1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary za opóźnienie w płatności",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Ryzyko związane z karą umowną za opóźnienie w płatności (§ 5 ust. 2 umowy) zostało w audycie sklasyfikowane w sekcji '🔴 RYZYKA KRYTYCZNE' jako punkt 2. Spełnia to warunek kryterium, które wymagało poziomu KRYTYCZNE albo WYSOKIE."
+ },
+ {
+  "id": "K02-006",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Wyłączenie odpowiedzialności za winę umyślną podwykonawców",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 5 ust. 1 wyłącza odpowiedzialność Wykonawcy za winę umyślną podwykonawców i że takie zastrzeżenie jest wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt omawia ograniczenie odpowiedzialności, nie podnosząc kwestii winy umyślnej.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w opisie Ryzyka Krytycznego nr 1 prawidłowo wskazuje, że § 5 ust. 1 umowy wyłącza odpowiedzialność za winę umyślną podwykonawców i ocenia to zastrzeżenie jako wadliwe, stwierdzając, że „czyni całą regulację pustą”."
+ },
+ {
+  "id": "K02-007",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Zawężenie odpowiedzialności wyłącznie do winy umyślnej Wykonawcy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że poza winą umyślną Wykonawca nie odpowiada w ogóle, czyli wyłączono niedbalstwo i rażące niedbalstwo. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 1. sekcji 'RYZYKA KRYTYCZNE' wprost stwierdza, że 'Odpowiedzialność za niedbalstwo, wadliwe wdrożenie i niewykonanie jest wyłączona', a w opisie skutku wskazuje, że 'ekspozycja Wykonawcy z winy nieumyślnej = 0 zł'."
+ },
+ {
+  "id": "K02-008",
+  "wada": "e2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla wyłączenia winy umyślnej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE' pod pozycją 1. prawidłowo ocenił ryzyko związane z wyłączeniem odpowiedzialności za winę inną niż umyślna (§ 5 ust. 1 umowy) jako krytyczne, co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K02-009",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Brak wymienionych pól eksploatacji",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 4 ust. 1 przenosi prawa „bez ograniczeń\", nie wymieniając pól eksploatacji, i że czyni to przeniesienie wadliwym albo nieskutecznym w tym zakresie. NIEZALICZONE, jeśli audyt omawia przeniesienie praw, nie podnosząc braku pól eksploatacji.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W ramach ryzyka krytycznego nr 4 audyt prawidłowo zidentyfikował, że ogólna formuła przeniesienia praw autorskich «bez ograniczeń» jest wadliwa, ponieważ umowa nie wymienia wymaganych przez prawo pól eksploatacji, co czyni przeniesienie nieskutecznym w tym zakresie."
+ },
+ {
+  "id": "K02-010",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Skutek braku pól wskazany",
+  "match": "ZALICZONE, jeśli audyt mówi, co z tego wynika — że przeniesienie nie obejmuje pól niewymienionych albo że postanowienie jest w tym zakresie bezskuteczne. NIEZALICZONE, jeśli zostaje przy stwierdzeniu, że pól brakuje, bez skutku.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W punkcie 🔴4 audyt wprost wskazuje na skutek braku pól eksploatacji, stwierdzając, że 'Umowa o przeniesienie majątkowych praw autorskich obejmuje tylko pola wyraźnie wymienione', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-011",
+  "wada": "e3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla przeniesienia bez pól",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE', w punkcie 4 ('Przeniesienie praw autorskich bez pól eksploatacji...'), prawidłowo zidentyfikował brak wymienienia pól eksploatacji w umowie i przypisał tej wadzie poziom ryzyka 'KRYTYCZNE', co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K02-012",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Prawo do trenowania modeli AI na danych Zamawiającego",
+  "match": "ZALICZONE, jeśli audyt zgłasza postanowienie § 8 ust. 2 o wykorzystaniu danych Zamawiającego do trenowania modeli AI jako ryzyko. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował klauzulę z § 8 ust. 2 umowy jako ryzyko krytyczne w punkcie 3. sekcji '🔴 RYZYKA KRYTYCZNE', szczegółowo opisując zagrożenia związane z RODO i tajemnicą przedsiębiorstwa."
+ },
+ {
+  "id": "K02-013",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Klauzula nadrzędności wobec reszty umowy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje zwrot „niezależnie od pozostałych postanowień Umowy\" i wskazuje, że uchyla on w tym zakresie inne postanowienia, w szczególności poufność z § 6. NIEZALICZONE, jeśli audyt omawia trenowanie AI, nie zauważając konstrukcji nadrzędności.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w analizie ryzyka krytycznego nr 3 wprost cytuje zwrot „Niezależnie od pozostałych postanowień Umowy” i wskazuje, że „Klauzula nadpisuje poufność (§ 6)”, co w pełni realizuje założenia kryterium."
+ },
+ {
+  "id": "K02-014",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Brak podstawy przetwarzania danych osobowych",
+  "match": "ZALICZONE, jeśli audyt podnosi, że dla takiego wykorzystania danych brakuje podstawy przetwarzania albo umowy powierzenia, jeżeli w danych są dane osobowe. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE w razie pominięcia wątku ochrony danych przy tym postanowieniu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 🔴3 (Prawo do trenowania modeli AI na danych Zamawiającego) wprost wskazuje, że klauzula § 8 ust. 2 stwarza ryzyko z uwagi na 'Brak umowy powierzenia i brak podstawy do przetwarzania we własnym celu Wykonawcy'."
+ },
+ {
+  "id": "K02-015",
+  "wada": "e4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla trenowania AI",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt prawidłowo zidentyfikował ryzyko związane z trenowaniem modeli AI na danych Zamawiającego (§ 8 ust. 2 umowy) i przypisał mu najwyższy poziom '🔴 RYZYKA KRYTYCZNE' w punkcie 3 tej sekcji."
+ },
+ {
+  "id": "K02-016",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Obce prawo właściwe między polskimi spółkami",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko wybór prawa stanu Delaware przy umowie między dwiema polskimi spółkami. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE', w punkcie 2 ('Prawo obce i sąd zagraniczny — § 8 ust. 1'), prawidłowo zidentyfikował jako ryzyko wybór prawa stanu Delaware i sądu w Wilmington dla umowy zawartej między dwiema polskimi spółkami."
+ },
+ {
+  "id": "K02-017",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Sąd w Wilmington jako odrębne ryzyko",
+  "match": "ZALICZONE, jeśli audyt odnotowuje właściwość sądu w Wilmington, wskazując na koszt, odległość albo utrudnienie dochodzenia roszczeń. NIEZALICZONE, jeśli audyt porusza tylko prawo właściwe, pomijając jurysdykcję.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt w sekcji '🟠 RYZYKA WYSOKIE', w punkcie 2 ('Prawo obce i sąd zagraniczny'), jednoznacznie identyfikuje 'sąd w Wilmington' i jako skutek wskazuje na 'Koszty dochodzenia roszczeń w USA' oraz 'praktyczny zakaz dochodzenia roszczeń o mniejszej wartości', co wprost spełnia kryterium oceny."
+ },
+ {
+  "id": "K02-018",
+  "wada": "e5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla prawa i sądu obcego",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE' pod pozycją 2. 'Prawo obce i sąd zagraniczny — § 8 ust. 1' prawidłowo przypisał tej wadzie poziom wysoki, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-019",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Zamawiający pozbawiony prawa wypowiedzenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 7 ust. 1 wyłącza wypowiedzenie przez Zamawiającego przed zakończeniem Wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko w sekcji RYZYKA WYSOKIE, w punkcie 1. 'Asymetria wypowiedzenia — § 7 ust. 1–2', wprost wskazując, że 'Zamawiający nie może wypowiedzieć umowy do zakończenia Wdrożenia (termin nieoznaczony)'. Ryzyko jest również wspomniane w tabeli 'Rachunek ekspozycji' oraz w opisie ryzyka krytycznego nr 5."
+ },
+ {
+  "id": "K02-020",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Wykonawca może wypowiedzieć w każdym czasie bez przyczyny",
+  "match": "ZALICZONE, jeśli audyt wskazuje uprawnienie Wykonawcy z § 7 ust. 2. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko w sekcji «🟠 RYZYKA WYSOKIE» w punkcie 1, «Asymetria wypowiedzenia — § 7 ust. 1–2», wprost wskazując, że «Wykonawca może w każdym czasie i bez przyczyny». Ryzyko to jest również odnotowane w tabeli «Rachunek ekspozycji»."
+ },
+ {
+  "id": "K02-021",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Asymetria nazwana wprost",
+  "match": "ZALICZONE, jeśli audyt zestawia oba ustępy i nazywa to asymetrią, nierównowagą albo jednostronnością. NIEZALICZONE, jeśli opisuje oba uprawnienia osobno, nie wyciągając wniosku o nierównowadze.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost nazywa ryzyko związane z § 7 ust. 1-2 umowy 'Asymetria wypowiedzenia' w tytule ryzyka wysokiego nr 1, co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K02-022",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Brak procedury wyjścia",
+  "match": "ZALICZONE, jeśli audyt podnosi brak procedury exit — rozliczenia prac, wydania materiałów, przekazania wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE', w punkcie 1 ('Asymetria wypowiedzenia'), wprost wskazuje na 'Brak procedury exit: zwrot danych, kodu, dokumentacji, rozliczenie wynagrodzenia za wykonaną część', co w pełni odpowiada kryterium."
+ },
+ {
+  "id": "K02-023",
+  "wada": "e6",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla asymetrii wypowiedzenia",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Wada została zidentyfikowana w audycie w sekcji '🟠 RYZYKA WYSOKIE' jako ryzyko nr 1 'Asymetria wypowiedzenia — § 7 ust. 1–2'. Przypisany poziom ryzyka 'WYSOKIE' spełnia wymóg kryterium (WYSOKIE lub KRYTYCZNE)."
+ },
+ {
+  "id": "K02-024",
+  "wada": "e7",
+  "typ": "wykrycie",
+  "title": "Degradacja zobowiązania rezultatu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „dołoży starań\" w § 1 ust. 1 zamienia zobowiązanie do wdrożenia systemu w zobowiązanie starannego działania, osłabiając pozycję Zamawiającego. NIEZALICZONE, jeśli zwrot zostaje tylko odnotowany jako nieprecyzyjny, bez skutku dla charakteru zobowiązania.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji \"RYZYKA KRYTYCZNE\" (pkt 5) wprost stwierdza, że zwrot 'dołoży starań' oznacza, że Wykonawca zobowiązuje się 'tylko do „dołożenia starań” w celu wdrożenia, a nie do wdrożenia', co przy ryczałcie oznacza 'zapłatę za staranne działanie, nie za działający system'. Jest to dokładna analiza skutku osłabiającego pozycję Zamawiającego, a nie tylko odnotowanie nieprecyzyjności."
+ },
+ {
+  "id": "K02-025",
+  "wada": "e7",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla „dołoży starań\"",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE', w punkcie 5 ('Brak rezultatu i terminu: „dołoży starań”, „niezwłocznie”'), prawidłowo przypisał tej wadzie najwyższy poziom ryzyka."
+ },
+ {
+  "id": "K02-026",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Niezwłocznie\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że termin wykonania Wdrożenia („niezwłocznie po podpisaniu Umowy\", § 2 ust. 1) nie jest oznaczony. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko jako krytyczne (🔴5. Brak rezultatu i terminu), stwierdzając wprost: „Termin «niezwłocznie» nie ma liczby dni, więc nie istnieje data, od której Wykonawca jest w zwłoce”. Kwestia jest również podniesiona w tabeli „Rachunek ekspozycji”."
+ },
+ {
+  "id": "K02-027",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Na bieżąco\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza nieoznaczoność zgłaszania uwag „na bieżąco\" (§ 2 ust. 2). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje ryzyko w sekcji 🟡 RYZYKA ŚREDNIE, pkt 3 («Obowiązki Zamawiającego nieokreślone»), wskazując, że sformułowanie «uwagi na bieżąco» jest nieokreślone, ponieważ jest «bez trybu, terminu, osób kontaktowych»."
+ },
+ {
+  "id": "K02-028",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "Brak harmonogramu i kamieni milowych",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że umowa nie zawiera harmonogramu, etapów ani kamieni milowych wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował ryzyko wprost, m.in. w tytule ryzyka wysokiego nr 5: „Brak zakresu (...), kamieni milowych i odbioru” oraz w rekomendacji do ryzyka krytycznego nr 5, gdzie zaleca dodanie „harmonogramu z kamieniami milowymi”."
+ },
+ {
+  "id": "K02-029",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak okresu obowiązywania poufności po umowie",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 6 nie określa, jak długo poufność obowiązuje po zakończeniu Umowy. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA ŚREDNIE', w punkcie 1 ('Poufność bez okresu, wyłączeń i sankcji — § 6'), wprost wskazuje na 'brak ... okresu po zakończeniu umowy' jako wadę klauzuli poufności."
+ },
+ {
+  "id": "K02-030",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak wyłączeń z poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje brak katalogu wyłączeń (informacje publiczne, niezależnie opracowane, ujawniane na żądanie organu). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟡 RYZYKA ŚREDNIE', w punkcie 1. 'Poufność bez okresu, wyłączeń i sankcji', wprost wskazuje na 'Brak ... wyłączeń' jako wadę klauzuli poufności, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-031",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak sankcji za naruszenie poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że naruszenie poufności nie jest obwarowane żadną sankcją. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'RYZYKA ŚREDNIE', w punkcie 1, wprost wskazuje na 'Poufność bez okresu, wyłączeń i sankcji — § 6', co spełnia kryterium."
+ },
+ {
+  "id": "K02-032",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Pozorność zobowiązania do wydania kodu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „może, ale nie jest zobowiązany\" z § 4 ust. 2 nie tworzy żadnego obowiązku po stronie Wykonawcy. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji «🟠 RYZYKA WYSOKIE», w punkcie 3. («Kod źródłowy tylko „może, ale nie jest zobowiązany” — § 4 ust. 2»), prawidłowo identyfikuje, że klauzula ta stanowi dla Wykonawcy 'uprawnienie, nie obowiązek (pozorne zobowiązanie)', co w pełni odpowiada kryterium."
+ },
+ {
+  "id": "K02-033",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Związek braku kodu z wartością przeniesienia praw",
+  "match": "ZALICZONE, jeśli audyt łączy brak kodu źródłowego z § 4 ust. 1 i wskazuje, że bez kodu nabyte prawa do systemu ERP są dla Zamawiającego iluzoryczne albo niewykonalne w praktyce. NIEZALICZONE, jeśli oba ustępy są omówione osobno, bez tego powiązania.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 🟠 RYZYKA WYSOKIE, pkt 3, wprost stwierdza, że „Przeniesienie praw bez kodu jest pozbawione treści praktycznej: Zamawiający nie może utrzymać ani rozwijać systemu”, co bezpośrednio łączy brak kodu z iluzorycznością nabytych praw autorskich."
+ },
+ {
+  "id": "K02-034",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Konstrukcja ryczałtu nie jest kwestionowana jako wadliwa",
+  "match": "Obszarem czystym jest KONSTRUKCJA wynagrodzenia ryczałtowego i jednoznaczność kwoty 480.000 zł — nie brak zabezpieczeń wokół niej. ZALICZONE, jeśli żadna flaga nie twierdzi, że ryczałt jako model rozliczenia albo sama kwota są wadliwe, nierynkowe lub niejednoznaczne. Flaga dotycząca BRAKU czegoś obok — waloryzacji, podziału na etapy, powiązania płatności z odbiorem, zabezpieczenia płatności, a także nieokreślonego zakresu świadczenia (np. niedołączony Załącznik nr 1), przez który nie wiadomo, co ryczałt obejmuje — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje ryczałt albo kwotę jako takie.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka wysokiego 🟠5 kwestionuje brak powiązania ryczałtu z harmonogramem, odbiorem i zakresem (brak Załącznika nr 1), ale nie podważa samej konstrukcji ryczałtu ani kwoty 480.000 zł jako takiej. Zgodnie z kryterium, wskazanie na brak zabezpieczeń wokół ryczałtu nie jest podstawą do niezaliczenia."
+ },
+ {
+  "id": "K02-035",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Termin płatności 60 dni odnotowany bez błędu",
+  "match": "ZALICZONE, jeśli audyt albo w ogóle nie podnosi terminu płatności z § 3 ust. 2, albo podnosi go podając poprawnie 60 dni. NIEZALICZONE, jeśli podaje inny termin niż 60 dni.",
+  "konfiguracja": "sonnet-skill-p1",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie i poprawnie wskazuje termin płatności wynoszący 60 dni, m.in. w tabeli 'Rachunek ekspozycji' (wiersz 'Termin płatności') oraz w analizie ryzyka wysokiego nr 5."
+ },
+ {
+  "id": "K02-001",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Kara umowna zastrzeżona za świadczenie pieniężne",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara z § 5 ust. 2 została zastrzeżona za opóźnienie w PŁATNOŚCI, czyli za niewykonanie zobowiązania pieniężnego, i że jest to wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt krytykuje tylko wysokość kary albo jej jednostronność, nie dotykając pieniężnego charakteru świadczenia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W opisie ryzyka krytycznego nr 1 audyt wprost stwierdza, że kara została zastrzeżona 'za opóźnienie w płatności, czyli za zobowiązanie pieniężne', a 'kara umowna zabezpiecza zobowiązania niepieniężne', co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K02-002",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Jednostronność kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara obciąża wyłącznie Zamawiającego, a Wykonawca nie ponosi kar żadnych. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt wprost nazywa karę 'jednostronną' w tytule ryzyka krytycznego nr 1, a w jego opisie podkreśla, że zapis 'Wykonawca nie ponosi kar' czyni klauzulę jednostronną. Asymetria jest również wykazana liczbowo w tabeli 'Rachunek ekspozycji'."
+ },
+ {
+  "id": "K02-003",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Brak sufitu kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara nie ma limitu łącznego i narasta bez ograniczenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na brak limitu kary umownej, m.in. w tabeli 'Rachunek ekspozycji' w wierszu 'Sufit kary' (z adnotacją '[BRAK SUFITU]') oraz w tytule ryzyka krytycznego nr 1 ('...bez sufitu...')."
+ },
+ {
+  "id": "K02-004",
+  "wada": "e1",
+  "typ": "liczba",
+  "title": "Skala kary odniesiona do wartości umowy",
+  "match": "ZALICZONE, jeśli audyt pokazuje poprawnie policzoną relację kary do wartości umowy w jakiejkolwiek z postaci: ok. 10,4% wartości za każdy dzień, 9,6 dnia do osiągnięcia pełnej wartości 480.000 zł, albo 1.500.000 zł po 30 dniach, co odpowiada ok. 3,1-krotności wartości umowy. NIEZALICZONE, jeśli kara zostaje podana tylko kwotowo (50.000 zł) bez odniesienia do wartości umowy, oraz przy błędnym wyniku.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "ZALICZONE. Audyt w sekcji tabelarycznej „Rachunek ekspozycji” oraz w opisie ryzyka nr 1 poprawnie oblicza i wielokrotnie podkreśla relację kary do wartości umowy, wskazując m.in., że kara dzienna to 10,42% wartości umowy, a po 30 dniach opóźnienia jej wysokość osiąga 1.500.000 zł, co stanowi 312,5% wartości umowy. Wszystkie te wartości są zgodne z wymogami kryterium."
+ },
+ {
+  "id": "K02-005",
+  "wada": "e1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary za opóźnienie w płatności",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE' jako flagę nr 1 wskazał karę umowną za opóźnienie w zapłacie, co spełnia warunek przypisania poziomu 'KRYTYCZNE'."
+ },
+ {
+  "id": "K02-006",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Wyłączenie odpowiedzialności za winę umyślną podwykonawców",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 5 ust. 1 wyłącza odpowiedzialność Wykonawcy za winę umyślną podwykonawców i że takie zastrzeżenie jest wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt omawia ograniczenie odpowiedzialności, nie podnosząc kwestii winy umyślnej.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach flagi nr 2 (Ryzyka Krytyczne) wprost identyfikuje problem w tytule: 'wyłączenie winy umyślnej podwykonawców'. W opisie ryzyka stwierdza, że takie wyłączenie jest sprzeczne z art. 473 § 2 KC, co jednoznacznie wskazuje na wadliwość lub nieskuteczność tego zastrzeżenia."
+ },
+ {
+  "id": "K02-007",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Zawężenie odpowiedzialności wyłącznie do winy umyślnej Wykonawcy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że poza winą umyślną Wykonawca nie odpowiada w ogóle, czyli wyłączono niedbalstwo i rażące niedbalstwo. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w opisie ryzyka krytycznego nr 2 wprost stwierdza, że w efekcie klauzuli umownej 'ani niedbalstwo, ani rażące niedbalstwo nie rodzą odpowiedzialności'. Kwestia ta jest również podkreślona w tabeli 'Rachunek ekspozycji', gdzie wskazano, że 'szkoda z winy nieumyślnej (w tym rażącej) = 0 zł'."
+ },
+ {
+  "id": "K02-008",
+  "wada": "e2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla wyłączenia winy umyślnej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach flagi nr 2 ('Odpowiedzialność Wykonawcy wyłącznie za winę umyślną; wyłączenie winy umyślnej podwykonawców — § 5 ust. 1') zaklasyfikował to ryzyko jako 'RYZYKO KRYTYCZNE', co spełnia warunek kryterium."
+ },
+ {
+  "id": "K02-009",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Brak wymienionych pól eksploatacji",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 4 ust. 1 przenosi prawa „bez ograniczeń\", nie wymieniając pól eksploatacji, i że czyni to przeniesienie wadliwym albo nieskutecznym w tym zakresie. NIEZALICZONE, jeśli audyt omawia przeniesienie praw, nie podnosząc braku pól eksploatacji.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka krytycznego nr 3 wprost wskazuje, że klauzula z § 4 ust. 1 przenosi prawa 'bez ograniczeń', ale 'bez wymienienia pól eksploatacji', co w ocenie audytu prowadzi do 'ryzyka braku skutecznego przeniesienia praw'. Jest to zgodne z kryterium."
+ },
+ {
+  "id": "K02-010",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Skutek braku pól wskazany",
+  "match": "ZALICZONE, jeśli audyt mówi, co z tego wynika — że przeniesienie nie obejmuje pól niewymienionych albo że postanowienie jest w tym zakresie bezskuteczne. NIEZALICZONE, jeśli zostaje przy stwierdzeniu, że pól brakuje, bez skutku.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach flagi nr 3, w sekcjach 'Opis' i 'Skutek', wprost wskazuje na konsekwencje braku wymienienia pól eksploatacji, stwierdzając, że 'Ogólna formuła nie zastępuje wyraźnego wskazania pól' oraz że istnieje 'Realne ryzyko braku skutecznego przeniesienia praw'."
+ },
+ {
+  "id": "K02-011",
+  "wada": "e3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla przeniesienia bez pól",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka krytycznego nr 3 ('Przeniesienie praw autorskich bez pól eksploatacji...') prawidłowo zidentyfikował brak wymienienia pól eksploatacji w § 4 ust. 1 umowy i przypisał tej wadzie poziom ryzyka 'KRYTYCZNE', co spełnia warunki kryterium."
+ },
+ {
+  "id": "K02-012",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Prawo do trenowania modeli AI na danych Zamawiającego",
+  "match": "ZALICZONE, jeśli audyt zgłasza postanowienie § 8 ust. 2 o wykorzystaniu danych Zamawiającego do trenowania modeli AI jako ryzyko. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje postanowienie § 8 ust. 2 jako ryzyko krytyczne (flaga nr 4), wskazując na naruszenie RODO i utratę tajemnicy przedsiębiorstwa."
+ },
+ {
+  "id": "K02-013",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Klauzula nadrzędności wobec reszty umowy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje zwrot „niezależnie od pozostałych postanowień Umowy\" i wskazuje, że uchyla on w tym zakresie inne postanowienia, w szczególności poufność z § 6. NIEZALICZONE, jeśli audyt omawia trenowanie AI, nie zauważając konstrukcji nadrzędności.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka krytycznego nr 4 wprost cytuje zwrot „niezależnie od pozostałych postanowień” i wskazuje, że klauzula ta „nadpisuje poufność (§ 6) i wszystkie inne zapisy”."
+ },
+ {
+  "id": "K02-014",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Brak podstawy przetwarzania danych osobowych",
+  "match": "ZALICZONE, jeśli audyt podnosi, że dla takiego wykorzystania danych brakuje podstawy przetwarzania albo umowy powierzenia, jeżeli w danych są dane osobowe. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE w razie pominięcia wątku ochrony danych przy tym postanowieniu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka krytycznego nr 4, poświęconego § 8 ust. 2 umowy, wprost wskazuje, że umowa 'nie zawiera postanowień powierzenia' oraz że Wykonawca, stając się administratorem, działa 'bez podstawy prawnej', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-015",
+  "wada": "e4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla trenowania AI",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował ryzyko związane z trenowaniem modeli AI na danych Zamawiającego (§ 8 ust. 2 umowy) i w ramach flagi nr 4 przypisał mu poziom 🔴 RYZYKA KRYTYCZNE, co spełnia warunek kryterium."
+ },
+ {
+  "id": "K02-016",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Obce prawo właściwe między polskimi spółkami",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko wybór prawa stanu Delaware przy umowie między dwiema polskimi spółkami. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował ryzyko w sekcji 'RYZYKA WYSOKIE', flaga nr 7: 'Prawo stanu Delaware i sąd w Wilmington dla umowy spółek (z założenia krajowych) — § 8 ust. 1'."
+ },
+ {
+  "id": "K02-017",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Sąd w Wilmington jako odrębne ryzyko",
+  "match": "ZALICZONE, jeśli audyt odnotowuje właściwość sądu w Wilmington, wskazując na koszt, odległość albo utrudnienie dochodzenia roszczeń. NIEZALICZONE, jeśli audyt porusza tylko prawo właściwe, pomijając jurysdykcję.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt w ramach ryzyka wysokiego nr 7 wprost odnosi się do sądu w Wilmington, wskazując, że jest on 'nieproporcjonalnie odległy i kosztowny', a w konsekwencji 'Koszt i trudność dochodzenia roszczeń (...) przewyższają wartość sporu'."
+ },
+ {
+  "id": "K02-018",
+  "wada": "e5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla prawa i sądu obcego",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🟠 RYZYKA WYSOKIE', w ramach flagi nr 7, zidentyfikował ryzyko związane z wyborem prawa stanu Delaware i sądu w Wilmington, przypisując mu poziom 'WYSOKI', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-019",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Zamawiający pozbawiony prawa wypowiedzenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 7 ust. 1 wyłącza wypowiedzenie przez Zamawiającego przed zakończeniem Wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko jako krytyczne w ramach flagi nr 6 ('Asymetria wypowiedzenia'), wprost wskazując, że 'Zamawiający nie może wypowiedzieć [umowy] przed zakończeniem Wdrożenia', co jest dokładnym odzwierciedleniem § 7 ust. 1 umowy."
+ },
+ {
+  "id": "K02-020",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Wykonawca może wypowiedzieć w każdym czasie bez przyczyny",
+  "match": "ZALICZONE, jeśli audyt wskazuje uprawnienie Wykonawcy z § 7 ust. 2. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to ryzyko w ramach flagi krytycznej nr 6, zatytułowanej «Asymetria wypowiedzenia: Zamawiający nie może, Wykonawca może w każdym czasie bez przyczyny — § 7»."
+ },
+ {
+  "id": "K02-021",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Asymetria nazwana wprost",
+  "match": "ZALICZONE, jeśli audyt zestawia oba ustępy i nazywa to asymetrią, nierównowagą albo jednostronnością. NIEZALICZONE, jeśli opisuje oba uprawnienia osobno, nie wyciągając wniosku o nierównowadze.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost nazywa problem w tytule flagi nr 6: 'Asymetria wypowiedzenia: Zamawiający nie może, Wykonawca może w każdym czasie bez przyczyny — § 7', co w pełni realizuje kryterium."
+ },
+ {
+  "id": "K02-022",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Brak procedury wyjścia",
+  "match": "ZALICZONE, jeśli audyt podnosi brak procedury exit — rozliczenia prac, wydania materiałów, przekazania wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka krytycznego nr 6 («Asymetria wypowiedzenia») wprost wskazuje na brak procedury rozliczenia i wydania prac w razie wypowiedzenia umowy, a w rekomendacji postuluje wprowadzenie «procedury exit (wydanie prac, rozliczenie proporcjonalne do odebranych etapów)»"
+ },
+ {
+  "id": "K02-023",
+  "wada": "e6",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla asymetrii wypowiedzenia",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE', w ramach flagi nr 6 ('Asymetria wypowiedzenia'), przypisał wadzie poziom 'KRYTYCZNE', co jest zgodne z wymogiem kryterium (poziom WYSOKI lub KRYTYCZNY)."
+ },
+ {
+  "id": "K02-024",
+  "wada": "e7",
+  "typ": "wykrycie",
+  "title": "Degradacja zobowiązania rezultatu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „dołoży starań\" w § 1 ust. 1 zamienia zobowiązanie do wdrożenia systemu w zobowiązanie starannego działania, osłabiając pozycję Zamawiającego. NIEZALICZONE, jeśli zwrot zostaje tylko odnotowany jako nieprecyzyjny, bez skutku dla charakteru zobowiązania.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie '🔴 RYZYKA KRYTYCZNE', flaga nr 5, wprost stwierdza, że zwrot „Dołoży starań w celu wdrożenia” to zobowiązanie starannego działania, a nie rezultatu, i szczegółowo opisuje, jak osłabia to pozycję Zamawiającego. Jest to dokładne spełnienie kryterium."
+ },
+ {
+  "id": "K02-025",
+  "wada": "e7",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla „dołoży starań\"",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach flagi nr 5 ('Zobowiązanie wydrążone...') zakwalifikował klauzulę 'dołoży starań' jako ryzyko krytyczne (🔴), co jest zgodne z kryterium wymagającym oceny na poziomie 'wysokie' lub 'krytyczne'."
+ },
+ {
+  "id": "K02-026",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Niezwłocznie\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że termin wykonania Wdrożenia („niezwłocznie po podpisaniu Umowy\", § 2 ust. 1) nie jest oznaczony. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje problem w tabeli „Rachunek ekspozycji” (wiersz „Termin wykonania”) oraz wprost wskazuje w opisie ryzyka krytycznego nr 5, że termin „niezwłocznie po podpisaniu” jest nieliczalny i oznacza brak daty końcowej."
+ },
+ {
+  "id": "K02-027",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Na bieżąco\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza nieoznaczoność zgłaszania uwag „na bieżąco\" (§ 2 ust. 2). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje ryzyko w sekcji 'RYZYKA ŚREDNIE', w ramach flagi nr 12 zatytułowanej 'Ryczałt przy otwartym zakresie i uwagach „na bieżąco” — § 2 ust. 2, § 3 ust. 1'."
+ },
+ {
+  "id": "K02-028",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "Brak harmonogramu i kamieni milowych",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że umowa nie zawiera harmonogramu, etapów ani kamieni milowych wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na brak harmonogramu i kamieni milowych, m.in. w ramach ryzyka krytycznego nr 5, gdzie w opisie stwierdza: 'brak daty końcowej i harmonogramu' oraz 'Brak kamieni milowych, procedury odbioru...'. Kwestia jest też podniesiona w tabeli 'Rachunek ekspozycji' w wierszu 'Termin wykonania'."
+ },
+ {
+  "id": "K02-029",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak okresu obowiązywania poufności po umowie",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 6 nie określa, jak długo poufność obowiązuje po zakończeniu Umowy. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach flagi nr 11 (Ryzyka Średnie) wprost wskazuje, że klauzula poufności z § 6 jest sformułowana 'bez okresu po zakończeniu umowy', co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-030",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak wyłączeń z poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje brak katalogu wyłączeń (informacje publiczne, niezależnie opracowane, ujawniane na żądanie organu). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach flagi nr 11 (Ryzyka Średnie) wprost wskazuje, że klauzula poufności jest 'bez wyłączeń (informacje publiczne, niezależnie opracowane)'."
+ },
+ {
+  "id": "K02-031",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak sankcji za naruszenie poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że naruszenie poufności nie jest obwarowane żadną sankcją. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na brak sankcji w ramach ryzyka nr 11 (Poufność), zarówno w tytule flagi ('Poufność bez okresu, definicji, wyłączeń i sankcji'), jak i w jej opisie ('...bez okresu po zakończeniu umowy i bez sankcji')."
+ },
+ {
+  "id": "K02-032",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Pozorność zobowiązania do wydania kodu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „może, ale nie jest zobowiązany\" z § 4 ust. 2 nie tworzy żadnego obowiązku po stronie Wykonawcy. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka wysokiego nr 10 wprost odnosi się do § 4 ust. 2 umowy, trafnie wskazując, że jest to 'uprawnienie [które] udaje obowiązek', co oznacza, że nie tworzy ono żadnego zobowiązania po stronie Wykonawcy."
+ },
+ {
+  "id": "K02-033",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Związek braku kodu z wartością przeniesienia praw",
+  "match": "ZALICZONE, jeśli audyt łączy brak kodu źródłowego z § 4 ust. 1 i wskazuje, że bez kodu nabyte prawa do systemu ERP są dla Zamawiającego iluzoryczne albo niewykonalne w praktyce. NIEZALICZONE, jeśli oba ustępy są omówione osobno, bez tego powiązania.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka wysokiego nr 10 wprost stwierdza, że bez kodu źródłowego „prawa z § 4 ust. 1 są w praktyce bezużyteczne”. To zdanie bezpośrednio łączy brak obowiązku przekazania kodu z iluzoryczną wartością przeniesienia praw autorskich, co w pełni spełnia kryterium."
+ },
+ {
+  "id": "K02-034",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Konstrukcja ryczałtu nie jest kwestionowana jako wadliwa",
+  "match": "Obszarem czystym jest KONSTRUKCJA wynagrodzenia ryczałtowego i jednoznaczność kwoty 480.000 zł — nie brak zabezpieczeń wokół niej. ZALICZONE, jeśli żadna flaga nie twierdzi, że ryczałt jako model rozliczenia albo sama kwota są wadliwe, nierynkowe lub niejednoznaczne. Flaga dotycząca BRAKU czegoś obok — waloryzacji, podziału na etapy, powiązania płatności z odbiorem, zabezpieczenia płatności, a także nieokreślonego zakresu świadczenia (np. niedołączony Załącznik nr 1), przez który nie wiadomo, co ryczałt obejmuje — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje ryczałt albo kwotę jako takie.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje konstrukcji wynagrodzenia ryczałtowego ani kwoty jako takich. Flagi, w szczególności flaga 8 („Wynagrodzenie ryczałtowe bez harmonogramu płatności i bez powiązania z odbiorem”) i flaga 12 („Ryczałt przy otwartym zakresie”), krytykują brak zabezpieczeń wokół ryczałtu (brak etapów, powiązania z odbiorem, otwarty zakres), a nie sam model rozliczenia, co jest zgodne z warunkami zaliczenia."
+ },
+ {
+  "id": "K02-035",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Termin płatności 60 dni odnotowany bez błędu",
+  "match": "ZALICZONE, jeśli audyt albo w ogóle nie podnosi terminu płatności z § 3 ust. 2, albo podnosi go podając poprawnie 60 dni. NIEZALICZONE, jeśli podaje inny termin niż 60 dni.",
+  "konfiguracja": "sonnet-skill-p2",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje termin płatności jako 60 dni, co jest widoczne zarówno w tabeli 'Rachunek ekspozycji' (wiersz 'Termin płatności'), jak i w opisie ryzyka nr 15 ('Termin płatności 60 dni na granicy limitu')."
+ },
+ {
+  "id": "K02-001",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Kara umowna zastrzeżona za świadczenie pieniężne",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara z § 5 ust. 2 została zastrzeżona za opóźnienie w PŁATNOŚCI, czyli za niewykonanie zobowiązania pieniężnego, i że jest to wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt krytykuje tylko wysokość kary albo jej jednostronność, nie dotykając pieniężnego charakteru świadczenia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt w punkcie «Ryzyko krytyczne 2» poprawnie identyfikuje, że kara umowna z § 5 ust. 2 dotyczy zobowiązania pieniężnego, co jest niedopuszczalne. W opisie ryzyka stwierdzono: «Kara umowna za opóźnienie w zapłacie to kara za zobowiązanie pieniężne, której art. 483 § 1 KC nie dopuszcza»."
+ },
+ {
+  "id": "K02-002",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Jednostronność kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara obciąża wyłącznie Zamawiającego, a Wykonawca nie ponosi kar żadnych. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost identyfikuje to ryzyko w punkcie 2. listy ryzyk krytycznych, zatytułowanym 'Jednostronna kara (...)', a także w tabeli 'Rachunek ekspozycji' w wierszu 'Asymetria kar', gdzie wskazano, że kary dla Wykonawcy wynoszą 0 zł."
+ },
+ {
+  "id": "K02-003",
+  "wada": "e1",
+  "typ": "wykrycie",
+  "title": "Brak sufitu kary",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że kara nie ma limitu łącznego i narasta bez ograniczenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wielokrotnie wskazuje na brak limitu kary, m.in. w tabeli 'Rachunek ekspozycji' (wiersz 'Kumulacja kary — sufit' i wniosek), w opisie ryzyka krytycznego nr 2 ('brak sufitu') oraz w podsumowaniu oceny bezpieczeństwa."
+ },
+ {
+  "id": "K02-004",
+  "wada": "e1",
+  "typ": "liczba",
+  "title": "Skala kary odniesiona do wartości umowy",
+  "match": "ZALICZONE, jeśli audyt pokazuje poprawnie policzoną relację kary do wartości umowy w jakiejkolwiek z postaci: ok. 10,4% wartości za każdy dzień, 9,6 dnia do osiągnięcia pełnej wartości 480.000 zł, albo 1.500.000 zł po 30 dniach, co odpowiada ok. 3,1-krotności wartości umowy. NIEZALICZONE, jeśli kara zostaje podana tylko kwotowo (50.000 zł) bez odniesienia do wartości umowy, oraz przy błędnym wyniku.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji 'Rachunek ekspozycji' oraz w opisie ryzyka krytycznego nr 2 poprawnie oblicza i przedstawia relację kary do wartości umowy, wskazując, że kara dzienna 50.000 zł stanowi 10,4% wartości umowy netto, a po 30 dniach jej skumulowana wartość wynosi 1.500.000 zł, co odpowiada 312,5% wartości umowy."
+ },
+ {
+  "id": "K02-005",
+  "wada": "e1",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla kary za opóźnienie w płatności",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 2 sekcji 'RYZYKA KRYTYCZNE' przypisał tej wadzie poziom krytyczny, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-006",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Wyłączenie odpowiedzialności za winę umyślną podwykonawców",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 5 ust. 1 wyłącza odpowiedzialność Wykonawcy za winę umyślną podwykonawców i że takie zastrzeżenie jest wadliwe albo nieskuteczne. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE, jeśli audyt omawia ograniczenie odpowiedzialności, nie podnosząc kwestii winy umyślnej.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W sekcji 'RYZYKA KRYTYCZNE', w punkcie 1, audyt poprawnie identyfikuje, że klauzula § 5 ust. 1 wyłącza odpowiedzialność za winę umyślną podwykonawców ('Druga część wyłącza nawet umyślne działania podwykonawców') i wskazuje na jej wadliwość ('a to ingeruje w art. 474 KC i w granice swobody umów')."
+ },
+ {
+  "id": "K02-007",
+  "wada": "e2",
+  "typ": "wykrycie",
+  "title": "Zawężenie odpowiedzialności wyłącznie do winy umyślnej Wykonawcy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje, że poza winą umyślną Wykonawca nie odpowiada w ogóle, czyli wyłączono niedbalstwo i rażące niedbalstwo. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost identyfikuje to ryzyko jako krytyczne (nr 1). W tabeli »Rachunek ekspozycji« w wierszu »Cap Wykonawcy« audyt wylicza, że »odpowiedzialność za niewykonanie, zwłokę i niedbalstwo = 0 zł«, co bezpośrednio potwierdza, że wyłączono odpowiedzialność za niedbalstwo i rażące niedbalstwo."
+ },
+ {
+  "id": "K02-008",
+  "wada": "e2",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla wyłączenia winy umyślnej",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE', w punkcie 1 ('Odpowiedzialność tylko za winę umyślną...'), prawidłowo przypisał tej wadzie poziom krytyczny, co spełnia warunek kryterium."
+ },
+ {
+  "id": "K02-009",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Brak wymienionych pól eksploatacji",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 4 ust. 1 przenosi prawa „bez ograniczeń\", nie wymieniając pól eksploatacji, i że czyni to przeniesienie wadliwym albo nieskutecznym w tym zakresie. NIEZALICZONE, jeśli audyt omawia przeniesienie praw, nie podnosząc braku pól eksploatacji.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka krytycznego nr 3 wprost wskazuje, że sformułowanie 'wszelkie prawa autorskie … bez ograniczeń' z § 4 ust. 1 umowy 'nie wymienia pól eksploatacji', co sprawia, że przeniesienie praw nie jest skuteczne w zakładanym zakresie."
+ },
+ {
+  "id": "K02-010",
+  "wada": "e3",
+  "typ": "wykrycie",
+  "title": "Skutek braku pól wskazany",
+  "match": "ZALICZONE, jeśli audyt mówi, co z tego wynika — że przeniesienie nie obejmuje pól niewymienionych albo że postanowienie jest w tym zakresie bezskuteczne. NIEZALICZONE, jeśli zostaje przy stwierdzeniu, że pól brakuje, bez skutku.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W opisie Ryzyka Krytycznego nr 3 audyt wskazuje, że brak wymienionych pól eksploatacji powoduje, iż 'art. 41 ust. 2 PrAut [...] nie uznaje skutku rozporządzającego w zakładanym zakresie', a w konsekwencji Zamawiający 'może nie mieć skutecznego tytułu' do oprogramowania. Jest to dokładne wskazanie skutku, którego wymaga kryterium."
+ },
+ {
+  "id": "K02-011",
+  "wada": "e3",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla przeniesienia bez pól",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie «3. Przeniesienie praw autorskich „bez ograniczeń”, bez pól eksploatacji — § 4 ust. 1» zidentyfikował wadę i przypisał jej poziom «RYZYKA KRYTYCZNE», co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K02-012",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Prawo do trenowania modeli AI na danych Zamawiającego",
+  "match": "ZALICZONE, jeśli audyt zgłasza postanowienie § 8 ust. 2 o wykorzystaniu danych Zamawiającego do trenowania modeli AI jako ryzyko. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt zidentyfikował postanowienie z § 8 ust. 2 umowy jako 'Ryzyko Krytyczne nr 4', szczegółowo opisując zagrożenia związane z prawem Wykonawcy do trenowania modeli AI na danych Zamawiającego i jego sprzeczność z zasadą poufności."
+ },
+ {
+  "id": "K02-013",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Klauzula nadrzędności wobec reszty umowy",
+  "match": "ZALICZONE, jeśli audyt odnotowuje zwrot „niezależnie od pozostałych postanowień Umowy\" i wskazuje, że uchyla on w tym zakresie inne postanowienia, w szczególności poufność z § 6. NIEZALICZONE, jeśli audyt omawia trenowanie AI, nie zauważając konstrukcji nadrzędności.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. W opisie Ryzyka Krytycznego nr 4 audyt wprost stwierdza: «Klauzula „niezależnie od pozostałych postanowień” przebija § 6 (poufność), więc poufność staje się iluzoryczna», co dokładnie odpowiada wymaganiom kryterium."
+ },
+ {
+  "id": "K02-014",
+  "wada": "e4",
+  "typ": "wykrycie",
+  "title": "Brak podstawy przetwarzania danych osobowych",
+  "match": "ZALICZONE, jeśli audyt podnosi, że dla takiego wykorzystania danych brakuje podstawy przetwarzania albo umowy powierzenia, jeżeli w danych są dane osobowe. Podanie numeru przepisu nie jest wymagane. NIEZALICZONE w razie pominięcia wątku ochrony danych przy tym postanowieniu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. W analizie ryzyka krytycznego nr 4 audyt wprost stwierdza, że wykorzystanie danych do trenowania modeli AI 'wymaga odrębnej podstawy z art. 6 RODO', której umowa nie zapewnia. Dodatkowo, w ryzyku nr 7 wskazano na brak umowy powierzenia danych."
+ },
+ {
+  "id": "K02-015",
+  "wada": "e4",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla trenowania AI",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom KRYTYCZNE albo WYSOKIE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w sekcji '🔴 RYZYKA KRYTYCZNE' jako ryzyko nr 4 prawidłowo zidentyfikował klauzulę o trenowaniu AI (§ 8 ust. 2 umowy) i przypisał jej poziom krytyczny, co spełnia warunek zaliczenia."
+ },
+ {
+  "id": "K02-016",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Obce prawo właściwe między polskimi spółkami",
+  "match": "ZALICZONE, jeśli audyt zgłasza jako ryzyko wybór prawa stanu Delaware przy umowie między dwiema polskimi spółkami. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 'RYZYKA WYSOKIE' nr 11 ('Prawo obce i sąd zagraniczny przy braku elementu zagranicznego') prawidłowo zidentyfikował jako ryzyko wybór prawa stanu Delaware i sądu w Wilmington w umowie między dwiema polskimi spółkami."
+ },
+ {
+  "id": "K02-017",
+  "wada": "e5",
+  "typ": "wykrycie",
+  "title": "Sąd w Wilmington jako odrębne ryzyko",
+  "match": "ZALICZONE, jeśli audyt odnotowuje właściwość sądu w Wilmington, wskazując na koszt, odległość albo utrudnienie dochodzenia roszczeń. NIEZALICZONE, jeśli audyt porusza tylko prawo właściwe, pomijając jurysdykcję.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka 🟠 11 («Prawo obce i sąd zagraniczny») wprost odnosi się do sądu w Wilmington i wskazuje, że klauzula jurysdykcyjna zwiększa koszty dochodzenia roszczeń, a koszty pełnomocnika w USA mogą przekroczyć wartość sporu."
+ },
+ {
+  "id": "K02-018",
+  "wada": "e5",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla prawa i sądu obcego",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie 11. ('Prawo obce i sąd zagraniczny...') zaklasyfikował ryzyko związane z wyborem prawa i sądu obcego do kategorii '🟠 RYZYKA WYSOKIE', co spełnia warunek kryterium."
+ },
+ {
+  "id": "K02-019",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Zamawiający pozbawiony prawa wypowiedzenia",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 7 ust. 1 wyłącza wypowiedzenie przez Zamawiającego przed zakończeniem Wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie zidentyfikował to ryzyko w punkcie 8 (Ryzyka Wysokie), gdzie w opisie wskazano: '§ 7 ust. 1 zabrania Zamawiającemu wypowiedzenia przed zakończeniem Wdrożenia'."
+ },
+ {
+  "id": "K02-020",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Wykonawca może wypowiedzieć w każdym czasie bez przyczyny",
+  "match": "ZALICZONE, jeśli audyt wskazuje uprawnienie Wykonawcy z § 7 ust. 2. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje to uprawnienie w tabeli 'Rachunek ekspozycji' w wierszu 'Asymetria wypowiedzenia' oraz szczegółowo analizuje je jako Ryzyko Wysokie nr 8, cytując wprost § 7 ust. 2 umowy."
+ },
+ {
+  "id": "K02-021",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Asymetria nazwana wprost",
+  "match": "ZALICZONE, jeśli audyt zestawia oba ustępy i nazywa to asymetrią, nierównowagą albo jednostronnością. NIEZALICZONE, jeśli opisuje oba uprawnienia osobno, nie wyciągając wniosku o nierównowadze.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w tabeli „Rachunek ekspozycji” zawiera wiersz zatytułowany „Asymetria wypowiedzenia”, w którym wprost zestawia uprawnienia obu stron wynikające z § 7 umowy. Dodatkowo, ryzyko nr 8 wprost opisuje tę nierównowagę. Jest to zgodne z kryterium."
+ },
+ {
+  "id": "K02-022",
+  "wada": "e6",
+  "typ": "wykrycie",
+  "title": "Brak procedury wyjścia",
+  "match": "ZALICZONE, jeśli audyt podnosi brak procedury exit — rozliczenia prac, wydania materiałów, przekazania wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka wysokiego nr 8 wprost wskazuje na 'Brak procedury exit: zwrot materiałów i danych, przekazanie prac w toku (WIP), rozliczenie ryczałtu za wykonaną część', co w pełni pokrywa wymagania kryterium."
+ },
+ {
+  "id": "K02-023",
+  "wada": "e6",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla asymetrii wypowiedzenia",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie nr 8, zatytułowanym 'Wypowiedzenie: Zamawiający związany, Wykonawca wychodzi w każdym czasie — § 7', przypisał analizowanej wadzie poziom 'RYZYKA WYSOKIE', co spełnia warunki kryterium."
+ },
+ {
+  "id": "K02-024",
+  "wada": "e7",
+  "typ": "wykrycie",
+  "title": "Degradacja zobowiązania rezultatu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „dołoży starań\" w § 1 ust. 1 zamienia zobowiązanie do wdrożenia systemu w zobowiązanie starannego działania, osłabiając pozycję Zamawiającego. NIEZALICZONE, jeśli zwrot zostaje tylko odnotowany jako nieprecyzyjny, bez skutku dla charakteru zobowiązania.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "W opisie Ryzyka Wysokiego nr 5 audyt wprost stwierdza, że sformułowanie „dołoży starań” zamienia zobowiązanie rezultatu (charakterystyczne dla wdrożenia) w zobowiązanie starannego działania, co jest dokładnym spełnieniem kryterium."
+ },
+ {
+  "id": "K02-025",
+  "wada": "e7",
+  "typ": "poziom",
+  "title": "Poziom ryzyka dla „dołoży starań\"",
+  "match": "ZALICZONE, jeśli ta wada dostaje poziom WYSOKIE albo KRYTYCZNE. NIEZALICZONE przy poziomie niższym albo braku poziomu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w punkcie «🟠 RYZYKA WYSOKIE» nr 5 («Zobowiązanie rozmyte i brak terminu wykonania») prawidłowo zidentyfikował klauzulę «dołoży starań» z § 1 ust. 1 umowy i przypisał jej poziom ryzyka WYSOKI, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-026",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Niezwłocznie\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza, że termin wykonania Wdrożenia („niezwłocznie po podpisaniu Umowy\", § 2 ust. 1) nie jest oznaczony. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Zaliczone. Audyt identyfikuje ten problem wprost w Ryzyku Wysokim nr 5 („Zobowiązanie rozmyte i brak terminu wykonania”), gdzie stwierdza: „«Niezwłocznie po podpisaniu Umowy» nie ma liczby dni, więc nie da się policzyć daty zwłoki ani kary”."
+ },
+ {
+  "id": "K02-027",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "„Na bieżąco\" jako termin nieoznaczony",
+  "match": "ZALICZONE, jeśli audyt zgłasza nieoznaczoność zgłaszania uwag „na bieżąco\" (§ 2 ust. 2). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka wysokiego nr 5 («Zobowiązanie rozmyte i brak terminu wykonania») wprost wskazuje, że sformułowanie «na bieżąco» w § 2 ust. 2 umowy nie jest harmonogramem, co jest trafnym zidentyfikowaniem nieoznaczoności tego terminu."
+ },
+ {
+  "id": "K02-028",
+  "wada": "e8",
+  "typ": "wykrycie",
+  "title": "Brak harmonogramu i kamieni milowych",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że umowa nie zawiera harmonogramu, etapów ani kamieni milowych wdrożenia. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt identyfikuje ten problem jako ryzyko wysokie nr 5 („Zobowiązanie rozmyte i brak terminu wykonania”), wprost wskazując, że umowa nie zawiera harmonogramu ani kamieni milowych, a rekomenduje ich dodanie."
+ },
+ {
+  "id": "K02-029",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak okresu obowiązywania poufności po umowie",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że § 6 nie określa, jak długo poufność obowiązuje po zakończeniu Umowy. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka średniego nr 14 wprost wskazuje na brak «okresu po zakończeniu umowy» w klauzuli poufności."
+ },
+ {
+  "id": "K02-030",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak wyłączeń z poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje brak katalogu wyłączeń (informacje publiczne, niezależnie opracowane, ujawniane na żądanie organu). NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka średniego nr 14 („Poufność bez okresu, wyjątków i sankcji”) wprost wskazuje na brak katalogu wyłączeń z poufności, wymieniając przykładowo: „informacje publiczne, niezależnie opracowane, ujawnienie z mocy prawa”."
+ },
+ {
+  "id": "K02-031",
+  "wada": "e9",
+  "typ": "wykrycie",
+  "title": "Brak sankcji za naruszenie poufności",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że naruszenie poufności nie jest obwarowane żadną sankcją. NIEZALICZONE w razie pominięcia.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt wprost wskazuje na brak sankcji w ramach ryzyka średniego nr 14 ('Poufność bez okresu, wyjątków i sankcji'), gdzie w opisie ryzyka stwierdza: 'Brak ... kary umownej'."
+ },
+ {
+  "id": "K02-032",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Pozorność zobowiązania do wydania kodu",
+  "match": "ZALICZONE, jeśli audyt wskazuje, że zwrot „może, ale nie jest zobowiązany\" z § 4 ust. 2 nie tworzy żadnego obowiązku po stronie Wykonawcy. NIEZALICZONE w razie pominięcia tego ustępu.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka wysokiego nr 9, zatytułowanego «Kod źródłowy „może, ale nie jest zobowiązany” — § 4 ust. 2», wprost określa to postanowienie jako «pozorne zobowiązanie», co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-033",
+  "wada": "e10",
+  "typ": "wykrycie",
+  "title": "Związek braku kodu z wartością przeniesienia praw",
+  "match": "ZALICZONE, jeśli audyt łączy brak kodu źródłowego z § 4 ust. 1 i wskazuje, że bez kodu nabyte prawa do systemu ERP są dla Zamawiającego iluzoryczne albo niewykonalne w praktyce. NIEZALICZONE, jeśli oba ustępy są omówione osobno, bez tego powiązania.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt w ramach ryzyka 9 («Kod źródłowy „może, ale nie jest zobowiązany” — § 4 ust. 2») wprost stwierdza, że „Bez kodu źródłowego nabyte prawa (nawet gdyby były skuteczne) nie dają możliwości utrzymania i rozwoju ERP”. To zdanie bezpośrednio łączy brak kodu z iluzorycznością praw nabytych na podstawie § 4 ust. 1, co jest zgodne z kryterium."
+ },
+ {
+  "id": "K02-034",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Konstrukcja ryczałtu nie jest kwestionowana jako wadliwa",
+  "match": "Obszarem czystym jest KONSTRUKCJA wynagrodzenia ryczałtowego i jednoznaczność kwoty 480.000 zł — nie brak zabezpieczeń wokół niej. ZALICZONE, jeśli żadna flaga nie twierdzi, że ryczałt jako model rozliczenia albo sama kwota są wadliwe, nierynkowe lub niejednoznaczne. Flaga dotycząca BRAKU czegoś obok — waloryzacji, podziału na etapy, powiązania płatności z odbiorem, zabezpieczenia płatności, a także nieokreślonego zakresu świadczenia (np. niedołączony Załącznik nr 1), przez który nie wiadomo, co ryczałt obejmuje — NIE narusza tego kryterium NIEZALEŻNIE od nadanego poziomu. NIEZALICZONE tylko wtedy, gdy audyt kwestionuje ryczałt albo kwotę jako takie.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt nie kwestionuje konstrukcji ryczałtu ani kwoty 480.000 zł jako takich. Zidentyfikowane ryzyka dotyczą braków wokół tej konstrukcji, co jest zgodne z kryterium. W szczególności ryzyko 🟡13 wskazuje na brak harmonogramu płatności i etapów, a ryzyko 🟠6 na brak zdefiniowanego zakresu dla ryczałtu. Są to flagi dotyczące braku zabezpieczeń, a nie wady samego modelu ryczałtowego."
+ },
+ {
+  "id": "K02-035",
+  "wada": "czysty",
+  "typ": "czysty",
+  "title": "Termin płatności 60 dni odnotowany bez błędu",
+  "match": "ZALICZONE, jeśli audyt albo w ogóle nie podnosi terminu płatności z § 3 ust. 2, albo podnosi go podając poprawnie 60 dni. NIEZALICZONE, jeśli podaje inny termin niż 60 dni.",
+  "konfiguracja": "sonnet-skill-p3",
+  "werdykt": "zaliczone",
+  "uzasadnienie": "Audyt poprawnie identyfikuje termin płatności jako 60 dni w sekcji „Rachunek ekspozycji” oraz w opisie ryzyka nr 13."
+ }
+]
