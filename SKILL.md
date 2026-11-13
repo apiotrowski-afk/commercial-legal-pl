@@ -148,7 +148,7 @@ workflows/
 └── popraw-fragment.md                  ← edycja zaznaczonego ustępu
 
 tools/
-└── legal-cite/                         ← osobny package (pip install / uvx legal-cite)
+└── legal-cite/                         ← kopia; aktualna wersja: github.com/apiotrowski-afk/legal-cite-pl
     ├── pyproject.toml
     └── legal_cite/server.py            ← MCP: verify_article + list_acts
 ```
@@ -181,9 +181,9 @@ Przed zwróceniem każdego wygenerowanego lub poprawionego dokumentu uruchom men
 
 Pełna lista z przykładami: `references/format-checklist.md`.
 
-Instalacja (po publikacji na PyPI):
+Instalacja (z repozytorium GitHub, nie z PyPI — pakietu `legal-cite` nie publikujemy na PyPI):
 ```json
-{ "legal-cite": { "command": "uvx", "args": ["legal-cite"] } }
+{ "legal-cite": { "command": "uvx", "args": ["--from", "git+https://github.com/apiotrowski-afk/legal-cite-pl", "legal-cite"] } }
 ```
 
 ## Baza wiedzy doktrynalna — kiedy używać
