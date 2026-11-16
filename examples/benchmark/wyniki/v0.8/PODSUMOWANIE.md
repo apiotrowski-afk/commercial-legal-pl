@@ -25,7 +25,7 @@ nie znalazł rozbieżności co do grosza.
 ## Kontrola sędzią spoza dostawcy
 
 Te same pięć audytów oceniło niezależnie **Gemini 2.5 Pro przez Vertex AI**
-(projekt ktzr-asystent, temperatura 0, ta sama instrukcja i ten sam manifest).
+(projekt Google Cloud kancelarii, temperatura 0, ta sama instrukcja i ten sam manifest).
 To zamyka zastrzeżenie, które ciągnęło się od pilotu: Opus i Fable to różne
 linie, ale ten sam dostawca, więc wspólnych ślepych plam nie dało się wykluczyć.
 

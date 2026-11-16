@@ -3,7 +3,11 @@
 Ta sama instrukcja i ten sam manifest co sędzia Opus. Jedyna różnica to
 dostawca modelu — po to, żeby wykluczyć wspólne ślepe plamy jednej rodziny.
 """
-import json, pathlib, subprocess, sys
+import json, os, pathlib, subprocess, sys
+
+# Projekt Google Cloud z Vertex AI: zmienna GOOGLE_CLOUD_PROJECT; gcloud z PATH (albo GCLOUD=ścieżka).
+PROJEKT = os.environ.get("GOOGLE_CLOUD_PROJECT", "twoj-projekt-gcp")
+GCLOUD = os.environ.get("GCLOUD", "gcloud")
 
 B = pathlib.Path("/mnt/c/Users/Adam/Desktop/AI/Claude skill/Na gita/commercial-legal-pl/examples/benchmark")
 KONF = sys.argv[1] if len(sys.argv) > 1 else "fable-skill"
@@ -49,7 +53,7 @@ czesci.append(
 prompt = "".join(czesci)
 print(f"wsad: {len(prompt):,} znaków", file=sys.stderr)
 
-tok = subprocess.run(["/home/adam/google-cloud-sdk/bin/gcloud", "auth", "print-access-token"],
+tok = subprocess.run([GCLOUD, "auth", "print-access-token"],
                      capture_output=True, text=True, check=True).stdout.strip()
 ciało = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
          "generationConfig": {"temperature": 0, "maxOutputTokens": 32000}}
@@ -58,7 +62,7 @@ r = subprocess.run(["curl", "-sS", "-X", "POST",
                     "-H", f"Authorization: Bearer {tok}",
                     "-H", "Content-Type: application/json",
                     "--data-binary", "@/tmp/vx_req.json",
-                    "https://aiplatform.googleapis.com/v1/projects/ktzr-asystent/"
+                    f"https://aiplatform.googleapis.com/v1/projects/{PROJEKT}/"
                     "locations/global/publishers/google/models/gemini-2.5-pro:generateContent"],
                    capture_output=True, text=True, timeout=1800)
 d = json.loads(r.stdout)

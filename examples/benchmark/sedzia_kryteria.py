@@ -11,13 +11,15 @@ Użycie:
 
 Błąd zapytania to nie werdykt: liczony osobno, nigdy jako niezaliczenie.
 """
-import argparse, json, pathlib, re, subprocess, sys, time
+import argparse, json, os, pathlib, re, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
 
 B = pathlib.Path(__file__).resolve().parent
-URL = ("https://aiplatform.googleapis.com/v1/projects/ktzr-asystent/locations/global/"
+# Projekt Google Cloud z Vertex AI: zmienna GOOGLE_CLOUD_PROJECT; gcloud z PATH (albo GCLOUD=ścieżka).
+PROJEKT = os.environ.get("GOOGLE_CLOUD_PROJECT", "twoj-projekt-gcp")
+URL = (f"https://aiplatform.googleapis.com/v1/projects/{PROJEKT}/locations/global/"
        "publishers/google/models/gemini-2.5-pro:generateContent")
-GCLOUD = "/home/adam/google-cloud-sdk/bin/gcloud"
+GCLOUD = os.environ.get("GCLOUD", "gcloud")
 PROB = 3
 
 arg = argparse.ArgumentParser()

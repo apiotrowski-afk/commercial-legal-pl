@@ -25,7 +25,7 @@ konfiguracjami oznacza, że ranking konfiguracji jest szumem sędziego.
 **Granica tej kontroli — zamknięta 7.10.2026.** Opus i Fable to różne linie
 modeli, ale ten sam dostawca, więc przesądzenie samo w sobie nie wykluczało
 wspólnych ślepych plam. Kontrolę domknął **Gemini 2.5 Pro przez Vertex AI**
-(projekt ktzr-asystent, lokalizacja `global`, temperatura 0), uruchamiany
+(projekt Google Cloud kancelarii, lokalizacja `global`, temperatura 0), uruchamiany
 skryptem na poświadczeniach gcloud — bez przeglądarki i bez osobnego klucza.
 Na pomiarze v0.8 zgodność z sędzią Opus jest pełna na każdej punktowanej
 metryce. Od tej pory pomiar bez sędziego spoza dostawcy opisujemy jako
